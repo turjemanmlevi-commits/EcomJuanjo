@@ -5,10 +5,11 @@ const root = path.resolve(__dirname, '..');
 const csv = fs.readFileSync(path.join(root, 'winners_combinado_100.csv'), 'utf8').replace(/^\uFEFF/, '').trim();
 const lines = csv.split(/\r?\n/);
 const headers = lines.shift().split(';');
-const rows = lines.filter(Boolean).map(line => {
+const parsedRows = lines.filter(Boolean).map(line => {
   const values = line.split(';');
   return Object.fromEntries(headers.map((h, i) => [h, (values[i] || '').trim()]));
 });
+const rows = [...new Map(parsedRows.map(row => [`${row.Producto.toLowerCase()}|${row.Link.toLowerCase()}`, row])).values()];
 
 const categoryMap = {
   'Bolsos': { group: 'Accessori', collection: 'borse', title: 'Borse', description: 'Modelli pratici e raffinati per completare ogni look, ogni giorno.' },
@@ -24,8 +25,8 @@ const categoryAssets = {
 
 const productImageSets = {
   'premium-leather-shoulder-bag': [
-    'assets/products/premium-leather-shoulder-bag/01-in-use.png',
     'assets/products/premium-leather-shoulder-bag/02-product.png',
+    'assets/products/premium-leather-shoulder-bag/01-in-use.png',
     'assets/products/premium-leather-shoulder-bag/03-detail.png',
     'assets/products/premium-leather-shoulder-bag/04-lifestyle.png',
   ],
@@ -35,14 +36,6 @@ const productImageSets = {
     'assets/products/the-brooklyn-bag/03-detail.png',
     'assets/products/the-brooklyn-bag/04-cafe.png',
   ],
-  'the-foldie-sling-bag': [
-    'assets/products/the-foldie-sling-bag/01-hero.png',
-    'assets/products/the-foldie-sling-bag/02-milan.png',
-    'assets/products/the-foldie-sling-bag/03-detail.png',
-    'assets/products/the-foldie-sling-bag/04-cafe.png',
-    'assets/products/the-foldie-sling-bag/05-station.png',
-    'assets/products/the-foldie-sling-bag/06-lifestyle.png',
-  ],
   'ciara-vintage': [
     'assets/products/ciara-vintage/01-hero.png',
     'assets/products/ciara-vintage/02-milan.png',
@@ -50,14 +43,6 @@ const productImageSets = {
     'assets/products/ciara-vintage/04-cafe.png',
     'assets/products/ciara-vintage/05-street.png',
     'assets/products/ciara-vintage/06-capacity.png',
-  ],
-  '2packbag-travel-kit-mochila-compresion': [
-    'assets/products/2packbag-travel-kit/01-hero.png',
-    'assets/products/2packbag-travel-kit/02-packing.png',
-    'assets/products/2packbag-travel-kit/03-airport.png',
-    'assets/products/2packbag-travel-kit/04-detail.png',
-    'assets/products/2packbag-travel-kit/05-station.png',
-    'assets/products/2packbag-travel-kit/06-lifestyle.png',
   ],
 };
 
@@ -136,12 +121,6 @@ const sourceOverrides = {
     price: 4400,
     compare_at_price: 8900,
   },
-  'tri-sling-bag': {
-    title: 'Tri-Sling Bag — Onyx',
-    vendor: 'ARMAREX',
-    description: 'Una silueta pulita, tre modi di indossarla e tutto lo spazio che serve ogni giorno. La Tri-Sling Bag — Onyx è realizzata in nylon resistente all’acqua, con imbottitura leggera, custodia per borraccia, scomparto imbottito per laptop fino a 15 pollici e dettagli YKK. Capiente ma facile da portare, con 12,5 litri per accompagnarti ovunque.',
-    price: 9000,
-  },
   'luxury-leather-hobo-anti-theft-handbag-2-0': {
     title: 'Luxury Leather Hobo Anti-Theft Handbag 2.0 + FREE Pouch Wallet (6-Layer Security Edition)',
     vendor: 'Libra Cases',
@@ -162,20 +141,6 @@ const sourceOverrides = {
     description: 'Una borsa con anima vintage e spazio per la vita di ogni giorno. Ciara Vintage è realizzata in pelle vegana premium, può essere portata a mano o a spalla e accoglie anche un laptop da 13 pollici, con tracolla regolabile e un raffinato charm removibile. Elegante, pratica e pensata per accompagnarti dal lavoro al weekend.',
     price: 8700,
     compare_at_price: 13000,
-  },
-  'the-foldie-sling-bag': {
-    title: 'The Foldie® Sling bag',
-    vendor: 'The Foldie',
-    description: 'Il tuo alleato elegante per muoverti a mani libere. The Foldie® Sling bag protegge i tuoi indispensabili con chiusure sicure, tracolla anti-taglio, tasca RFID e scomparto posteriore nascosto, restando leggerissima: pesa meno di 200 g. Compatta, regolabile e pronta per ogni passeggiata, viaggio o giornata in città.',
-  },
-  '2packbag-travel-kit-mochila-compresion': {
-    title: '2PackBag™ Travel Kit',
-    vendor: '2PackBag',
-    description: 'Viaggia più leggero e porta con te tutto quello che ami. 2PackBag™ comprime i tuoi vestiti in pochi secondi grazie alla chiusura ermetica e alla pompa elettrica USB-C, così hai più spazio nel bagaglio a mano e meno stress prima di partire. Misura 45 × 30 × 20 cm ed è pensata per accompagnarti viaggio dopo viaggio.',
-    offers: {
-      'Buy 1 GET 1 FREE': { price: 4999, compare_at_price: 19998 },
-      'Buy 2 GET 2 FREE + Free Shipping': { price: 9998, compare_at_price: 39996 },
-    },
   },
 };
 
@@ -200,12 +165,9 @@ function variants(row) {
 
 function optionsFor(row, fallback) {
   if (/the maya \(tote\)/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black', 'Chocolate', 'Brown', 'Burgundy', 'Stone', 'Pink', 'Sky'] }, { name: 'Stile', values: ['Magnet', 'Zipper'] }];
-  if (/tri-sling bag/i.test(row.Producto)) return [{ name: 'Colore', values: ['Onyx'] }];
   if (/luxury leather hobo anti-theft handbag 2\.0/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black', 'Brown', 'Beige'] }];
   if (/luxury leather hobo anti-theft handbag \+ pouch/i.test(row.Producto)) return [{ name: 'Colore', values: ['Brown', 'Black', 'Blue', 'Grey', 'Burgundy', 'Red'] }];
   if (/ciara vintage$/i.test(row.Producto)) return [{ name: 'Colore', values: ['Coffee'] }];
-  if (/foldie sling/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black'] }];
-  if (/2packbag travel kit/i.test(row.Producto)) return [{ name: 'Offerta', values: ['Buy 1 GET 1 FREE', 'Buy 2 GET 2 FREE + Free Shipping'] }];
   return [{ name: 'Colore', values: fallback.colors }, { name: 'Talla', values: fallback.sizes }];
 }
 

@@ -29,10 +29,10 @@ window.CATALOG = {
       "category": "Bolsos",
       "vendor": "levence.com",
       "sourceUrl": "https://levence.com/products/levence-premium-leather-shoulder-bag",
-      "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png",
+      "image": "assets/products/premium-leather-shoulder-bag/02-product.png",
       "images": [
-        "assets/products/premium-leather-shoulder-bag/01-in-use.png",
         "assets/products/premium-leather-shoulder-bag/02-product.png",
+        "assets/products/premium-leather-shoulder-bag/01-in-use.png",
         "assets/products/premium-leather-shoulder-bag/03-detail.png",
         "assets/products/premium-leather-shoulder-bag/04-lifestyle.png"
       ],
@@ -68,7 +68,7 @@ window.CATALOG = {
           "price": 5300,
           "compare_at_price": 10500,
           "available": true,
-          "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png"
+          "image": "assets/products/premium-leather-shoulder-bag/02-product.png"
         },
         {
           "id": 1002,
@@ -79,7 +79,7 @@ window.CATALOG = {
           "price": 5300,
           "compare_at_price": 10500,
           "available": true,
-          "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png"
+          "image": "assets/products/premium-leather-shoulder-bag/02-product.png"
         },
         {
           "id": 1003,
@@ -90,7 +90,7 @@ window.CATALOG = {
           "price": 5300,
           "compare_at_price": 10500,
           "available": true,
-          "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png"
+          "image": "assets/products/premium-leather-shoulder-bag/02-product.png"
         },
         {
           "id": 1004,
@@ -101,7 +101,7 @@ window.CATALOG = {
           "price": 5300,
           "compare_at_price": 10500,
           "available": true,
-          "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png"
+          "image": "assets/products/premium-leather-shoulder-bag/02-product.png"
         }
       ],
       "rating": 4.6,
@@ -199,53 +199,6 @@ window.CATALOG = {
     },
     {
       "id": 3,
-      "handle": "the-foldie-sling-bag",
-      "title": "The Foldie® Sling bag",
-      "collection": "borse",
-      "category": "Bolsos",
-      "vendor": "The Foldie",
-      "sourceUrl": "https://the-foldie.co.uk/products/the-foldie%C2%AE-sling-bag",
-      "image": "assets/products/the-foldie-sling-bag/01-hero.png",
-      "images": [
-        "assets/products/the-foldie-sling-bag/01-hero.png",
-        "assets/products/the-foldie-sling-bag/02-milan.png",
-        "assets/products/the-foldie-sling-bag/03-detail.png",
-        "assets/products/the-foldie-sling-bag/04-cafe.png",
-        "assets/products/the-foldie-sling-bag/05-station.png",
-        "assets/products/the-foldie-sling-bag/06-lifestyle.png"
-      ],
-      "imageAlt": "The Foldie Sling Bag · immagine catalogo",
-      "description": "Il tuo alleato elegante per muoverti a mani libere. The Foldie® Sling bag protegge i tuoi indispensabili con chiusure sicure, tracolla anti-taglio, tasca RFID e scomparto posteriore nascosto, restando leggerissima: pesa meno di 200 g. Compatta, regolabile e pronta per ogni passeggiata, viaggio o giornata in città.",
-      "price": 4995,
-      "compare_at_price": 0,
-      "tags": "Borse, Novità, Selezione Juanjo",
-      "options": [
-        {
-          "name": "Colore",
-          "values": [
-            "Black"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": 1009,
-          "options": [
-            "Black"
-          ],
-          "price": 4995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/the-foldie-sling-bag/01-hero.png"
-        }
-      ],
-      "rating": 4.8,
-      "reviews": 114,
-      "createdAt": 2,
-      "available": true
-    },
-    {
-      "id": 4,
       "handle": "ciara-vintage",
       "title": "Ciara Vintage",
       "collection": "borse",
@@ -276,7 +229,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1010,
+          "id": 1009,
           "options": [
             "Coffee"
           ],
@@ -286,13 +239,13 @@ window.CATALOG = {
           "image": "assets/products/ciara-vintage/01-hero.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 151,
-      "createdAt": 3,
+      "rating": 4.8,
+      "reviews": 114,
+      "createdAt": 2,
       "available": true
     },
     {
-      "id": 5,
+      "id": 4,
       "handle": "travel-sling-bag-2-0",
       "title": "Travel Sling Bag 2.0",
       "collection": "borse",
@@ -327,7 +280,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1011,
+          "id": 1010,
           "options": [
             "Nero",
             "Taglia unica"
@@ -338,7 +291,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1012,
+          "id": 1011,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -349,7 +302,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1013,
+          "id": 1012,
           "options": [
             "Beige",
             "Taglia unica"
@@ -360,7 +313,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1014,
+          "id": 1013,
           "options": [
             "Crema",
             "Taglia unica"
@@ -371,13 +324,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 188,
-      "createdAt": 4,
+      "rating": 4.9,
+      "reviews": 151,
+      "createdAt": 3,
       "available": true
     },
     {
-      "id": 6,
+      "id": 5,
       "handle": "luxury-leather-hobo-anti-theft-handbag-pouch",
       "title": "Luxury Hobo Anti-Theft Handbag + FREE Pouch Wallet",
       "collection": "borse",
@@ -431,7 +384,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1015,
+          "id": 1014,
           "options": [
             "Brown"
           ],
@@ -441,7 +394,7 @@ window.CATALOG = {
           "image": "assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/01-hero.png"
         },
         {
-          "id": 1016,
+          "id": 1015,
           "options": [
             "Black"
           ],
@@ -451,7 +404,7 @@ window.CATALOG = {
           "image": "assets/products/luxury-hobo-anti-theft-handbag-pouch/Black/01-hero.png"
         },
         {
-          "id": 1017,
+          "id": 1016,
           "options": [
             "Blue"
           ],
@@ -461,7 +414,7 @@ window.CATALOG = {
           "image": "assets/products/luxury-hobo-anti-theft-handbag-pouch/Blue/01-hero.png"
         },
         {
-          "id": 1018,
+          "id": 1017,
           "options": [
             "Grey"
           ],
@@ -471,7 +424,7 @@ window.CATALOG = {
           "image": "assets/products/luxury-hobo-anti-theft-handbag-pouch/Grey/01-hero.png"
         },
         {
-          "id": 1019,
+          "id": 1018,
           "options": [
             "Burgundy"
           ],
@@ -481,7 +434,7 @@ window.CATALOG = {
           "image": "assets/products/luxury-hobo-anti-theft-handbag-pouch/Burgundy/01-hero.png"
         },
         {
-          "id": 1020,
+          "id": 1019,
           "options": [
             "Red"
           ],
@@ -491,13 +444,13 @@ window.CATALOG = {
           "image": "assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/01-hero.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 45,
-      "createdAt": 5,
+      "rating": 4.6,
+      "reviews": 188,
+      "createdAt": 4,
       "available": true
     },
     {
-      "id": 7,
+      "id": 6,
       "handle": "luxury-leather-hobo-anti-theft-handbag-2-0",
       "title": "Luxury Leather Hobo Anti-Theft Handbag 2.0 + FREE Pouch Wallet (6-Layer Security Edition)",
       "collection": "borse",
@@ -536,7 +489,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1021,
+          "id": 1020,
           "options": [
             "Black"
           ],
@@ -546,7 +499,7 @@ window.CATALOG = {
           "image": "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/01-hero.png"
         },
         {
-          "id": 1022,
+          "id": 1021,
           "options": [
             "Brown"
           ],
@@ -556,7 +509,7 @@ window.CATALOG = {
           "image": "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Brown/01-hero.png"
         },
         {
-          "id": 1023,
+          "id": 1022,
           "options": [
             "Beige"
           ],
@@ -566,13 +519,13 @@ window.CATALOG = {
           "image": "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Beige/01-hero.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 82,
-      "createdAt": 6,
+      "rating": 4.7,
+      "reviews": 45,
+      "createdAt": 5,
       "available": true
     },
     {
-      "id": 8,
+      "id": 7,
       "handle": "overpackbag-mochila-compresion",
       "title": "OverPackBag (mochila compresion)",
       "collection": "borse",
@@ -607,7 +560,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1024,
+          "id": 1023,
           "options": [
             "Nero",
             "Taglia unica"
@@ -618,7 +571,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1025,
+          "id": 1024,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -629,7 +582,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1026,
+          "id": 1025,
           "options": [
             "Beige",
             "Taglia unica"
@@ -640,7 +593,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1027,
+          "id": 1026,
           "options": [
             "Crema",
             "Taglia unica"
@@ -651,13 +604,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 119,
-      "createdAt": 7,
+      "rating": 4.8,
+      "reviews": 82,
+      "createdAt": 6,
       "available": true
     },
     {
-      "id": 9,
+      "id": 8,
       "handle": "ona-soft-bag",
       "title": "Ona Soft Bag",
       "collection": "borse",
@@ -692,7 +645,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1028,
+          "id": 1027,
           "options": [
             "Nero",
             "Taglia unica"
@@ -703,7 +656,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1029,
+          "id": 1028,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -714,7 +667,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1030,
+          "id": 1029,
           "options": [
             "Beige",
             "Taglia unica"
@@ -725,7 +678,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1031,
+          "id": 1030,
           "options": [
             "Crema",
             "Taglia unica"
@@ -736,13 +689,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 156,
-      "createdAt": 8,
+      "rating": 4.9,
+      "reviews": 119,
+      "createdAt": 7,
       "available": true
     },
     {
-      "id": 10,
+      "id": 9,
       "handle": "the-maya-tote",
       "title": "The Maya",
       "collection": "borse",
@@ -808,10 +761,21 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1032,
+          "id": 1031,
           "options": [
             "Black",
             "Magnet"
+          ],
+          "price": 4400,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/the-maya-tote/Black/01-hero.png"
+        },
+        {
+          "id": 1032,
+          "options": [
+            "Black",
+            "Zipper"
           ],
           "price": 4400,
           "compare_at_price": 8900,
@@ -821,19 +785,19 @@ window.CATALOG = {
         {
           "id": 1033,
           "options": [
-            "Black",
-            "Zipper"
+            "Chocolate",
+            "Magnet"
           ],
           "price": 4400,
           "compare_at_price": 8900,
           "available": true,
-          "image": "assets/products/the-maya-tote/Black/01-hero.png"
+          "image": "assets/products/the-maya-tote/Chocolate/01-hero.png"
         },
         {
           "id": 1034,
           "options": [
             "Chocolate",
-            "Magnet"
+            "Zipper"
           ],
           "price": 4400,
           "compare_at_price": 8900,
@@ -843,19 +807,19 @@ window.CATALOG = {
         {
           "id": 1035,
           "options": [
-            "Chocolate",
-            "Zipper"
+            "Brown",
+            "Magnet"
           ],
           "price": 4400,
           "compare_at_price": 8900,
           "available": true,
-          "image": "assets/products/the-maya-tote/Chocolate/01-hero.png"
+          "image": "assets/products/the-maya-tote/Brown/01-hero.png"
         },
         {
           "id": 1036,
           "options": [
             "Brown",
-            "Magnet"
+            "Zipper"
           ],
           "price": 4400,
           "compare_at_price": 8900,
@@ -865,19 +829,19 @@ window.CATALOG = {
         {
           "id": 1037,
           "options": [
-            "Brown",
-            "Zipper"
+            "Burgundy",
+            "Magnet"
           ],
           "price": 4400,
           "compare_at_price": 8900,
           "available": true,
-          "image": "assets/products/the-maya-tote/Brown/01-hero.png"
+          "image": "assets/products/the-maya-tote/Burgundy/01-hero.png"
         },
         {
           "id": 1038,
           "options": [
             "Burgundy",
-            "Magnet"
+            "Zipper"
           ],
           "price": 4400,
           "compare_at_price": 8900,
@@ -887,19 +851,19 @@ window.CATALOG = {
         {
           "id": 1039,
           "options": [
-            "Burgundy",
-            "Zipper"
+            "Stone",
+            "Magnet"
           ],
           "price": 4400,
           "compare_at_price": 8900,
           "available": true,
-          "image": "assets/products/the-maya-tote/Burgundy/01-hero.png"
+          "image": "assets/products/the-maya-tote/Stone/01-hero.png"
         },
         {
           "id": 1040,
           "options": [
             "Stone",
-            "Magnet"
+            "Zipper"
           ],
           "price": 4400,
           "compare_at_price": 8900,
@@ -909,17 +873,6 @@ window.CATALOG = {
         {
           "id": 1041,
           "options": [
-            "Stone",
-            "Zipper"
-          ],
-          "price": 4400,
-          "compare_at_price": 8900,
-          "available": true,
-          "image": "assets/products/the-maya-tote/Stone/01-hero.png"
-        },
-        {
-          "id": 1042,
-          "options": [
             "Pink",
             "Magnet"
           ],
@@ -929,7 +882,7 @@ window.CATALOG = {
           "image": "assets/products/the-maya-tote/Pink/01-hero.png"
         },
         {
-          "id": 1043,
+          "id": 1042,
           "options": [
             "Pink",
             "Zipper"
@@ -940,7 +893,7 @@ window.CATALOG = {
           "image": "assets/products/the-maya-tote/Pink/01-hero.png"
         },
         {
-          "id": 1044,
+          "id": 1043,
           "options": [
             "Sky",
             "Magnet"
@@ -951,7 +904,7 @@ window.CATALOG = {
           "image": "assets/products/the-maya-tote/Sky/01-hero.png"
         },
         {
-          "id": 1045,
+          "id": 1044,
           "options": [
             "Sky",
             "Zipper"
@@ -962,13 +915,13 @@ window.CATALOG = {
           "image": "assets/products/the-maya-tote/Sky/01-hero.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 193,
-      "createdAt": 9,
+      "rating": 4.6,
+      "reviews": 156,
+      "createdAt": 8,
       "available": true
     },
     {
-      "id": 11,
+      "id": 10,
       "handle": "nova-sling",
       "title": "Nova Sling",
       "collection": "borse",
@@ -1003,7 +956,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1046,
+          "id": 1045,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1014,7 +967,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1047,
+          "id": 1046,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1025,7 +978,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1048,
+          "id": 1047,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1036,7 +989,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1049,
+          "id": 1048,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1047,13 +1000,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 50,
-      "createdAt": 10,
+      "rating": 4.7,
+      "reviews": 193,
+      "createdAt": 9,
       "available": true
     },
     {
-      "id": 12,
+      "id": 11,
       "handle": "florvane-leather-handbag",
       "title": "Florvane Leather Handbag",
       "collection": "borse",
@@ -1088,7 +1041,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1050,
+          "id": 1049,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1099,7 +1052,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1051,
+          "id": 1050,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1110,7 +1063,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1052,
+          "id": 1051,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1121,7 +1074,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1053,
+          "id": 1052,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1132,13 +1085,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 87,
-      "createdAt": 11,
+      "rating": 4.8,
+      "reviews": 50,
+      "createdAt": 10,
       "available": true
     },
     {
-      "id": 13,
+      "id": 12,
       "handle": "wander-anti-theft-travel-bag",
       "title": "WANDER+ Anti-Theft Travel Bag",
       "collection": "borse",
@@ -1173,7 +1126,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1054,
+          "id": 1053,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1184,7 +1137,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1055,
+          "id": 1054,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1195,7 +1148,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1056,
+          "id": 1055,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1206,7 +1159,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1057,
+          "id": 1056,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1217,13 +1170,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 124,
-      "createdAt": 12,
+      "rating": 4.9,
+      "reviews": 87,
+      "createdAt": 11,
       "available": true
     },
     {
-      "id": 14,
+      "id": 13,
       "handle": "aryna-bag",
       "title": "Aryna Bag",
       "collection": "borse",
@@ -1258,7 +1211,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1058,
+          "id": 1057,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1269,7 +1222,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1059,
+          "id": 1058,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1280,7 +1233,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1060,
+          "id": 1059,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1291,7 +1244,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1061,
+          "id": 1060,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1302,13 +1255,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 161,
-      "createdAt": 13,
+      "rating": 4.6,
+      "reviews": 124,
+      "createdAt": 12,
       "available": true
     },
     {
-      "id": 15,
+      "id": 14,
       "handle": "dumpling-bag",
       "title": "Dumpling Bag",
       "collection": "borse",
@@ -1343,7 +1296,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1062,
+          "id": 1061,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1354,7 +1307,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1063,
+          "id": 1062,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1365,7 +1318,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1064,
+          "id": 1063,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1376,7 +1329,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1065,
+          "id": 1064,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1387,13 +1340,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 198,
-      "createdAt": 14,
+      "rating": 4.7,
+      "reviews": 161,
+      "createdAt": 13,
       "available": true
     },
     {
-      "id": 16,
+      "id": 15,
       "handle": "the-blair-tote",
       "title": "The Blair (tote)",
       "collection": "borse",
@@ -1428,7 +1381,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1066,
+          "id": 1065,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1439,7 +1392,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1067,
+          "id": 1066,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1450,7 +1403,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1068,
+          "id": 1067,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1461,7 +1414,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1069,
+          "id": 1068,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1472,13 +1425,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 55,
-      "createdAt": 15,
+      "rating": 4.8,
+      "reviews": 198,
+      "createdAt": 14,
       "available": true
     },
     {
-      "id": 17,
+      "id": 16,
       "handle": "lucia-woven-bag",
       "title": "Lucia Woven Bag",
       "collection": "borse",
@@ -1513,7 +1466,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1070,
+          "id": 1069,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1524,7 +1477,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1071,
+          "id": 1070,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1535,7 +1488,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1072,
+          "id": 1071,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1546,7 +1499,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1073,
+          "id": 1072,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1557,13 +1510,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 92,
-      "createdAt": 16,
+      "rating": 4.9,
+      "reviews": 55,
+      "createdAt": 15,
       "available": true
     },
     {
-      "id": 18,
+      "id": 17,
       "handle": "gofree-the-roomiest-bum-bag",
       "title": "GoFree - The Roomiest Bum Bag",
       "collection": "borse",
@@ -1598,7 +1551,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1074,
+          "id": 1073,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1609,7 +1562,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1075,
+          "id": 1074,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1620,7 +1573,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1076,
+          "id": 1075,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1631,7 +1584,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1077,
+          "id": 1076,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1642,13 +1595,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 129,
-      "createdAt": 17,
+      "rating": 4.6,
+      "reviews": 92,
+      "createdAt": 16,
       "available": true
     },
     {
-      "id": 19,
+      "id": 18,
       "handle": "siv-sling-bag",
       "title": "SIV Sling Bag",
       "collection": "borse",
@@ -1683,7 +1636,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1078,
+          "id": 1077,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1694,7 +1647,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1079,
+          "id": 1078,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1705,7 +1658,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1080,
+          "id": 1079,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1716,7 +1669,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1081,
+          "id": 1080,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1727,13 +1680,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 166,
-      "createdAt": 18,
+      "rating": 4.7,
+      "reviews": 129,
+      "createdAt": 17,
       "available": true
     },
     {
-      "id": 20,
+      "id": 19,
       "handle": "ciara-essential",
       "title": "Ciara Essential",
       "collection": "borse",
@@ -1768,9 +1721,20 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1082,
+          "id": 1081,
           "options": [
             "Nero",
+            "Taglia unica"
+          ],
+          "price": 7800,
+          "compare_at_price": 10900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
+        },
+        {
+          "id": 1082,
+          "options": [
+            "Marrone",
             "Taglia unica"
           ],
           "price": 7800,
@@ -1781,7 +1745,7 @@ window.CATALOG = {
         {
           "id": 1083,
           "options": [
-            "Marrone",
+            "Beige",
             "Taglia unica"
           ],
           "price": 7800,
@@ -1792,17 +1756,6 @@ window.CATALOG = {
         {
           "id": 1084,
           "options": [
-            "Beige",
-            "Taglia unica"
-          ],
-          "price": 7800,
-          "compare_at_price": 10900,
-          "available": true,
-          "image": "assets/products/generated-bag-brown.png"
-        },
-        {
-          "id": 1085,
-          "options": [
             "Crema",
             "Taglia unica"
           ],
@@ -1812,98 +1765,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 203,
-      "createdAt": 19,
+      "rating": 4.8,
+      "reviews": 166,
+      "createdAt": 18,
       "available": true
     },
     {
-      "id": 21,
-      "handle": "the-foldie-crossbody",
-      "title": "The Foldie Crossbody",
-      "collection": "borse",
-      "category": "Bolsos",
-      "vendor": "the-foldie.co.uk",
-      "sourceUrl": "https://the-foldie.co.uk/products/the-foldie%C2%AE-crossbody-copy-1",
-      "image": "assets/products/generated-bag-brown.png",
-      "images": [
-        "assets/products/generated-bag-brown.png"
-      ],
-      "imageAlt": "The Foldie Crossbody · immagine catalogo",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Foldie Crossbody unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4995,
-      "compare_at_price": 0,
-      "tags": "Borse, Novità, Selezione Juanjo",
-      "options": [
-        {
-          "name": "Colore",
-          "values": [
-            "Nero",
-            "Marrone",
-            "Beige",
-            "Crema"
-          ]
-        },
-        {
-          "name": "Talla",
-          "values": [
-            "Taglia unica"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": 1086,
-          "options": [
-            "Nero",
-            "Taglia unica"
-          ],
-          "price": 4995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-bag-brown.png"
-        },
-        {
-          "id": 1087,
-          "options": [
-            "Marrone",
-            "Taglia unica"
-          ],
-          "price": 4995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-bag-brown.png"
-        },
-        {
-          "id": 1088,
-          "options": [
-            "Beige",
-            "Taglia unica"
-          ],
-          "price": 4995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-bag-brown.png"
-        },
-        {
-          "id": 1089,
-          "options": [
-            "Crema",
-            "Taglia unica"
-          ],
-          "price": 4995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-bag-brown.png"
-        }
-      ],
-      "rating": 4.6,
-      "reviews": 60,
-      "createdAt": 20,
-      "available": true
-    },
-    {
-      "id": 22,
+      "id": 20,
       "handle": "the-marseille",
       "title": "The Marseille",
       "collection": "borse",
@@ -1938,7 +1806,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1090,
+          "id": 1085,
           "options": [
             "Nero",
             "Taglia unica"
@@ -1949,7 +1817,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1091,
+          "id": 1086,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -1960,7 +1828,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1092,
+          "id": 1087,
           "options": [
             "Beige",
             "Taglia unica"
@@ -1971,7 +1839,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1093,
+          "id": 1088,
           "options": [
             "Crema",
             "Taglia unica"
@@ -1982,13 +1850,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 97,
-      "createdAt": 21,
+      "rating": 4.9,
+      "reviews": 203,
+      "createdAt": 19,
       "available": true
     },
     {
-      "id": 23,
+      "id": 21,
       "handle": "vintage-bag",
       "title": "Vintage Bag",
       "collection": "borse",
@@ -2023,7 +1891,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1094,
+          "id": 1089,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2034,7 +1902,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1095,
+          "id": 1090,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2045,7 +1913,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1096,
+          "id": 1091,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2056,7 +1924,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1097,
+          "id": 1092,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2067,13 +1935,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 134,
-      "createdAt": 22,
+      "rating": 4.6,
+      "reviews": 60,
+      "createdAt": 20,
       "available": true
     },
     {
-      "id": 24,
+      "id": 22,
       "handle": "crossbody-bag-2-0",
       "title": "Crossbody Bag 2.0",
       "collection": "borse",
@@ -2108,7 +1976,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1098,
+          "id": 1093,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2119,7 +1987,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1099,
+          "id": 1094,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2130,7 +1998,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1100,
+          "id": 1095,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2141,7 +2009,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1101,
+          "id": 1096,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2152,13 +2020,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 171,
-      "createdAt": 23,
+      "rating": 4.7,
+      "reviews": 97,
+      "createdAt": 21,
       "available": true
     },
     {
-      "id": 25,
+      "id": 23,
       "handle": "the-julie-crossbody",
       "title": "The Julie (crossbody)",
       "collection": "borse",
@@ -2193,7 +2061,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1102,
+          "id": 1097,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2204,7 +2072,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1103,
+          "id": 1098,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2215,7 +2083,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1104,
+          "id": 1099,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2226,7 +2094,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1105,
+          "id": 1100,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2237,13 +2105,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 208,
-      "createdAt": 24,
+      "rating": 4.8,
+      "reviews": 134,
+      "createdAt": 22,
       "available": true
     },
     {
-      "id": 26,
+      "id": 24,
       "handle": "gerda-shopper-bag",
       "title": "Gerda Shopper Bag",
       "collection": "borse",
@@ -2278,7 +2146,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1106,
+          "id": 1101,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2289,7 +2157,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1107,
+          "id": 1102,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2300,7 +2168,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1108,
+          "id": 1103,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2311,7 +2179,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1109,
+          "id": 1104,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2322,13 +2190,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 65,
-      "createdAt": 25,
+      "rating": 4.9,
+      "reviews": 171,
+      "createdAt": 23,
       "available": true
     },
     {
-      "id": 27,
+      "id": 25,
       "handle": "miniona-soft-bag",
       "title": "MiniOna Soft Bag",
       "collection": "borse",
@@ -2363,7 +2231,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1110,
+          "id": 1105,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2374,7 +2242,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1111,
+          "id": 1106,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2385,7 +2253,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1112,
+          "id": 1107,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2396,7 +2264,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1113,
+          "id": 1108,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2407,13 +2275,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 102,
-      "createdAt": 26,
+      "rating": 4.6,
+      "reviews": 208,
+      "createdAt": 24,
       "available": true
     },
     {
-      "id": 28,
+      "id": 26,
       "handle": "ciara-suede",
       "title": "Ciara Suede",
       "collection": "borse",
@@ -2448,7 +2316,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1114,
+          "id": 1109,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2459,7 +2327,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1115,
+          "id": 1110,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2470,7 +2338,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1116,
+          "id": 1111,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2481,7 +2349,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1117,
+          "id": 1112,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2492,13 +2360,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 139,
-      "createdAt": 27,
+      "rating": 4.7,
+      "reviews": 65,
+      "createdAt": 25,
       "available": true
     },
     {
-      "id": 29,
+      "id": 27,
       "handle": "woven-oversized",
       "title": "Woven Oversized",
       "collection": "borse",
@@ -2533,7 +2401,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1118,
+          "id": 1113,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2544,7 +2412,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1119,
+          "id": 1114,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2555,7 +2423,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1120,
+          "id": 1115,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2566,7 +2434,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1121,
+          "id": 1116,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2577,13 +2445,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 176,
-      "createdAt": 28,
+      "rating": 4.8,
+      "reviews": 102,
+      "createdAt": 26,
       "available": true
     },
     {
-      "id": 30,
+      "id": 28,
       "handle": "ciara-vintage-limited-edition",
       "title": "Ciara Vintage - Limited Edition",
       "collection": "borse",
@@ -2618,7 +2486,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1122,
+          "id": 1117,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2629,7 +2497,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1123,
+          "id": 1118,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2640,7 +2508,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1124,
+          "id": 1119,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2651,7 +2519,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1125,
+          "id": 1120,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2662,13 +2530,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 213,
-      "createdAt": 29,
+      "rating": 4.9,
+      "reviews": 139,
+      "createdAt": 27,
       "available": true
     },
     {
-      "id": 31,
+      "id": 29,
       "handle": "ciara-genuine-leather",
       "title": "Ciara Genuine Leather",
       "collection": "borse",
@@ -2703,7 +2571,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1126,
+          "id": 1121,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2714,7 +2582,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1127,
+          "id": 1122,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2725,7 +2593,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1128,
+          "id": 1123,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2736,7 +2604,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1129,
+          "id": 1124,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2747,13 +2615,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 70,
-      "createdAt": 30,
+      "rating": 4.6,
+      "reviews": 176,
+      "createdAt": 28,
       "available": true
     },
     {
-      "id": 32,
+      "id": 30,
       "handle": "ciara-mini",
       "title": "Ciara Mini",
       "collection": "borse",
@@ -2788,7 +2656,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1130,
+          "id": 1125,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2799,7 +2667,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1131,
+          "id": 1126,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2810,7 +2678,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1132,
+          "id": 1127,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2821,7 +2689,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1133,
+          "id": 1128,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2832,13 +2700,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 107,
-      "createdAt": 31,
+      "rating": 4.7,
+      "reviews": 213,
+      "createdAt": 29,
       "available": true
     },
     {
-      "id": 33,
+      "id": 31,
       "handle": "ciara-nova",
       "title": "Ciara Nova",
       "collection": "borse",
@@ -2873,7 +2741,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1134,
+          "id": 1129,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2884,7 +2752,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1135,
+          "id": 1130,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2895,7 +2763,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1136,
+          "id": 1131,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2906,7 +2774,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1137,
+          "id": 1132,
           "options": [
             "Crema",
             "Taglia unica"
@@ -2917,13 +2785,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 144,
-      "createdAt": 32,
+      "rating": 4.8,
+      "reviews": 70,
+      "createdAt": 30,
       "available": true
     },
     {
-      "id": 34,
+      "id": 32,
       "handle": "vintage-tote",
       "title": "Vintage Tote",
       "collection": "borse",
@@ -2958,7 +2826,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1138,
+          "id": 1133,
           "options": [
             "Nero",
             "Taglia unica"
@@ -2969,7 +2837,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1139,
+          "id": 1134,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -2980,7 +2848,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1140,
+          "id": 1135,
           "options": [
             "Beige",
             "Taglia unica"
@@ -2991,7 +2859,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1141,
+          "id": 1136,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3002,13 +2870,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 181,
-      "createdAt": 33,
+      "rating": 4.9,
+      "reviews": 107,
+      "createdAt": 31,
       "available": true
     },
     {
-      "id": 35,
+      "id": 33,
       "handle": "hailey-woven",
       "title": "Hailey Woven",
       "collection": "borse",
@@ -3043,7 +2911,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1142,
+          "id": 1137,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3054,7 +2922,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1143,
+          "id": 1138,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3065,7 +2933,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1144,
+          "id": 1139,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3076,7 +2944,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1145,
+          "id": 1140,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3087,13 +2955,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 218,
-      "createdAt": 34,
+      "rating": 4.6,
+      "reviews": 144,
+      "createdAt": 32,
       "available": true
     },
     {
-      "id": 36,
+      "id": 34,
       "handle": "lara-suede",
       "title": "Lara Suede",
       "collection": "borse",
@@ -3128,7 +2996,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1146,
+          "id": 1141,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3139,7 +3007,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1147,
+          "id": 1142,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3150,7 +3018,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1148,
+          "id": 1143,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3161,7 +3029,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1149,
+          "id": 1144,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3172,13 +3040,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 75,
-      "createdAt": 35,
+      "rating": 4.7,
+      "reviews": 181,
+      "createdAt": 33,
       "available": true
     },
     {
-      "id": 37,
+      "id": 35,
       "handle": "rhea-oversized",
       "title": "Rhea Oversized",
       "collection": "borse",
@@ -3213,7 +3081,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1150,
+          "id": 1145,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3224,7 +3092,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1151,
+          "id": 1146,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3235,7 +3103,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1152,
+          "id": 1147,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3246,7 +3114,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1153,
+          "id": 1148,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3257,13 +3125,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 112,
-      "createdAt": 36,
+      "rating": 4.8,
+      "reviews": 218,
+      "createdAt": 34,
       "available": true
     },
     {
-      "id": 38,
+      "id": 36,
       "handle": "baggy-vegan-leather",
       "title": "Baggy Vegan Leather",
       "collection": "borse",
@@ -3298,7 +3166,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1154,
+          "id": 1149,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3309,7 +3177,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1155,
+          "id": 1150,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3320,7 +3188,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1156,
+          "id": 1151,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3331,7 +3199,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1157,
+          "id": 1152,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3342,13 +3210,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 149,
-      "createdAt": 37,
+      "rating": 4.9,
+      "reviews": 75,
+      "createdAt": 35,
       "available": true
     },
     {
-      "id": 39,
+      "id": 37,
       "handle": "valentina-tote",
       "title": "Valentina Tote",
       "collection": "borse",
@@ -3383,7 +3251,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1158,
+          "id": 1153,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3394,7 +3262,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1159,
+          "id": 1154,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3405,7 +3273,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1160,
+          "id": 1155,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3416,7 +3284,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1161,
+          "id": 1156,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3427,13 +3295,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 186,
-      "createdAt": 38,
+      "rating": 4.6,
+      "reviews": 112,
+      "createdAt": 36,
       "available": true
     },
     {
-      "id": 40,
+      "id": 38,
       "handle": "moire-suede",
       "title": "Moiré Suede",
       "collection": "borse",
@@ -3468,7 +3336,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1162,
+          "id": 1157,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3479,7 +3347,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1163,
+          "id": 1158,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3490,7 +3358,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1164,
+          "id": 1159,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3501,7 +3369,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1165,
+          "id": 1160,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3512,13 +3380,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 43,
-      "createdAt": 39,
+      "rating": 4.7,
+      "reviews": 149,
+      "createdAt": 37,
       "available": true
     },
     {
-      "id": 41,
+      "id": 39,
       "handle": "vintage-work",
       "title": "Vintage Work",
       "collection": "borse",
@@ -3553,7 +3421,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1166,
+          "id": 1161,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3564,7 +3432,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1167,
+          "id": 1162,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3575,7 +3443,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1168,
+          "id": 1163,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3586,7 +3454,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1169,
+          "id": 1164,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3597,13 +3465,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 80,
-      "createdAt": 40,
+      "rating": 4.8,
+      "reviews": 186,
+      "createdAt": 38,
       "available": true
     },
     {
-      "id": 42,
+      "id": 40,
       "handle": "ciara-beauty-bag",
       "title": "Ciara Beauty Bag",
       "collection": "borse",
@@ -3638,7 +3506,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1170,
+          "id": 1165,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3649,7 +3517,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1171,
+          "id": 1166,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3660,7 +3528,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1172,
+          "id": 1167,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3671,7 +3539,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1173,
+          "id": 1168,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3682,13 +3550,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 117,
-      "createdAt": 41,
+      "rating": 4.9,
+      "reviews": 43,
+      "createdAt": 39,
       "available": true
     },
     {
-      "id": 43,
+      "id": 41,
       "handle": "wallet-vintage",
       "title": "Wallet Vintage",
       "collection": "borse",
@@ -3723,7 +3591,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1174,
+          "id": 1169,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3734,7 +3602,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1175,
+          "id": 1170,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3745,7 +3613,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1176,
+          "id": 1171,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3756,7 +3624,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1177,
+          "id": 1172,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3767,13 +3635,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 154,
-      "createdAt": 42,
+      "rating": 4.6,
+      "reviews": 80,
+      "createdAt": 40,
       "available": true
     },
     {
-      "id": 44,
+      "id": 42,
       "handle": "ciara-vintage-pouch",
       "title": "Ciara Vintage Pouch",
       "collection": "borse",
@@ -3808,7 +3676,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1178,
+          "id": 1173,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3819,7 +3687,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1179,
+          "id": 1174,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3830,7 +3698,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1180,
+          "id": 1175,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3841,7 +3709,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1181,
+          "id": 1176,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3852,13 +3720,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 191,
-      "createdAt": 43,
+      "rating": 4.7,
+      "reviews": 117,
+      "createdAt": 41,
       "available": true
     },
     {
-      "id": 45,
+      "id": 43,
       "handle": "wallet-suede",
       "title": "Wallet Suede",
       "collection": "borse",
@@ -3893,7 +3761,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1182,
+          "id": 1177,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3904,7 +3772,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1183,
+          "id": 1178,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -3915,7 +3783,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1184,
+          "id": 1179,
           "options": [
             "Beige",
             "Taglia unica"
@@ -3926,7 +3794,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1185,
+          "id": 1180,
           "options": [
             "Crema",
             "Taglia unica"
@@ -3937,13 +3805,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 48,
-      "createdAt": 44,
+      "rating": 4.8,
+      "reviews": 154,
+      "createdAt": 42,
       "available": true
     },
     {
-      "id": 46,
+      "id": 44,
       "handle": "ciara-suede-pouch",
       "title": "Ciara Suede Pouch",
       "collection": "borse",
@@ -3978,7 +3846,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1186,
+          "id": 1181,
           "options": [
             "Nero",
             "Taglia unica"
@@ -3989,7 +3857,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1187,
+          "id": 1182,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -4000,7 +3868,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1188,
+          "id": 1183,
           "options": [
             "Beige",
             "Taglia unica"
@@ -4011,7 +3879,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1189,
+          "id": 1184,
           "options": [
             "Crema",
             "Taglia unica"
@@ -4022,13 +3890,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 85,
-      "createdAt": 45,
+      "rating": 4.9,
+      "reviews": 191,
+      "createdAt": 43,
       "available": true
     },
     {
-      "id": 47,
+      "id": 45,
       "handle": "ciara-wallet",
       "title": "Ciara Wallet",
       "collection": "borse",
@@ -4063,7 +3931,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1190,
+          "id": 1185,
           "options": [
             "Nero",
             "Taglia unica"
@@ -4074,7 +3942,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1191,
+          "id": 1186,
           "options": [
             "Marrone",
             "Taglia unica"
@@ -4085,7 +3953,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1192,
+          "id": 1187,
           "options": [
             "Beige",
             "Taglia unica"
@@ -4096,7 +3964,7 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         },
         {
-          "id": 1193,
+          "id": 1188,
           "options": [
             "Crema",
             "Taglia unica"
@@ -4107,13 +3975,13 @@ window.CATALOG = {
           "image": "assets/products/generated-bag-brown.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 122,
-      "createdAt": 46,
+      "rating": 4.6,
+      "reviews": 48,
+      "createdAt": 44,
       "available": true
     },
     {
-      "id": 48,
+      "id": 46,
       "handle": "sculpt-brief-braguita-moldeadora",
       "title": "Sculpt Brief (braguita moldeadora)",
       "collection": "abbigliamento",
@@ -4151,10 +4019,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1194,
+          "id": 1189,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1190,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1191,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1192,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1193,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1194,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4164,8 +4087,8 @@ window.CATALOG = {
         {
           "id": 1195,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4175,8 +4098,8 @@ window.CATALOG = {
         {
           "id": 1196,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4186,8 +4109,8 @@ window.CATALOG = {
         {
           "id": 1197,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4197,8 +4120,8 @@ window.CATALOG = {
         {
           "id": 1198,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4208,8 +4131,8 @@ window.CATALOG = {
         {
           "id": 1199,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4219,8 +4142,8 @@ window.CATALOG = {
         {
           "id": 1200,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4230,8 +4153,8 @@ window.CATALOG = {
         {
           "id": 1201,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4241,8 +4164,8 @@ window.CATALOG = {
         {
           "id": 1202,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4252,8 +4175,8 @@ window.CATALOG = {
         {
           "id": 1203,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 3057,
           "compare_at_price": 0,
@@ -4262,61 +4185,6 @@ window.CATALOG = {
         },
         {
           "id": 1204,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 3057,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1205,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 3057,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1206,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 3057,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1207,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 3057,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1208,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 3057,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1209,
           "options": [
             "Verde",
             "XL"
@@ -4327,13 +4195,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 159,
-      "createdAt": 47,
+      "rating": 4.7,
+      "reviews": 85,
+      "createdAt": 45,
       "available": true
     },
     {
-      "id": 49,
+      "id": 47,
       "handle": "stm-tex-short-oversized-rain-jacket",
       "title": "STM-TEX Short Oversized Rain Jacket",
       "collection": "abbigliamento",
@@ -4371,10 +4239,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1210,
+          "id": 1205,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1206,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1207,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1208,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1209,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1210,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4384,8 +4307,8 @@ window.CATALOG = {
         {
           "id": 1211,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4395,8 +4318,8 @@ window.CATALOG = {
         {
           "id": 1212,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4406,8 +4329,8 @@ window.CATALOG = {
         {
           "id": 1213,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4417,8 +4340,8 @@ window.CATALOG = {
         {
           "id": 1214,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4428,8 +4351,8 @@ window.CATALOG = {
         {
           "id": 1215,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4439,8 +4362,8 @@ window.CATALOG = {
         {
           "id": 1216,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4450,8 +4373,8 @@ window.CATALOG = {
         {
           "id": 1217,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4461,8 +4384,8 @@ window.CATALOG = {
         {
           "id": 1218,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4472,8 +4395,8 @@ window.CATALOG = {
         {
           "id": 1219,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 5499,
           "compare_at_price": 7999,
@@ -4482,61 +4405,6 @@ window.CATALOG = {
         },
         {
           "id": 1220,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1221,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1222,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1223,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1224,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1225,
           "options": [
             "Verde",
             "XL"
@@ -4547,13 +4415,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 196,
-      "createdAt": 48,
+      "rating": 4.8,
+      "reviews": 122,
+      "createdAt": 46,
       "available": true
     },
     {
-      "id": 50,
+      "id": 48,
       "handle": "anti-roll-shaper-shorts",
       "title": "Anti-Roll Shaper Shorts",
       "collection": "abbigliamento",
@@ -4591,10 +4459,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1226,
+          "id": 1221,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1222,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1223,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1224,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1225,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1226,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4604,8 +4527,8 @@ window.CATALOG = {
         {
           "id": 1227,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4615,8 +4538,8 @@ window.CATALOG = {
         {
           "id": 1228,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4626,8 +4549,8 @@ window.CATALOG = {
         {
           "id": 1229,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4637,8 +4560,8 @@ window.CATALOG = {
         {
           "id": 1230,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4648,8 +4571,8 @@ window.CATALOG = {
         {
           "id": 1231,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4659,8 +4582,8 @@ window.CATALOG = {
         {
           "id": 1232,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4670,8 +4593,8 @@ window.CATALOG = {
         {
           "id": 1233,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4681,8 +4604,8 @@ window.CATALOG = {
         {
           "id": 1234,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4692,8 +4615,8 @@ window.CATALOG = {
         {
           "id": 1235,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -4702,61 +4625,6 @@ window.CATALOG = {
         },
         {
           "id": 1236,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1237,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1238,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1239,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1240,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1241,
           "options": [
             "Verde",
             "XL"
@@ -4767,13 +4635,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 53,
-      "createdAt": 49,
+      "rating": 4.9,
+      "reviews": 159,
+      "createdAt": 47,
       "available": true
     },
     {
-      "id": 51,
+      "id": 49,
       "handle": "sheer-illusion-fleece-lined-tights",
       "title": "Sheer Illusion Fleece-Lined Tights",
       "collection": "abbigliamento",
@@ -4811,10 +4679,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1242,
+          "id": 1237,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1238,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1239,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1240,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1241,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1242,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4824,8 +4747,8 @@ window.CATALOG = {
         {
           "id": 1243,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4835,8 +4758,8 @@ window.CATALOG = {
         {
           "id": 1244,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4846,8 +4769,8 @@ window.CATALOG = {
         {
           "id": 1245,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4857,8 +4780,8 @@ window.CATALOG = {
         {
           "id": 1246,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4868,8 +4791,8 @@ window.CATALOG = {
         {
           "id": 1247,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4879,8 +4802,8 @@ window.CATALOG = {
         {
           "id": 1248,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4890,8 +4813,8 @@ window.CATALOG = {
         {
           "id": 1249,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4901,8 +4824,8 @@ window.CATALOG = {
         {
           "id": 1250,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4912,8 +4835,8 @@ window.CATALOG = {
         {
           "id": 1251,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 2700,
           "compare_at_price": 4600,
@@ -4922,61 +4845,6 @@ window.CATALOG = {
         },
         {
           "id": 1252,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1253,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1254,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1255,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1256,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1257,
           "options": [
             "Verde",
             "XL"
@@ -4987,13 +4855,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 90,
-      "createdAt": 50,
+      "rating": 4.6,
+      "reviews": 196,
+      "createdAt": 48,
       "available": true
     },
     {
-      "id": 52,
+      "id": 50,
       "handle": "tuck-n-lift-seamless-slip-short",
       "title": "Tuck-N-Lift Seamless Slip Short",
       "collection": "abbigliamento",
@@ -5031,10 +4899,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1258,
+          "id": 1253,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 3500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1254,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 3500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1255,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 3500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1256,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 3500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1257,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 3500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1258,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5044,8 +4967,8 @@ window.CATALOG = {
         {
           "id": 1259,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5055,8 +4978,8 @@ window.CATALOG = {
         {
           "id": 1260,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5066,8 +4989,8 @@ window.CATALOG = {
         {
           "id": 1261,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5077,8 +5000,8 @@ window.CATALOG = {
         {
           "id": 1262,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5088,8 +5011,8 @@ window.CATALOG = {
         {
           "id": 1263,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5099,8 +5022,8 @@ window.CATALOG = {
         {
           "id": 1264,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5110,8 +5033,8 @@ window.CATALOG = {
         {
           "id": 1265,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5121,8 +5044,8 @@ window.CATALOG = {
         {
           "id": 1266,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5132,8 +5055,8 @@ window.CATALOG = {
         {
           "id": 1267,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 3500,
           "compare_at_price": 0,
@@ -5142,61 +5065,6 @@ window.CATALOG = {
         },
         {
           "id": 1268,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1269,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1270,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1271,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1272,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1273,
           "options": [
             "Verde",
             "XL"
@@ -5207,13 +5075,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 127,
-      "createdAt": 51,
+      "rating": 4.7,
+      "reviews": 53,
+      "createdAt": 49,
       "available": true
     },
     {
-      "id": 53,
+      "id": 51,
       "handle": "wireless-lifting-jelly-bra",
       "title": "Wireless Lifting Jelly Bra",
       "collection": "abbigliamento",
@@ -5251,10 +5119,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1274,
+          "id": 1269,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1270,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1271,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1272,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1273,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1274,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5264,8 +5187,8 @@ window.CATALOG = {
         {
           "id": 1275,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5275,8 +5198,8 @@ window.CATALOG = {
         {
           "id": 1276,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5286,8 +5209,8 @@ window.CATALOG = {
         {
           "id": 1277,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5297,8 +5220,8 @@ window.CATALOG = {
         {
           "id": 1278,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5308,8 +5231,8 @@ window.CATALOG = {
         {
           "id": 1279,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5319,8 +5242,8 @@ window.CATALOG = {
         {
           "id": 1280,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5330,8 +5253,8 @@ window.CATALOG = {
         {
           "id": 1281,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5341,8 +5264,8 @@ window.CATALOG = {
         {
           "id": 1282,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5352,8 +5275,8 @@ window.CATALOG = {
         {
           "id": 1283,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -5362,61 +5285,6 @@ window.CATALOG = {
         },
         {
           "id": 1284,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1285,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1286,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1287,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1288,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1289,
           "options": [
             "Verde",
             "XL"
@@ -5427,13 +5295,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 164,
-      "createdAt": 52,
+      "rating": 4.8,
+      "reviews": 90,
+      "createdAt": 50,
       "available": true
     },
     {
-      "id": 54,
+      "id": 52,
       "handle": "stm-tex-classic-relaxed-fit-rain-hoodie",
       "title": "STM-TEX Classic Relaxed Fit Rain Hoodie",
       "collection": "abbigliamento",
@@ -5471,10 +5339,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1290,
+          "id": 1285,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1286,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1287,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1288,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1289,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1290,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5484,8 +5407,8 @@ window.CATALOG = {
         {
           "id": 1291,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5495,8 +5418,8 @@ window.CATALOG = {
         {
           "id": 1292,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5506,8 +5429,8 @@ window.CATALOG = {
         {
           "id": 1293,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5517,8 +5440,8 @@ window.CATALOG = {
         {
           "id": 1294,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5528,8 +5451,8 @@ window.CATALOG = {
         {
           "id": 1295,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5539,8 +5462,8 @@ window.CATALOG = {
         {
           "id": 1296,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5550,8 +5473,8 @@ window.CATALOG = {
         {
           "id": 1297,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5561,8 +5484,8 @@ window.CATALOG = {
         {
           "id": 1298,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5572,8 +5495,8 @@ window.CATALOG = {
         {
           "id": 1299,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 4999,
           "compare_at_price": 7999,
@@ -5582,61 +5505,6 @@ window.CATALOG = {
         },
         {
           "id": 1300,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1301,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1302,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1303,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1304,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1305,
           "options": [
             "Verde",
             "XL"
@@ -5647,13 +5515,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 201,
-      "createdAt": 53,
+      "rating": 4.9,
+      "reviews": 127,
+      "createdAt": 51,
       "available": true
     },
     {
-      "id": 55,
+      "id": 53,
       "handle": "elevate-sculpting-flare-leggings",
       "title": "Elevate Sculpting Flare Leggings",
       "collection": "abbigliamento",
@@ -5691,10 +5559,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1306,
+          "id": 1301,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1302,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1303,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1304,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1305,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1306,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5704,8 +5627,8 @@ window.CATALOG = {
         {
           "id": 1307,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5715,8 +5638,8 @@ window.CATALOG = {
         {
           "id": 1308,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5726,8 +5649,8 @@ window.CATALOG = {
         {
           "id": 1309,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5737,8 +5660,8 @@ window.CATALOG = {
         {
           "id": 1310,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5748,8 +5671,8 @@ window.CATALOG = {
         {
           "id": 1311,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5759,8 +5682,8 @@ window.CATALOG = {
         {
           "id": 1312,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5770,8 +5693,8 @@ window.CATALOG = {
         {
           "id": 1313,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5781,8 +5704,8 @@ window.CATALOG = {
         {
           "id": 1314,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5792,8 +5715,8 @@ window.CATALOG = {
         {
           "id": 1315,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 4800,
           "compare_at_price": 6100,
@@ -5802,61 +5725,6 @@ window.CATALOG = {
         },
         {
           "id": 1316,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1317,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1318,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1319,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1320,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1321,
           "options": [
             "Verde",
             "XL"
@@ -5867,13 +5735,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 58,
-      "createdAt": 54,
+      "rating": 4.6,
+      "reviews": 164,
+      "createdAt": 52,
       "available": true
     },
     {
-      "id": 56,
+      "id": 54,
       "handle": "women-s-relaxed-fit-denim-coverall-jumpsuit",
       "title": "Women's Relaxed Fit Denim Coverall Jumpsuit",
       "collection": "abbigliamento",
@@ -5911,10 +5779,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1322,
+          "id": 1317,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1318,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1319,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1320,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1321,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1322,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -5924,8 +5847,8 @@ window.CATALOG = {
         {
           "id": 1323,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -5935,8 +5858,8 @@ window.CATALOG = {
         {
           "id": 1324,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -5946,8 +5869,8 @@ window.CATALOG = {
         {
           "id": 1325,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -5957,8 +5880,8 @@ window.CATALOG = {
         {
           "id": 1326,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -5968,8 +5891,8 @@ window.CATALOG = {
         {
           "id": 1327,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -5979,8 +5902,8 @@ window.CATALOG = {
         {
           "id": 1328,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -5990,8 +5913,8 @@ window.CATALOG = {
         {
           "id": 1329,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6001,8 +5924,8 @@ window.CATALOG = {
         {
           "id": 1330,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6012,8 +5935,8 @@ window.CATALOG = {
         {
           "id": 1331,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6022,61 +5945,6 @@ window.CATALOG = {
         },
         {
           "id": 1332,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1333,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1334,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1335,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1336,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1337,
           "options": [
             "Verde",
             "XL"
@@ -6087,13 +5955,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 95,
-      "createdAt": 55,
+      "rating": 4.7,
+      "reviews": 201,
+      "createdAt": 53,
       "available": true
     },
     {
-      "id": 57,
+      "id": 55,
       "handle": "women-s-plaid-wide-leg-overalls",
       "title": "Women's Plaid Wide-Leg Overalls",
       "collection": "abbigliamento",
@@ -6131,10 +5999,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1338,
+          "id": 1333,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1334,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1335,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1336,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1337,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1338,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6144,8 +6067,8 @@ window.CATALOG = {
         {
           "id": 1339,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6155,8 +6078,8 @@ window.CATALOG = {
         {
           "id": 1340,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6166,8 +6089,8 @@ window.CATALOG = {
         {
           "id": 1341,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6177,8 +6100,8 @@ window.CATALOG = {
         {
           "id": 1342,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6188,8 +6111,8 @@ window.CATALOG = {
         {
           "id": 1343,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6199,8 +6122,8 @@ window.CATALOG = {
         {
           "id": 1344,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6210,8 +6133,8 @@ window.CATALOG = {
         {
           "id": 1345,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6221,8 +6144,8 @@ window.CATALOG = {
         {
           "id": 1346,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6232,8 +6155,8 @@ window.CATALOG = {
         {
           "id": 1347,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -6242,61 +6165,6 @@ window.CATALOG = {
         },
         {
           "id": 1348,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1349,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1350,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1351,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1352,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1353,
           "options": [
             "Verde",
             "XL"
@@ -6307,13 +6175,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 132,
-      "createdAt": 56,
+      "rating": 4.8,
+      "reviews": 58,
+      "createdAt": 54,
       "available": true
     },
     {
-      "id": 58,
+      "id": 56,
       "handle": "stm-tex-fleece-lined-short-oversized-rain-jacket",
       "title": "STM-TEX Fleece Lined Short Oversized Rain Jacket",
       "collection": "abbigliamento",
@@ -6351,10 +6219,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1354,
+          "id": 1349,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1350,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1351,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1352,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1353,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1354,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6364,8 +6287,8 @@ window.CATALOG = {
         {
           "id": 1355,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6375,8 +6298,8 @@ window.CATALOG = {
         {
           "id": 1356,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6386,8 +6309,8 @@ window.CATALOG = {
         {
           "id": 1357,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6397,8 +6320,8 @@ window.CATALOG = {
         {
           "id": 1358,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6408,8 +6331,8 @@ window.CATALOG = {
         {
           "id": 1359,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6419,8 +6342,8 @@ window.CATALOG = {
         {
           "id": 1360,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6430,8 +6353,8 @@ window.CATALOG = {
         {
           "id": 1361,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6441,8 +6364,8 @@ window.CATALOG = {
         {
           "id": 1362,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6452,8 +6375,8 @@ window.CATALOG = {
         {
           "id": 1363,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 6999,
           "compare_at_price": 10999,
@@ -6462,61 +6385,6 @@ window.CATALOG = {
         },
         {
           "id": 1364,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1365,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1366,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1367,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1368,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1369,
           "options": [
             "Verde",
             "XL"
@@ -6527,13 +6395,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 169,
-      "createdAt": 57,
+      "rating": 4.9,
+      "reviews": 95,
+      "createdAt": 55,
       "available": true
     },
     {
-      "id": 59,
+      "id": 57,
       "handle": "warmcore-faux-fur-lined-hooded-short-puffer",
       "title": "WarmCore Faux Fur Lined Hooded Short Puffer",
       "collection": "abbigliamento",
@@ -6571,10 +6439,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1370,
+          "id": 1365,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1366,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1367,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1368,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1369,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1370,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6584,8 +6507,8 @@ window.CATALOG = {
         {
           "id": 1371,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6595,8 +6518,8 @@ window.CATALOG = {
         {
           "id": 1372,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6606,8 +6529,8 @@ window.CATALOG = {
         {
           "id": 1373,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6617,8 +6540,8 @@ window.CATALOG = {
         {
           "id": 1374,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6628,8 +6551,8 @@ window.CATALOG = {
         {
           "id": 1375,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6639,8 +6562,8 @@ window.CATALOG = {
         {
           "id": 1376,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6650,8 +6573,8 @@ window.CATALOG = {
         {
           "id": 1377,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6661,8 +6584,8 @@ window.CATALOG = {
         {
           "id": 1378,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6672,8 +6595,8 @@ window.CATALOG = {
         {
           "id": 1379,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 7999,
           "compare_at_price": 12999,
@@ -6682,61 +6605,6 @@ window.CATALOG = {
         },
         {
           "id": 1380,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1381,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1382,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1383,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1384,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1385,
           "options": [
             "Verde",
             "XL"
@@ -6747,13 +6615,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 206,
-      "createdAt": 58,
+      "rating": 4.6,
+      "reviews": 132,
+      "createdAt": 56,
       "available": true
     },
     {
-      "id": 60,
+      "id": 58,
       "handle": "warmcore-classic-short-detachable-hooded-puffer",
       "title": "WarmCore Classic Short Detachable Hooded Puffer",
       "collection": "abbigliamento",
@@ -6791,10 +6659,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1386,
+          "id": 1381,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1382,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1383,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1384,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1385,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1386,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6804,8 +6727,8 @@ window.CATALOG = {
         {
           "id": 1387,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6815,8 +6738,8 @@ window.CATALOG = {
         {
           "id": 1388,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6826,8 +6749,8 @@ window.CATALOG = {
         {
           "id": 1389,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6837,8 +6760,8 @@ window.CATALOG = {
         {
           "id": 1390,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6848,8 +6771,8 @@ window.CATALOG = {
         {
           "id": 1391,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6859,8 +6782,8 @@ window.CATALOG = {
         {
           "id": 1392,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6870,8 +6793,8 @@ window.CATALOG = {
         {
           "id": 1393,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6881,8 +6804,8 @@ window.CATALOG = {
         {
           "id": 1394,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6892,8 +6815,8 @@ window.CATALOG = {
         {
           "id": 1395,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 5999,
           "compare_at_price": 6999,
@@ -6902,61 +6825,6 @@ window.CATALOG = {
         },
         {
           "id": 1396,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1397,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1398,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1399,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1400,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1401,
           "options": [
             "Verde",
             "XL"
@@ -6967,13 +6835,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 63,
-      "createdAt": 59,
+      "rating": 4.7,
+      "reviews": 169,
+      "createdAt": 57,
       "available": true
     },
     {
-      "id": 61,
+      "id": 59,
       "handle": "stm-tex-fleece-lined-relaxed-fit-rain-hoodie",
       "title": "STM-TEX Fleece Lined Relaxed Fit Rain Hoodie",
       "collection": "abbigliamento",
@@ -7011,10 +6879,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1402,
+          "id": 1397,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1398,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1399,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1400,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1401,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1402,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7024,8 +6947,8 @@ window.CATALOG = {
         {
           "id": 1403,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7035,8 +6958,8 @@ window.CATALOG = {
         {
           "id": 1404,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7046,8 +6969,8 @@ window.CATALOG = {
         {
           "id": 1405,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7057,8 +6980,8 @@ window.CATALOG = {
         {
           "id": 1406,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7068,8 +6991,8 @@ window.CATALOG = {
         {
           "id": 1407,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7079,8 +7002,8 @@ window.CATALOG = {
         {
           "id": 1408,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7090,8 +7013,8 @@ window.CATALOG = {
         {
           "id": 1409,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7101,8 +7024,8 @@ window.CATALOG = {
         {
           "id": 1410,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7112,8 +7035,8 @@ window.CATALOG = {
         {
           "id": 1411,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 6499,
           "compare_at_price": 9999,
@@ -7122,61 +7045,6 @@ window.CATALOG = {
         },
         {
           "id": 1412,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1413,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1414,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1415,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1416,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1417,
           "options": [
             "Verde",
             "XL"
@@ -7187,13 +7055,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 100,
-      "createdAt": 60,
+      "rating": 4.8,
+      "reviews": 206,
+      "createdAt": 58,
       "available": true
     },
     {
-      "id": 62,
+      "id": 60,
       "handle": "feathra-ultralight-down-jacket",
       "title": "Feathra Ultralight Down Jacket",
       "collection": "abbigliamento",
@@ -7231,10 +7099,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1418,
+          "id": 1413,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1414,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1415,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1416,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1417,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1418,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7244,8 +7167,8 @@ window.CATALOG = {
         {
           "id": 1419,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7255,8 +7178,8 @@ window.CATALOG = {
         {
           "id": 1420,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7266,8 +7189,8 @@ window.CATALOG = {
         {
           "id": 1421,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7277,8 +7200,8 @@ window.CATALOG = {
         {
           "id": 1422,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7288,8 +7211,8 @@ window.CATALOG = {
         {
           "id": 1423,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7299,8 +7222,8 @@ window.CATALOG = {
         {
           "id": 1424,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7310,8 +7233,8 @@ window.CATALOG = {
         {
           "id": 1425,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7321,8 +7244,8 @@ window.CATALOG = {
         {
           "id": 1426,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7332,8 +7255,8 @@ window.CATALOG = {
         {
           "id": 1427,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -7342,61 +7265,6 @@ window.CATALOG = {
         },
         {
           "id": 1428,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1429,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1430,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1431,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1432,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1433,
           "options": [
             "Verde",
             "XL"
@@ -7407,13 +7275,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 137,
-      "createdAt": 61,
+      "rating": 4.9,
+      "reviews": 63,
+      "createdAt": 59,
       "available": true
     },
     {
-      "id": 63,
+      "id": 61,
       "handle": "satin-scoop-neck-camisole-maxi-dress",
       "title": "Satin Scoop Neck Camisole Maxi Dress",
       "collection": "abbigliamento",
@@ -7451,10 +7319,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1434,
+          "id": 1429,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1430,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1431,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1432,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1433,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1434,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7464,8 +7387,8 @@ window.CATALOG = {
         {
           "id": 1435,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7475,8 +7398,8 @@ window.CATALOG = {
         {
           "id": 1436,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7486,8 +7409,8 @@ window.CATALOG = {
         {
           "id": 1437,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7497,8 +7420,8 @@ window.CATALOG = {
         {
           "id": 1438,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7508,8 +7431,8 @@ window.CATALOG = {
         {
           "id": 1439,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7519,8 +7442,8 @@ window.CATALOG = {
         {
           "id": 1440,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7530,8 +7453,8 @@ window.CATALOG = {
         {
           "id": 1441,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7541,8 +7464,8 @@ window.CATALOG = {
         {
           "id": 1442,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7552,8 +7475,8 @@ window.CATALOG = {
         {
           "id": 1443,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 10000,
           "compare_at_price": 0,
@@ -7562,61 +7485,6 @@ window.CATALOG = {
         },
         {
           "id": 1444,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 10000,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1445,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 10000,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1446,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 10000,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1447,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 10000,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1448,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 10000,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1449,
           "options": [
             "Verde",
             "XL"
@@ -7627,13 +7495,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 174,
-      "createdAt": 62,
+      "rating": 4.6,
+      "reviews": 100,
+      "createdAt": 60,
       "available": true
     },
     {
-      "id": 64,
+      "id": 62,
       "handle": "serena-heritage-coat",
       "title": "Serena Heritage Coat",
       "collection": "abbigliamento",
@@ -7671,10 +7539,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1450,
+          "id": 1445,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 2800,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1446,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 2800,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1447,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 2800,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1448,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 2800,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1449,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 2800,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1450,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7684,8 +7607,8 @@ window.CATALOG = {
         {
           "id": 1451,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7695,8 +7618,8 @@ window.CATALOG = {
         {
           "id": 1452,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7706,8 +7629,8 @@ window.CATALOG = {
         {
           "id": 1453,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7717,8 +7640,8 @@ window.CATALOG = {
         {
           "id": 1454,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7728,8 +7651,8 @@ window.CATALOG = {
         {
           "id": 1455,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7739,8 +7662,8 @@ window.CATALOG = {
         {
           "id": 1456,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7750,8 +7673,8 @@ window.CATALOG = {
         {
           "id": 1457,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7761,8 +7684,8 @@ window.CATALOG = {
         {
           "id": 1458,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7772,8 +7695,8 @@ window.CATALOG = {
         {
           "id": 1459,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 2800,
           "compare_at_price": 0,
@@ -7782,61 +7705,6 @@ window.CATALOG = {
         },
         {
           "id": 1460,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1461,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1462,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1463,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1464,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1465,
           "options": [
             "Verde",
             "XL"
@@ -7847,13 +7715,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 211,
-      "createdAt": 63,
+      "rating": 4.7,
+      "reviews": 137,
+      "createdAt": 61,
       "available": true
     },
     {
-      "id": 65,
+      "id": 63,
       "handle": "amelie-overcoat",
       "title": "Amelie Overcoat",
       "collection": "abbigliamento",
@@ -7891,10 +7759,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1466,
+          "id": 1461,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 3200,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1462,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 3200,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1463,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 3200,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1464,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 3200,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1465,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 3200,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1466,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -7904,8 +7827,8 @@ window.CATALOG = {
         {
           "id": 1467,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -7915,8 +7838,8 @@ window.CATALOG = {
         {
           "id": 1468,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -7926,8 +7849,8 @@ window.CATALOG = {
         {
           "id": 1469,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -7937,8 +7860,8 @@ window.CATALOG = {
         {
           "id": 1470,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -7948,8 +7871,8 @@ window.CATALOG = {
         {
           "id": 1471,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -7959,8 +7882,8 @@ window.CATALOG = {
         {
           "id": 1472,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -7970,8 +7893,8 @@ window.CATALOG = {
         {
           "id": 1473,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -7981,8 +7904,8 @@ window.CATALOG = {
         {
           "id": 1474,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -7992,8 +7915,8 @@ window.CATALOG = {
         {
           "id": 1475,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -8002,61 +7925,6 @@ window.CATALOG = {
         },
         {
           "id": 1476,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1477,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1478,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1479,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1480,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1481,
           "options": [
             "Verde",
             "XL"
@@ -8067,13 +7935,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 68,
-      "createdAt": 64,
+      "rating": 4.8,
+      "reviews": 174,
+      "createdAt": 62,
       "available": true
     },
     {
-      "id": 66,
+      "id": 64,
       "handle": "lottie-cosy-oversized-sweater",
       "title": "Lottie Cosy Oversized Sweater",
       "collection": "abbigliamento",
@@ -8111,10 +7979,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1482,
+          "id": 1477,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1478,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1479,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1480,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1481,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1482,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8124,8 +8047,8 @@ window.CATALOG = {
         {
           "id": 1483,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8135,8 +8058,8 @@ window.CATALOG = {
         {
           "id": 1484,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8146,8 +8069,8 @@ window.CATALOG = {
         {
           "id": 1485,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8157,8 +8080,8 @@ window.CATALOG = {
         {
           "id": 1486,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8168,8 +8091,8 @@ window.CATALOG = {
         {
           "id": 1487,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8179,8 +8102,8 @@ window.CATALOG = {
         {
           "id": 1488,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8190,8 +8113,8 @@ window.CATALOG = {
         {
           "id": 1489,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8201,8 +8124,8 @@ window.CATALOG = {
         {
           "id": 1490,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8212,8 +8135,8 @@ window.CATALOG = {
         {
           "id": 1491,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 2995,
           "compare_at_price": 14995,
@@ -8222,61 +8145,6 @@ window.CATALOG = {
         },
         {
           "id": 1492,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1493,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1494,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1495,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1496,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1497,
           "options": [
             "Verde",
             "XL"
@@ -8287,13 +8155,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 105,
-      "createdAt": 65,
+      "rating": 4.9,
+      "reviews": 211,
+      "createdAt": 63,
       "available": true
     },
     {
-      "id": 67,
+      "id": 65,
       "handle": "cynthia-artful-hooded-cardigan",
       "title": "Cynthia Artful Hooded Cardigan",
       "collection": "abbigliamento",
@@ -8331,10 +8199,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1498,
+          "id": 1493,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1494,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1495,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1496,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1497,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1498,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8344,8 +8267,8 @@ window.CATALOG = {
         {
           "id": 1499,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8355,8 +8278,8 @@ window.CATALOG = {
         {
           "id": 1500,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8366,8 +8289,8 @@ window.CATALOG = {
         {
           "id": 1501,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8377,8 +8300,8 @@ window.CATALOG = {
         {
           "id": 1502,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8388,8 +8311,8 @@ window.CATALOG = {
         {
           "id": 1503,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8399,8 +8322,8 @@ window.CATALOG = {
         {
           "id": 1504,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8410,8 +8333,8 @@ window.CATALOG = {
         {
           "id": 1505,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8421,8 +8344,8 @@ window.CATALOG = {
         {
           "id": 1506,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8432,8 +8355,8 @@ window.CATALOG = {
         {
           "id": 1507,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8442,61 +8365,6 @@ window.CATALOG = {
         },
         {
           "id": 1508,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1509,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1510,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1511,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1512,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1513,
           "options": [
             "Verde",
             "XL"
@@ -8507,13 +8375,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 142,
-      "createdAt": 66,
+      "rating": 4.6,
+      "reviews": 68,
+      "createdAt": 64,
       "available": true
     },
     {
-      "id": 68,
+      "id": 66,
       "handle": "rachel-heritage-herringbone-jacket",
       "title": "Rachel Heritage Herringbone Jacket",
       "collection": "abbigliamento",
@@ -8551,10 +8419,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1514,
+          "id": 1509,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1510,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1511,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1512,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1513,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1514,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8564,8 +8487,8 @@ window.CATALOG = {
         {
           "id": 1515,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8575,8 +8498,8 @@ window.CATALOG = {
         {
           "id": 1516,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8586,8 +8509,8 @@ window.CATALOG = {
         {
           "id": 1517,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8597,8 +8520,8 @@ window.CATALOG = {
         {
           "id": 1518,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8608,8 +8531,8 @@ window.CATALOG = {
         {
           "id": 1519,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8619,8 +8542,8 @@ window.CATALOG = {
         {
           "id": 1520,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8630,8 +8553,8 @@ window.CATALOG = {
         {
           "id": 1521,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8641,8 +8564,8 @@ window.CATALOG = {
         {
           "id": 1522,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8652,8 +8575,8 @@ window.CATALOG = {
         {
           "id": 1523,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 5495,
           "compare_at_price": 27495,
@@ -8662,61 +8585,6 @@ window.CATALOG = {
         },
         {
           "id": 1524,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1525,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1526,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1527,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1528,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1529,
           "options": [
             "Verde",
             "XL"
@@ -8727,13 +8595,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 179,
-      "createdAt": 67,
+      "rating": 4.7,
+      "reviews": 105,
+      "createdAt": 65,
       "available": true
     },
     {
-      "id": 69,
+      "id": 67,
       "handle": "vivienne-cowl-neck-knit-jumper",
       "title": "Vivienne Cowl Neck Knit Jumper",
       "collection": "abbigliamento",
@@ -8771,10 +8639,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1530,
+          "id": 1525,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1526,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1527,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1528,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1529,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1530,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8784,8 +8707,8 @@ window.CATALOG = {
         {
           "id": 1531,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8795,8 +8718,8 @@ window.CATALOG = {
         {
           "id": 1532,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8806,8 +8729,8 @@ window.CATALOG = {
         {
           "id": 1533,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8817,8 +8740,8 @@ window.CATALOG = {
         {
           "id": 1534,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8828,8 +8751,8 @@ window.CATALOG = {
         {
           "id": 1535,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8839,8 +8762,8 @@ window.CATALOG = {
         {
           "id": 1536,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8850,8 +8773,8 @@ window.CATALOG = {
         {
           "id": 1537,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8861,8 +8784,8 @@ window.CATALOG = {
         {
           "id": 1538,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8872,8 +8795,8 @@ window.CATALOG = {
         {
           "id": 1539,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
@@ -8882,61 +8805,6 @@ window.CATALOG = {
         },
         {
           "id": 1540,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1541,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1542,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1543,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1544,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 3995,
-          "compare_at_price": 19995,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1545,
           "options": [
             "Verde",
             "XL"
@@ -8947,13 +8815,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 216,
-      "createdAt": 68,
+      "rating": 4.8,
+      "reviews": 142,
+      "createdAt": 66,
       "available": true
     },
     {
-      "id": 70,
+      "id": 68,
       "handle": "lorena-floral-sleeveless-midi-dress",
       "title": "Lorena Floral Sleeveless Midi Dress",
       "collection": "abbigliamento",
@@ -8991,10 +8859,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1546,
+          "id": 1541,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1542,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1543,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1544,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1545,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1546,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9004,8 +8927,8 @@ window.CATALOG = {
         {
           "id": 1547,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9015,8 +8938,8 @@ window.CATALOG = {
         {
           "id": 1548,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9026,8 +8949,8 @@ window.CATALOG = {
         {
           "id": 1549,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9037,8 +8960,8 @@ window.CATALOG = {
         {
           "id": 1550,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9048,8 +8971,8 @@ window.CATALOG = {
         {
           "id": 1551,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9059,8 +8982,8 @@ window.CATALOG = {
         {
           "id": 1552,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9070,8 +8993,8 @@ window.CATALOG = {
         {
           "id": 1553,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9081,8 +9004,8 @@ window.CATALOG = {
         {
           "id": 1554,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9092,8 +9015,8 @@ window.CATALOG = {
         {
           "id": 1555,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9102,61 +9025,6 @@ window.CATALOG = {
         },
         {
           "id": 1556,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1557,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1558,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1559,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1560,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1561,
           "options": [
             "Verde",
             "XL"
@@ -9167,13 +9035,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 73,
-      "createdAt": 69,
+      "rating": 4.9,
+      "reviews": 179,
+      "createdAt": 67,
       "available": true
     },
     {
-      "id": 71,
+      "id": 69,
       "handle": "francesca-geometric-sleeveless-maxi-dress",
       "title": "Francesca Geometric Sleeveless Maxi Dress",
       "collection": "abbigliamento",
@@ -9211,10 +9079,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1562,
+          "id": 1557,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1558,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1559,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1560,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1561,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1562,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9224,8 +9147,8 @@ window.CATALOG = {
         {
           "id": 1563,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9235,8 +9158,8 @@ window.CATALOG = {
         {
           "id": 1564,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9246,8 +9169,8 @@ window.CATALOG = {
         {
           "id": 1565,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9257,8 +9180,8 @@ window.CATALOG = {
         {
           "id": 1566,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9268,8 +9191,8 @@ window.CATALOG = {
         {
           "id": 1567,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9279,8 +9202,8 @@ window.CATALOG = {
         {
           "id": 1568,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9290,8 +9213,8 @@ window.CATALOG = {
         {
           "id": 1569,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9301,8 +9224,8 @@ window.CATALOG = {
         {
           "id": 1570,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9312,8 +9235,8 @@ window.CATALOG = {
         {
           "id": 1571,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 3995,
           "compare_at_price": 0,
@@ -9322,61 +9245,6 @@ window.CATALOG = {
         },
         {
           "id": 1572,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1573,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1574,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1575,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1576,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1577,
           "options": [
             "Verde",
             "XL"
@@ -9387,13 +9255,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 110,
-      "createdAt": 70,
+      "rating": 4.6,
+      "reviews": 216,
+      "createdAt": 68,
       "available": true
     },
     {
-      "id": 72,
+      "id": 70,
       "handle": "seamless-balconette-bra",
       "title": "Seamless Balconette Bra",
       "collection": "abbigliamento",
@@ -9431,10 +9299,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1578,
+          "id": 1573,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1574,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1575,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1576,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1577,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1578,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9444,8 +9367,8 @@ window.CATALOG = {
         {
           "id": 1579,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9455,8 +9378,8 @@ window.CATALOG = {
         {
           "id": 1580,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9466,8 +9389,8 @@ window.CATALOG = {
         {
           "id": 1581,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9477,8 +9400,8 @@ window.CATALOG = {
         {
           "id": 1582,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9488,8 +9411,8 @@ window.CATALOG = {
         {
           "id": 1583,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9499,8 +9422,8 @@ window.CATALOG = {
         {
           "id": 1584,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9510,8 +9433,8 @@ window.CATALOG = {
         {
           "id": 1585,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9521,8 +9444,8 @@ window.CATALOG = {
         {
           "id": 1586,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9532,8 +9455,8 @@ window.CATALOG = {
         {
           "id": 1587,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 1995,
           "compare_at_price": 3990,
@@ -9542,61 +9465,6 @@ window.CATALOG = {
         },
         {
           "id": 1588,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1589,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1590,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1591,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1592,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1593,
           "options": [
             "Verde",
             "XL"
@@ -9607,13 +9475,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 147,
-      "createdAt": 71,
+      "rating": 4.7,
+      "reviews": 73,
+      "createdAt": 69,
       "available": true
     },
     {
-      "id": 73,
+      "id": 71,
       "handle": "deep-v-wireless-push-up-bra",
       "title": "Deep V Wireless Push-Up Bra",
       "collection": "abbigliamento",
@@ -9651,10 +9519,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1594,
+          "id": 1589,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1590,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1591,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1592,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1593,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1594,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9664,8 +9587,8 @@ window.CATALOG = {
         {
           "id": 1595,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9675,8 +9598,8 @@ window.CATALOG = {
         {
           "id": 1596,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9686,8 +9609,8 @@ window.CATALOG = {
         {
           "id": 1597,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9697,8 +9620,8 @@ window.CATALOG = {
         {
           "id": 1598,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9708,8 +9631,8 @@ window.CATALOG = {
         {
           "id": 1599,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9719,8 +9642,8 @@ window.CATALOG = {
         {
           "id": 1600,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9730,8 +9653,8 @@ window.CATALOG = {
         {
           "id": 1601,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9741,8 +9664,8 @@ window.CATALOG = {
         {
           "id": 1602,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9752,8 +9675,8 @@ window.CATALOG = {
         {
           "id": 1603,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 2300,
           "compare_at_price": 3100,
@@ -9762,61 +9685,6 @@ window.CATALOG = {
         },
         {
           "id": 1604,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1605,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1606,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1607,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1608,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1609,
           "options": [
             "Verde",
             "XL"
@@ -9827,13 +9695,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 184,
-      "createdAt": 72,
+      "rating": 4.8,
+      "reviews": 110,
+      "createdAt": 70,
       "available": true
     },
     {
-      "id": 74,
+      "id": 72,
       "handle": "thermal-zip-up-jumpsuit",
       "title": "Thermal Zip-Up Jumpsuit",
       "collection": "abbigliamento",
@@ -9871,10 +9739,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1610,
+          "id": 1605,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1606,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1607,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1608,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1609,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1610,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9884,8 +9807,8 @@ window.CATALOG = {
         {
           "id": 1611,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9895,8 +9818,8 @@ window.CATALOG = {
         {
           "id": 1612,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9906,8 +9829,8 @@ window.CATALOG = {
         {
           "id": 1613,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9917,8 +9840,8 @@ window.CATALOG = {
         {
           "id": 1614,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9928,8 +9851,8 @@ window.CATALOG = {
         {
           "id": 1615,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9939,8 +9862,8 @@ window.CATALOG = {
         {
           "id": 1616,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9950,8 +9873,8 @@ window.CATALOG = {
         {
           "id": 1617,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9961,8 +9884,8 @@ window.CATALOG = {
         {
           "id": 1618,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9972,8 +9895,8 @@ window.CATALOG = {
         {
           "id": 1619,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 3800,
           "compare_at_price": 6200,
@@ -9982,61 +9905,6 @@ window.CATALOG = {
         },
         {
           "id": 1620,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1621,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1622,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1623,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1624,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1625,
           "options": [
             "Verde",
             "XL"
@@ -10047,13 +9915,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 41,
-      "createdAt": 73,
+      "rating": 4.9,
+      "reviews": 147,
+      "createdAt": 71,
       "available": true
     },
     {
-      "id": 75,
+      "id": 73,
       "handle": "rosalia-elegant-jacket-with-stand-collar",
       "title": "Rosalia Elegant Jacket with Stand Collar",
       "collection": "abbigliamento",
@@ -10091,10 +9959,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1626,
+          "id": 1621,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1622,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1623,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1624,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1625,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1626,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10104,8 +10027,8 @@ window.CATALOG = {
         {
           "id": 1627,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10115,8 +10038,8 @@ window.CATALOG = {
         {
           "id": 1628,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10126,8 +10049,8 @@ window.CATALOG = {
         {
           "id": 1629,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10137,8 +10060,8 @@ window.CATALOG = {
         {
           "id": 1630,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10148,8 +10071,8 @@ window.CATALOG = {
         {
           "id": 1631,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10159,8 +10082,8 @@ window.CATALOG = {
         {
           "id": 1632,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10170,8 +10093,8 @@ window.CATALOG = {
         {
           "id": 1633,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10181,8 +10104,8 @@ window.CATALOG = {
         {
           "id": 1634,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10192,8 +10115,8 @@ window.CATALOG = {
         {
           "id": 1635,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 7900,
           "compare_at_price": 15800,
@@ -10202,61 +10125,6 @@ window.CATALOG = {
         },
         {
           "id": 1636,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1637,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1638,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1639,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1640,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1641,
           "options": [
             "Verde",
             "XL"
@@ -10267,13 +10135,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 78,
-      "createdAt": 74,
+      "rating": 4.6,
+      "reviews": 184,
+      "createdAt": 72,
       "available": true
     },
     {
-      "id": 76,
+      "id": 74,
       "handle": "carla-asymmetrical-leather-jacket",
       "title": "Carla Asymmetrical Leather Jacket",
       "collection": "abbigliamento",
@@ -10311,10 +10179,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1642,
+          "id": 1637,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1638,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1639,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1640,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1641,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1642,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10324,8 +10247,8 @@ window.CATALOG = {
         {
           "id": 1643,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10335,8 +10258,8 @@ window.CATALOG = {
         {
           "id": 1644,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10346,8 +10269,8 @@ window.CATALOG = {
         {
           "id": 1645,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10357,8 +10280,8 @@ window.CATALOG = {
         {
           "id": 1646,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10368,8 +10291,8 @@ window.CATALOG = {
         {
           "id": 1647,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10379,8 +10302,8 @@ window.CATALOG = {
         {
           "id": 1648,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10390,8 +10313,8 @@ window.CATALOG = {
         {
           "id": 1649,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10401,8 +10324,8 @@ window.CATALOG = {
         {
           "id": 1650,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10412,8 +10335,8 @@ window.CATALOG = {
         {
           "id": 1651,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 10200,
           "compare_at_price": 20300,
@@ -10422,61 +10345,6 @@ window.CATALOG = {
         },
         {
           "id": 1652,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1653,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1654,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1655,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1656,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1657,
           "options": [
             "Verde",
             "XL"
@@ -10487,13 +10355,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 115,
-      "createdAt": 75,
+      "rating": 4.7,
+      "reviews": 41,
+      "createdAt": 73,
       "available": true
     },
     {
-      "id": 77,
+      "id": 75,
       "handle": "lucie-faux-fur-maxi-coat",
       "title": "Lucie Faux Fur Maxi Coat",
       "collection": "abbigliamento",
@@ -10531,10 +10399,65 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1658,
+          "id": 1653,
           "options": [
             "Nero",
             "S"
+          ],
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1654,
+          "options": [
+            "Nero",
+            "M"
+          ],
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1655,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1656,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1657,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1658,
+          "options": [
+            "Beige",
+            "M"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10544,8 +10467,8 @@ window.CATALOG = {
         {
           "id": 1659,
           "options": [
-            "Nero",
-            "M"
+            "Beige",
+            "L"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10555,8 +10478,8 @@ window.CATALOG = {
         {
           "id": 1660,
           "options": [
-            "Nero",
-            "L"
+            "Beige",
+            "XL"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10566,8 +10489,8 @@ window.CATALOG = {
         {
           "id": 1661,
           "options": [
-            "Nero",
-            "XL"
+            "Bianco",
+            "S"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10577,8 +10500,8 @@ window.CATALOG = {
         {
           "id": 1662,
           "options": [
-            "Beige",
-            "S"
+            "Bianco",
+            "M"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10588,8 +10511,8 @@ window.CATALOG = {
         {
           "id": 1663,
           "options": [
-            "Beige",
-            "M"
+            "Bianco",
+            "L"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10599,8 +10522,8 @@ window.CATALOG = {
         {
           "id": 1664,
           "options": [
-            "Beige",
-            "L"
+            "Bianco",
+            "XL"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10610,8 +10533,8 @@ window.CATALOG = {
         {
           "id": 1665,
           "options": [
-            "Beige",
-            "XL"
+            "Verde",
+            "S"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10621,8 +10544,8 @@ window.CATALOG = {
         {
           "id": 1666,
           "options": [
-            "Bianco",
-            "S"
+            "Verde",
+            "M"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10632,8 +10555,8 @@ window.CATALOG = {
         {
           "id": 1667,
           "options": [
-            "Bianco",
-            "M"
+            "Verde",
+            "L"
           ],
           "price": 12500,
           "compare_at_price": 0,
@@ -10642,61 +10565,6 @@ window.CATALOG = {
         },
         {
           "id": 1668,
-          "options": [
-            "Bianco",
-            "L"
-          ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1669,
-          "options": [
-            "Bianco",
-            "XL"
-          ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1670,
-          "options": [
-            "Verde",
-            "S"
-          ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1671,
-          "options": [
-            "Verde",
-            "M"
-          ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1672,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-clothing-camel.png"
-        },
-        {
-          "id": 1673,
           "options": [
             "Verde",
             "XL"
@@ -10707,13 +10575,13 @@ window.CATALOG = {
           "image": "assets/products/generated-clothing-camel.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 152,
-      "createdAt": 76,
+      "rating": 4.8,
+      "reviews": 78,
+      "createdAt": 74,
       "available": true
     },
     {
-      "id": 78,
+      "id": 76,
       "handle": "all-day-ultra-comfortable-walker",
       "title": "All-Day Ultra Comfortable Walker",
       "collection": "scarpe",
@@ -10753,7 +10621,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1674,
+          "id": 1669,
           "options": [
             "Nero",
             "36"
@@ -10764,7 +10632,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1675,
+          "id": 1670,
           "options": [
             "Nero",
             "37"
@@ -10775,7 +10643,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1676,
+          "id": 1671,
           "options": [
             "Nero",
             "38"
@@ -10786,7 +10654,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1677,
+          "id": 1672,
           "options": [
             "Nero",
             "39"
@@ -10797,7 +10665,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1678,
+          "id": 1673,
           "options": [
             "Nero",
             "40"
@@ -10808,10 +10676,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1679,
+          "id": 1674,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1675,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1676,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1677,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1678,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1679,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10822,7 +10745,7 @@ window.CATALOG = {
           "id": 1680,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10832,8 +10755,8 @@ window.CATALOG = {
         {
           "id": 1681,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10843,8 +10766,8 @@ window.CATALOG = {
         {
           "id": 1682,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10854,8 +10777,8 @@ window.CATALOG = {
         {
           "id": 1683,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10865,8 +10788,8 @@ window.CATALOG = {
         {
           "id": 1684,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10876,8 +10799,8 @@ window.CATALOG = {
         {
           "id": 1685,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10888,7 +10811,7 @@ window.CATALOG = {
           "id": 1686,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10898,8 +10821,8 @@ window.CATALOG = {
         {
           "id": 1687,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10909,8 +10832,8 @@ window.CATALOG = {
         {
           "id": 1688,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10920,8 +10843,8 @@ window.CATALOG = {
         {
           "id": 1689,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10931,8 +10854,8 @@ window.CATALOG = {
         {
           "id": 1690,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10942,8 +10865,8 @@ window.CATALOG = {
         {
           "id": 1691,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 2400,
           "compare_at_price": 4000,
@@ -10954,61 +10877,6 @@ window.CATALOG = {
           "id": 1692,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1693,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1694,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1695,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1696,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1697,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 2400,
@@ -11017,13 +10885,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 189,
-      "createdAt": 77,
+      "rating": 4.9,
+      "reviews": 115,
+      "createdAt": 75,
       "available": true
     },
     {
-      "id": 79,
+      "id": 77,
       "handle": "tressa-orthopedic-mule-flats",
       "title": "Tressa Orthopedic Mule Flats",
       "collection": "scarpe",
@@ -11063,7 +10931,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1698,
+          "id": 1693,
           "options": [
             "Nero",
             "36"
@@ -11074,7 +10942,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1699,
+          "id": 1694,
           "options": [
             "Nero",
             "37"
@@ -11085,7 +10953,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1700,
+          "id": 1695,
           "options": [
             "Nero",
             "38"
@@ -11096,7 +10964,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1701,
+          "id": 1696,
           "options": [
             "Nero",
             "39"
@@ -11107,7 +10975,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1702,
+          "id": 1697,
           "options": [
             "Nero",
             "40"
@@ -11118,10 +10986,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1703,
+          "id": 1698,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1699,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1700,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1701,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1702,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1703,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11132,7 +11055,7 @@ window.CATALOG = {
           "id": 1704,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11142,8 +11065,8 @@ window.CATALOG = {
         {
           "id": 1705,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11153,8 +11076,8 @@ window.CATALOG = {
         {
           "id": 1706,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11164,8 +11087,8 @@ window.CATALOG = {
         {
           "id": 1707,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11175,8 +11098,8 @@ window.CATALOG = {
         {
           "id": 1708,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11186,8 +11109,8 @@ window.CATALOG = {
         {
           "id": 1709,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11198,7 +11121,7 @@ window.CATALOG = {
           "id": 1710,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11208,8 +11131,8 @@ window.CATALOG = {
         {
           "id": 1711,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11219,8 +11142,8 @@ window.CATALOG = {
         {
           "id": 1712,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11230,8 +11153,8 @@ window.CATALOG = {
         {
           "id": 1713,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11241,8 +11164,8 @@ window.CATALOG = {
         {
           "id": 1714,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11252,8 +11175,8 @@ window.CATALOG = {
         {
           "id": 1715,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 5999,
           "compare_at_price": 14999,
@@ -11264,61 +11187,6 @@ window.CATALOG = {
           "id": 1716,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1717,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1718,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1719,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1720,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1721,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 5999,
@@ -11327,13 +11195,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 46,
-      "createdAt": 78,
+      "rating": 4.6,
+      "reviews": 152,
+      "createdAt": 76,
       "available": true
     },
     {
-      "id": 80,
+      "id": 78,
       "handle": "groovers-barefoot",
       "title": "Groovers (barefoot)",
       "collection": "scarpe",
@@ -11373,7 +11241,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1722,
+          "id": 1717,
           "options": [
             "Nero",
             "36"
@@ -11384,7 +11252,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1723,
+          "id": 1718,
           "options": [
             "Nero",
             "37"
@@ -11395,7 +11263,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1724,
+          "id": 1719,
           "options": [
             "Nero",
             "38"
@@ -11406,7 +11274,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1725,
+          "id": 1720,
           "options": [
             "Nero",
             "39"
@@ -11417,7 +11285,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1726,
+          "id": 1721,
           "options": [
             "Nero",
             "40"
@@ -11428,10 +11296,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1727,
+          "id": 1722,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1723,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1724,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1725,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1726,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1727,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11442,7 +11365,7 @@ window.CATALOG = {
           "id": 1728,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11452,8 +11375,8 @@ window.CATALOG = {
         {
           "id": 1729,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11463,8 +11386,8 @@ window.CATALOG = {
         {
           "id": 1730,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11474,8 +11397,8 @@ window.CATALOG = {
         {
           "id": 1731,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11485,8 +11408,8 @@ window.CATALOG = {
         {
           "id": 1732,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11496,8 +11419,8 @@ window.CATALOG = {
         {
           "id": 1733,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11508,7 +11431,7 @@ window.CATALOG = {
           "id": 1734,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11518,8 +11441,8 @@ window.CATALOG = {
         {
           "id": 1735,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11529,8 +11452,8 @@ window.CATALOG = {
         {
           "id": 1736,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11540,8 +11463,8 @@ window.CATALOG = {
         {
           "id": 1737,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11551,8 +11474,8 @@ window.CATALOG = {
         {
           "id": 1738,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11562,8 +11485,8 @@ window.CATALOG = {
         {
           "id": 1739,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -11574,61 +11497,6 @@ window.CATALOG = {
           "id": 1740,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1741,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1742,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1743,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1744,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1745,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 7899,
@@ -11637,13 +11505,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 83,
-      "createdAt": 79,
+      "rating": 4.7,
+      "reviews": 189,
+      "createdAt": 77,
       "available": true
     },
     {
-      "id": 81,
+      "id": 79,
       "handle": "ortho-stretch-comfort-shoes",
       "title": "Ortho Stretch Comfort Shoes",
       "collection": "scarpe",
@@ -11683,7 +11551,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1746,
+          "id": 1741,
           "options": [
             "Nero",
             "36"
@@ -11694,7 +11562,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1747,
+          "id": 1742,
           "options": [
             "Nero",
             "37"
@@ -11705,7 +11573,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1748,
+          "id": 1743,
           "options": [
             "Nero",
             "38"
@@ -11716,7 +11584,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1749,
+          "id": 1744,
           "options": [
             "Nero",
             "39"
@@ -11727,7 +11595,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1750,
+          "id": 1745,
           "options": [
             "Nero",
             "40"
@@ -11738,10 +11606,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1751,
+          "id": 1746,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1747,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1748,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1749,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1750,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1751,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11752,7 +11675,7 @@ window.CATALOG = {
           "id": 1752,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11762,8 +11685,8 @@ window.CATALOG = {
         {
           "id": 1753,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11773,8 +11696,8 @@ window.CATALOG = {
         {
           "id": 1754,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11784,8 +11707,8 @@ window.CATALOG = {
         {
           "id": 1755,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11795,8 +11718,8 @@ window.CATALOG = {
         {
           "id": 1756,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11806,8 +11729,8 @@ window.CATALOG = {
         {
           "id": 1757,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11818,7 +11741,7 @@ window.CATALOG = {
           "id": 1758,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11828,8 +11751,8 @@ window.CATALOG = {
         {
           "id": 1759,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11839,8 +11762,8 @@ window.CATALOG = {
         {
           "id": 1760,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11850,8 +11773,8 @@ window.CATALOG = {
         {
           "id": 1761,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11861,8 +11784,8 @@ window.CATALOG = {
         {
           "id": 1762,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11872,8 +11795,8 @@ window.CATALOG = {
         {
           "id": 1763,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 4999,
           "compare_at_price": 7500,
@@ -11884,61 +11807,6 @@ window.CATALOG = {
           "id": 1764,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1765,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1766,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1767,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1768,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1769,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 4999,
@@ -11947,13 +11815,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 120,
-      "createdAt": 80,
+      "rating": 4.8,
+      "reviews": 46,
+      "createdAt": 78,
       "available": true
     },
     {
-      "id": 82,
+      "id": 80,
       "handle": "solyn-barefoot-bogo",
       "title": "Solyn (barefoot, BOGO)",
       "collection": "scarpe",
@@ -11993,7 +11861,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1770,
+          "id": 1765,
           "options": [
             "Nero",
             "36"
@@ -12004,7 +11872,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1771,
+          "id": 1766,
           "options": [
             "Nero",
             "37"
@@ -12015,7 +11883,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1772,
+          "id": 1767,
           "options": [
             "Nero",
             "38"
@@ -12026,7 +11894,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1773,
+          "id": 1768,
           "options": [
             "Nero",
             "39"
@@ -12037,7 +11905,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1774,
+          "id": 1769,
           "options": [
             "Nero",
             "40"
@@ -12048,10 +11916,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1775,
+          "id": 1770,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1771,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1772,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1773,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1774,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1775,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12062,7 +11985,7 @@ window.CATALOG = {
           "id": 1776,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12072,8 +11995,8 @@ window.CATALOG = {
         {
           "id": 1777,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12083,8 +12006,8 @@ window.CATALOG = {
         {
           "id": 1778,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12094,8 +12017,8 @@ window.CATALOG = {
         {
           "id": 1779,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12105,8 +12028,8 @@ window.CATALOG = {
         {
           "id": 1780,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12116,8 +12039,8 @@ window.CATALOG = {
         {
           "id": 1781,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12128,7 +12051,7 @@ window.CATALOG = {
           "id": 1782,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12138,8 +12061,8 @@ window.CATALOG = {
         {
           "id": 1783,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12149,8 +12072,8 @@ window.CATALOG = {
         {
           "id": 1784,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12160,8 +12083,8 @@ window.CATALOG = {
         {
           "id": 1785,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12171,8 +12094,8 @@ window.CATALOG = {
         {
           "id": 1786,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12182,8 +12105,8 @@ window.CATALOG = {
         {
           "id": 1787,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 7995,
           "compare_at_price": 12999,
@@ -12194,61 +12117,6 @@ window.CATALOG = {
           "id": 1788,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1789,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1790,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1791,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1792,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1793,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 7995,
@@ -12257,13 +12125,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 157,
-      "createdAt": 81,
+      "rating": 4.9,
+      "reviews": 83,
+      "createdAt": 79,
       "available": true
     },
     {
-      "id": 83,
+      "id": 81,
       "handle": "pluffi-slippers",
       "title": "Pluffi Slippers",
       "collection": "scarpe",
@@ -12303,7 +12171,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1794,
+          "id": 1789,
           "options": [
             "Nero",
             "36"
@@ -12314,7 +12182,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1795,
+          "id": 1790,
           "options": [
             "Nero",
             "37"
@@ -12325,7 +12193,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1796,
+          "id": 1791,
           "options": [
             "Nero",
             "38"
@@ -12336,7 +12204,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1797,
+          "id": 1792,
           "options": [
             "Nero",
             "39"
@@ -12347,7 +12215,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1798,
+          "id": 1793,
           "options": [
             "Nero",
             "40"
@@ -12358,10 +12226,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1799,
+          "id": 1794,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1795,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1796,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1797,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1798,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1799,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12372,7 +12295,7 @@ window.CATALOG = {
           "id": 1800,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12382,8 +12305,8 @@ window.CATALOG = {
         {
           "id": 1801,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12393,8 +12316,8 @@ window.CATALOG = {
         {
           "id": 1802,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12404,8 +12327,8 @@ window.CATALOG = {
         {
           "id": 1803,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12415,8 +12338,8 @@ window.CATALOG = {
         {
           "id": 1804,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12426,8 +12349,8 @@ window.CATALOG = {
         {
           "id": 1805,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12438,7 +12361,7 @@ window.CATALOG = {
           "id": 1806,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12448,8 +12371,8 @@ window.CATALOG = {
         {
           "id": 1807,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12459,8 +12382,8 @@ window.CATALOG = {
         {
           "id": 1808,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12470,8 +12393,8 @@ window.CATALOG = {
         {
           "id": 1809,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12481,8 +12404,8 @@ window.CATALOG = {
         {
           "id": 1810,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12492,8 +12415,8 @@ window.CATALOG = {
         {
           "id": 1811,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 2700,
           "compare_at_price": 0,
@@ -12504,61 +12427,6 @@ window.CATALOG = {
           "id": 1812,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 2700,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1813,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 2700,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1814,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 2700,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1815,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 2700,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1816,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 2700,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1817,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 2700,
@@ -12567,13 +12435,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 194,
-      "createdAt": 82,
+      "rating": 4.6,
+      "reviews": 120,
+      "createdAt": 80,
       "available": true
     },
     {
-      "id": 84,
+      "id": 82,
       "handle": "thick-soled-cushioned-casual-sandals",
       "title": "Thick-Soled Cushioned Casual Sandals",
       "collection": "scarpe",
@@ -12613,7 +12481,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1818,
+          "id": 1813,
           "options": [
             "Nero",
             "36"
@@ -12624,7 +12492,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1819,
+          "id": 1814,
           "options": [
             "Nero",
             "37"
@@ -12635,7 +12503,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1820,
+          "id": 1815,
           "options": [
             "Nero",
             "38"
@@ -12646,7 +12514,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1821,
+          "id": 1816,
           "options": [
             "Nero",
             "39"
@@ -12657,7 +12525,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1822,
+          "id": 1817,
           "options": [
             "Nero",
             "40"
@@ -12668,10 +12536,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1823,
+          "id": 1818,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1819,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1820,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1821,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1822,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1823,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12682,7 +12605,7 @@ window.CATALOG = {
           "id": 1824,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12692,8 +12615,8 @@ window.CATALOG = {
         {
           "id": 1825,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12703,8 +12626,8 @@ window.CATALOG = {
         {
           "id": 1826,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12714,8 +12637,8 @@ window.CATALOG = {
         {
           "id": 1827,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12725,8 +12648,8 @@ window.CATALOG = {
         {
           "id": 1828,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12736,8 +12659,8 @@ window.CATALOG = {
         {
           "id": 1829,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12748,7 +12671,7 @@ window.CATALOG = {
           "id": 1830,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12758,8 +12681,8 @@ window.CATALOG = {
         {
           "id": 1831,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12769,8 +12692,8 @@ window.CATALOG = {
         {
           "id": 1832,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12780,8 +12703,8 @@ window.CATALOG = {
         {
           "id": 1833,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12791,8 +12714,8 @@ window.CATALOG = {
         {
           "id": 1834,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12802,8 +12725,8 @@ window.CATALOG = {
         {
           "id": 1835,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12814,61 +12737,6 @@ window.CATALOG = {
           "id": 1836,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1837,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1838,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1839,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1840,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1841,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 0,
@@ -12877,13 +12745,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 51,
-      "createdAt": 83,
+      "rating": 4.7,
+      "reviews": 157,
+      "createdAt": 81,
       "available": true
     },
     {
-      "id": 85,
+      "id": 83,
       "handle": "orthopaedic-slip-on-shoes-for-women",
       "title": "Orthopaedic Slip-On Shoes for Women",
       "collection": "scarpe",
@@ -12923,7 +12791,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1842,
+          "id": 1837,
           "options": [
             "Nero",
             "36"
@@ -12934,7 +12802,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1843,
+          "id": 1838,
           "options": [
             "Nero",
             "37"
@@ -12945,7 +12813,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1844,
+          "id": 1839,
           "options": [
             "Nero",
             "38"
@@ -12956,7 +12824,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1845,
+          "id": 1840,
           "options": [
             "Nero",
             "39"
@@ -12967,7 +12835,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1846,
+          "id": 1841,
           "options": [
             "Nero",
             "40"
@@ -12978,10 +12846,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1847,
+          "id": 1842,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1843,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1844,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1845,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1846,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1847,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -12992,7 +12915,7 @@ window.CATALOG = {
           "id": 1848,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13002,8 +12925,8 @@ window.CATALOG = {
         {
           "id": 1849,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13013,8 +12936,8 @@ window.CATALOG = {
         {
           "id": 1850,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13024,8 +12947,8 @@ window.CATALOG = {
         {
           "id": 1851,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13035,8 +12958,8 @@ window.CATALOG = {
         {
           "id": 1852,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13046,8 +12969,8 @@ window.CATALOG = {
         {
           "id": 1853,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13058,7 +12981,7 @@ window.CATALOG = {
           "id": 1854,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13068,8 +12991,8 @@ window.CATALOG = {
         {
           "id": 1855,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13079,8 +13002,8 @@ window.CATALOG = {
         {
           "id": 1856,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13090,8 +13013,8 @@ window.CATALOG = {
         {
           "id": 1857,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13101,8 +13024,8 @@ window.CATALOG = {
         {
           "id": 1858,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13112,8 +13035,8 @@ window.CATALOG = {
         {
           "id": 1859,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13124,61 +13047,6 @@ window.CATALOG = {
           "id": 1860,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1861,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1862,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1863,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1864,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1865,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 0,
@@ -13187,13 +13055,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 88,
-      "createdAt": 84,
+      "rating": 4.8,
+      "reviews": 194,
+      "createdAt": 82,
       "available": true
     },
     {
-      "id": 86,
+      "id": 84,
       "handle": "genuine-suede-clogs",
       "title": "Genuine Suede Clogs",
       "collection": "scarpe",
@@ -13233,7 +13101,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1866,
+          "id": 1861,
           "options": [
             "Nero",
             "36"
@@ -13244,7 +13112,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1867,
+          "id": 1862,
           "options": [
             "Nero",
             "37"
@@ -13255,7 +13123,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1868,
+          "id": 1863,
           "options": [
             "Nero",
             "38"
@@ -13266,7 +13134,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1869,
+          "id": 1864,
           "options": [
             "Nero",
             "39"
@@ -13277,7 +13145,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1870,
+          "id": 1865,
           "options": [
             "Nero",
             "40"
@@ -13288,10 +13156,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1871,
+          "id": 1866,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1867,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1868,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1869,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1870,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1871,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13302,7 +13225,7 @@ window.CATALOG = {
           "id": 1872,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13312,8 +13235,8 @@ window.CATALOG = {
         {
           "id": 1873,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13323,8 +13246,8 @@ window.CATALOG = {
         {
           "id": 1874,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13334,8 +13257,8 @@ window.CATALOG = {
         {
           "id": 1875,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13345,8 +13268,8 @@ window.CATALOG = {
         {
           "id": 1876,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13356,8 +13279,8 @@ window.CATALOG = {
         {
           "id": 1877,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13368,7 +13291,7 @@ window.CATALOG = {
           "id": 1878,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13378,8 +13301,8 @@ window.CATALOG = {
         {
           "id": 1879,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13389,8 +13312,8 @@ window.CATALOG = {
         {
           "id": 1880,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13400,8 +13323,8 @@ window.CATALOG = {
         {
           "id": 1881,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13411,8 +13334,8 @@ window.CATALOG = {
         {
           "id": 1882,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13422,8 +13345,8 @@ window.CATALOG = {
         {
           "id": 1883,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 4900,
           "compare_at_price": 9800,
@@ -13434,61 +13357,6 @@ window.CATALOG = {
           "id": 1884,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1885,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1886,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1887,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1888,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1889,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 4900,
@@ -13497,13 +13365,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 125,
-      "createdAt": 85,
+      "rating": 4.9,
+      "reviews": 51,
+      "createdAt": 83,
       "available": true
     },
     {
-      "id": 87,
+      "id": 85,
       "handle": "mia-orthopedic-sneakers",
       "title": "Mia Orthopedic Sneakers",
       "collection": "scarpe",
@@ -13543,7 +13411,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1890,
+          "id": 1885,
           "options": [
             "Nero",
             "36"
@@ -13554,7 +13422,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1891,
+          "id": 1886,
           "options": [
             "Nero",
             "37"
@@ -13565,7 +13433,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1892,
+          "id": 1887,
           "options": [
             "Nero",
             "38"
@@ -13576,7 +13444,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1893,
+          "id": 1888,
           "options": [
             "Nero",
             "39"
@@ -13587,7 +13455,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1894,
+          "id": 1889,
           "options": [
             "Nero",
             "40"
@@ -13598,10 +13466,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1895,
+          "id": 1890,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1891,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1892,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1893,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1894,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1895,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13612,7 +13535,7 @@ window.CATALOG = {
           "id": 1896,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13622,8 +13545,8 @@ window.CATALOG = {
         {
           "id": 1897,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13633,8 +13556,8 @@ window.CATALOG = {
         {
           "id": 1898,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13644,8 +13567,8 @@ window.CATALOG = {
         {
           "id": 1899,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13655,8 +13578,8 @@ window.CATALOG = {
         {
           "id": 1900,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13666,8 +13589,8 @@ window.CATALOG = {
         {
           "id": 1901,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13678,7 +13601,7 @@ window.CATALOG = {
           "id": 1902,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13688,8 +13611,8 @@ window.CATALOG = {
         {
           "id": 1903,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13699,8 +13622,8 @@ window.CATALOG = {
         {
           "id": 1904,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13710,8 +13633,8 @@ window.CATALOG = {
         {
           "id": 1905,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13721,8 +13644,8 @@ window.CATALOG = {
         {
           "id": 1906,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13732,8 +13655,8 @@ window.CATALOG = {
         {
           "id": 1907,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 2800,
           "compare_at_price": 5000,
@@ -13744,61 +13667,6 @@ window.CATALOG = {
           "id": 1908,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1909,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1910,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1911,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1912,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1913,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 2800,
@@ -13807,13 +13675,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 162,
-      "createdAt": 86,
+      "rating": 4.6,
+      "reviews": 88,
+      "createdAt": 84,
       "available": true
     },
     {
-      "id": 88,
+      "id": 86,
       "handle": "women-s-winter-thick-sole-warm-snow-boots",
       "title": "Women's Winter Thick Sole Warm Snow Boots",
       "collection": "scarpe",
@@ -13853,7 +13721,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1914,
+          "id": 1909,
           "options": [
             "Nero",
             "36"
@@ -13864,7 +13732,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1915,
+          "id": 1910,
           "options": [
             "Nero",
             "37"
@@ -13875,7 +13743,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1916,
+          "id": 1911,
           "options": [
             "Nero",
             "38"
@@ -13886,7 +13754,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1917,
+          "id": 1912,
           "options": [
             "Nero",
             "39"
@@ -13897,7 +13765,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1918,
+          "id": 1913,
           "options": [
             "Nero",
             "40"
@@ -13908,10 +13776,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1919,
+          "id": 1914,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1915,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1916,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1917,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1918,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1919,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13922,7 +13845,7 @@ window.CATALOG = {
           "id": 1920,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13932,8 +13855,8 @@ window.CATALOG = {
         {
           "id": 1921,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13943,8 +13866,8 @@ window.CATALOG = {
         {
           "id": 1922,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13954,8 +13877,8 @@ window.CATALOG = {
         {
           "id": 1923,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13965,8 +13888,8 @@ window.CATALOG = {
         {
           "id": 1924,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13976,8 +13899,8 @@ window.CATALOG = {
         {
           "id": 1925,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13988,7 +13911,7 @@ window.CATALOG = {
           "id": 1926,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -13998,8 +13921,8 @@ window.CATALOG = {
         {
           "id": 1927,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14009,8 +13932,8 @@ window.CATALOG = {
         {
           "id": 1928,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14020,8 +13943,8 @@ window.CATALOG = {
         {
           "id": 1929,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14031,8 +13954,8 @@ window.CATALOG = {
         {
           "id": 1930,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14042,8 +13965,8 @@ window.CATALOG = {
         {
           "id": 1931,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14054,61 +13977,6 @@ window.CATALOG = {
           "id": 1932,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1933,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1934,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1935,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1936,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1937,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 0,
@@ -14117,13 +13985,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 199,
-      "createdAt": 87,
+      "rating": 4.7,
+      "reviews": 125,
+      "createdAt": 85,
       "available": true
     },
     {
-      "id": 89,
+      "id": 87,
       "handle": "women-s-open-toe-orthopaedic-sandals",
       "title": "Women's Open-Toe Orthopaedic Sandals",
       "collection": "scarpe",
@@ -14163,7 +14031,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1938,
+          "id": 1933,
           "options": [
             "Nero",
             "36"
@@ -14174,7 +14042,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1939,
+          "id": 1934,
           "options": [
             "Nero",
             "37"
@@ -14185,7 +14053,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1940,
+          "id": 1935,
           "options": [
             "Nero",
             "38"
@@ -14196,7 +14064,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1941,
+          "id": 1936,
           "options": [
             "Nero",
             "39"
@@ -14207,7 +14075,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1942,
+          "id": 1937,
           "options": [
             "Nero",
             "40"
@@ -14218,10 +14086,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1943,
+          "id": 1938,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1939,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1940,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1941,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1942,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1943,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14232,7 +14155,7 @@ window.CATALOG = {
           "id": 1944,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14242,8 +14165,8 @@ window.CATALOG = {
         {
           "id": 1945,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14253,8 +14176,8 @@ window.CATALOG = {
         {
           "id": 1946,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14264,8 +14187,8 @@ window.CATALOG = {
         {
           "id": 1947,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14275,8 +14198,8 @@ window.CATALOG = {
         {
           "id": 1948,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14286,8 +14209,8 @@ window.CATALOG = {
         {
           "id": 1949,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14298,7 +14221,7 @@ window.CATALOG = {
           "id": 1950,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14308,8 +14231,8 @@ window.CATALOG = {
         {
           "id": 1951,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14319,8 +14242,8 @@ window.CATALOG = {
         {
           "id": 1952,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14330,8 +14253,8 @@ window.CATALOG = {
         {
           "id": 1953,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14341,8 +14264,8 @@ window.CATALOG = {
         {
           "id": 1954,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14352,8 +14275,8 @@ window.CATALOG = {
         {
           "id": 1955,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14364,61 +14287,6 @@ window.CATALOG = {
           "id": 1956,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1957,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1958,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1959,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1960,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1961,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 0,
@@ -14427,13 +14295,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 56,
-      "createdAt": 88,
+      "rating": 4.8,
+      "reviews": 162,
+      "createdAt": 86,
       "available": true
     },
     {
-      "id": 90,
+      "id": 88,
       "handle": "faux-suede-knee-high-stretch-boot",
       "title": "Faux Suede Knee-High Stretch Boot",
       "collection": "scarpe",
@@ -14473,7 +14341,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1962,
+          "id": 1957,
           "options": [
             "Nero",
             "36"
@@ -14484,7 +14352,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1963,
+          "id": 1958,
           "options": [
             "Nero",
             "37"
@@ -14495,7 +14363,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1964,
+          "id": 1959,
           "options": [
             "Nero",
             "38"
@@ -14506,7 +14374,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1965,
+          "id": 1960,
           "options": [
             "Nero",
             "39"
@@ -14517,7 +14385,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1966,
+          "id": 1961,
           "options": [
             "Nero",
             "40"
@@ -14528,10 +14396,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1967,
+          "id": 1962,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1963,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1964,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1965,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1966,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1967,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14542,7 +14465,7 @@ window.CATALOG = {
           "id": 1968,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14552,8 +14475,8 @@ window.CATALOG = {
         {
           "id": 1969,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14563,8 +14486,8 @@ window.CATALOG = {
         {
           "id": 1970,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14574,8 +14497,8 @@ window.CATALOG = {
         {
           "id": 1971,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14585,8 +14508,8 @@ window.CATALOG = {
         {
           "id": 1972,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14596,8 +14519,8 @@ window.CATALOG = {
         {
           "id": 1973,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14608,7 +14531,7 @@ window.CATALOG = {
           "id": 1974,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14618,8 +14541,8 @@ window.CATALOG = {
         {
           "id": 1975,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14629,8 +14552,8 @@ window.CATALOG = {
         {
           "id": 1976,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14640,8 +14563,8 @@ window.CATALOG = {
         {
           "id": 1977,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14651,8 +14574,8 @@ window.CATALOG = {
         {
           "id": 1978,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14662,8 +14585,8 @@ window.CATALOG = {
         {
           "id": 1979,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 0,
           "compare_at_price": 0,
@@ -14674,61 +14597,6 @@ window.CATALOG = {
           "id": 1980,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1981,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1982,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1983,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1984,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 1985,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 0,
@@ -14737,13 +14605,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 93,
-      "createdAt": 89,
+      "rating": 4.9,
+      "reviews": 199,
+      "createdAt": 87,
       "available": true
     },
     {
-      "id": 91,
+      "id": 89,
       "handle": "fur-cozy-slippers",
       "title": "Fur Cozy Slippers",
       "collection": "scarpe",
@@ -14783,7 +14651,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1986,
+          "id": 1981,
           "options": [
             "Nero",
             "36"
@@ -14794,7 +14662,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1987,
+          "id": 1982,
           "options": [
             "Nero",
             "37"
@@ -14805,7 +14673,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1988,
+          "id": 1983,
           "options": [
             "Nero",
             "38"
@@ -14816,7 +14684,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1989,
+          "id": 1984,
           "options": [
             "Nero",
             "39"
@@ -14827,7 +14695,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1990,
+          "id": 1985,
           "options": [
             "Nero",
             "40"
@@ -14838,10 +14706,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1991,
+          "id": 1986,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1987,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1988,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1989,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1990,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1991,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14852,7 +14775,7 @@ window.CATALOG = {
           "id": 1992,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14862,8 +14785,8 @@ window.CATALOG = {
         {
           "id": 1993,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14873,8 +14796,8 @@ window.CATALOG = {
         {
           "id": 1994,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14884,8 +14807,8 @@ window.CATALOG = {
         {
           "id": 1995,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14895,8 +14818,8 @@ window.CATALOG = {
         {
           "id": 1996,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14906,8 +14829,8 @@ window.CATALOG = {
         {
           "id": 1997,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14918,7 +14841,7 @@ window.CATALOG = {
           "id": 1998,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14928,8 +14851,8 @@ window.CATALOG = {
         {
           "id": 1999,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14939,8 +14862,8 @@ window.CATALOG = {
         {
           "id": 2000,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14950,8 +14873,8 @@ window.CATALOG = {
         {
           "id": 2001,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14961,8 +14884,8 @@ window.CATALOG = {
         {
           "id": 2002,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14972,8 +14895,8 @@ window.CATALOG = {
         {
           "id": 2003,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 2399,
           "compare_at_price": 4000,
@@ -14984,61 +14907,6 @@ window.CATALOG = {
           "id": 2004,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2005,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2006,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2007,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2008,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2009,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 2399,
@@ -15047,13 +14915,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 130,
-      "createdAt": 90,
+      "rating": 4.6,
+      "reviews": 56,
+      "createdAt": 88,
       "available": true
     },
     {
-      "id": 92,
+      "id": 90,
       "handle": "montra-orthopedic-shoes",
       "title": "Montra Orthopedic Shoes",
       "collection": "scarpe",
@@ -15093,7 +14961,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2010,
+          "id": 2005,
           "options": [
             "Nero",
             "36"
@@ -15104,7 +14972,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2011,
+          "id": 2006,
           "options": [
             "Nero",
             "37"
@@ -15115,7 +14983,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2012,
+          "id": 2007,
           "options": [
             "Nero",
             "38"
@@ -15126,7 +14994,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2013,
+          "id": 2008,
           "options": [
             "Nero",
             "39"
@@ -15137,7 +15005,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2014,
+          "id": 2009,
           "options": [
             "Nero",
             "40"
@@ -15148,10 +15016,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2015,
+          "id": 2010,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2011,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2012,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2013,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2014,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2015,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15162,7 +15085,7 @@ window.CATALOG = {
           "id": 2016,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15172,8 +15095,8 @@ window.CATALOG = {
         {
           "id": 2017,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15183,8 +15106,8 @@ window.CATALOG = {
         {
           "id": 2018,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15194,8 +15117,8 @@ window.CATALOG = {
         {
           "id": 2019,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15205,8 +15128,8 @@ window.CATALOG = {
         {
           "id": 2020,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15216,8 +15139,8 @@ window.CATALOG = {
         {
           "id": 2021,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15228,7 +15151,7 @@ window.CATALOG = {
           "id": 2022,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15238,8 +15161,8 @@ window.CATALOG = {
         {
           "id": 2023,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15249,8 +15172,8 @@ window.CATALOG = {
         {
           "id": 2024,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15260,8 +15183,8 @@ window.CATALOG = {
         {
           "id": 2025,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15271,8 +15194,8 @@ window.CATALOG = {
         {
           "id": 2026,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15282,8 +15205,8 @@ window.CATALOG = {
         {
           "id": 2027,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 5999,
           "compare_at_price": 16000,
@@ -15294,61 +15217,6 @@ window.CATALOG = {
           "id": 2028,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2029,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2030,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2031,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2032,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2033,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 5999,
@@ -15357,13 +15225,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 167,
-      "createdAt": 91,
+      "rating": 4.7,
+      "reviews": 93,
+      "createdAt": 89,
       "available": true
     },
     {
-      "id": 93,
+      "id": 91,
       "handle": "calvona-orthopedic-slip-ons",
       "title": "Calvona Orthopedic Slip-Ons",
       "collection": "scarpe",
@@ -15403,7 +15271,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2034,
+          "id": 2029,
           "options": [
             "Nero",
             "36"
@@ -15414,7 +15282,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2035,
+          "id": 2030,
           "options": [
             "Nero",
             "37"
@@ -15425,7 +15293,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2036,
+          "id": 2031,
           "options": [
             "Nero",
             "38"
@@ -15436,7 +15304,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2037,
+          "id": 2032,
           "options": [
             "Nero",
             "39"
@@ -15447,7 +15315,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2038,
+          "id": 2033,
           "options": [
             "Nero",
             "40"
@@ -15458,10 +15326,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2039,
+          "id": 2034,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2035,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2036,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2037,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2038,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2039,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15472,7 +15395,7 @@ window.CATALOG = {
           "id": 2040,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15482,8 +15405,8 @@ window.CATALOG = {
         {
           "id": 2041,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15493,8 +15416,8 @@ window.CATALOG = {
         {
           "id": 2042,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15504,8 +15427,8 @@ window.CATALOG = {
         {
           "id": 2043,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15515,8 +15438,8 @@ window.CATALOG = {
         {
           "id": 2044,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15526,8 +15449,8 @@ window.CATALOG = {
         {
           "id": 2045,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15538,7 +15461,7 @@ window.CATALOG = {
           "id": 2046,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15548,8 +15471,8 @@ window.CATALOG = {
         {
           "id": 2047,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15559,8 +15482,8 @@ window.CATALOG = {
         {
           "id": 2048,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15570,8 +15493,8 @@ window.CATALOG = {
         {
           "id": 2049,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15581,8 +15504,8 @@ window.CATALOG = {
         {
           "id": 2050,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15592,8 +15515,8 @@ window.CATALOG = {
         {
           "id": 2051,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 4999,
           "compare_at_price": 11000,
@@ -15604,61 +15527,6 @@ window.CATALOG = {
           "id": 2052,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2053,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2054,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2055,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2056,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2057,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 4999,
@@ -15667,13 +15535,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 204,
-      "createdAt": 92,
+      "rating": 4.8,
+      "reviews": 130,
+      "createdAt": 90,
       "available": true
     },
     {
-      "id": 94,
+      "id": 92,
       "handle": "sledders-barefoot-invierno",
       "title": "Sledders (barefoot invierno)",
       "collection": "scarpe",
@@ -15713,7 +15581,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2058,
+          "id": 2053,
           "options": [
             "Nero",
             "36"
@@ -15724,7 +15592,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2059,
+          "id": 2054,
           "options": [
             "Nero",
             "37"
@@ -15735,7 +15603,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2060,
+          "id": 2055,
           "options": [
             "Nero",
             "38"
@@ -15746,7 +15614,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2061,
+          "id": 2056,
           "options": [
             "Nero",
             "39"
@@ -15757,7 +15625,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2062,
+          "id": 2057,
           "options": [
             "Nero",
             "40"
@@ -15768,10 +15636,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2063,
+          "id": 2058,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2059,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2060,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2061,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2062,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2063,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15782,7 +15705,7 @@ window.CATALOG = {
           "id": 2064,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15792,8 +15715,8 @@ window.CATALOG = {
         {
           "id": 2065,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15803,8 +15726,8 @@ window.CATALOG = {
         {
           "id": 2066,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15814,8 +15737,8 @@ window.CATALOG = {
         {
           "id": 2067,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15825,8 +15748,8 @@ window.CATALOG = {
         {
           "id": 2068,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15836,8 +15759,8 @@ window.CATALOG = {
         {
           "id": 2069,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15848,7 +15771,7 @@ window.CATALOG = {
           "id": 2070,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15858,8 +15781,8 @@ window.CATALOG = {
         {
           "id": 2071,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15869,8 +15792,8 @@ window.CATALOG = {
         {
           "id": 2072,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15880,8 +15803,8 @@ window.CATALOG = {
         {
           "id": 2073,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15891,8 +15814,8 @@ window.CATALOG = {
         {
           "id": 2074,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15902,8 +15825,8 @@ window.CATALOG = {
         {
           "id": 2075,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -15914,61 +15837,6 @@ window.CATALOG = {
           "id": 2076,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2077,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2078,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2079,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2080,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2081,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 7699,
@@ -15977,13 +15845,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.7,
-      "reviews": 61,
-      "createdAt": 93,
+      "rating": 4.9,
+      "reviews": 167,
+      "createdAt": 91,
       "available": true
     },
     {
-      "id": 95,
+      "id": 93,
       "handle": "piper-western-pull-on-ankle-boots",
       "title": "Piper Western Pull-On Ankle Boots",
       "collection": "scarpe",
@@ -16023,7 +15891,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2082,
+          "id": 2077,
           "options": [
             "Nero",
             "36"
@@ -16034,7 +15902,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2083,
+          "id": 2078,
           "options": [
             "Nero",
             "37"
@@ -16045,7 +15913,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2084,
+          "id": 2079,
           "options": [
             "Nero",
             "38"
@@ -16056,7 +15924,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2085,
+          "id": 2080,
           "options": [
             "Nero",
             "39"
@@ -16067,7 +15935,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2086,
+          "id": 2081,
           "options": [
             "Nero",
             "40"
@@ -16078,10 +15946,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2087,
+          "id": 2082,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2083,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2084,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2085,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2086,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2087,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16092,7 +16015,7 @@ window.CATALOG = {
           "id": 2088,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16102,8 +16025,8 @@ window.CATALOG = {
         {
           "id": 2089,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16113,8 +16036,8 @@ window.CATALOG = {
         {
           "id": 2090,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16124,8 +16047,8 @@ window.CATALOG = {
         {
           "id": 2091,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16135,8 +16058,8 @@ window.CATALOG = {
         {
           "id": 2092,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16146,8 +16069,8 @@ window.CATALOG = {
         {
           "id": 2093,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16158,7 +16081,7 @@ window.CATALOG = {
           "id": 2094,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16168,8 +16091,8 @@ window.CATALOG = {
         {
           "id": 2095,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16179,8 +16102,8 @@ window.CATALOG = {
         {
           "id": 2096,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16190,8 +16113,8 @@ window.CATALOG = {
         {
           "id": 2097,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16201,8 +16124,8 @@ window.CATALOG = {
         {
           "id": 2098,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16212,8 +16135,8 @@ window.CATALOG = {
         {
           "id": 2099,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 4495,
           "compare_at_price": 22495,
@@ -16224,61 +16147,6 @@ window.CATALOG = {
           "id": 2100,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2101,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2102,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2103,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2104,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2105,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 4495,
@@ -16287,13 +16155,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.8,
-      "reviews": 98,
-      "createdAt": 94,
+      "rating": 4.6,
+      "reviews": 204,
+      "createdAt": 92,
       "available": true
     },
     {
-      "id": 96,
+      "id": 94,
       "handle": "100-vegan-suede-clogs",
       "title": "100% Vegan Suede Clogs",
       "collection": "scarpe",
@@ -16333,7 +16201,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2106,
+          "id": 2101,
           "options": [
             "Nero",
             "36"
@@ -16344,7 +16212,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2107,
+          "id": 2102,
           "options": [
             "Nero",
             "37"
@@ -16355,7 +16223,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2108,
+          "id": 2103,
           "options": [
             "Nero",
             "38"
@@ -16366,7 +16234,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2109,
+          "id": 2104,
           "options": [
             "Nero",
             "39"
@@ -16377,7 +16245,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2110,
+          "id": 2105,
           "options": [
             "Nero",
             "40"
@@ -16388,10 +16256,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2111,
+          "id": 2106,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2107,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2108,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2109,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2110,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2111,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16402,7 +16325,7 @@ window.CATALOG = {
           "id": 2112,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16412,8 +16335,8 @@ window.CATALOG = {
         {
           "id": 2113,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16423,8 +16346,8 @@ window.CATALOG = {
         {
           "id": 2114,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16434,8 +16357,8 @@ window.CATALOG = {
         {
           "id": 2115,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16445,8 +16368,8 @@ window.CATALOG = {
         {
           "id": 2116,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16456,8 +16379,8 @@ window.CATALOG = {
         {
           "id": 2117,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16468,7 +16391,7 @@ window.CATALOG = {
           "id": 2118,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16478,8 +16401,8 @@ window.CATALOG = {
         {
           "id": 2119,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16489,8 +16412,8 @@ window.CATALOG = {
         {
           "id": 2120,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16500,8 +16423,8 @@ window.CATALOG = {
         {
           "id": 2121,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16511,8 +16434,8 @@ window.CATALOG = {
         {
           "id": 2122,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16522,8 +16445,8 @@ window.CATALOG = {
         {
           "id": 2123,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 6900,
           "compare_at_price": 8900,
@@ -16534,61 +16457,6 @@ window.CATALOG = {
           "id": 2124,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2125,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2126,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2127,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2128,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2129,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 6900,
@@ -16597,13 +16465,13 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 135,
-      "createdAt": 95,
+      "rating": 4.7,
+      "reviews": 61,
+      "createdAt": 93,
       "available": true
     },
     {
-      "id": 97,
+      "id": 95,
       "handle": "paloma-vintage-western-ankle-boots",
       "title": "Paloma Vintage Western Ankle Boots",
       "collection": "scarpe",
@@ -16643,7 +16511,7 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2130,
+          "id": 2125,
           "options": [
             "Nero",
             "36"
@@ -16654,7 +16522,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2131,
+          "id": 2126,
           "options": [
             "Nero",
             "37"
@@ -16665,7 +16533,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2132,
+          "id": 2127,
           "options": [
             "Nero",
             "38"
@@ -16676,7 +16544,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2133,
+          "id": 2128,
           "options": [
             "Nero",
             "39"
@@ -16687,7 +16555,7 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2134,
+          "id": 2129,
           "options": [
             "Nero",
             "40"
@@ -16698,10 +16566,65 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2135,
+          "id": 2130,
           "options": [
             "Nero",
             "41"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2131,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2132,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2133,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2134,
+          "options": [
+            "Beige",
+            "39"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2135,
+          "options": [
+            "Beige",
+            "40"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16712,7 +16635,7 @@ window.CATALOG = {
           "id": 2136,
           "options": [
             "Beige",
-            "36"
+            "41"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16722,8 +16645,8 @@ window.CATALOG = {
         {
           "id": 2137,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "36"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16733,8 +16656,8 @@ window.CATALOG = {
         {
           "id": 2138,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "37"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16744,8 +16667,8 @@ window.CATALOG = {
         {
           "id": 2139,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "38"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16755,8 +16678,8 @@ window.CATALOG = {
         {
           "id": 2140,
           "options": [
-            "Beige",
-            "40"
+            "Marrone",
+            "39"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16766,8 +16689,8 @@ window.CATALOG = {
         {
           "id": 2141,
           "options": [
-            "Beige",
-            "41"
+            "Marrone",
+            "40"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16778,7 +16701,7 @@ window.CATALOG = {
           "id": 2142,
           "options": [
             "Marrone",
-            "36"
+            "41"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16788,8 +16711,8 @@ window.CATALOG = {
         {
           "id": 2143,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "36"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16799,8 +16722,8 @@ window.CATALOG = {
         {
           "id": 2144,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "37"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16810,8 +16733,8 @@ window.CATALOG = {
         {
           "id": 2145,
           "options": [
-            "Marrone",
-            "39"
+            "Bianco",
+            "38"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16821,8 +16744,8 @@ window.CATALOG = {
         {
           "id": 2146,
           "options": [
-            "Marrone",
-            "40"
+            "Bianco",
+            "39"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16832,8 +16755,8 @@ window.CATALOG = {
         {
           "id": 2147,
           "options": [
-            "Marrone",
-            "41"
+            "Bianco",
+            "40"
           ],
           "price": 3100,
           "compare_at_price": 0,
@@ -16844,61 +16767,6 @@ window.CATALOG = {
           "id": 2148,
           "options": [
             "Bianco",
-            "36"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2149,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2150,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2151,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2152,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true,
-          "image": "assets/products/generated-shoe-beige.png"
-        },
-        {
-          "id": 2153,
-          "options": [
-            "Bianco",
             "41"
           ],
           "price": 3100,
@@ -16907,9 +16775,9 @@ window.CATALOG = {
           "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.6,
-      "reviews": 172,
-      "createdAt": 96,
+      "rating": 4.8,
+      "reviews": 98,
+      "createdAt": 94,
       "available": true
     }
   ]
