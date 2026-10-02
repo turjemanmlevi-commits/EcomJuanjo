@@ -31,6 +31,10 @@
   const collectionUrl = (handle) => `collection.html?c=${handle}`;
   const productUrl = (p) => `product.html?p=${p.handle}`;
 
+  // Category photos (theme/assets/category-*.webp), same mapping as the Liquid sections.
+  const categoryImages = { abbigliamento: 'category-clothing.webp', borse: 'category-bags.webp', scarpe: 'category-shoes.webp' };
+  const categoryImg = (c) => `<img src="../theme/assets/${categoryImages[c.handle]}" alt="${c.title}" width="1122" height="1402" loading="lazy">`;
+
   // Menu items: [title, href] or [title, href, [children]] for a dropdown; children are collections.
   const kidsOf = (group) => collections.filter((c) => c.group === group).map((c) => [c.title, collectionUrl(c.handle)]);
   const sub = (kids) => (kids ? `<ul class="site-nav__dropdown">${kids.map(([k, h]) => `<li><a href="${h}">${k}</a></li>`).join('')}</ul>` : '');
@@ -236,7 +240,7 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
 
     "qty-product": qtyInput("quantity", 1, 1, 0, "Quantità"),
 
-    "collection-list": `<div class="index-section collection-list"><div class="page-width"><div class="section-header"><h2 class="section-header__title">Acquista per categoria</h2></div><div class="collection-list__grid" style="--columns: 3">${[["abbigliamento", "category-clothing.webp"], ["borse", "category-bags.webp"], ["scarpe", "category-shoes.webp"]].map(([handle, image]) => { const c = collections.find((col) => col.handle === handle); return `<a href="${collectionUrl(c.handle)}" class="collection-tile"><div class="collection-tile__image"><img src="../theme/assets/${image}" alt="${c.title}" width="1122" height="1402" loading="lazy"></div><span class="collection-tile__title">${c.title}</span></a>`; }).join("")}</div></div></div>`,
+    "collection-list": `<div class="index-section collection-list"><div class="page-width"><div class="section-header"><h2 class="section-header__title">Acquista per categoria</h2></div><div class="collection-list__grid" style="--columns: 3">${Object.keys(categoryImages).map((handle) => collections.find((c) => c.handle === handle)).map((c) => `<a href="${collectionUrl(c.handle)}" class="collection-tile"><div class="collection-tile__image">${categoryImg(c)}</div><span class="collection-tile__title">${c.title}</span></a>`).join("")}</div></div></div>`,
 
     marquee: `<div class="marquee" data-countdown="${end}"><div class="marquee__track">${inner}<div aria-hidden="true" style="display:contents">${inner}</div></div></div>`,
 
@@ -376,7 +380,7 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
   // ---- All collections (mirrors sections/main-list-collections.liquid) ----
   function renderCollectionsList(el) {
     el.innerHTML = `<div class="page-content"><div class="page-width"><nav class="breadcrumbs"><a href="index.html">Home</a><span>/</span><span aria-current="page">Collezioni</span></nav><header class="section-header"><h1 class="section-header__title">Collezioni</h1></header><div class="grid collection-grid">${collections
-      .map((c) => `<a href="${collectionUrl(c.handle)}"><div class="grid__image-ratio">${ph(c.title)}</div><div class="list-collections__title">${c.title}</div></a>`)
+      .map((c) => `<a href="${collectionUrl(c.handle)}"><div class="grid__image-ratio">${categoryImages[c.handle] ? categoryImg(c) : ph(c.title)}</div><div class="list-collections__title">${c.title}</div></a>`)
       .join('')}</div></div></div>`;
   }
 

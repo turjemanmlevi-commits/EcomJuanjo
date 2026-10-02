@@ -5,9 +5,17 @@
     </header>
     <div class="grid collection-grid">
       {%- for collection in collections -%}
+        {%- assign category_asset = '' -%}
+        {%- case collection.handle -%}
+          {%- when 'abbigliamento' -%}{%- assign category_asset = 'category-clothing.webp' -%}
+          {%- when 'borse' -%}{%- assign category_asset = 'category-bags.webp' -%}
+          {%- when 'scarpe' -%}{%- assign category_asset = 'category-shoes.webp' -%}
+        {%- endcase -%}
         <a href="{{ collection.url }}">
           <div class="grid__image-ratio">
-            {%- if collection.featured_image -%}
+            {%- if category_asset != blank -%}
+              <img src="{{ category_asset | asset_url }}" loading="lazy" width="1122" height="1402" alt="{{ collection.title | escape }}">
+            {%- elsif collection.featured_image -%}
               {{ collection.featured_image | image_url: width: 720 | image_tag: loading: 'lazy', alt: collection.title }}
             {%- else -%}
               {{ 'collection-1' | placeholder_svg_tag }}
