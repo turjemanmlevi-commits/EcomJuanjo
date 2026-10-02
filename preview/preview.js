@@ -202,6 +202,12 @@
     .join('');
 
   const policies = { 'politica-di-rimborso': 'Politica di rimborso', 'informativa-sulla-privacy': 'Informativa sulla privacy', 'termini-di-servizio': 'Termini di servizio', 'politica-di-spedizione': 'Politica di spedizione', 'informazioni-di-contatto': 'Informazioni di contatto' };
+  // Mirrors the "collapsible" blocks in sections/footer-group.json: [title, page handle, text, link label].
+  const footerDropdowns = [
+    ['Chi siamo', 'chi-siamo', 'Nel 2012 io e mia sorella Bianca abbiamo aperto questo negozio, nato dalla sua passione per la moda. Per quattordici anni l’abbiamo portato avanti insieme.', 'Leggi la nostra storia'],
+    ['Traccia il tuo ordine', 'traccia-ordine', 'Appena il tuo ordine parte ti inviamo un’email con il link di tracciamento. Per controllarlo ti servono il numero d’ordine e l’email usata per l’acquisto.', 'Traccia il tuo ordine'],
+    ['Contatti', 'contatti', 'Dal lunedì al venerdì, 9:00-17:00. Scrivici e ti risponderemo il prima possibile.', 'Scrivici'],
+  ];
 
   const feature = (ic, title, text) => `<div class="features__box"><div class="features__icon">${icon[ic]}</div><div><div class="features__title">${title}</div><div class="features__description"><p>${text}</p></div></div></div>`;
 
@@ -251,7 +257,7 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
     footer: `<footer class="site-footer"><div class="page-width"><div class="grid">
   <div class="grid__item"><div class="footer__item-padding"><p class="h4 footer__title">Il nostro negozio</p><div class="footer__text rte"><p>Spedizione <strong>tracciata</strong> e <strong>resi entro 30 giorni</strong> su tutti gli ordini.</p></div></div></div>
   <div class="grid__item"><div class="footer__item-padding"><p class="h4 footer__title">Contatti</p><div class="footer__text rte"><p><strong>Orari del servizio clienti:</strong></p><p>Dal lunedì al venerdì, 9:00-17:00</p><p><strong>Hai una domanda?</strong></p><p>Scrivici: trovi la nostra email qui sotto.</p></div></div></div>
-  <div class="grid__item"><ul class="site-footer__linklist">${[['Chi siamo', 'chi-siamo'], ['Traccia il tuo ordine', 'traccia-ordine'], ['Contatti', 'contatti']].map(([t, h]) => `<li><a href="page.html?h=${h}">${t}</a></li>`).join('')}</ul></div>
+  <div class="grid__item"><div class="footer__collapsibles">${footerDropdowns.map(([t, h, text, label]) => `<div class="footer__collapsible"><button type="button" class="collapsible-trigger footer__collapsible-trigger" aria-controls="FooterDropdown-${h}" aria-expanded="false"><span class="footer__collapsible-label">${t}<span class="collapsible-trigger__icon"><span data-icon="down"></span></span></span></button><div id="FooterDropdown-${h}" class="collapsible-content"><div><div class="collapsible-content__inner rte"><p>${text}</p><p><a href="page.html?h=${h}">${label}</a></p></div></div></div></div>`).join('')}</div></div>
 </div>
 
 <ul class="footer__policies">${Object.entries(policies).map(([h, t]) => `<li><a href="page.html?h=${h}">${t}</a></li>`).join('')}</ul>

@@ -19,18 +19,40 @@
             "text": "<p><strong>Orari del servizio clienti:</strong></p><p>Dal lunedì al venerdì, 9:00-17:00</p><p><strong>Hai una domanda?</strong></p><p>Scrivici: trovi la nostra email qui sotto.</p>"
           }
         },
-        "menu-1": {
-          "type": "menu",
+        "dropdown-chi-siamo": {
+          "type": "collapsible",
           "settings": {
-            "title": "",
-            "menu": "footer"
+            "title": "Chi siamo",
+            "text": "<p>Nel 2012 io e mia sorella Bianca abbiamo aperto questo negozio, nato dalla sua passione per la moda. Per quattordici anni l’abbiamo portato avanti insieme.</p>",
+            "link_label": "Leggi la nostra storia",
+            "link": "/pages/chi-siamo"
+          }
+        },
+        "dropdown-traccia-ordine": {
+          "type": "collapsible",
+          "settings": {
+            "title": "Traccia il tuo ordine",
+            "text": "<p>Appena il tuo ordine parte ti inviamo un’email con il link di tracciamento. Per controllarlo ti servono il numero d’ordine e l’email usata per l’acquisto.</p>",
+            "link_label": "Traccia il tuo ordine",
+            "link": "/pages/traccia-ordine"
+          }
+        },
+        "dropdown-contatti": {
+          "type": "collapsible",
+          "settings": {
+            "title": "Contatti",
+            "text": "<p>Dal lunedì al venerdì, 9:00-17:00. Scrivici e ti risponderemo il prima possibile.</p>",
+            "link_label": "Scrivici",
+            "link": "/pages/contatti"
           }
         }
       },
       "block_order": [
         "text-1",
         "text-2",
-        "menu-1"
+        "dropdown-chi-siamo",
+        "dropdown-traccia-ordine",
+        "dropdown-contatti"
       ],
       "settings": {}
     }

@@ -678,6 +678,17 @@ input[type="text"], input[type="email"], input[type="search"], input[type="numbe
 .site-footer__linklist li { margin-bottom: 0.25em; }
 .site-footer__linklist a { display: inline-block; padding: 4px 0; }
 .site-footer__linklist a:hover, .footer__text a { text-decoration: underline; text-underline-offset: 3px; }
+/* Footer dropdowns: the label stays centred, the chevron hangs just after it. */
+.footer__collapsibles { font-size: 0.85em; }
+.footer__collapsible-trigger { width: 100%; padding: 8px 0; text-align: center; }
+.footer__collapsible-label { position: relative; display: inline-block; }
+.footer__collapsible-trigger:hover .footer__collapsible-label { text-decoration: underline; text-underline-offset: 3px; }
+.footer__collapsible .collapsible-trigger__icon { left: 100%; top: 50%; width: 9px; height: 9px; margin-left: 10px; transform: translateY(-50%); display: flex; }
+.footer__collapsible .collapsible-trigger__icon svg { width: 9px; height: 9px; }
+.footer__collapsible .collapsible-content__inner { max-width: 300px; margin: 0 auto; padding: 2px 0 14px; font-size: 0.9em; line-height: 1.6; color: #5f5d59; }
+.footer__collapsible .collapsible-content__inner p { margin: 0 0 8px; }
+.footer__collapsible .collapsible-content__inner p:last-child { margin-bottom: 0; }
+.footer__collapsible .collapsible-content__inner a { color: var(--color-footer-text); text-decoration: underline; text-underline-offset: 3px; }
 .payment-icons { list-style: none; margin: 30px 0 0; padding: 0; text-align: center; line-height: 0; }
 .payment-icons li { display: inline-block; margin: 0 4px; }
 .payment-icons svg { width: 38px; height: 24px; }

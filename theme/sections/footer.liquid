@@ -1,7 +1,35 @@
 <footer class="site-footer">
   <div class="page-width">
     <div class="grid">
+      {%- comment -%} Consecutive dropdown blocks share one column. {%- endcomment -%}
+      {%- assign dropdowns_open = false -%}
       {%- for block in section.blocks -%}
+        {%- if block.type == 'collapsible' -%}
+          {%- unless dropdowns_open -%}
+            <div class="grid__item"><div class="footer__collapsibles">
+            {%- assign dropdowns_open = true -%}
+          {%- endunless -%}
+          <div class="footer__collapsible" {{ block.shopify_attributes }}>
+            <button type="button" class="collapsible-trigger footer__collapsible-trigger" aria-controls="FooterDropdown-{{ block.id }}" aria-expanded="false">
+              <span class="footer__collapsible-label">{{ block.settings.title | escape }}<span class="collapsible-trigger__icon">{% render 'icon', name: 'chevron-down' %}</span></span>
+            </button>
+            <div id="FooterDropdown-{{ block.id }}" class="collapsible-content">
+              <div>
+                <div class="collapsible-content__inner rte">
+                  {{ block.settings.text }}
+                  {%- if block.settings.link != blank and block.settings.link_label != blank -%}
+                    <p><a href="{{ block.settings.link }}">{{ block.settings.link_label | escape }}</a></p>
+                  {%- endif -%}
+                </div>
+              </div>
+            </div>
+          </div>
+          {%- continue -%}
+        {%- endif -%}
+        {%- if dropdowns_open -%}
+          </div></div>
+          {%- assign dropdowns_open = false -%}
+        {%- endif -%}
         <div class="grid__item" {{ block.shopify_attributes }}>
           {%- case block.type -%}
             {%- when 'text' -%}
@@ -23,6 +51,7 @@
           {%- endcase -%}
         </div>
       {%- endfor -%}
+      {%- if dropdowns_open -%}</div></div>{%- endif -%}
     </div>
 
     {%- if section.settings.show_policies and shop.policies.size > 0 -%}
@@ -64,7 +93,7 @@
 {% schema %}
 {
   "name": "Pie de página",
-  "max_blocks": 4,
+  "max_blocks": 8,
   "settings": [
     { "type": "checkbox", "id": "show_payment_icons", "label": "Mostrar iconos de pago", "default": true },
     { "type": "checkbox", "id": "show_policies", "label": "Mostrar enlaces a las políticas (reembolso, privacidad, envío, términos)", "default": true },
@@ -85,6 +114,16 @@
       "settings": [
         { "type": "text", "id": "title", "label": "Título" },
         { "type": "link_list", "id": "menu", "label": "Menú", "default": "footer" }
+      ]
+    },
+    {
+      "type": "collapsible",
+      "name": "Desplegable",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Título", "default": "Chi siamo" },
+        { "type": "richtext", "id": "text", "label": "Texto", "default": "<p>Escribe aquí el contenido del desplegable.</p>" },
+        { "type": "text", "id": "link_label", "label": "Texto del enlace" },
+        { "type": "url", "id": "link", "label": "Enlace" }
       ]
     }
   ]
