@@ -781,24 +781,62 @@ input[type="text"], input[type="email"], input[type="search"], input[type="numbe
 }
 .sale-box svg { width: 20px; height: 20px; flex: none; }
 
-.variant-wrapper + .variant-wrapper { margin-top: 25px; }
-.variant__label { display: block; margin-bottom: 10px; font-size: 0.78em; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
-.variant-input-wrap { display: flex; flex-wrap: wrap; margin-bottom: -12px; }
+.variant-wrapper + .variant-wrapper { margin-top: 26px; }
+.variant__label { display: block; margin-bottom: 12px; font-size: 0.78em; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
+.variant__label-value { font-size: 1.18em; font-weight: 400; letter-spacing: 0.02em; text-transform: none; color: #57534e; }
+.variant-input-wrap { display: flex; flex-wrap: wrap; gap: 10px; }
+.variant-wrapper--swatch .variant-input-wrap { gap: 14px; padding: 4px 0 4px 4px; }
+.variant-input { position: relative; }
 .variant-input input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+
+/* Text options (size, style): even boxes; the chosen one fills in like the buy button. */
 .variant__button-label {
-  display: inline-block;
-  margin: 0 8px 12px 0; padding: 7px 15px;
-  background: var(--color-body);
-  box-shadow: 0 0 0 1px var(--color-border);
-  font-weight: 400; line-height: 1.4; cursor: pointer;
-  transition: box-shadow 0.15s ease;
+  position: relative;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 58px; min-height: 48px; padding: 6px 18px;
+  border: 1px solid var(--color-border);
+  background: var(--color-body); color: var(--color-text);
+  font-size: 15px; font-weight: 400; line-height: 1.2; letter-spacing: 0.04em; text-align: center;
+  cursor: pointer; user-select: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
-.variant__button-label:hover { box-shadow: 0 0 0 1px var(--color-text); }
-.variant__button-label.has-swatch { width: 64px; height: 74px; padding: 0; margin: 0 8px 8px 0; overflow: hidden; font-size: 0; }
-.variant__button-label.has-swatch img { width: 100%; height: 100%; object-fit: cover; }
-.variant-input input:checked + .variant__button-label { box-shadow: 0 0 0 2px var(--color-text); }
+.variant-input input:checked + .variant__button-label { border-color: var(--color-text); background: var(--color-text); color: var(--color-body); }
 .variant-input input:focus-visible + .variant__button-label { outline: 2px solid var(--color-accent); outline-offset: 3px; }
-.variant-input input.is-unavailable + .variant__button-label { color: #8a8782; text-decoration: line-through; }
+
+/* Colour options: round swatches with a thin ring around the chosen one. */
+.variant__button-label--color {
+  width: 34px; height: 34px; min-width: 0; min-height: 0; padding: 0;
+  border: 0; border-radius: 50%;
+  background: var(--swatch);
+  box-shadow: inset 0 0 0 1px rgba(28, 27, 26, 0.14);
+}
+.variant-input input:checked + .variant__button-label--color { background: var(--swatch); box-shadow: inset 0 0 0 1px rgba(28, 27, 26, 0.14), 0 0 0 3px var(--color-body), 0 0 0 4px var(--color-text); }
+.variant-input input:focus-visible + .variant__button-label--color { outline-offset: 6px; }
+
+/* Variant photos, when the block is set to image thumbnails. */
+.variant__button-label--image { width: 62px; height: 78px; min-width: 0; min-height: 0; padding: 0; overflow: hidden; background: #f3f1ee; }
+.variant__button-label--image img { width: 100%; height: 100%; object-fit: cover; }
+.variant-input input:checked + .variant__button-label--image { background: #f3f1ee; box-shadow: 0 0 0 1px var(--color-text); }
+
+@media (hover: hover) {
+  .variant__button-label:hover { border-color: var(--color-text); }
+  .variant__button-label--color:hover { box-shadow: inset 0 0 0 1px rgba(28, 27, 26, 0.14), 0 0 0 3px var(--color-body), 0 0 0 4px #c9c4bc; }
+}
+
+/* Sold out with the other current choices: muted and struck through, but still selectable. */
+.variant-input input.is-unavailable + .variant__button-label { color: #a8a29a; }
+.variant-input input.is-unavailable:checked + .variant__button-label { border-color: #8a8782; background: #8a8782; color: var(--color-body); }
+.variant-input input.is-unavailable:checked + .variant__button-label--color { background: var(--swatch); }
+.variant-input input.is-unavailable:checked + .variant__button-label--image { background: #f3f1ee; }
+.variant-input input.is-unavailable + .variant__button-label::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(to top right, transparent calc(50% - 0.5px), currentColor calc(50% - 0.5px), currentColor calc(50% + 0.5px), transparent calc(50% + 0.5px));
+}
+.variant-input input.is-unavailable + .variant__button-label--color::after,
+.variant-input input.is-unavailable + .variant__button-label--image::after {
+  border-radius: inherit;
+  background: linear-gradient(to top right, transparent calc(50% - 1.5px), #fff calc(50% - 1.5px), #fff calc(50% - 0.5px), #1c1b1a calc(50% - 0.5px), #1c1b1a calc(50% + 0.5px), #fff calc(50% + 0.5px), #fff calc(50% + 1.5px), transparent calc(50% + 1.5px)), rgba(255, 255, 255, 0.35);
+}
 
 .benefits { display: flex; flex-direction: column; gap: 8px; padding: 8px 0; }
 .benefit { display: flex; align-items: center; gap: 11px; min-height: 24px; font-size: 15px; }

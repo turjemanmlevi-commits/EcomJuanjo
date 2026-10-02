@@ -106,31 +106,53 @@
                 {%- unless product.has_only_default_variant -%}
                   <div class="product-block" {{ block.shopify_attributes }}>
                     {%- for option in product.options_with_values -%}
-                      {%- assign option_index = forloop.index0 -%}
-                      {%- assign option_name = option.name | downcase | strip -%}
-                      {%- assign is_swatch = false -%}
-                      {%- if block.settings.image_swatches and swatch_options contains option_name -%}
-                        {%- assign is_swatch = true -%}
+                      {%- liquid
+                        assign option_index = forloop.index0
+                        assign option_name = option.name | downcase | strip
+                        assign is_swatch = false
+                        if block.settings.swatch_style != 'none' and swatch_options contains option_name
+                          assign is_swatch = true
+                        endif
+                      -%}
+
+                      {%- if option.values.size == 1 and is_swatch == false -%}
+                        {%- comment -%} Only one value (e.g. "Taglia unica"): nothing to pick, but theme.js still reads one checked input per option. {%- endcomment -%}
+                        <div class="variant-wrapper" hidden>
+                          <fieldset data-option-index="{{ option_index }}">
+                            <input type="radio" name="option-{{ section.id }}-{{ option_index }}" value="{{ option.selected_value | escape }}" checked>
+                          </fieldset>
+                        </div>
+                        {%- continue -%}
                       {%- endif -%}
 
-                      <div class="variant-wrapper">
+                      <div class="variant-wrapper{% if is_swatch %} variant-wrapper--swatch{% endif %}">
                         <span class="variant__label">
-                          {{ option.name }}
-                          {%- if is_swatch %} — <span data-option-current>{{ option.selected_value }}</span>{% endif -%}
+                          {{- option.name }}: <span class="variant__label-value" data-option-current>{{ option.selected_value }}</span>
                         </span>
                         <fieldset class="variant-input-wrap" data-option-index="{{ option_index }}">
                           <legend class="visually-hidden">{{ option.name }}</legend>
                           {%- for value in option.values -%}
                             {%- capture value_name -%}{{ value }}{%- endcapture -%}
-                            {%- assign swatch_image = nil -%}
-                            {%- if is_swatch -%}
-                              {%- for variant in product.variants -%}
-                                {%- if variant.options[option_index] == value_name and variant.featured_image -%}
-                                  {%- assign swatch_image = variant.featured_image -%}
-                                  {%- break -%}
-                                {%- endif -%}
-                              {%- endfor -%}
-                            {%- endif -%}
+                            {%- liquid
+                              assign swatch_image = nil
+                              assign swatch_color = ''
+                              if is_swatch
+                                if block.settings.swatch_style == 'image'
+                                  for variant in product.variants
+                                    if variant.options[option_index] == value_name and variant.featured_image
+                                      assign swatch_image = variant.featured_image
+                                      break
+                                    endif
+                                  endfor
+                                endif
+                                if swatch_image == nil
+                                  capture swatch_color
+                                    render 'swatch-color', name: value_name, swatch: value.swatch
+                                  endcapture
+                                  assign swatch_color = swatch_color | strip
+                                endif
+                              endif
+                            -%}
                             <div class="variant-input">
                               <input
                                 type="radio"
@@ -138,10 +160,17 @@
                                 name="option-{{ section.id }}-{{ option_index }}"
                                 value="{{ value_name | escape }}"
                                 {% if option.selected_value == value_name %}checked{% endif %}
+                                {% if value.available == false %}class="is-unavailable"{% endif %}
                               >
-                              <label for="Option-{{ section.id }}-{{ option_index }}-{{ forloop.index0 }}" class="variant__button-label{% if swatch_image %} has-swatch{% endif %}">
+                              <label
+                                for="Option-{{ section.id }}-{{ option_index }}-{{ forloop.index0 }}"
+                                class="variant__button-label{% if swatch_image %} variant__button-label--image{% elsif swatch_color != blank %} variant__button-label--color{% endif %}"
+                                {% if swatch_color != blank %}style="--swatch: {{ swatch_color }}"{% endif %}
+                              >
                                 {%- if swatch_image -%}
                                   {{ swatch_image | image_url: width: 200 | image_tag: loading: 'lazy', alt: value_name }}
+                                {%- elsif swatch_color != blank -%}
+                                  <span class="visually-hidden">{{ value_name }}</span>
                                 {%- else -%}
                                   {{ value_name }}
                                 {%- endif -%}
@@ -332,7 +361,7 @@
     {
       "type": "text",
       "id": "swatch_options",
-      "label": "Opciones con miniatura de imagen",
+      "label": "Opciones que se muestran como color",
       "info": "Nombres de opción separados por comas.",
       "default": "color,colour,colore"
     }
@@ -370,7 +399,18 @@
       "name": "Selector de variantes",
       "limit": 1,
       "settings": [
-        { "type": "checkbox", "id": "image_swatches", "label": "Usar miniaturas de imagen para el color", "default": true }
+        {
+          "type": "select",
+          "id": "swatch_style",
+          "label": "Estilo del selector de color",
+          "options": [
+            { "value": "color", "label": "Círculos de color" },
+            { "value": "image", "label": "Miniaturas de la variante" },
+            { "value": "none", "label": "Botones de texto" }
+          ],
+          "default": "color",
+          "info": "Los círculos usan la muestra de color de Shopify o reconocen el nombre (Nero, Beige, Blue…). Si un color no se reconoce, se muestra su nombre como botón."
+        }
       ]
     },
     {

@@ -35,6 +35,38 @@
   const categoryImages = { abbigliamento: 'category-clothing.webp', borse: 'category-bags.webp', scarpe: 'category-shoes.webp' };
   const categoryImg = (c) => `<img src="../theme/assets/${categoryImages[c.handle]}" alt="${c.title}" width="1122" height="1402" loading="lazy">`;
 
+  // Colour names → swatch colour, same list as snippets/swatch-color.liquid.
+  const swatchColors = [
+    ['#1c1b1a', 'nero', 'black', 'negro'],
+    ['#ffffff', 'bianco', 'white', 'blanco'],
+    ['#f1e9d8', 'crema', 'cream', 'panna', 'avorio', 'ivory', 'crudo', 'marfil'],
+    ['#d8c3a5', 'beige', 'sabbia', 'sand', 'arena'],
+    ['#b4834f', 'cammello', 'camel', 'camello', 'cuoio', 'cognac', 'tan'],
+    ['#6e4630', 'marrone', 'brown', 'marrón', 'marron'],
+    ['#3f2a1f', 'cioccolato', 'chocolate'],
+    ['#6a4b3a', 'caffè', 'caffe', 'coffee', 'café', 'cafe', 'moka', 'mocha'],
+    ['#8f8d89', 'grigio', 'grey', 'gray', 'gris'],
+    ['#bdb3a3', 'stone', 'pietra', 'piedra', 'greige'],
+    ['#8c7b6b', 'tortora', 'taupe', 'topo'],
+    ['#2e4a7d', 'blu', 'blue', 'azul'],
+    ['#1f2a44', 'navy', 'blu navy', 'blu notte', 'marino', 'azul marino'],
+    ['#a7c7e7', 'azzurro', 'sky', 'celeste', 'light blue', 'baby blue'],
+    ['#b1222b', 'rosso', 'red', 'rojo'],
+    ['#6b1e2c', 'bordeaux', 'burgundy', 'bordò', 'bordo', 'granate', 'wine', 'vino'],
+    ['#eab8c0', 'rosa', 'pink'],
+    ['#4a6b4f', 'verde', 'green'],
+    ['#6b6a3e', 'oliva', 'olive', 'militare'],
+    ['#a39467', 'kaki', 'khaki', 'cachi', 'caqui'],
+    ['#e2bd4a', 'giallo', 'yellow', 'amarillo'],
+    ['#c99a2e', 'senape', 'mustard', 'mostaza'],
+    ['#dd7a3c', 'arancione', 'orange', 'naranja'],
+    ['#6c4f8a', 'viola', 'purple', 'morado'],
+    ['#c6b3d9', 'lilla', 'lilac', 'lila', 'lavanda', 'lavender'],
+    ['#c9a24d', 'oro', 'gold', 'dorado'],
+    ['#c4c4c4', 'argento', 'silver', 'plata'],
+  ];
+  const swatchColor = (name) => { const key = String(name).trim().toLowerCase(); const row = swatchColors.find((r) => r.includes(key)); return row ? row[0] : ''; };
+
   // Menu items: [title, href] or [title, href, [children]] for a dropdown; children are collections.
   const kidsOf = (group) => collections.filter((c) => c.group === group).map((c) => [c.title, collectionUrl(c.handle)]);
   const sub = (kids) => (kids ? `<ul class="site-nav__dropdown">${kids.map(([k, h]) => `<li><a href="${h}">${k}</a></li>`).join('')}</ul>` : '');
@@ -446,8 +478,11 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
       .map((o) => {
         const idx = p.options.indexOf(o);
         const isColour = o.name === 'Colore';
-        return `<div class="variant-wrapper"><span class="variant__label">${o.name}${isColour ? `: <span data-option-current>${variant.options[idx]}</span>` : ''}</span><fieldset class="variant-input-wrap" data-option-index="${idx}">${o.values
-          .map((v, j) => `<div class="variant-input"><input type="radio" id="o-${idx}-${j}" name="o-${idx}" value="${esc(v)}"${v === variant.options[idx] ? ' checked' : ''}><label for="o-${idx}-${j}" class="variant__button-label${isColour ? ' has-swatch' : ''}"${isColour ? ` data-ph="${esc(v)}"` : ''}>${isColour ? '' : esc(v)}</label></div>`)
+        return `<div class="variant-wrapper${isColour ? ' variant-wrapper--swatch' : ''}"><span class="variant__label">${o.name}: <span class="variant__label-value" data-option-current>${esc(variant.options[idx])}</span></span><fieldset class="variant-input-wrap" data-option-index="${idx}"><legend class="visually-hidden">${o.name}</legend>${o.values
+          .map((v, j) => {
+            const colour = isColour && swatchColor(v);
+            return `<div class="variant-input"><input type="radio" id="o-${idx}-${j}" name="o-${idx}" value="${esc(v)}"${v === variant.options[idx] ? ' checked' : ''}><label for="o-${idx}-${j}" class="variant__button-label${colour ? ' variant__button-label--color' : ''}"${colour ? ` style="--swatch: ${colour}"` : ''}>${colour ? `<span class="visually-hidden">${esc(v)}</span>` : esc(v)}</label></div>`;
+          })
           .join('')}</fieldset></div>`;
       })
       .join('');

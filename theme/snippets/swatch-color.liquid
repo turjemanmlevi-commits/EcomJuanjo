@@ -1,0 +1,72 @@
+{%- comment -%}
+  Outputs the CSS background for a colour swatch: Shopify's own option swatch
+  (image or colour) first, then a list of common colour names (IT / EN / ES).
+  Outputs nothing when the colour is unknown, so the caller falls back to a text button.
+  Usage: {% capture c %}{% render 'swatch-color', name: 'Nero', swatch: value.swatch %}{% endcapture %}
+{%- endcomment -%}
+{%- liquid
+  if swatch.image
+    assign swatch_url = swatch.image.preview_image | image_url: width: 100
+    echo 'url(' | append: swatch_url | append: ') center / cover'
+  elsif swatch.color
+    echo 'rgb(' | append: swatch.color.rgb | append: ')'
+  else
+    assign key = name | downcase | strip
+    case key
+      when 'nero', 'black', 'negro'
+        echo '#1c1b1a'
+      when 'bianco', 'white', 'blanco'
+        echo '#ffffff'
+      when 'crema', 'cream', 'panna', 'avorio', 'ivory', 'crudo', 'marfil'
+        echo '#f1e9d8'
+      when 'beige', 'sabbia', 'sand', 'arena'
+        echo '#d8c3a5'
+      when 'cammello', 'camel', 'camello', 'cuoio', 'cognac', 'tan'
+        echo '#b4834f'
+      when 'marrone', 'brown', 'marrón', 'marron'
+        echo '#6e4630'
+      when 'cioccolato', 'chocolate'
+        echo '#3f2a1f'
+      when 'caffè', 'caffe', 'coffee', 'café', 'cafe', 'moka', 'mocha'
+        echo '#6a4b3a'
+      when 'grigio', 'grey', 'gray', 'gris'
+        echo '#8f8d89'
+      when 'stone', 'pietra', 'piedra', 'greige'
+        echo '#bdb3a3'
+      when 'tortora', 'taupe', 'topo'
+        echo '#8c7b6b'
+      when 'blu', 'blue', 'azul'
+        echo '#2e4a7d'
+      when 'navy', 'blu navy', 'blu notte', 'marino', 'azul marino'
+        echo '#1f2a44'
+      when 'azzurro', 'sky', 'celeste', 'light blue', 'baby blue'
+        echo '#a7c7e7'
+      when 'rosso', 'red', 'rojo'
+        echo '#b1222b'
+      when 'bordeaux', 'burgundy', 'bordò', 'bordo', 'granate', 'wine', 'vino'
+        echo '#6b1e2c'
+      when 'rosa', 'pink'
+        echo '#eab8c0'
+      when 'verde', 'green'
+        echo '#4a6b4f'
+      when 'oliva', 'olive', 'militare'
+        echo '#6b6a3e'
+      when 'kaki', 'khaki', 'cachi', 'caqui'
+        echo '#a39467'
+      when 'giallo', 'yellow', 'amarillo'
+        echo '#e2bd4a'
+      when 'senape', 'mustard', 'mostaza'
+        echo '#c99a2e'
+      when 'arancione', 'orange', 'naranja'
+        echo '#dd7a3c'
+      when 'viola', 'purple', 'morado'
+        echo '#6c4f8a'
+      when 'lilla', 'lilac', 'lila', 'lavanda', 'lavender'
+        echo '#c6b3d9'
+      when 'oro', 'gold', 'dorado'
+        echo '#c9a24d'
+      when 'argento', 'silver', 'plata'
+        echo '#c4c4c4'
+    endcase
+  endif
+-%}

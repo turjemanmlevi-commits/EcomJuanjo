@@ -41,7 +41,7 @@
         "variants": {
           "type": "variant_picker",
           "settings": {
-            "image_swatches": true
+            "swatch_style": "color"
           }
         },
         "benefits": {

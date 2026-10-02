@@ -764,10 +764,35 @@
       const button = $('[data-add-to-cart]', section);
       const buttonText = $('[data-add-to-cart-text]', section);
       const groups = $$('[data-option-index]', section);
+      const currentLabel = (g) => $('[data-option-current]', g.closest('.variant-wrapper'));
+      const checkedValue = (g) => { const c = $('input:checked', g); return c ? c.value : null; };
+
+      // Selected values by option position, plus the label text and sold-out marks that follow them.
+      const refreshOptions = () => {
+        const selected = [];
+        groups.forEach((g) => { selected[g.dataset.optionIndex] = checkedValue(g); });
+        groups.forEach((g) => {
+          const index = Number(g.dataset.optionIndex);
+          const cur = currentLabel(g);
+          if (cur) cur.textContent = selected[index];
+          $$('input', g).forEach((input) => {
+            const available = variants.some((v) => v.available && v.options.every((o, i) => o === (i === index ? input.value : selected[i])));
+            input.classList.toggle('is-unavailable', !available);
+          });
+        });
+        return selected;
+      };
+
+      // Swatches have no visible text, so the label previews the value under the pointer.
+      groups.forEach((g) => {
+        const cur = currentLabel(g);
+        if (!cur) return;
+        g.addEventListener('mouseover', (e) => { const label = e.target.closest('.variant__button-label'); if (label) cur.textContent = label.previousElementSibling.value; });
+        g.addEventListener('mouseleave', () => { cur.textContent = checkedValue(g); });
+      });
 
       const update = () => {
-        const selected = groups.map((g) => { const c = $('input:checked', g); return c ? c.value : null; });
-        groups.forEach((g, i) => { const cur = $('[data-option-current]', g.closest('.variant-wrapper')); if (cur) cur.textContent = selected[i]; });
+        const selected = refreshOptions();
         const variant = variants.find((v) => v.options.every((o, i) => o === selected[i]));
 
         if (button) {
@@ -796,6 +821,7 @@
         window.history.replaceState({}, '', url);
       };
       groups.forEach((g) => g.addEventListener('change', update));
+      refreshOptions();
     });
   }
 
