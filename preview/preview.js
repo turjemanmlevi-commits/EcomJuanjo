@@ -34,7 +34,7 @@
   const sub = (kids) => (kids ? `<ul class="site-nav__dropdown">${kids.map(([k, h]) => `<li><a href="${h}">${k}</a></li>`).join('')}</ul>` : '');
   const menu = (items) => `<ul class="site-nav site-navigation">${items.map(([t, href, kids]) => `<li class="site-nav__item${kids ? ' site-nav__item--has-dropdown' : ''}"><a href="${href}" class="site-nav__link">${t}</a>${sub(kids)}</li>`).join('')}</ul>`;
   const drawerMenu = (items) => items.map(([t, href, kids]) => `<li><a href="${href}">${t}</a>${kids ? `<ul>${kids.map(([k, h]) => `<li><a href="${h}">${k}</a></li>`).join('')}</ul>` : ''}</li>`).join('');
-  const left = [['Home', 'index.html'], ['Abbigliamento', 'collections.html', kidsOf('Abbigliamento')], ['Accessori', 'collections.html', kidsOf('Accessori')]];
+  const left = [['Home', 'index.html'], ['Abbigliamento', 'collections.html', kidsOf('Abbigliamento')], ['Accessori', 'collections.html', kidsOf('Accessori')], ['Calzature', 'collections.html', kidsOf('Calzature')]];
   const right = [['Tutti i prodotti', collectionUrl('all')], ['Chi siamo', 'page.html?h=chi-siamo'], ['Traccia il tuo ordine', 'page.html?h=traccia-ordine']];
 
   // Local cart kept in this browser only: [{ id: variantId, qty }].
@@ -211,7 +211,7 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
 
     "qty-product": qtyInput("quantity", 1, 1, 0, "Quantità"),
 
-    "collection-list": `<div class="index-section collection-list"><div class="page-width"><div class="section-header"><h2 class="section-header__title">Acquista per categoria</h2></div><div class="collection-list__grid" style="--columns: 4">${["abiti", "tute", "bluse-e-top", "borse"].map((h) => collections.find((c) => c.handle === h)).map((c) => `<a href="${collectionUrl(c.handle)}" class="collection-tile"><div class="collection-tile__image">${ph(c.title)}</div><span class="collection-tile__title">${c.title}</span></a>`).join("")}</div></div></div>`,
+    "collection-list": `<div class="index-section collection-list"><div class="page-width"><div class="section-header"><h2 class="section-header__title">Acquista per categoria</h2></div><div class="collection-list__grid" style="--columns: 3">${["abbigliamento", "borse", "scarpe"].map((h) => collections.find((c) => c.handle === h)).map((c) => `<a href="${collectionUrl(c.handle)}" class="collection-tile"><div class="collection-tile__image">${ph(c.title)}</div><span class="collection-tile__title">${c.title}</span></a>`).join("")}</div></div></div>`,
 
     marquee: `<div class="marquee" data-countdown="${end}"><div class="marquee__track">${inner}<div aria-hidden="true" style="display:contents">${inner}</div></div></div>`,
 
@@ -364,6 +364,30 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
 
     section.querySelector('.product-single__title').textContent = p.title;
     section.querySelector('.product-block--header').insertAdjacentHTML('beforebegin', `<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><a href="${collectionUrl(col.handle)}">${col.title}</a></nav>`);
+    const descriptionBlock = [...section.querySelectorAll('.product-single__meta .product-block .rte')].find((el) => !el.closest('.product-block--tab'));
+    if (descriptionBlock) {
+      const highlights = p.category === 'Bolsos'
+        ? ['Spazio per i tuoi indispensabili', 'Design versatile da giorno e da sera', 'Pensata per accompagnarti ogni giorno']
+        : p.category === 'Calzado'
+          ? ['Comfort pensato per tutto il giorno', 'Facile da abbinare ai tuoi look', 'Design curato e piacevole da indossare']
+          : ['Vestibilità facile da valorizzare', 'Un capo versatile per più occasioni', 'Stile essenziale, senza complicazioni'];
+      descriptionBlock.innerHTML = `<p>${esc(p.description)}</p><p><strong>Perché sceglierlo</strong></p><ul>${highlights.map(h => `<li>${h}</li>`).join('')}</ul>`;
+    }
+    section.querySelectorAll('.product-image-main').forEach((el, i) => { el.dataset.ph = `${p.title} · Immagine ${i + 1}`; });
+    const localImageSets = {
+      'premium-leather-shoulder-bag': ['01-in-use.png', '02-product.png', '03-detail.png', '04-lifestyle.png'],
+    };
+    const localImages = localImageSets[p.handle];
+    if (localImages) {
+      section.querySelectorAll('.product-main-slide').forEach((slide, i) => {
+        const file = localImages[i];
+        if (file) {
+          const image = slide.querySelector('.product-image-main');
+          image.removeAttribute('data-ph');
+          image.innerHTML = `<img src="../theme/assets/products/${p.handle}/${file}" alt="${esc(p.title)} · Immagine ${i + 1}">`;
+        }
+      });
+    }
 
     const full = Math.floor(p.rating);
     section.querySelector('.product-rating').outerHTML = starsHtml(p.rating, `${p.rating} (${p.reviews} recensioni)`, false);

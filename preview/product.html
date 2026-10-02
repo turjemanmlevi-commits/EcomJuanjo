@@ -99,7 +99,7 @@
                 </div>
 
                 <div class="product-block">
-                  <div class="stock-alert"><span class="stock-alert__dot"></span><span>Ultimi pezzi disponibili!</span></div>
+                  <div class="stock-alert" style="--stock-color: #f59e0b"><span class="stock-alert__dot"></span><span>Ultimi pezzi disponibili!</span></div>
                 </div>
 
                 <div class="product-block" style="margin-bottom: 0">
@@ -117,10 +117,8 @@
                   <form class="product-single__form" data-product-form action="/cart/add" method="post">
                     <input type="hidden" name="id" value="11">
                     <div class="product-form__row">
-                      <div data-include="qty-product"></div>
                       <button type="submit" class="btn btn--full btn--buy" data-add-to-cart data-text-add="Aggiungi al carrello" data-text-sold-out="Esaurito" data-text-unavailable="Non disponibile"><span data-add-to-cart-text>Aggiungi al carrello</span></button>
                     </div>
-                    <div class="product-form__dynamic"><div class="shopify-payment-button"><button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" style="width:100%" data-preview-express>Acquista ora</button></div></div>
                     <p class="product-form__error" data-product-error role="alert" hidden></p>
                   </form>
                 </div>
@@ -134,10 +132,17 @@
                 </div>
 
                 <div class="product-block">
+                  <div class="notice-box" style="--notice-bg: #f5f2ed; --notice-accent: #1c1b1a">
+                    <div class="notice-box__title"><span class="notice-box__icon" aria-hidden="true">🤍</span><span>Svendita per chiusura</span></div>
+                    <div class="notice-box__text"><p>Dopo 14 anni chiudiamo la nostra boutique e tutto ciò che resta è scontato del <strong>50%</strong>. Finché puoi ancora cliccare “Aggiungi al carrello”, questo capo è ancora disponibile al prezzo di chiusura.</p></div>
+                  </div>
+                </div>
+
+                <div class="product-block">
                   <div class="rte">
-                    <p>Descrizione del prodotto. Questo <strong>testo di esempio</strong> occupa più righe per verificare la larghezza della colonna, l’interlinea e la spaziatura tra i paragrafi della descrizione.</p>
-                    <p><strong>Perché lo amerai</strong></p>
-                    <ul><li>Prima caratteristica in evidenza del prodotto</li><li>Seconda caratteristica in evidenza</li><li>Terza caratteristica in evidenza</li></ul>
+                    <p>La borsa che segue il tuo ritmo senza rinunciare allo stile. Una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.</p>
+                    <p><strong>Perché sceglierla</strong></p>
+                    <ul><li>Spazio per i tuoi indispensabili</li><li>Design versatile da giorno e da sera</li><li>Pensata per accompagnarti ogni giorno</li></ul>
                   </div>
                 </div>
 

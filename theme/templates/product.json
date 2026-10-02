@@ -59,12 +59,19 @@
         "buy": {
           "type": "buy_buttons",
           "settings": {
+            "show_quantity": false,
             "show_payment_icons": true
           }
         },
         "notice": {
           "type": "notice",
-          "settings": {}
+          "settings": {
+            "icon": "🤍",
+            "title": "Svendita per chiusura",
+            "text": "<p>Dopo 14 anni chiudiamo la nostra boutique e tutto ciò che resta è scontato del <strong>50%</strong>. Finché puoi ancora cliccare “Aggiungi al carrello”, questo capo è ancora disponibile al prezzo di chiusura.</p>",
+            "color_bg": "#f5f2ed",
+            "color_accent": "#1c1b1a"
+          }
         },
         "description": {
           "type": "description",

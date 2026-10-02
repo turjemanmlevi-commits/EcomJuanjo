@@ -33,6 +33,13 @@
         "overlay_opacity": 10
       }
     },
+    "sale-banner": {
+      "type": "sale-banner",
+      "settings": {
+        "small_text": "EVERYTHING",
+        "big_text": "50% OFF"
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -180,25 +187,25 @@
         "c1": {
           "type": "collection",
           "settings": {
-            "collection": "abiti"
+            "collection": "abbigliamento"
           }
         },
         "c2": {
           "type": "collection",
           "settings": {
-            "collection": "tute"
+            "collection": "borse"
           }
         },
         "c3": {
           "type": "collection",
           "settings": {
-            "collection": "bluse-e-top"
+            "collection": "scarpe"
           }
         },
         "c4": {
           "type": "collection",
           "settings": {
-            "collection": "borse"
+            "collection": "abbigliamento"
           }
         }
       },
@@ -210,13 +217,14 @@
       ],
       "settings": {
         "title": "Acquista per categoria",
-        "columns": 4
+        "columns": 3
       }
     }
   },
   "order": [
     "marquee",
     "slideshow",
+    "sale-banner",
     "trustpilot",
     "featured-collection",
     "collection-list",

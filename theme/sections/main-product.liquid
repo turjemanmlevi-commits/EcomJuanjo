@@ -255,9 +255,12 @@
               {%- when 'notice' -%}
                 {%- if block.settings.text != blank -%}
                 <div class="product-block" {{ block.shopify_attributes }}>
-                  <div class="notice-box" style="--notice-bg: {{ block.settings.color_bg }}; --notice-accent: {{ block.settings.color_accent }}; --notice-border: {{ block.settings.color_accent | color_mix: '#ffffff', 20 }}">
+                  <div class="notice-box" style="--notice-bg: {{ block.settings.color_bg }}; --notice-accent: {{ block.settings.color_accent }}">
                     {%- if block.settings.title != blank -%}
-                      <div class="notice-box__title">{{ block.settings.title | escape }}</div>
+                      <div class="notice-box__title">
+                        {%- if block.settings.icon != blank -%}<span class="notice-box__icon" aria-hidden="true">{{ block.settings.icon | escape }}</span>{%- endif -%}
+                        <span>{{ block.settings.title | escape }}</span>
+                      </div>
                     {%- endif -%}
                     <div class="notice-box__text">{{ block.settings.text }}</div>
                   </div>
@@ -394,7 +397,7 @@
         { "type": "paragraph", "content": "Solo se muestra cuando el inventario real de la variante es igual o inferior al umbral." },
         { "type": "range", "id": "threshold", "label": "Umbral de unidades", "min": 1, "max": 20, "step": 1, "default": 5 },
         { "type": "text", "id": "text", "label": "Texto", "info": "[count] se sustituye por las unidades reales.", "default": "Ultimi pezzi disponibili!" },
-        { "type": "color", "id": "color", "label": "Color", "default": "#17784a" }
+        { "type": "color", "id": "color", "label": "Color", "default": "#f59e0b" }
       ]
     },
     {
@@ -411,7 +414,7 @@
       "name": "Botón de compra",
       "limit": 1,
       "settings": [
-        { "type": "checkbox", "id": "show_quantity", "label": "Mostrar selector de cantidad", "default": true },
+        { "type": "checkbox", "id": "show_quantity", "label": "Mostrar selector de cantidad", "default": false },
         { "type": "paragraph", "content": "El botón de compra rápida (Shop Pay, Apple Pay…) se activa en Configuración del tema > Carrito." },
         { "type": "text", "id": "note", "label": "Nota bajo el botón" },
         { "type": "checkbox", "id": "show_payment_icons", "label": "Mostrar iconos de pago", "default": true }
@@ -421,10 +424,11 @@
       "type": "notice",
       "name": "Caja de aviso",
       "settings": [
-        { "type": "text", "id": "title", "label": "Título", "default": "Promozione" },
+        { "type": "text", "id": "icon", "label": "Icono (emoji)", "default": "🤍" },
+        { "type": "text", "id": "title", "label": "Título", "default": "Svendita per chiusura" },
         { "type": "richtext", "id": "text", "label": "Texto", "info": "Si está vacío, el aviso no se muestra." },
-        { "type": "color", "id": "color_bg", "label": "Fondo", "default": "#e8f2ec" },
-        { "type": "color", "id": "color_accent", "label": "Color de acento", "default": "#17784a" }
+        { "type": "color", "id": "color_bg", "label": "Fondo", "default": "#f5f2ed" },
+        { "type": "color", "id": "color_accent", "label": "Color del título", "default": "#1c1b1a" }
       ]
     },
     { "type": "description", "name": "Descripción", "limit": 1 },

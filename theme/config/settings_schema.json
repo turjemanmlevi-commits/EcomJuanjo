@@ -113,7 +113,7 @@
         "type": "color",
         "id": "color_compare_price",
         "label": "Precio anterior (tachado)",
-        "default": "#8a8782"
+        "default": "#d0021b"
       },
       {
         "type": "color",
@@ -239,7 +239,7 @@
         "type": "checkbox",
         "id": "show_dynamic_checkout",
         "label": "Mostrar botón de compra rápida en la ficha (Shop Pay, Apple Pay, PayPal…)",
-        "default": true,
+        "default": false,
         "info": "Shopify muestra los métodos que tengas activados en Pagos."
       }
     ]

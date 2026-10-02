@@ -1,0 +1,9 @@
+*.csv
+catalog_summary.json
+image_generation_manifest_it.json
+tools/
+.git/
+.agents/
+.codex/
+.aws/
+README.md
