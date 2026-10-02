@@ -1,0 +1,37 @@
+<div class="page-content">
+  <div class="page-width">
+    <header class="section-header">
+      <h1 class="section-header__title">{{ collection.title }}</h1>
+    </header>
+    {%- if collection.description != blank -%}
+      <div class="rte text-center" style="margin-bottom: 50px">{{ collection.description }}</div>
+    {%- endif -%}
+
+    {%- paginate collection.products by section.settings.per_page -%}
+      {%- capture clear_url -%}{{ collection.url }}{% if collection.sort_by != blank %}?sort_by={{ collection.sort_by }}{% endif %}{%- endcapture -%}
+      {% render 'facets', results: collection, url: collection.url, count: collection.products_count, clear_url: clear_url %}
+
+      {%- if collection.products.size > 0 -%}
+        <div class="grid collection-grid" style="--columns: {{ section.settings.columns }}">
+          {%- for product in collection.products -%}
+            {% render 'product-card', product: product %}
+          {%- endfor -%}
+        </div>
+      {%- else -%}
+        <p class="text-center">{{ 'products.empty_collection' | t }}</p>
+      {%- endif -%}
+
+      {% render 'pagination', paginate: paginate %}
+    {%- endpaginate -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Colección",
+  "settings": [
+    { "type": "range", "id": "columns", "label": "Columnas en escritorio", "min": 2, "max": 6, "step": 1, "default": 4 },
+    { "type": "range", "id": "per_page", "label": "Productos por página", "min": 8, "max": 48, "step": 4, "default": 24 }
+  ]
+}
+{% endschema %}

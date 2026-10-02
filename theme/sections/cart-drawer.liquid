@@ -1,0 +1,54 @@
+{%- comment -%}
+  Slide-out cart. Rendered once from layout/theme.liquid and re-rendered through the
+  Section Rendering API after every cart change (see theme.js > Cart).
+{%- endcomment -%}
+<div class="drawer-overlay drawer-overlay--cart" data-cart-drawer-overlay></div>
+<aside class="side-drawer side-drawer--right" id="CartDrawer" data-cart-drawer data-cart-section="{{ section.id }}" role="dialog" aria-modal="true" aria-labelledby="CartDrawer-Title" tabindex="-1" inert>
+  <div class="side-drawer__header">
+    <h2 class="side-drawer__title" id="CartDrawer-Title">
+      {{ 'cart.title' | t }}
+      <span class="side-drawer__count" data-cart-replace="count">{%- if cart.item_count > 0 -%}({{ cart.item_count }}){%- endif -%}</span>
+    </h2>
+    <button type="button" class="side-drawer__close" data-cart-drawer-close aria-label="{{ 'general.close' | t }}">{% render 'icon', name: 'close' %}</button>
+  </div>
+
+  <div class="side-drawer__content" data-cart-replace="contents" data-cart-item-count="{{ cart.item_count }}">
+    {%- if cart.item_count == 0 -%}
+      <div class="cart-empty">
+        <p>{{ 'cart.empty' | t }}</p>
+        <a href="{{ routes.all_products_collection_url }}" class="btn">{{ 'general.continue_shopping' | t }}</a>
+      </div>
+    {%- else -%}
+      <form action="{{ routes.cart_url }}" method="post" class="cart-drawer__form" novalidate>
+        <ul class="cart-lines" role="list">
+          {%- for item in cart.items -%}
+            {% render 'cart-line', item: item, index: forloop.index %}
+          {%- endfor -%}
+        </ul>
+
+        <div class="side-drawer__footer">
+          <p class="cart-error" data-cart-error role="alert" hidden></p>
+          {%- for discount in cart.cart_level_discount_applications -%}
+            <div class="cart-summary__row cart-summary__row--discount">
+              <span>{% render 'icon', name: 'tag' %}{{ discount.title }}</span>
+              <span>−{{ discount.total_allocated_amount | money }}</span>
+            </div>
+          {%- endfor -%}
+          <div class="cart-summary__row cart-summary__row--total">
+            <span>{{ 'cart.subtotal' | t }}</span>
+            <span>{{ cart.total_price | money }}</span>
+          </div>
+          <p class="cart-summary__note">{{ 'cart.note' | t }}</p>
+          <button type="submit" name="checkout" class="btn btn--buy btn--full">{{ 'cart.checkout' | t }}</button>
+          <a href="{{ routes.cart_url }}" class="cart-drawer__view">{{ 'cart.view_cart' | t }}</a>
+        </div>
+      </form>
+    {%- endif -%}
+  </div>
+</aside>
+
+{% schema %}
+{
+  "name": "Carrito lateral"
+}
+{% endschema %}

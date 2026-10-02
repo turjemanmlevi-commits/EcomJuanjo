@@ -1,0 +1,59 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  #shopify-section-{{ section.id }} .marquee {
+    --marquee-bg: {{ section.settings.color_bg }};
+    --marquee-text: {{ section.settings.color_text }};
+    --marquee-accent: {{ section.settings.color_accent }};
+    --marquee-speed: {{ section.settings.speed }}s;
+  }
+{%- endstyle -%}
+
+{%- capture chunk -%}
+  <span class="marquee__chunk">
+    <span class="marquee__label">{{ section.settings.label | escape }}</span>
+    {%- if section.settings.end_date != blank -%}
+      <span class="marquee__sep" data-countdown-part>•</span>
+      <span class="marquee__sep" data-countdown-part>{{ section.settings.timer_label | escape }}</span>
+      <span class="marquee__time" data-countdown-part data-countdown-time></span>
+    {%- endif -%}
+  </span>
+{%- endcapture -%}
+
+{%- capture inner -%}
+  <div class="marquee__inner">
+    {%- for i in (1..8) -%}{{ chunk }}{%- endfor -%}
+  </div>
+{%- endcapture -%}
+
+<div class="marquee" data-countdown="{{ section.settings.end_date | escape }}">
+  <div class="marquee__track">
+    {{ inner }}
+    <div aria-hidden="true" style="display: contents">{{ inner }}</div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Marquesina cuenta atrás",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Texto", "default": "Saldi di stagione" },
+    { "type": "text", "id": "timer_label", "label": "Texto del contador", "default": "Termina tra:" },
+    {
+      "type": "text",
+      "id": "end_date",
+      "label": "Fecha de fin",
+      "info": "Formato AAAA-MM-DDTHH:MM (p. ej. 2026-12-31T23:59). La cuenta atrás apunta a esta fecha real y desaparece cuando se alcanza. Déjalo vacío para mostrar solo el texto."
+    },
+    { "type": "range", "id": "speed", "label": "Duración de una vuelta", "min": 20, "max": 120, "step": 5, "unit": "s", "default": 60 },
+    { "type": "color", "id": "color_bg", "label": "Fondo", "default": "#121212" },
+    { "type": "color", "id": "color_text", "label": "Texto", "default": "#ffffff" },
+    { "type": "color", "id": "color_accent", "label": "Color del contador", "default": "#ff3b3b" },
+    { "type": "range", "id": "padding_top", "label": "Espacio superior", "min": 0, "max": 60, "step": 2, "unit": "px", "default": 0 },
+    { "type": "range", "id": "padding_bottom", "label": "Espacio inferior", "min": 0, "max": 60, "step": 2, "unit": "px", "default": 6 }
+  ],
+  "presets": [{ "name": "Marquesina cuenta atrás" }]
+}
+{% endschema %}

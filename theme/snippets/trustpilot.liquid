@@ -1,0 +1,25 @@
+{%- comment -%}
+  Official Trustpilot TrustBox: shows the shop's real Trustpilot rating.
+  Renders nothing until the Business Unit ID is set in Theme settings > Trustpilot.
+  Usage: {% render 'trustpilot', template_id: '5419b732fbfb950b10de65e5', height: '24px' %}
+{%- endcomment -%}
+{%- assign tp_template = template_id | default: settings.trustpilot_template -%}
+{%- assign tp_height = height | default: '24px' -%}
+
+{%- if settings.trustpilot_business_id != blank -%}
+  <div class="trustpilot{% if class %} {{ class }}{% endif %}">
+    <div
+      class="trustpilot-widget"
+      data-locale="{{ settings.trustpilot_locale | default: 'it-IT' }}"
+      data-template-id="{{ tp_template }}"
+      data-businessunit-id="{{ settings.trustpilot_business_id | escape }}"
+      data-style-height="{{ tp_height }}"
+      data-style-width="100%"
+      data-theme="light"
+    >
+      <a href="{{ settings.trustpilot_url | default: 'https://it.trustpilot.com' }}" target="_blank" rel="noopener">Trustpilot</a>
+    </div>
+  </div>
+{%- elsif request.design_mode -%}
+  <p class="editor-hint">Trustpilot: añade tu Business Unit ID en Configuración del tema &gt; Trustpilot para mostrar tu valoración real.</p>
+{%- endif -%}

@@ -1,0 +1,41 @@
+{
+  "type": "footer",
+  "name": "Grupo de pie de página",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Il nostro negozio",
+            "text": "<p>Spedizione <strong>tracciata</strong> e <strong>resi entro 30 giorni</strong> su tutti gli ordini.</p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Contatti",
+            "text": "<p><strong>Orari del servizio clienti:</strong></p><p>Dal lunedì al venerdì, 9:00-17:00</p><p><strong>Hai una domanda?</strong></p><p>Scrivici: trovi la nostra email qui sotto.</p>"
+          }
+        },
+        "menu-1": {
+          "type": "menu",
+          "settings": {
+            "title": "",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "text-1",
+        "text-2",
+        "menu-1"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

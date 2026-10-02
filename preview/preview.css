@@ -1,0 +1,48 @@
+/* Static preview only: the values css-variables.liquid outputs from theme settings. */
+:root {
+  --font-heading: "Tenor Sans", sans-serif;
+  --font-heading-weight: 400;
+  --font-body: Outfit, sans-serif;
+  --font-body-weight: 300;
+  --font-body-size: 17px;
+
+  --color-body: #ffffff;
+  --color-text: #1c1b1a;
+  --color-border: #e6e3de;
+  --color-price: #1c1b1a;
+  --color-sale-price: #17784a;
+  --color-sale-tag: #1c1b1a;
+  --color-sale-tag-text: #faf9f7;
+  --color-button: #1c1b1a;
+  --color-button-text: #faf9f7;
+  --color-buy-button: #1c1b1a;
+  --color-buy-button-text: #faf9f7;
+  --color-accent: #17784a;
+  --color-accent-light: #e8f2ec;
+  --color-accent-dark: #0f5634;
+  --color-cart-dot: #17784a;
+  --color-nav: #ffffff;
+  --color-nav-text: #1c1b1a;
+  --color-announcement: #e8dcca;
+  --color-announcement-text: #1c1b1a;
+  --color-footer: #ffffff;
+  --color-footer-text: #1c1b1a;
+  --color-hero-text: #ffffff;
+
+  --gutter-page: 40px;
+  --gutter-wide: 80px;
+  --gutter-grid: 22px;
+  --section-spacing: 75px;
+  --logo-width: 140px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --gutter-page: 17px;
+    --gutter-wide: 17px;
+    --gutter-grid: 17px;
+    --section-spacing: 40px;
+  }
+}
+
+.product__thumb svg, .variant__button-label svg { width: 100%; height: 100%; }

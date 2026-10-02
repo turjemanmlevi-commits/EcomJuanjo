@@ -1,0 +1,30 @@
+{%- comment -%}
+  Numbered pagination with previous/next arrows.
+  Usage (inside a paginate tag): {% render 'pagination', paginate: paginate %}
+{%- endcomment -%}
+{%- if paginate.pages > 1 -%}
+  {%- assign current = paginate.current_page | append: '' -%}
+  <nav class="pagination" aria-label="{{ 'general.page' | t: page: current }}">
+    {%- if paginate.previous -%}
+      <a href="{{ paginate.previous.url }}" class="pagination__item pagination__arrow" aria-label="{{ 'general.previous' | t }}">{% render 'icon', name: 'arrow-left' %}</a>
+    {%- else -%}
+      <span class="pagination__item pagination__arrow is-disabled" aria-hidden="true">{% render 'icon', name: 'arrow-left' %}</span>
+    {%- endif -%}
+
+    {%- for part in paginate.parts -%}
+      {%- if part.is_link -%}
+        <a href="{{ part.url }}" class="pagination__item" aria-label="{{ 'general.page' | t: page: part.title }}">{{ part.title }}</a>
+      {%- elsif part.title == current -%}
+        <span class="pagination__item is-current" aria-current="page">{{ part.title }}</span>
+      {%- else -%}
+        <span class="pagination__item pagination__gap" aria-hidden="true">{{ part.title }}</span>
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- if paginate.next -%}
+      <a href="{{ paginate.next.url }}" class="pagination__item pagination__arrow" aria-label="{{ 'general.next' | t }}">{% render 'icon', name: 'arrow-right' %}</a>
+    {%- else -%}
+      <span class="pagination__item pagination__arrow is-disabled" aria-hidden="true">{% render 'icon', name: 'arrow-right' %}</span>
+    {%- endif -%}
+  </nav>
+{%- endif -%}

@@ -1,0 +1,26 @@
+{%- comment -%}
+  Quantity stepper (− input +). Works as a plain number input without JavaScript.
+  Usage: {% render 'quantity-input', name: 'quantity', value: 1, min: 1, id: 'Quantity-123', line: 2, label: 'Quantità' %}
+  `line` (optional) is the cart line index the stepper updates via AJAX.
+{%- endcomment -%}
+{%- assign qty_label = label -%}
+{%- if qty_label == blank -%}{%- assign qty_label = 'products.quantity' | t -%}{%- endif -%}
+<div class="qty" data-qty>
+  <button type="button" class="qty__btn" data-qty-step="-1" aria-label="{{ 'products.decrease' | t }}">
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10"/></svg>
+  </button>
+  <input
+    class="qty__input"
+    type="number"
+    inputmode="numeric"
+    name="{{ name }}"
+    value="{{ value }}"
+    min="{{ min | default: 0 }}"
+    {% if id %}id="{{ id }}"{% endif %}
+    {% if line %}data-cart-line="{{ line }}"{% endif %}
+    aria-label="{{ qty_label | escape }}"
+  >
+  <button type="button" class="qty__btn" data-qty-step="1" aria-label="{{ 'products.increase' | t }}">
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M8 3v10"/></svg>
+  </button>
+</div>

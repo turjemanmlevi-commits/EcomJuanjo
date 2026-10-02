@@ -1,0 +1,44 @@
+{%- comment -%}
+  Renders an inline SVG icon.
+  Usage: {% render 'icon', name: 'search' %}
+{%- endcomment -%}
+{%- case name -%}
+  {%- when 'search' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"><circle cx="27" cy="27" r="16"/><path d="M38.5 38.5 54 54"/></svg>
+  {%- when 'user' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"><circle cx="32" cy="22" r="10"/><path d="M14 52c0-9 8-14 18-14s18 5 18 14z"/></svg>
+  {%- when 'cart' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"><path d="M14 22h36v30H14z"/><path d="M24 22v-4a8 8 0 0 1 16 0v4"/></svg>
+  {%- when 'menu' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"><path d="M10 20h44M10 32h44M10 44h44"/></svg>
+  {%- when 'close' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"><path d="m16 16 32 32M48 16 16 48"/></svg>
+  {%- when 'chevron-down' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 28 16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m1.5 1.5 12.5 12.5 12.5-12.5"/></svg>
+  {%- when 'chevron-up' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 28 16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M1.5 14.5 14 2l12.5 12.5"/></svg>
+  {%- when 'arrow-left' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 50 21" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M50 10.5H2M11 1.5l-9 9 9 9"/></svg>
+  {%- when 'arrow-right' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 50 21" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M0 10.5h48M39 1.5l9 9-9 9"/></svg>
+  {%- when 'star' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8-6.2-3.2L5.8 21 7 14.2 2 9.3l6.9-1z"/></svg>
+  {%- when 'tag' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 3h8l10 10-8 8L3 11z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
+  {%- when 'truck' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M2 6h12v10H2zM14 9h4l4 4v3h-8z"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg>
+  {%- when 'return' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg>
+  {%- when 'heart' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M12 20.5 4.2 12.8a4.9 4.9 0 0 1 7-7l.8.9.8-.9a4.9 4.9 0 0 1 7 7z"/></svg>
+  {%- when 'check' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12.5 5 5 11-11"/></svg>
+  {%- when 'ruler' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><ellipse cx="9" cy="9.5" rx="7" ry="4"/><path d="M2 9.5v5c0 2.2 3.1 4 7 4h14v-5H9"/><path d="M13 13.5v2.5M17 13.5v2.5M20.5 13.5v2.5"/><ellipse cx="9" cy="9.5" rx="2.5" ry="1.2"/></svg>
+  {%- when 'gift' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 42 42" fill="currentColor"><path d="M6 13h30v8H6zM8 23h11.5v13H8zM22.500 23H34v13H22.500z"/><path d="M21 12c-2-6-10-8-11-3s6 5 11 3zm0 0c2-6 10-8 11-3s-6 5-11 3z" fill="none" stroke="currentColor" stroke-width="2.500"/></svg>
+  {%- when 'refresh' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 42 42" fill="none" stroke="currentColor" stroke-width="3.500" stroke-linecap="round" stroke-linejoin="round"><path d="M33 21a12 12 0 0 1-20 9M9 21a12 12 0 0 1 20-9"/><path d="M29 5v7h-7M13 37v-7h7"/></svg>
+  {%- when 'lock' -%}
+    <svg aria-hidden="true" focusable="false" viewBox="0 0 42 42" fill="currentColor"><path d="M9 18h24v19H9z"/><path d="M14 18v-5a7 7 0 0 1 14 0v5" fill="none" stroke="currentColor" stroke-width="3.500"/><circle cx="21" cy="27" r="2.500" fill="#fff"/></svg>
+{%- endcase -%}

@@ -1,0 +1,124 @@
+{%- liquid
+  assign menu_left = section.settings.menu_left
+  assign menu_right = section.settings.menu_right
+-%}
+<style>
+  :root { --logo-width: {{ section.settings.logo_width }}px; }
+</style>
+
+<header class="site-header">
+  <div class="page-width">
+    <div class="header-layout header-layout--center-split">
+      <div class="header-item header-item--left">
+        <div class="site-nav site-nav--icons-left">
+          <button type="button" class="site-nav__link site-nav__link--icon medium-up--hide" data-drawer-open aria-controls="NavDrawer" aria-expanded="false" aria-label="{{ 'general.menu' | t }}">
+            {% render 'icon', name: 'menu' %}
+          </button>
+          <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon small--hide" data-search-open aria-label="{{ 'general.search' | t }}">
+            {% render 'icon', name: 'search' %}
+          </a>
+        </div>
+      </div>
+
+      <div class="header-item header-item--logo-split">
+        <div class="header-item header-item--logo">
+          {%- if request.page_type == 'index' -%}<h1 class="site-header__logo">{%- else -%}<div class="h1 site-header__logo">{%- endif -%}
+            <a href="{{ routes.root_url }}">
+              {%- if section.settings.logo != blank -%}
+                {{ section.settings.logo | image_url: width: 600 | image_tag: alt: shop.name, loading: 'eager' }}
+              {%- else -%}
+                <img src="{{ 'logo.png' | asset_url }}" alt="{{ shop.name | escape }}" width="1171" height="213" loading="eager">
+              {%- endif -%}
+            </a>
+          {%- if request.page_type == 'index' -%}</h1>{%- else -%}</div>{%- endif -%}
+        </div>
+      </div>
+
+      <div class="header-item header-item--icons">
+        <div class="site-nav site-nav--icons-right">
+          {%- if shop.customer_accounts_enabled -%}
+            <a href="{{ routes.account_url }}" class="site-nav__link site-nav__link--icon small--hide" aria-label="{{ 'general.account' | t }}">
+              {% render 'icon', name: 'user' %}
+            </a>
+          {%- endif -%}
+          <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon medium-up--hide" data-search-open aria-label="{{ 'general.search' | t }}">
+            {% render 'icon', name: 'search' %}
+          </a>
+          <a href="{{ routes.cart_url }}" class="site-nav__link site-nav__link--icon" data-cart-open aria-label="{{ 'general.cart' | t }}" aria-controls="CartDrawer">
+            {% render 'icon', name: 'cart' %}
+            <span class="cart-count" data-cart-count{% if cart.item_count == 0 %} hidden{% endif %}>{{ cart.item_count }}</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="header-nav small--hide" aria-label="{{ 'general.menu' | t }}">
+      {% render 'header-menu', menu: menu_left %}
+      {% render 'header-menu', menu: menu_right %}
+    </nav>
+  </div>
+</header>
+
+<div class="drawer-overlay" data-drawer-overlay data-drawer-close></div>
+<nav class="nav-drawer" id="NavDrawer" data-nav-drawer aria-label="{{ 'general.menu' | t }}" tabindex="-1" inert>
+  <div class="nav-drawer__header">
+    <button type="button" class="nav-drawer__close" data-drawer-close aria-label="{{ 'general.close' | t }}">{% render 'icon', name: 'close' %}</button>
+  </div>
+  <ul>
+    {%- for link in menu_left.links -%}
+      <li>
+        <a href="{{ link.url }}">{{ link.title }}</a>
+        {%- if link.links.size > 0 -%}
+          <ul>{%- for child in link.links -%}<li><a href="{{ child.url }}">{{ child.title }}</a></li>{%- endfor -%}</ul>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+    {%- for link in menu_right.links -%}
+      <li>
+        <a href="{{ link.url }}">{{ link.title }}</a>
+        {%- if link.links.size > 0 -%}
+          <ul>{%- for child in link.links -%}<li><a href="{{ child.url }}">{{ child.title }}</a></li>{%- endfor -%}</ul>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>
+
+<div class="search-modal" id="SearchModal" data-search-modal role="dialog" aria-modal="true" aria-label="{{ 'general.search' | t }}" inert>
+  <div class="search-modal__panel">
+    <div class="page-width">
+      <form action="{{ routes.search_url }}" method="get" role="search" class="search-modal__form">
+        <span class="search-modal__icon">{% render 'icon', name: 'search' %}</span>
+        <input
+          type="search"
+          name="q"
+          class="search-modal__input"
+          placeholder="{{ 'general.search_placeholder' | t }}"
+          aria-label="{{ 'general.search' | t }}"
+          autocomplete="off"
+          autocorrect="off"
+          spellcheck="false"
+          data-search-input
+          aria-controls="SearchResults"
+        >
+        <input type="hidden" name="type" value="product">
+        <button type="button" class="search-modal__close" data-search-close aria-label="{{ 'general.close' | t }}">{% render 'icon', name: 'close' %}</button>
+      </form>
+      <div class="search-results" id="SearchResults" data-search-results aria-live="polite"></div>
+    </div>
+  </div>
+  <div class="search-modal__overlay" data-search-close></div>
+</div>
+
+{% schema %}
+{
+  "name": "Cabecera",
+  "class": "section-header-sticky",
+  "settings": [
+    { "type": "image_picker", "id": "logo", "label": "Logo", "info": "Si lo dejas vacío se usa el logo incluido en el tema (assets/logo.png)." },
+    { "type": "range", "id": "logo_width", "label": "Ancho del logo", "min": 60, "max": 300, "step": 10, "unit": "px", "default": 140 },
+    { "type": "link_list", "id": "menu_left", "label": "Menú principal", "default": "main-menu" },
+    { "type": "link_list", "id": "menu_right", "label": "Menú adicional", "info": "Se muestra a continuación del primero, en la misma fila bajo el logo." }
+  ]
+}
+{% endschema %}

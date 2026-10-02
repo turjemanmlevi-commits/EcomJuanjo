@@ -1,0 +1,75 @@
+{%- liquid
+  assign shown = 0
+  for block in section.blocks
+    if block.settings.collection != blank
+      assign shown = shown | plus: 1
+    endif
+  endfor
+-%}
+
+{%- if shown > 0 or request.design_mode -%}
+<div class="index-section collection-list">
+  <div class="page-width">
+    {%- if section.settings.title != blank -%}
+      <div class="section-header">
+        <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+      </div>
+    {%- endif -%}
+
+    <div class="collection-list__grid" style="--columns: {{ section.settings.columns }}">
+      {%- for block in section.blocks -%}
+        {%- assign item = block.settings.collection -%}
+        {%- if item == blank -%}
+          {%- if request.design_mode -%}
+            <div class="collection-tile" {{ block.shopify_attributes }}>
+              <div class="collection-tile__image">{{ 'collection-1' | placeholder_svg_tag }}</div>
+              <span class="collection-tile__title">Elige una colección</span>
+            </div>
+          {%- endif -%}
+          {%- continue -%}
+        {%- endif -%}
+        {%- assign tile_image = block.settings.image | default: item.featured_image -%}
+        <a href="{{ item.url }}" class="collection-tile" {{ block.shopify_attributes }}>
+          <div class="collection-tile__image">
+            {%- if tile_image != blank -%}
+              {{ tile_image | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(min-width: 769px) 25vw, 60vw', widths: '300, 450, 600, 900', alt: '' }}
+            {%- else -%}
+              {{ 'collection-1' | placeholder_svg_tag }}
+            {%- endif -%}
+          </div>
+          <span class="collection-tile__title">{{ block.settings.title | default: item.title | escape }}</span>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Categorías",
+  "max_blocks": 8,
+  "settings": [
+    { "type": "text", "id": "title", "label": "Título", "default": "Acquista per categoria" },
+    { "type": "range", "id": "columns", "label": "Columnas en escritorio", "min": 2, "max": 5, "step": 1, "default": 4 },
+    { "type": "paragraph", "content": "Las categorías sin colección elegida no se muestran en la tienda. En móvil se deslizan en horizontal." }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Categoría",
+      "settings": [
+        { "type": "collection", "id": "collection", "label": "Colección" },
+        { "type": "text", "id": "title", "label": "Nombre", "info": "Vacío = nombre de la colección." },
+        { "type": "image_picker", "id": "image", "label": "Imagen", "info": "Vacío = imagen de la colección." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Categorías",
+      "blocks": [{ "type": "collection" }, { "type": "collection" }, { "type": "collection" }, { "type": "collection" }]
+    }
+  ]
+}
+{% endschema %}

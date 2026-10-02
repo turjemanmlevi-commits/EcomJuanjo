@@ -1,0 +1,50 @@
+{%- comment -%}
+  One cart line, shared by the cart drawer and the cart page.
+  Usage: {% render 'cart-line', item: item, index: forloop.index %}
+{%- endcomment -%}
+{%- liquid
+  assign original_line = 0
+  if item.variant.compare_at_price > item.final_price
+    assign original_line = item.variant.compare_at_price | times: item.quantity
+  elsif item.original_line_price > item.final_line_price
+    assign original_line = item.original_line_price
+  endif
+-%}
+<li class="cart-line">
+  <a href="{{ item.url }}" class="cart-line__image" tabindex="-1" aria-hidden="true">
+    {%- if item.image -%}
+      {{ item.image | image_url: width: 240 | image_tag: loading: 'lazy', sizes: '96px', widths: '120, 240', alt: '' }}
+    {%- else -%}
+      {{ 'product-1' | placeholder_svg_tag }}
+    {%- endif -%}
+  </a>
+
+  <div class="cart-line__info">
+    <a href="{{ item.url }}" class="cart-line__title">{{ item.product.title }}</a>
+    {%- unless item.product.has_only_default_variant -%}
+      <div class="cart-line__meta">{{ item.variant.title }}</div>
+    {%- endunless -%}
+    {%- for property in item.properties -%}
+      {%- assign first_char = property.first | slice: 0 -%}
+      {%- if property.last != blank and first_char != '_' -%}
+        <div class="cart-line__meta">{{ property.first }}: {{ property.last }}</div>
+      {%- endif -%}
+    {%- endfor -%}
+    {%- for discount in item.line_level_discount_allocations -%}
+      <div class="cart-line__meta cart-line__discount">{% render 'icon', name: 'tag' %}{{ discount.discount_application.title }} (−{{ discount.amount | money }})</div>
+    {%- endfor -%}
+
+    <div class="cart-line__actions">
+      {%- capture qty_label -%}{{ 'cart.quantity' | t }}: {{ item.product.title }}{%- endcapture -%}
+      {% render 'quantity-input', name: 'updates[]', value: item.quantity, min: 0, line: index, label: qty_label %}
+      <a href="{{ item.url_to_remove }}" class="cart-line__remove" data-cart-remove="{{ index }}" aria-label="{{ 'cart.remove_item' | t: product: item.product.title | escape }}">{{ 'cart.remove' | t }}</a>
+    </div>
+  </div>
+
+  <div class="cart-line__price">
+    {%- if original_line > item.final_line_price -%}
+      <s class="cart-line__price-original"><span class="visually-hidden">{{ 'products.regular_price' | t }}</span>{{ original_line | money }}</s>
+    {%- endif -%}
+    <span{% if original_line > item.final_line_price %} class="cart-line__price-sale"{% endif %}>{{ item.final_line_price | money }}</span>
+  </div>
+</li>

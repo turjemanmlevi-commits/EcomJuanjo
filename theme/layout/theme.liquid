@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="{{ settings.color_nav }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+    {%- if settings.favicon != blank -%}
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {%- endif -%}
+
+    <title>
+      {{ page_title }}
+      {%- if current_page != 1 %} &ndash; {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+    </title>
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    {% render 'social-meta' %}
+
+    {% render 'css-variables' %}
+    {{ 'theme.css' | asset_url | stylesheet_tag }}
+    <script>
+      window.theme = {
+        routes: {
+          root: {{ routes.root_url | json }},
+          cart: {{ routes.cart_url | json }},
+          cartAdd: {{ routes.cart_add_url | json }},
+          cartChange: {{ routes.cart_change_url | json }},
+          search: {{ routes.search_url | json }},
+          predictiveSearch: {{ routes.predictive_search_url | json }}
+        },
+        moneyFormat: {{ shop.money_format | strip_html | json }},
+        cartType: {{ settings.cart_type | default: 'drawer' | json }},
+        predictiveSearch: {{ settings.predictive_search | json }},
+        strings: {
+          cartError: {{ 'cart.error' | t | json }},
+          searchProducts: {{ 'general.search_products' | t | json }},
+          searchViewAll: {{ 'general.search_view_all' | t: terms: '[terms]' | json }},
+          searchNoResults: {{ 'general.search_no_results' | t: terms: '[terms]' | json }}
+        }
+      };
+    </script>
+    <script src="{{ 'theme.js' | asset_url }}" defer></script>
+
+    {{ content_for_header }}
+
+    {%- if settings.trustpilot_business_id != blank -%}
+      <script src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    {%- endif -%}
+
+    {% render 'structured-data' %}
+  </head>
+
+  <body class="template-{{ template.name }}">
+    <a class="skip-link" href="#MainContent">{{ 'general.skip_to_content' | t }}</a>
+
+    {% sections 'header-group' %}
+
+    <main id="MainContent" role="main" tabindex="-1">
+      {{ content_for_layout }}
+    </main>
+
+    {% sections 'footer-group' %}
+
+    {%- if settings.cart_type != 'page' -%}
+      {% section 'cart-drawer' %}
+    {%- endif -%}
+  </body>
+</html>

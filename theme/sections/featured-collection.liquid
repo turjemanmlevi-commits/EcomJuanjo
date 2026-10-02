@@ -1,0 +1,42 @@
+{%- assign collection = section.settings.collection | default: collections.all -%}
+
+<div class="index-section">
+  {%- if section.settings.title != blank -%}
+    <div class="page-width">
+      <div class="section-header">
+        <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="page-width">
+    <div class="grid" style="--columns: {{ section.settings.columns }}">
+      {%- if collection != blank and collection.products.size > 0 -%}
+        {%- assign shown = 0 -%}
+        {%- for item in collection.products -%}
+          {%- if shown >= section.settings.limit -%}{%- break -%}{%- endif -%}
+          {%- if product and item.id == product.id -%}{%- continue -%}{%- endif -%}
+          {% render 'product-card', product: item %}
+          {%- assign shown = shown | plus: 1 -%}
+        {%- endfor -%}
+      {%- else -%}
+        {%- for i in (1..section.settings.limit) -%}
+          {% render 'product-card', product: blank %}
+        {%- endfor -%}
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Colección destacada",
+  "settings": [
+    { "type": "text", "id": "title", "label": "Título", "default": "I nostri più venduti" },
+    { "type": "collection", "id": "collection", "label": "Colección", "info": "Si la dejas vacía se muestran todos los productos." },
+    { "type": "range", "id": "limit", "label": "Productos a mostrar", "min": 2, "max": 20, "step": 1, "default": 5 },
+    { "type": "range", "id": "columns", "label": "Columnas en escritorio", "min": 2, "max": 6, "step": 1, "default": 5 }
+  ],
+  "presets": [{ "name": "Colección destacada" }]
+}
+{% endschema %}

@@ -1,0 +1,346 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Juanjo Fashion",
+    "theme_version": "1.0.0",
+    "theme_author": "EcommerceJuanjo",
+    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
+    "theme_support_url": "https://help.shopify.com/"
+  },
+  {
+    "name": "Tipografía",
+    "settings": [
+      {
+        "type": "font_picker",
+        "id": "type_header_font",
+        "label": "Fuente de títulos",
+        "default": "tenor_sans_n4"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_base_font",
+        "label": "Fuente de texto",
+        "default": "outfit_n3"
+      },
+      {
+        "type": "range",
+        "id": "type_base_size",
+        "label": "Tamaño del texto base",
+        "min": 14,
+        "max": 20,
+        "step": 1,
+        "unit": "px",
+        "default": 17
+      }
+    ]
+  },
+  {
+    "name": "Colores",
+    "settings": [
+      {
+        "type": "header",
+        "content": "General"
+      },
+      {
+        "type": "color",
+        "id": "color_body_bg",
+        "label": "Fondo",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color_body_text",
+        "label": "Texto",
+        "default": "#1c1b1a"
+      },
+      {
+        "type": "color",
+        "id": "color_borders",
+        "label": "Líneas y bordes",
+        "default": "#e6e3de"
+      },
+      {
+        "type": "color",
+        "id": "color_accent",
+        "label": "Acento (ofertas, valoración, contador del carrito)",
+        "default": "#17784a"
+      },
+      {
+        "type": "header",
+        "content": "Botones"
+      },
+      {
+        "type": "color",
+        "id": "color_button",
+        "label": "Botón",
+        "default": "#1c1b1a"
+      },
+      {
+        "type": "color",
+        "id": "color_button_text",
+        "label": "Texto del botón",
+        "default": "#faf9f7"
+      },
+      {
+        "type": "color",
+        "id": "color_buy_button",
+        "label": "Botón de compra",
+        "default": "#1c1b1a"
+      },
+      {
+        "type": "color",
+        "id": "color_buy_button_text",
+        "label": "Texto del botón de compra",
+        "default": "#faf9f7"
+      },
+      {
+        "type": "header",
+        "content": "Precios"
+      },
+      {
+        "type": "color",
+        "id": "color_price",
+        "label": "Precio",
+        "default": "#1c1b1a"
+      },
+      {
+        "type": "color",
+        "id": "color_sale_price",
+        "label": "Precio en oferta",
+        "default": "#17784a"
+      },
+      {
+        "type": "color",
+        "id": "color_compare_price",
+        "label": "Precio anterior (tachado)",
+        "default": "#8a8782"
+      },
+      {
+        "type": "color",
+        "id": "color_sale_tag",
+        "label": "Etiqueta de oferta",
+        "default": "#1c1b1a"
+      },
+      {
+        "type": "color",
+        "id": "color_sale_tag_text",
+        "label": "Texto de la etiqueta de oferta",
+        "default": "#faf9f7"
+      },
+      {
+        "type": "header",
+        "content": "Cabecera"
+      },
+      {
+        "type": "color",
+        "id": "color_announcement",
+        "label": "Barra de anuncios",
+        "default": "#e8dcca"
+      },
+      {
+        "type": "color",
+        "id": "color_announcement_text",
+        "label": "Texto de la barra de anuncios",
+        "default": "#1c1b1a"
+      },
+      {
+        "type": "color",
+        "id": "color_nav",
+        "label": "Fondo de la cabecera",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color_nav_text",
+        "label": "Texto de la cabecera",
+        "default": "#1c1b1a"
+      },
+      {
+        "type": "color",
+        "id": "color_cart_dot",
+        "label": "Contador del carrito",
+        "default": "#17784a"
+      },
+      {
+        "type": "header",
+        "content": "Hero y pie"
+      },
+      {
+        "type": "color",
+        "id": "color_hero_text",
+        "label": "Texto sobre imágenes",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color_footer",
+        "label": "Fondo del pie",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color_footer_text",
+        "label": "Texto del pie",
+        "default": "#1c1b1a"
+      }
+    ]
+  },
+  {
+    "name": "Datos legales",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "En Italia la web de una tienda debe mostrar la Partita IVA. Estos datos aparecen en el pie de página y en los datos estructurados para Google."
+      },
+      {
+        "type": "text",
+        "id": "legal_name",
+        "label": "Razón social",
+        "info": "Ej.: Oriona di Caterina Rossi"
+      },
+      {
+        "type": "text",
+        "id": "legal_vat",
+        "label": "Partita IVA",
+        "info": "Ej.: IT01234567890"
+      },
+      {
+        "type": "text",
+        "id": "legal_address",
+        "label": "Dirección de la sede"
+      },
+      {
+        "type": "text",
+        "id": "legal_email",
+        "label": "Email de contacto"
+      }
+    ]
+  },
+  {
+    "name": "Carrito",
+    "settings": [
+      {
+        "type": "select",
+        "id": "cart_type",
+        "label": "Al añadir un producto",
+        "options": [
+          {
+            "value": "drawer",
+            "label": "Abrir el carrito lateral"
+          },
+          {
+            "value": "page",
+            "label": "Ir a la página del carrito"
+          }
+        ],
+        "default": "drawer"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_dynamic_checkout",
+        "label": "Mostrar botón de compra rápida en la ficha (Shop Pay, Apple Pay, PayPal…)",
+        "default": true,
+        "info": "Shopify muestra los métodos que tengas activados en Pagos."
+      }
+    ]
+  },
+  {
+    "name": "Búsqueda",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "predictive_search",
+        "label": "Mostrar resultados mientras se escribe",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "Tarjetas de producto",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_card_rating",
+        "label": "Mostrar estrellas en las tarjetas de producto",
+        "default": true,
+        "info": "Usa la valoración real de tu app de reseñas. Los productos sin reseñas no muestran estrellas."
+      }
+    ]
+  },
+  {
+    "name": "Trustpilot",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Muestra tu valoración real de Trustpilot con el widget oficial (TrustBox). Necesitas un perfil de empresa en business.trustpilot.com: el Business Unit ID está en Integraciones > TrustBox. Mientras esté vacío, no se muestra nada."
+      },
+      {
+        "type": "text",
+        "id": "trustpilot_business_id",
+        "label": "Business Unit ID"
+      },
+      {
+        "type": "url",
+        "id": "trustpilot_url",
+        "label": "Enlace a tu perfil",
+        "info": "Ej.: https://it.trustpilot.com/review/tutienda.it"
+      },
+      {
+        "type": "select",
+        "id": "trustpilot_template",
+        "label": "Estilo del widget",
+        "options": [
+          {
+            "value": "5419b732fbfb950b10de65e5",
+            "label": "Micro Star (estrellas + nota)"
+          },
+          {
+            "value": "5419b6a8b0d04a076446a9ad",
+            "label": "Micro Review Count (nº de opiniones)"
+          },
+          {
+            "value": "53aa8807dec7e10d38f59f36",
+            "label": "Mini (logo + estrellas + total)"
+          }
+        ],
+        "default": "5419b732fbfb950b10de65e5",
+        "info": "Algunos estilos requieren un plan de pago de Trustpilot."
+      },
+      {
+        "type": "text",
+        "id": "trustpilot_locale",
+        "label": "Idioma",
+        "default": "it-IT"
+      },
+      {
+        "type": "checkbox",
+        "id": "trustpilot_product",
+        "label": "Mostrar en la ficha de producto (bajo el botón de compra)",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "trustpilot_footer",
+        "label": "Mostrar en el pie de página",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "trustpilot_product_ratings",
+        "label": "Mostrar el logo de Trustpilot junto a las estrellas del producto",
+        "info": "Actívalo solo si esas valoraciones vienen de tu perfil de Trustpilot (reseñas de producto de Trustpilot). Si vienen de otra app, el logo sería engañoso.",
+        "default": false
+      }
+    ]
+  },
+  {
+    "name": "Favicon",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Imagen del favicon"
+      }
+    ]
+  }
+]

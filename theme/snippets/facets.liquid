@@ -1,0 +1,150 @@
+{%- comment -%}
+  Filter + sort toolbar for collection and search results (Shopify storefront filtering).
+  Filters are managed in the Shopify admin with the free "Search & Discovery" app.
+  Usage: {% render 'facets', results: collection, url: collection.url, count: collection.products_count, clear_url: … %}
+{%- endcomment -%}
+{%- liquid
+  assign sort_by = results.sort_by | default: results.default_sort_by
+  assign active_count = 0
+  for filter in results.filters
+    if filter.type == 'price_range'
+      if filter.min_value.value != nil or filter.max_value.value != nil
+        assign active_count = active_count | plus: 1
+      endif
+    else
+      assign active_count = active_count | plus: filter.active_values.size
+    endif
+  endfor
+-%}
+
+<div class="facets" data-facets>
+  <form action="{{ url }}" method="get" class="facets__form" id="FacetsForm" data-facets-form>
+    {%- if results.terms -%}
+      <input type="hidden" name="q" value="{{ results.terms | escape }}">
+      <input type="hidden" name="type" value="product">
+    {%- endif -%}
+
+    <div class="collection-toolbar">
+      <div class="collection-toolbar__start">
+        {%- if results.filters.size > 0 -%}
+          <button type="button" class="collection-toolbar__filter" data-facets-open aria-controls="FacetsDrawer" aria-expanded="false">
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 5h10M16 5h2M2 15h2M8 15h10"/><circle cx="14" cy="5" r="2"/><circle cx="6" cy="15" r="2"/></svg>
+            <span>{{ 'collections.filter' | t }}</span>
+            {%- if active_count > 0 -%}<span class="facets__badge">{{ active_count }}</span>{%- endif -%}
+          </button>
+        {%- endif -%}
+        <span class="collection-toolbar__count">{{ 'collections.products_count' | t: count: count }}</span>
+      </div>
+      <label class="collection-toolbar__sort">
+        <span>{{ 'collections.sort_by' | t }}</span>
+        <select name="sort_by" data-facets-autosubmit>
+          {%- for option in results.sort_options -%}
+            <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected{% endif %}>{{ option.name | escape }}</option>
+          {%- endfor -%}
+        </select>
+      </label>
+      <noscript><button type="submit" class="btn">{{ 'collections.apply' | t }}</button></noscript>
+    </div>
+
+    {%- if active_count > 0 -%}
+      <div class="facets__active">
+        {%- for filter in results.filters -%}
+          {%- if filter.type == 'price_range' -%}
+            {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}
+              {%- capture price_label -%}{{ filter.min_value.value | default: 0 | money }}–{{ filter.max_value.value | default: filter.range_max | money }}{%- endcapture -%}
+              <a href="{{ filter.url_to_remove }}" class="facets__chip" aria-label="{{ 'collections.remove_filter' | t: filter: price_label | escape }}">{{ price_label }} {% render 'icon', name: 'close' %}</a>
+            {%- endif -%}
+          {%- else -%}
+            {%- for value in filter.active_values -%}
+              <a href="{{ value.url_to_remove }}" class="facets__chip" aria-label="{{ 'collections.remove_filter' | t: filter: value.label | escape }}">{{ value.label | escape }} {% render 'icon', name: 'close' %}</a>
+            {%- endfor -%}
+          {%- endif -%}
+        {%- endfor -%}
+        <a href="{{ clear_url }}" class="facets__clear">{{ 'collections.clear_all' | t }}</a>
+      </div>
+    {%- endif -%}
+
+    {%- if results.filters.size > 0 -%}
+      <div class="drawer-overlay" data-facets-overlay></div>
+      <div class="side-drawer side-drawer--left facets-drawer" id="FacetsDrawer" data-facets-drawer role="dialog" aria-modal="true" aria-labelledby="FacetsDrawer-Title" tabindex="-1">
+        <div class="side-drawer__header">
+          <h2 class="side-drawer__title" id="FacetsDrawer-Title">{{ 'collections.filter' | t }}</h2>
+          <button type="button" class="side-drawer__close" data-facets-close aria-label="{{ 'general.close' | t }}">{% render 'icon', name: 'close' %}</button>
+        </div>
+
+        <div class="side-drawer__content facets__list">
+          {%- for filter in results.filters -%}
+            {%- liquid
+              assign filter_active = false
+              if filter.active_values.size > 0
+                assign filter_active = true
+              elsif filter.type == 'price_range'
+                if filter.min_value.value != nil or filter.max_value.value != nil
+                  assign filter_active = true
+                endif
+              endif
+            -%}
+            <details class="facet"{% if filter_active or forloop.index <= 2 %} open{% endif %}>
+              <summary class="facet__summary">
+                <span>{{ filter.label | escape }}</span>
+                {% render 'icon', name: 'chevron-down' %}
+              </summary>
+
+              {%- case filter.type -%}
+                {%- when 'price_range' -%}
+                  {%- liquid
+                    assign range_max = filter.range_max | divided_by: 100.0 | ceil
+                    assign min_value = ''
+                    assign max_value = ''
+                    if filter.min_value.value != nil
+                      assign min_value = filter.min_value.value | divided_by: 100
+                    endif
+                    if filter.max_value.value != nil
+                      assign max_value = filter.max_value.value | divided_by: 100.0 | ceil
+                    endif
+                  -%}
+                  <div class="facet__price">
+                    <label class="facet__price-field">
+                      <span>{{ 'collections.price_from' | t }} ({{ cart.currency.symbol }})</span>
+                      <input type="number" inputmode="numeric" name="{{ filter.min_value.param_name }}" value="{{ min_value }}" placeholder="0" min="0" max="{{ range_max }}" step="1">
+                    </label>
+                    <label class="facet__price-field">
+                      <span>{{ 'collections.price_to' | t }} ({{ cart.currency.symbol }})</span>
+                      <input type="number" inputmode="numeric" name="{{ filter.max_value.param_name }}" value="{{ max_value }}" placeholder="{{ range_max }}" min="0" max="{{ range_max }}" step="1">
+                    </label>
+                  </div>
+
+                {%- else -%}
+                  <ul class="facet__values" role="list">
+                    {%- for value in filter.values -%}
+                      {%- assign value_id = 'Filter-' | append: filter.param_name | append: '-' | append: forloop.index | handleize -%}
+                      <li>
+                        <input
+                          type="checkbox"
+                          class="facet__checkbox"
+                          id="{{ value_id }}"
+                          name="{{ value.param_name }}"
+                          value="{{ value.value | escape }}"
+                          {% if value.active %}checked{% endif %}
+                          {% if value.count == 0 and value.active == false %}disabled{% endif %}
+                        >
+                        <label for="{{ value_id }}" class="facet__label">
+                          <span>{{ value.label | escape }}</span>
+                          <span class="facet__count">{{ value.count }}</span>
+                        </label>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+              {%- endcase -%}
+            </details>
+          {%- endfor -%}
+        </div>
+
+        <div class="side-drawer__footer facets__footer">
+          <a href="{{ clear_url }}" class="btn btn--outline">{{ 'collections.clear_all' | t }}</a>
+          <button type="submit" class="btn btn--buy">{{ 'collections.apply' | t }}</button>
+        </div>
+      </div>
+    {%- endif -%}
+  </form>
+</div>

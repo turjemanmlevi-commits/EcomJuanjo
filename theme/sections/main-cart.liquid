@@ -1,0 +1,51 @@
+<div class="page-content">
+  <div class="page-width page-width--narrow" data-cart-section="{{ section.id }}">
+    <header class="section-header">
+      <h1 class="section-header__title">{{ 'cart.title' | t }}</h1>
+    </header>
+
+    <div data-cart-replace="contents" data-cart-item-count="{{ cart.item_count }}">
+      {%- if cart.item_count == 0 -%}
+        <div class="cart-empty">
+          <p>{{ 'cart.empty' | t }}</p>
+          <a href="{{ routes.all_products_collection_url }}" class="btn">{{ 'general.continue_shopping' | t }}</a>
+        </div>
+      {%- else -%}
+        <form action="{{ routes.cart_url }}" method="post" class="cart-page" novalidate>
+          <ul class="cart-lines cart-lines--page" role="list">
+            {%- for item in cart.items -%}
+              {% render 'cart-line', item: item, index: forloop.index %}
+            {%- endfor -%}
+          </ul>
+
+          <div class="cart-page__summary">
+            <p class="cart-error" data-cart-error role="alert" hidden></p>
+            {%- for discount in cart.cart_level_discount_applications -%}
+              <div class="cart-summary__row cart-summary__row--discount">
+                <span>{% render 'icon', name: 'tag' %}{{ discount.title }}</span>
+                <span>−{{ discount.total_allocated_amount | money }}</span>
+              </div>
+            {%- endfor -%}
+            <div class="cart-summary__row cart-summary__row--total">
+              <span>{{ 'cart.subtotal' | t }}</span>
+              <span>{{ cart.total_price | money }}</span>
+            </div>
+            <p class="cart-summary__note">{{ 'cart.note' | t }}</p>
+            {%- comment -%} Only needed without JavaScript: with JS quantities save as soon as they change. {%- endcomment -%}
+            <button type="submit" name="update" class="btn btn--outline btn--full no-js-only">{{ 'cart.update' | t }}</button>
+            <button type="submit" name="checkout" class="btn btn--buy btn--full">{{ 'cart.checkout' | t }}</button>
+            {%- if additional_checkout_buttons -%}
+              <div class="cart-page__extra-checkout">{{ content_for_additional_checkout_buttons }}</div>
+            {%- endif -%}
+          </div>
+        </form>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Carrito"
+}
+{% endschema %}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Anteprima · Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <script>document.documentElement.className = "js";</script>
+    <link rel="stylesheet" href="preview.css">
+    <link rel="stylesheet" href="../theme/assets/theme.css">
+    <script src="../theme/assets/theme.js" defer></script>
+  </head>
+  <body class="template-index">
+    <a class="skip-link" href="#MainContent">Vai al contenuto</a>
+    <div data-include="header"></div>
+
+    <main id="MainContent" tabindex="-1">
+      <div style="padding-bottom: 6px"><div data-include="marquee"></div></div>
+
+      <div class="hero" data-hero style="--hero-height: max(460px, calc(75svh - 60px))">
+        <div class="hero__slide is-active">
+          <div class="hero__image-wrapper"><img class="hero__image" src="../theme/assets/hero.jpg" alt="Dopo 14 anni, chiudiamo" fetchpriority="high"></div>
+          <div class="hero__text-wrap">
+            <div class="page-width">
+              <div class="hero__text-content vertical-center horizontal-center">
+                <div class="hero__text-inner">
+                  <h1 class="hero__title">Dopo 14 anni, chiudiamo</h1>
+                  <div class="hero__subtitle">Tutto al 50%</div>
+                  <div class="hero__link"><a href="collection.html?c=all" class="btn btn--light">Acquista ora →</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-include="featured-collection"></div>
+      <div data-include="collection-list"></div>
+      <div data-include="testimonials"></div>
+
+      <div class="index-section">
+        <div class="page-width">
+          <div class="feature-row" data-story-animate>
+            <div class="feature-row__item feature-row__text">
+              <div class="h1">Un ultimo saluto…</div>
+              <div class="rte">
+                <p>Mi chiamo Caterina. Nel 2012 io e mia sorella Bianca abbiamo aperto questo negozio. È nato tutto da lei: Bianca amava la moda, e questo posto era il suo sogno. Io ho avuto la fortuna di condividerlo con lei.</p>
+                <p>Per quattordici anni l’abbiamo portato avanti insieme, fianco a fianco.</p>
+                <p>Bianca ci ha lasciati. Senza di lei questo negozio non è più lo stesso, e non riesco a immaginarlo senza di lei. Per questo ho deciso di chiudere.</p>
+                <p>Tutto quello che rimane è scontato del 50%. Sono gli ultimi capi: quando finiranno, non ci saranno riassortimenti.</p>
+                <p>Grazie a tutte voi che in questi quattordici anni siete entrate, avete provato, siete tornate. Bianca vi voleva bene, e anch’io.</p>
+                <p class="signature">Caterina 🤍</p>
+              </div>
+            </div>
+            <div class="feature-row__item feature-row__item--overlap">
+              <div><div class="feature-row__image-wrap"><img src="../theme/assets/story-1.webp" alt=""></div></div>
+              <div><div class="feature-row__image-wrap"><img src="../theme/assets/story-2.webp" alt="" style="object-position: 15% center"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-include="faq"></div>
+      <div data-include="features"></div>
+    </main>
+
+    <div data-include="footer"></div>
+    <script src="catalog.js"></script>
+    <script src="preview.js"></script>
+  </body>
+</html>

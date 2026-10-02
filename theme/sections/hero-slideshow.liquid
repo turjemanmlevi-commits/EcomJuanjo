@@ -1,0 +1,125 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} .hero {
+    --hero-height: {% case section.settings.height %}{% when 'full' %}max(480px, calc(100svh - 150px)){% when 'large' %}max(460px, calc(75svh - 60px)){% else %}{{ section.settings.height }}px{% endcase %};
+    --hero-height-mobile: {{ section.settings.height_mobile }}px;
+    --hero-overlay: {{ section.settings.overlay_opacity | divided_by: 100.0 }};
+  }
+{%- endstyle -%}
+
+<div class="hero" data-hero data-autoplay="{{ section.settings.autoplay }}" data-speed="{{ section.settings.speed }}">
+  {%- for block in section.blocks -%}
+    <div class="hero__slide{% if forloop.first %} is-active{% endif %}" {{ block.shopify_attributes }}>
+      <div class="hero__image-wrapper">
+        {%- if block.settings.image_mobile != blank -%}
+          {{ block.settings.image_mobile | image_url: width: 1200 | image_tag: class: 'hero__image hero__image--mobile', loading: 'eager', fetchpriority: 'high', alt: block.settings.title, sizes: '100vw', widths: '600, 900, 1200' }}
+        {%- endif -%}
+        {%- if block.settings.image != blank -%}
+          {%- assign loading = 'lazy' -%}
+          {%- assign priority = 'auto' -%}
+          {%- if forloop.first -%}{%- assign loading = 'eager' -%}{%- assign priority = 'high' -%}{%- endif -%}
+          {{ block.settings.image | image_url: width: 3000 | image_tag: class: 'hero__image', loading: loading, fetchpriority: priority, sizes: '100vw', widths: '750, 1100, 1500, 2000, 3000', alt: block.settings.image.alt | default: block.settings.title }}
+        {%- elsif forloop.first -%}
+          <img class="hero__image" src="{{ 'hero.jpg' | asset_url }}" alt="{{ block.settings.title | escape }}" width="1672" height="941" loading="eager" fetchpriority="high">
+        {%- else -%}
+          {{ 'lifestyle-1' | placeholder_svg_tag }}
+        {%- endif -%}
+      </div>
+
+      <div class="hero__text-wrap">
+        <div class="page-width">
+          <div class="hero__text-content vertical-{{ block.settings.vertical }} horizontal-{{ block.settings.horizontal }}">
+            <div class="hero__text-inner">
+              {%- if block.settings.title != blank -%}
+                {%- if forloop.first and template.name == 'index' -%}
+                  <h1 class="hero__title">{{ block.settings.title | escape }}</h1>
+                {%- else -%}
+                  <h2 class="h1 hero__title">{{ block.settings.title | escape }}</h2>
+                {%- endif -%}
+              {%- endif -%}
+              {%- if block.settings.subtitle != blank -%}
+                <div class="hero__subtitle">{{ block.settings.subtitle | escape }}</div>
+              {%- endif -%}
+              {%- if block.settings.button_label != blank -%}
+                <div class="hero__link">
+                  <a href="{{ block.settings.button_link | default: routes.all_products_collection_url }}" class="btn btn--light">{{ block.settings.button_label | escape }}</a>
+                </div>
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {%- endfor -%}
+
+  {%- if section.blocks.size > 1 -%}
+    <div class="hero__dots">
+      {%- for block in section.blocks -%}
+        <button type="button" class="hero__dot{% if forloop.first %} is-active{% endif %}" aria-label="{{ forloop.index }} / {{ section.blocks.size }}"></button>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Hero / slideshow",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "select",
+      "id": "height",
+      "label": "Altura en escritorio",
+      "options": [
+        { "value": "450", "label": "450px" },
+        { "value": "550", "label": "550px" },
+        { "value": "650", "label": "650px" },
+        { "value": "750", "label": "750px" },
+        { "value": "large", "label": "Grande (3/4 de pantalla)" },
+        { "value": "full", "label": "Pantalla completa" }
+      ],
+      "default": "full"
+    },
+    { "type": "range", "id": "height_mobile", "label": "Altura en móvil", "min": 300, "max": 700, "step": 50, "unit": "px", "default": 400 },
+    { "type": "range", "id": "overlay_opacity", "label": "Opacidad del oscurecido", "min": 0, "max": 80, "step": 5, "unit": "%", "default": 25 },
+    { "type": "checkbox", "id": "autoplay", "label": "Cambiar de diapositiva automáticamente", "default": true },
+    { "type": "range", "id": "speed", "label": "Cambiar cada", "min": 3, "max": 12, "step": 1, "unit": "s", "default": 7 }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Diapositiva",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Imagen", "info": "Si la primera diapositiva no tiene imagen se usa la incluida en el tema (assets/hero.jpg)." },
+        { "type": "image_picker", "id": "image_mobile", "label": "Imagen para móvil" },
+        { "type": "text", "id": "title", "label": "Título", "default": "Dopo 14 anni, chiudiamo" },
+        { "type": "text", "id": "subtitle", "label": "Subtítulo", "default": "Tutto al 50%" },
+        { "type": "text", "id": "button_label", "label": "Texto del botón", "default": "Acquista ora →" },
+        { "type": "url", "id": "button_link", "label": "Enlace del botón" },
+        {
+          "type": "select",
+          "id": "vertical",
+          "label": "Posición vertical del texto",
+          "options": [
+            { "value": "top", "label": "Arriba" },
+            { "value": "center", "label": "Centro" },
+            { "value": "bottom", "label": "Abajo" }
+          ],
+          "default": "bottom"
+        },
+        {
+          "type": "select",
+          "id": "horizontal",
+          "label": "Posición horizontal del texto",
+          "options": [
+            { "value": "left", "label": "Izquierda" },
+            { "value": "center", "label": "Centro" },
+            { "value": "right", "label": "Derecha" }
+          ],
+          "default": "center"
+        }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Hero / slideshow", "blocks": [{ "type": "slide" }] }]
+}
+{% endschema %}

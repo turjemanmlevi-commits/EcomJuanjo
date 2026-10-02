@@ -1,0 +1,22 @@
+<div class="index-section">
+  <div class="page-width">
+    <div class="btt-row">
+      <div class="btt-wrapper">
+        <button type="button" class="btt-btn" data-back-to-top>
+          {{ section.settings.label | escape }}
+          {% render 'icon', name: 'chevron-up' %}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Volver arriba",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Texto", "default": "Torna su" }
+  ],
+  "presets": [{ "name": "Volver arriba" }]
+}
+{% endschema %}

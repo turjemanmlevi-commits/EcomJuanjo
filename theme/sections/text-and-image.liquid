@@ -1,0 +1,85 @@
+{%- liquid
+  assign overlap = false
+  if section.settings.image_2 != blank or section.settings.layout_images == 'overlap'
+    assign overlap = true
+  endif
+-%}
+
+{%- if section.settings.text != blank or section.settings.image != blank or request.design_mode -%}
+<div class="index-section">
+  <div class="page-width">
+    <div class="feature-row{% if section.settings.image_position == 'left' %} feature-row--image-left{% endif %}"{% if section.settings.animate %} data-story-animate{% endif %}>
+      <div class="feature-row__item feature-row__text">
+        {%- if section.settings.title != blank -%}
+          <div class="h1">{{ section.settings.title | escape }}</div>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+          <div class="rte">{{ section.settings.text }}</div>
+        {%- endif -%}
+        {%- if section.settings.button_label != blank -%}
+          <a href="{{ section.settings.button_link }}" class="btn">{{ section.settings.button_label | escape }}</a>
+        {%- endif -%}
+      </div>
+
+      <div class="feature-row__item{% if overlap %} feature-row__item--overlap{% endif %}">
+        <div>
+          <div class="feature-row__image-wrap">
+            {%- if section.settings.image != blank -%}
+              {{ section.settings.image | image_url: width: 1400 | image_tag: loading: 'lazy', sizes: '(min-width: 769px) 50vw, 100vw', widths: '400, 700, 1000, 1400' }}
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag }}
+            {%- endif -%}
+          </div>
+        </div>
+        {%- if overlap -%}
+          <div>
+            <div class="feature-row__image-wrap">
+              {%- if section.settings.image_2 != blank -%}
+                {{ section.settings.image_2 | image_url: width: 1000 | image_tag: loading: 'lazy', sizes: '(min-width: 769px) 25vw, 50vw', widths: '400, 700, 1000' }}
+              {%- else -%}
+                {{ 'image' | placeholder_svg_tag }}
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Texto e imagen",
+  "settings": [
+    { "type": "image_picker", "id": "image", "label": "Imagen" },
+    { "type": "image_picker", "id": "image_2", "label": "Segunda imagen", "info": "Con dos imágenes se muestran cuadradas y superpuestas." },
+    {
+      "type": "select",
+      "id": "layout_images",
+      "label": "Disposición de imágenes",
+      "options": [
+        { "value": "single", "label": "Una imagen" },
+        { "value": "overlap", "label": "Dos imágenes superpuestas" }
+      ],
+      "default": "single"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Posición de la imagen",
+      "options": [
+        { "value": "left", "label": "Izquierda" },
+        { "value": "right", "label": "Derecha" }
+      ],
+      "default": "right"
+    },
+    { "type": "text", "id": "title", "label": "Título", "default": "La nostra storia" },
+    { "type": "richtext", "id": "text", "label": "Texto", "info": "Sin texto ni imagen la sección no se muestra." },
+    { "type": "text", "id": "button_label", "label": "Texto del botón" },
+    { "type": "url", "id": "button_link", "label": "Enlace del botón" },
+    { "type": "checkbox", "id": "animate", "label": "Animación al hacer scroll", "info": "El texto aparece párrafo a párrafo y las fotos se descubren con un leve movimiento. Se desactiva sola si el visitante tiene activado reducir movimiento.", "default": true }
+  ],
+  "presets": [{ "name": "Texto e imagen" }]
+}
+{% endschema %}

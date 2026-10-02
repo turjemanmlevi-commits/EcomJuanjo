@@ -1,0 +1,15 @@
+<div class="page-content">
+  <div class="page-width text-center">
+    <header class="section-header">
+      <h1 class="section-header__title">{{ 'general.not_found_title' | t }}</h1>
+    </header>
+    <p>{{ 'general.not_found_text' | t }}</p>
+    <a href="{{ routes.root_url }}" class="btn">{{ 'general.continue_shopping' | t }}</a>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "404"
+}
+{% endschema %}

@@ -1,0 +1,71 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} .features { --features-bg: {{ section.settings.color_bg }}; }
+{%- endstyle -%}
+
+<div class="features">
+  <div class="features__inner">
+    <div class="features__grid">
+      {%- for block in section.blocks -%}
+        {%- if block.settings.title == blank -%}{%- continue -%}{%- endif -%}
+        <div class="features__box" {{ block.shopify_attributes }}>
+          <div class="features__icon">
+            {%- if block.settings.image != blank -%}
+              {{ block.settings.image | image_url: width: 84 | image_tag: loading: 'lazy', alt: '' }}
+            {%- else -%}
+              {% render 'icon', name: block.settings.icon %}
+            {%- endif -%}
+          </div>
+          <div>
+            {%- if block.settings.title != blank -%}
+              <div class="features__title">{{ block.settings.title | escape }}</div>
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}
+              <div class="features__description">{{ block.settings.text }}</div>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Ventajas con iconos",
+  "max_blocks": 6,
+  "settings": [
+    { "type": "color", "id": "color_bg", "label": "Fondo", "default": "#ffffff" }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Ventaja",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icono",
+          "options": [
+            { "value": "gift", "label": "Regalo" },
+            { "value": "refresh", "label": "Devolución" },
+            { "value": "lock", "label": "Candado" },
+            { "value": "truck", "label": "Envío" },
+            { "value": "heart", "label": "Corazón" },
+            { "value": "check", "label": "Check" }
+          ],
+          "default": "gift"
+        },
+        { "type": "image_picker", "id": "image", "label": "Icono personalizado" },
+        { "type": "text", "id": "title", "label": "Título", "default": "Spedizione gratuita" },
+        { "type": "richtext", "id": "text", "label": "Texto", "info": "Una frase corta y concreta." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ventajas con iconos",
+      "blocks": [{ "type": "feature" }, { "type": "feature" }, { "type": "feature" }]
+    }
+  ]
+}
+{% endschema %}

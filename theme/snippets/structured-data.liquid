@@ -1,0 +1,40 @@
+{%- comment -%}
+  Schema.org data so Google can show price, availability and (real) ratings
+  in search results. Product data comes from Shopify's own structured_data filter.
+{%- endcomment -%}
+{%- if request.page_type == 'product' -%}
+  <script type="application/ld+json">{{ product | structured_data }}</script>
+{%- elsif request.page_type == 'article' -%}
+  <script type="application/ld+json">{{ article | structured_data }}</script>
+{%- elsif request.page_type == 'index' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": {{ settings.legal_name | default: shop.name | json }},
+      "url": {{ request.origin | json }}
+      {%- if settings.legal_vat != blank -%},
+      "vatID": {{ settings.legal_vat | json }}
+      {%- endif -%}
+      {%- if settings.legal_email != blank -%},
+      "email": {{ settings.legal_email | json }}
+      {%- endif -%}
+      {%- if settings.legal_address != blank -%},
+      "address": {{ settings.legal_address | json }}
+      {%- endif %}
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": {{ shop.name | json }},
+      "url": {{ request.origin | json }},
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {{ request.origin | append: routes.search_url | append: '?q={search_term_string}' | json }},
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+{%- endif -%}

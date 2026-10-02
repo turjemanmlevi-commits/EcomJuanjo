@@ -1,0 +1,54 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} .newsletter-section { --newsletter-bg: {{ section.settings.color_bg }}; }
+{%- endstyle -%}
+
+<div class="newsletter-section">
+  <div class="page-width text-center">
+    {%- if section.settings.title != blank -%}
+      <div class="theme-block">
+        <p class="h3">{{ section.settings.title | escape }}</p>
+      </div>
+    {%- endif -%}
+    {%- if section.settings.text != blank -%}
+      <div class="theme-block">
+        <div class="rte">{{ section.settings.text }}</div>
+      </div>
+    {%- endif -%}
+    <div class="theme-block">
+      {%- form 'customer', id: 'Newsletter' -%}
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <label for="Email-{{ section.id }}" class="visually-hidden">{{ 'newsletter.email_label' | t }}</label>
+        <div class="newsletter__input-group">
+          <input
+            type="email"
+            name="contact[email]"
+            id="Email-{{ section.id }}"
+            class="newsletter__input"
+            placeholder="{{ 'newsletter.email_label' | t }}"
+            value="{{ form.email }}"
+            autocomplete="email"
+            required
+          >
+          <button type="submit" class="btn">{{ 'newsletter.subscribe' | t }}</button>
+        </div>
+        {%- if form.posted_successfully? -%}
+          <p class="newsletter__message">{{ 'newsletter.success' | t }}</p>
+        {%- elsif form.errors -%}
+          <div class="newsletter__message">{{ form.errors | default_errors }}</div>
+        {%- endif -%}
+      {%- endform -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Newsletter",
+  "settings": [
+    { "type": "text", "id": "title", "label": "Título", "default": "Iscriviti alla nostra newsletter" },
+    { "type": "richtext", "id": "text", "label": "Texto", "default": "<p>Scopri per prima novità e promozioni.</p>" },
+    { "type": "color", "id": "color_bg", "label": "Fondo", "default": "#f9f9f9" }
+  ],
+  "presets": [{ "name": "Newsletter" }]
+}
+{% endschema %}

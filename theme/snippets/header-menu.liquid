@@ -1,0 +1,18 @@
+{%- comment -%}
+  One half of the split header navigation.
+  Usage: {% render 'header-menu', menu: linklist %}
+{%- endcomment -%}
+<ul class="site-nav site-navigation">
+  {%- for link in menu.links -%}
+    <li class="site-nav__item{% if link.links.size > 0 %} site-nav__item--has-dropdown{% endif %}">
+      <a href="{{ link.url }}" class="site-nav__link"{% if link.current %} aria-current="page"{% endif %}>{{ link.title }}</a>
+      {%- if link.links.size > 0 -%}
+        <ul class="site-nav__dropdown">
+          {%- for child in link.links -%}
+            <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+    </li>
+  {%- endfor -%}
+</ul>

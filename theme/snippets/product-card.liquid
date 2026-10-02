@@ -1,0 +1,57 @@
+{%- comment -%}
+  Product grid item.
+  Usage: {% render 'product-card', product: product %}
+{%- endcomment -%}
+<div class="grid-product">
+  {%- if product == blank -%}
+    <div class="grid-product__image-mask">
+      <div class="grid__image-ratio">{{ 'product-1' | placeholder_svg_tag }}</div>
+    </div>
+    <div class="grid-product__meta">
+      <div class="grid-product__title">{{ 'products.placeholder_title' | t }}</div>
+      <div class="grid-product__price">{{ 2999 | money }}</div>
+    </div>
+  {%- else -%}
+    {%- assign on_sale = false -%}
+    {%- if product.compare_at_price > product.price -%}
+      {%- assign on_sale = true -%}
+    {%- endif -%}
+
+    {%- if product.available == false -%}
+      <div class="grid-product__tag grid-product__tag--soldout">{{ 'products.sold_out' | t }}</div>
+    {%- elsif on_sale -%}
+      {%- assign discount = product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price -%}
+      <div class="grid-product__tag">{% if discount > 0 %}-{{ discount }}%{% else %}{{ 'products.sale' | t }}{% endif %}</div>
+    {%- endif -%}
+
+    <a href="{{ product.url }}" class="grid-product__link">
+      <div class="grid-product__image-mask">
+        <div class="grid__image-ratio">
+          {%- if product.featured_media -%}
+            {{ product.featured_media | image_url: width: 720 | image_tag: loading: 'lazy', sizes: '(min-width: 769px) 20vw, 50vw', widths: '180, 360, 540, 720', alt: product.featured_media.alt | default: product.title }}
+          {%- else -%}
+            {{ 'product-1' | placeholder_svg_tag }}
+          {%- endif -%}
+        </div>
+        {%- if product.media.size > 1 -%}
+          <div class="grid-product__secondary-image small--hide">
+            {{ product.media[1] | image_url: width: 720 | image_tag: loading: 'lazy', sizes: '20vw', widths: '360, 540, 720', alt: '' }}
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="grid-product__meta">
+        <div class="grid-product__title">{{ product.title }}</div>
+        {%- if settings.show_card_rating -%}{% render 'rating-stars', product: product, compact: true %}{%- endif -%}
+        <div class="grid-product__price{% if on_sale %} grid-product__price--sale{% endif %}">
+          {%- if on_sale -%}<span class="visually-hidden">{{ 'products.sale_price' | t }}</span>{%- endif -%}
+          <span>{{ product.price | money }}</span>
+          {%- if on_sale -%}
+            <span class="visually-hidden">{{ 'products.regular_price' | t }}</span>
+            <span class="grid-product__price--original">{{ product.compare_at_price | money }}</span>
+          {%- endif -%}
+        </div>
+      </div>
+    </a>
+  {%- endif -%}
+</div>

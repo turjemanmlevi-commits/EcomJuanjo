@@ -1,0 +1,228 @@
+{
+  "sections": {
+    "marquee": {
+      "type": "countdown-marquee",
+      "settings": {
+        "label": "Saldi di stagione",
+        "timer_label": "Termina tra:",
+        "end_date": "",
+        "padding_top": 0,
+        "padding_bottom": 6
+      }
+    },
+    "slideshow": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "title": "Dopo 14 anni, chiudiamo",
+            "subtitle": "Tutto al 50%",
+            "button_label": "Acquista ora →",
+            "vertical": "center",
+            "horizontal": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "settings": {
+        "height": "large",
+        "height_mobile": 400,
+        "overlay_opacity": 10
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "I nostri più venduti",
+        "limit": 5,
+        "columns": 5
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "t1": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t2": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t3": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t4": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t5": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t6": {
+          "type": "testimonial",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "settings": {
+        "heading": "Cosa dicono le nostre clienti"
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "settings": {
+        "layout_images": "overlap",
+        "image_position": "right",
+        "title": "Un ultimo saluto…",
+        "text": "<p>Mi chiamo Caterina. Nel 2012 io e mia sorella Bianca abbiamo aperto questo negozio. È nato tutto da lei: Bianca amava la moda, e questo posto era il suo sogno. Io ho avuto la fortuna di condividerlo con lei.</p><p>Per quattordici anni l’abbiamo portato avanti insieme, fianco a fianco.</p><p>Bianca ci ha lasciati. Senza di lei questo negozio non è più lo stesso, e non riesco a immaginarlo senza di lei. Per questo ho deciso di chiudere.</p><p>Tutto quello che rimane è scontato del 50%. Sono gli ultimi capi: quando finiranno, non ci saranno riassortimenti.</p><p>Grazie a tutte voi che in questi quattordici anni siete entrate, avete provato, siete tornate. Bianca vi voleva bene, e anch’io.</p><p class=\"signature\">Caterina 🤍</p>"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Perché acquistare da noi?"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Quanto tempo richiede la spedizione?"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Dov’è il mio ordine?"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Come funzionano i resi?"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Quali metodi di pagamento accettate?"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "title": "Domande frequenti"
+      }
+    },
+    "features": {
+      "type": "feature-icons",
+      "blocks": {
+        "f1": {
+          "type": "feature",
+          "settings": {
+            "icon": "truck",
+            "title": "Spedizione gratuita",
+            "text": "<p>Su tutti gli ordini, con numero di tracciamento.</p>"
+          }
+        },
+        "f2": {
+          "type": "feature",
+          "settings": {
+            "icon": "refresh",
+            "title": "Resi entro 30 giorni",
+            "text": "<p>Hai 30 giorni per cambiare idea.</p>"
+          }
+        },
+        "f3": {
+          "type": "feature",
+          "settings": {
+            "icon": "lock",
+            "title": "Pagamento sicuro",
+            "text": "<p>Pagamento crittografato e protetto.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "settings": {}
+    },
+    "trustpilot": {
+      "type": "trustpilot-bar",
+      "settings": {}
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "c1": {
+          "type": "collection",
+          "settings": {
+            "collection": "abiti"
+          }
+        },
+        "c2": {
+          "type": "collection",
+          "settings": {
+            "collection": "tute"
+          }
+        },
+        "c3": {
+          "type": "collection",
+          "settings": {
+            "collection": "bluse-e-top"
+          }
+        },
+        "c4": {
+          "type": "collection",
+          "settings": {
+            "collection": "borse"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "settings": {
+        "title": "Acquista per categoria",
+        "columns": 4
+      }
+    }
+  },
+  "order": [
+    "marquee",
+    "slideshow",
+    "trustpilot",
+    "featured-collection",
+    "collection-list",
+    "testimonials",
+    "text-and-image",
+    "faq",
+    "features"
+  ]
+}

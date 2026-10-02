@@ -1,0 +1,286 @@
+{
+  "sections": {
+    "marquee": {
+      "type": "countdown-marquee",
+      "settings": {
+        "label": "Saldi di stagione",
+        "timer_label": "Termina tra:",
+        "end_date": "",
+        "padding_top": 0,
+        "padding_bottom": 6
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_badge": true,
+            "badge_text": "[percent]% DI SCONTO"
+          }
+        },
+        "sale-box": {
+          "type": "sale_box",
+          "settings": {
+            "text": "Promozione di stagione"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variants": {
+          "type": "variant_picker",
+          "settings": {
+            "image_swatches": true
+          }
+        },
+        "benefits": {
+          "type": "benefits",
+          "settings": {}
+        },
+        "stock": {
+          "type": "stock_alert",
+          "settings": {}
+        },
+        "size-chart": {
+          "type": "size_chart",
+          "settings": {}
+        },
+        "buy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_icons": true
+          }
+        },
+        "notice": {
+          "type": "notice",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "tab-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Taglie"
+          }
+        },
+        "tab-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Pagamento sicuro"
+          }
+        },
+        "tab-3": {
+          "type": "tab",
+          "settings": {
+            "title": "Spedizione"
+          }
+        },
+        "tab-4": {
+          "type": "tab",
+          "settings": {
+            "title": "Resi"
+          }
+        },
+        "social-proof": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating",
+        "price",
+        "sale-box",
+        "separator",
+        "variants",
+        "benefits",
+        "stock",
+        "size-chart",
+        "buy",
+        "notice",
+        "description",
+        "tab-1",
+        "tab-2",
+        "tab-3",
+        "tab-4",
+        "social-proof"
+      ],
+      "settings": {
+        "gallery_ratio": "3 / 4"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "t1": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t2": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t3": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t4": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t5": {
+          "type": "testimonial",
+          "settings": {}
+        },
+        "t6": {
+          "type": "testimonial",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "settings": {
+        "heading": "Cosa dicono le nostre clienti"
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "settings": {
+        "layout_images": "single",
+        "image_position": "right",
+        "title": "La nostra storia",
+        "text": ""
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Perché acquistare da noi?"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Quanto tempo richiede la spedizione?"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Dov’è il mio ordine?"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Come funzionano i resi?"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Quali metodi di pagamento accettate?"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "title": "Domande frequenti"
+      },
+      "disabled": true
+    },
+    "features": {
+      "type": "feature-icons",
+      "blocks": {
+        "f1": {
+          "type": "feature",
+          "settings": {
+            "icon": "truck",
+            "title": "Spedizione gratuita",
+            "text": "<p>Su tutti gli ordini, con numero di tracciamento.</p>"
+          }
+        },
+        "f2": {
+          "type": "feature",
+          "settings": {
+            "icon": "refresh",
+            "title": "Resi entro 30 giorni",
+            "text": "<p>Hai 30 giorni per cambiare idea.</p>"
+          }
+        },
+        "f3": {
+          "type": "feature",
+          "settings": {
+            "icon": "lock",
+            "title": "Pagamento sicuro",
+            "text": "<p>Pagamento crittografato e protetto.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "settings": {},
+      "disabled": true
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {}
+    },
+    "back-to-top": {
+      "type": "back-to-top",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "title": "Completa il tuo look",
+        "limit": 5,
+        "columns": 5
+      }
+    }
+  },
+  "order": [
+    "marquee",
+    "main",
+    "recommendations",
+    "testimonials",
+    "text-and-image",
+    "faq",
+    "features",
+    "newsletter",
+    "back-to-top"
+  ]
+}

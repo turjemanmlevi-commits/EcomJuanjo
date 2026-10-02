@@ -1,0 +1,60 @@
+{%- liquid
+  assign heading_font = settings.type_header_font
+  assign body_font = settings.type_base_font
+  assign body_bold = body_font | font_modify: 'weight', '700'
+  assign body_medium = body_font | font_modify: 'weight', '400'
+  assign body_semibold = body_font | font_modify: 'weight', '600'
+-%}
+<style>
+  {{ heading_font | font_face: font_display: 'swap' }}
+  {{ body_font | font_face: font_display: 'swap' }}
+  {{ body_bold | font_face: font_display: 'swap' }}
+  {{ body_medium | font_face: font_display: 'swap' }}
+  {{ body_semibold | font_face: font_display: 'swap' }}
+
+  :root {
+    --font-heading: {{ heading_font.family }}, {{ heading_font.fallback_families }};
+    --font-heading-weight: {{ heading_font.weight }};
+    --font-body: {{ body_font.family }}, {{ body_font.fallback_families }};
+    --font-body-weight: {{ body_font.weight }};
+    --font-body-size: {{ settings.type_base_size }}px;
+
+    --color-body: {{ settings.color_body_bg }};
+    --color-text: {{ settings.color_body_text }};
+    --color-border: {{ settings.color_borders }};
+    --color-price: {{ settings.color_price }};
+    --color-sale-price: {{ settings.color_sale_price }};
+    --color-compare-price: {{ settings.color_compare_price }};
+    --color-sale-tag: {{ settings.color_sale_tag }};
+    --color-sale-tag-text: {{ settings.color_sale_tag_text }};
+    --color-button: {{ settings.color_button }};
+    --color-button-text: {{ settings.color_button_text }};
+    --color-buy-button: {{ settings.color_buy_button }};
+    --color-buy-button-text: {{ settings.color_buy_button_text }};
+    --color-accent: {{ settings.color_accent }};
+    --color-accent-light: {{ settings.color_accent | color_mix: '#ffffff', 10 }};
+    --color-accent-dark: {{ settings.color_accent | color_darken: 10 }};
+    --color-cart-dot: {{ settings.color_cart_dot }};
+    --color-nav: {{ settings.color_nav }};
+    --color-nav-text: {{ settings.color_nav_text }};
+    --color-announcement: {{ settings.color_announcement }};
+    --color-announcement-text: {{ settings.color_announcement_text }};
+    --color-footer: {{ settings.color_footer }};
+    --color-footer-text: {{ settings.color_footer_text }};
+    --color-hero-text: {{ settings.color_hero_text }};
+
+    --gutter-page: 40px;
+    --gutter-wide: 80px;
+    --gutter-grid: 22px;
+    --section-spacing: 75px;
+  }
+
+  @media (max-width: 768px) {
+    :root {
+      --gutter-page: 17px;
+      --gutter-wide: 17px;
+      --gutter-grid: 17px;
+      --section-spacing: 40px;
+    }
+  }
+</style>

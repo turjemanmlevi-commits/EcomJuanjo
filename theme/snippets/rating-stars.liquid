@@ -1,0 +1,22 @@
+{%- comment -%}
+  Boxed rating stars, filled in proportion to the real rating
+  (metafields reviews.rating / reviews.rating_count written by the reviews app).
+  Usage: {% render 'rating-stars', product: product, compact: true %}
+{%- endcomment -%}
+{%- assign rating = product.metafields.reviews.rating.value -%}
+{%- if rating != blank -%}
+  <div class="product-rating{% if compact %} product-rating--compact{% endif %}" role="img" aria-label="{{ rating.rating | round: 1 }} / {{ rating.scale_max }}">
+    {%- for i in (1..5) -%}
+      {%- assign star_fill = rating.rating | minus: i | plus: 1 | times: 100 | at_least: 0 | at_most: 100 | round -%}
+      <span class="product-rating__star" style="--fill: {{ star_fill }}%"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.02 4.23 L14.01 10.40 L20.50 10.40 L15.25 14.23 L17.23 20.37 L12.02 16.54 L6.77 20.37 L8.75 14.23 L3.50 10.40 L9.99 10.40Z M15.25 14.23 L15.93 16.35 L12.02 16.54Z"/></svg></span>
+    {%- endfor -%}
+    <span class="product-rating__text">
+      {%- if compact -%}
+        {%- if product.metafields.reviews.rating_count != blank -%}({{ product.metafields.reviews.rating_count }}){%- endif -%}
+      {%- else -%}
+        {{ rating.rating | round: 1 }}
+        {%- if product.metafields.reviews.rating_count != blank %} ({{ product.metafields.reviews.rating_count }} {{ 'products.reviews' | t }}){% endif -%}
+      {%- endif -%}
+    </span>
+  </div>
+{%- endif -%}

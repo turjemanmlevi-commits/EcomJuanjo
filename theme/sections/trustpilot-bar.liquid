@@ -1,0 +1,29 @@
+{%- if settings.trustpilot_business_id != blank or request.design_mode -%}
+<div class="trustpilot-bar">
+  <div class="page-width">
+    {%- if section.settings.text != blank -%}
+      <p class="trustpilot-bar__text">{{ section.settings.text | escape }}</p>
+    {%- endif -%}
+    {% render 'trustpilot', template_id: section.settings.template, height: '24px' %}
+  </div>
+</div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Barra Trustpilot",
+  "settings": [
+    { "type": "paragraph", "content": "Usa el Business Unit ID de Configuración del tema > Trustpilot. Sin él, la barra no se muestra." },
+    { "type": "text", "id": "text", "label": "Texto", "default": "Le nostre clienti ci valutano su" },
+    {
+      "type": "select", "id": "template", "label": "Estilo",
+      "options": [
+        { "value": "5419b732fbfb950b10de65e5", "label": "Micro Star" },
+        { "value": "5419b6a8b0d04a076446a9ad", "label": "Micro Review Count" }
+      ],
+      "default": "5419b732fbfb950b10de65e5"
+    }
+  ],
+  "presets": [{ "name": "Barra Trustpilot" }]
+}
+{% endschema %}

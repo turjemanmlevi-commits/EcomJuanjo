@@ -1,0 +1,92 @@
+<footer class="site-footer">
+  <div class="page-width">
+    <div class="grid">
+      {%- for block in section.blocks -%}
+        <div class="grid__item" {{ block.shopify_attributes }}>
+          {%- case block.type -%}
+            {%- when 'text' -%}
+              <div class="footer__item-padding">
+                {%- if block.settings.title != blank -%}
+                  <p class="h4 footer__title">{{ block.settings.title | escape }}</p>
+                {%- endif -%}
+                <div class="footer__text rte">{{ block.settings.text }}</div>
+              </div>
+            {%- when 'menu' -%}
+              {%- if block.settings.title != blank -%}
+                <p class="h4 footer__title">{{ block.settings.title | escape }}</p>
+              {%- endif -%}
+              <ul class="site-footer__linklist">
+                {%- for link in block.settings.menu.links -%}
+                  <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {%- endfor -%}
+              </ul>
+          {%- endcase -%}
+        </div>
+      {%- endfor -%}
+    </div>
+
+    {%- if section.settings.show_policies and shop.policies.size > 0 -%}
+      <ul class="footer__policies">
+        {%- for policy in shop.policies -%}
+          <li><a href="{{ policy.url }}">{{ policy.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    {%- if settings.trustpilot_footer -%}
+      {% render 'trustpilot', template_id: '53aa8807dec7e10d38f59f36', height: '150px', class: 'trustpilot--footer' %}
+    {%- endif -%}
+
+    {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+      <ul class="payment-icons" aria-label="{{ 'general.payment_methods' | t }}">
+        {%- for type in shop.enabled_payment_types -%}
+          <li>{{ type | payment_type_svg_tag }}</li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    <div class="footer__legal">
+      <p>
+        &copy; {{ 'now' | date: '%Y' }} {{ settings.legal_name | default: shop.name | escape }}
+        {%- if settings.legal_vat != blank %}<span>{{ 'general.vat' | t }} {{ settings.legal_vat | escape }}</span>{% endif -%}
+        {%- if settings.legal_address != blank %}<span>{{ settings.legal_address | escape }}</span>{% endif -%}
+        {%- assign contact_email = settings.legal_email | default: shop.email -%}
+        {%- if contact_email != blank %}<span><a href="mailto:{{ contact_email }}">{{ contact_email | escape }}</a></span>{% endif -%}
+      </p>
+      {%- if settings.legal_vat == blank and request.design_mode -%}
+        <p class="editor-hint">Añade la Partita IVA en Configuración del tema &gt; Datos legales. Es obligatoria en Italia.</p>
+      {%- endif -%}
+      {%- if section.settings.show_powered_by %}<p>{{ powered_by_link }}</p>{% endif -%}
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Pie de página",
+  "max_blocks": 4,
+  "settings": [
+    { "type": "checkbox", "id": "show_payment_icons", "label": "Mostrar iconos de pago", "default": true },
+    { "type": "checkbox", "id": "show_policies", "label": "Mostrar enlaces a las políticas (reembolso, privacidad, envío, términos)", "default": true },
+    { "type": "checkbox", "id": "show_powered_by", "label": "Mostrar «Powered by Shopify»", "default": false }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Texto",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Título", "default": "Chi siamo" },
+        { "type": "richtext", "id": "text", "label": "Texto", "default": "" }
+      ]
+    },
+    {
+      "type": "menu",
+      "name": "Menú",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Título" },
+        { "type": "link_list", "id": "menu", "label": "Menú", "default": "footer" }
+      ]
+    }
+  ]
+}
+{% endschema %}

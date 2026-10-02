@@ -1,0 +1,89 @@
+{
+  "general": {
+    "skip_to_content": "Vai al contenuto",
+    "search": "Cerca",
+    "search_placeholder": "Cerca nel negozio",
+    "account": "Account",
+    "cart": "Carrello",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "previous": "Precedente",
+    "next": "Successivo",
+    "back_to_top": "Torna su",
+    "not_found_title": "Pagina non trovata",
+    "not_found_text": "La pagina che cerchi non esiste.",
+    "continue_shopping": "Continua lo shopping",
+    "no_results": "Nessun risultato trovato per “{{ terms }}”.",
+    "results_for": "Risultati per “{{ terms }}”",
+    "collections": "Collezioni",
+    "vat": "P.IVA",
+    "payment_methods": "Metodi di pagamento accettati",
+    "search_view_all": "Vedi tutti i risultati per “{{ terms }}”",
+    "search_products": "Prodotti",
+    "search_no_results": "Nessun risultato per “{{ terms }}”.",
+    "page": "Pagina {{ page }}"
+  },
+  "products": {
+    "placeholder_title": "Titolo del prodotto",
+    "sale": "Saldi",
+    "sold_out": "Esaurito",
+    "unavailable": "Non disponibile",
+    "regular_price": "Prezzo di listino",
+    "sale_price": "Prezzo scontato",
+    "add_to_cart": "Aggiungi al carrello",
+    "reviews": "recensioni",
+    "empty_collection": "Non ci sono prodotti in questa collezione.",
+    "add_to_cart_short": "Aggiungi",
+    "reviews_on": "Recensioni su",
+    "quantity": "Quantità",
+    "increase": "Aumenta la quantità",
+    "decrease": "Diminuisci la quantità",
+    "added": "Aggiunto al carrello"
+  },
+  "cart": {
+    "title": "Carrello",
+    "empty": "Il tuo carrello è vuoto.",
+    "product": "Prodotto",
+    "price": "Prezzo",
+    "quantity": "Quantità",
+    "total": "Totale",
+    "remove": "Rimuovi",
+    "subtotal": "Subtotale",
+    "note": "Imposte e spese di spedizione vengono calcolate al momento del pagamento.",
+    "update": "Aggiorna",
+    "checkout": "Procedi al pagamento",
+    "items_count": {
+      "one": "{{ count }} articolo",
+      "other": "{{ count }} articoli"
+    },
+    "view_cart": "Vedi il carrello",
+    "remove_item": "Rimuovi {{ product }}",
+    "error": "Non è stato possibile aggiornare il carrello. Riprova."
+  },
+  "newsletter": {
+    "email_label": "Inserisci la tua email",
+    "subscribe": "Iscriviti",
+    "success": "Grazie per l'iscrizione!"
+  },
+  "contact": {
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "message": "Messaggio",
+    "send": "Invia",
+    "success": "Grazie per averci scritto. Ti risponderemo il prima possibile."
+  },
+  "collections": {
+    "filter": "Filtri",
+    "sort_by": "Ordina per",
+    "products_count": {
+      "one": "{{ count }} prodotto",
+      "other": "{{ count }} prodotti"
+    },
+    "clear_all": "Rimuovi tutti",
+    "apply": "Mostra i risultati",
+    "price_from": "Da",
+    "price_to": "A",
+    "remove_filter": "Rimuovi filtro: {{ filter }}"
+  }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Anteprima · Collezione</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <script>document.documentElement.className = "js";</script>
+    <link rel="stylesheet" href="preview.css">
+    <link rel="stylesheet" href="../theme/assets/theme.css">
+    <script src="../theme/assets/theme.js" defer></script>
+  </head>
+  <body class="template-collection">
+    <a class="skip-link" href="#MainContent">Vai al contenuto</a>
+    <div data-include="header"></div>
+
+    <main id="MainContent" tabindex="-1">
+      <div style="padding-bottom: 6px"><div data-include="marquee"></div></div>
+      <div data-collection-page></div>
+      <div data-include="testimonials"></div>
+      <div data-include="faq"></div>
+      <div data-include="features"></div>
+      <div data-include="newsletter"></div>
+      <div data-include="back-to-top"></div>
+    </main>
+
+    <div data-include="footer"></div>
+    <script src="catalog.js"></script>
+    <script src="preview.js"></script>
+  </body>
+</html>

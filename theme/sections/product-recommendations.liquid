@@ -1,0 +1,40 @@
+{%- comment -%}
+  Related products from Shopify's recommendation engine. The section first renders empty
+  and theme.js loads its content from routes.product_recommendations_url.
+{%- endcomment -%}
+<div
+  class="index-section product-recommendations"
+  data-recommendations
+  data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.limit }}&intent=related"
+>
+  {%- if recommendations.performed and recommendations.products_count > 0 -%}
+    {%- if section.settings.title != blank -%}
+      <div class="page-width">
+        <div class="section-header">
+          <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+        </div>
+      </div>
+    {%- endif -%}
+    <div class="page-width">
+      <div class="grid" style="--columns: {{ section.settings.columns }}">
+        {%- for item in recommendations.products -%}
+          {% render 'product-card', product: item %}
+        {%- endfor -%}
+      </div>
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+{
+  "name": "Productos relacionados",
+  "settings": [
+    { "type": "paragraph", "content": "Shopify elige automáticamente productos parecidos o que se suelen comprar juntos." },
+    { "type": "text", "id": "title", "label": "Título", "default": "Completa il tuo look" },
+    { "type": "range", "id": "limit", "label": "Productos a mostrar", "min": 2, "max": 10, "step": 1, "default": 5 },
+    { "type": "range", "id": "columns", "label": "Columnas en escritorio", "min": 2, "max": 6, "step": 1, "default": 5 }
+  ],
+  "enabled_on": { "templates": ["product"] },
+  "presets": [{ "name": "Productos relacionados" }]
+}
+{% endschema %}
