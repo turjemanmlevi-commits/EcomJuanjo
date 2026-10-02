@@ -33,13 +33,6 @@
         "overlay_opacity": 10
       }
     },
-    "sale-banner": {
-      "type": "sale-banner",
-      "settings": {
-        "small_text": "EVERYTHING",
-        "big_text": "50% OFF"
-      }
-    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -224,7 +217,6 @@
   "order": [
     "marquee",
     "slideshow",
-    "sale-banner",
     "trustpilot",
     "featured-collection",
     "collection-list",

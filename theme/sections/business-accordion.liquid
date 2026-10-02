@@ -1,0 +1,24 @@
+<section class="business-accordion" aria-label="Informazioni sul nostro negozio">
+  <div class="page-width page-width--narrow">
+    <div class="business-accordion__item">
+      <button class="collapsible-trigger collapsible-trigger--inline" type="button" aria-controls="BusinessStory-{{ section.id }}" aria-expanded="false"><span>La nostra storia</span><span class="collapsible-trigger__icon"><span data-icon="down"></span></span></button>
+      <div id="BusinessStory-{{ section.id }}" class="collapsible-content"><div><div class="collapsible-content__inner rte"><p>Siamo Tati e il nostro piccolo negozio nasce dalla passione per capi belli, facili da indossare e scelti con cura.</p></div></div></div>
+    </div>
+    <div class="business-accordion__item">
+      <button class="collapsible-trigger collapsible-trigger--inline" type="button" aria-controls="BusinessContact-{{ section.id }}" aria-expanded="false"><span>Contatti e assistenza</span><span class="collapsible-trigger__icon"><span data-icon="down"></span></span></button>
+      <div id="BusinessContact-{{ section.id }}" class="collapsible-content"><div><div class="collapsible-content__inner rte"><p>Scrivici dal lunedì al venerdì, dalle 9:00 alle 17:00. Ti risponderemo il prima possibile.</p></div></div></div>
+    </div>
+    <div class="business-accordion__item">
+      <button class="collapsible-trigger collapsible-trigger--inline" type="button" aria-controls="BusinessShipping-{{ section.id }}" aria-expanded="false"><span>Spedizioni e resi</span><span class="collapsible-trigger__icon"><span data-icon="down"></span></span></button>
+      <div id="BusinessShipping-{{ section.id }}" class="collapsible-content"><div><div class="collapsible-content__inner rte"><p>Spedizione tracciata e resi facili entro 30 giorni su tutti gli ordini.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Informazioni negozio",
+  "settings": [],
+  "presets": [{ "name": "Informazioni negozio" }]
+}
+{% endschema %}

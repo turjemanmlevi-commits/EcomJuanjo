@@ -374,22 +374,298 @@
     });
   }
 
+  // Reviews wheel. Native scroll-snap does the swiping (momentum, keyboard, screen readers);
+  // this feeds each card its distance from the centre so CSS can tilt and drop it along an
+  // arc, loops the list with clones, and marks the centred review so its text writes itself in.
   function initTestimonials(root) {
     $$('[data-testimonials]', root).forEach((section) => {
+      if (section.dataset.bound) return;
+      section.dataset.bound = 'true';
       const slider = $('.testimonials__slider', section);
-      const step = () => {
-        const slide = $('.testimonials__slide', slider);
-        return slide ? slide.getBoundingClientRect().width + parseFloat(getComputedStyle(slider).columnGap || 0) : 0;
+      const originals = $$('.testimonials__slide', slider);
+      const count = originals.length;
+      if (!count) return;
+      const motion = !reduceMotion;
+      const designMode = !!(window.Shopify && window.Shopify.designMode);
+      // Five or more reviews fill the wheel on both sides, so it can turn forever.
+      const loop = count >= 5 && !designMode;
+      const progress = $('[data-progress]', section);
+      if (progress) progress.style.setProperty('--count', count);
+
+      // Split each quote into words so they can appear one after another.
+      if (motion) {
+        $$('.testimonials__text', slider).forEach((quote) => {
+          let n = 0;
+          const walker = document.createTreeWalker(quote, NodeFilter.SHOW_TEXT);
+          const nodes = [];
+          while (walker.nextNode()) nodes.push(walker.currentNode);
+          nodes.forEach((node) => {
+            if (!node.textContent.trim()) return;
+            const frag = document.createDocumentFragment();
+            node.textContent.split(/(\s+)/).forEach((part) => {
+              if (!part) return;
+              if (!part.trim()) { frag.appendChild(document.createTextNode(part)); return; }
+              const word = document.createElement('span');
+              word.className = 'testimonials__word';
+              word.style.setProperty('--w', n++);
+              word.textContent = part;
+              frag.appendChild(word);
+            });
+            node.replaceWith(frag);
+          });
+          quote.style.setProperty('--words', n);
+        });
+      }
+
+      if (loop) {
+        const clone = (slide) => {
+          const copy = slide.cloneNode(true);
+          copy.removeAttribute('data-shopify-editor-block');
+          copy.setAttribute('aria-hidden', 'true');
+          copy.setAttribute('inert', '');
+          return copy;
+        };
+        slider.prepend(...originals.map(clone));
+        slider.append(...originals.map(clone));
+      }
+      const slides = $$('.testimonials__slide', slider);
+      const cards = slides.map((s) => $('.testimonials__card', s) || s);
+      const first = loop ? count : 0;
+      const clampIndex = (i) => Math.max(0, Math.min(slides.length - 1, i));
+
+      let centers = [];
+      let step = 1;
+      // All cards share one width, so derive positions from the ends: offsetLeft rounds to
+      // whole pixels and the error would add up across a long wheel.
+      const measure = () => {
+        const last = slides.length - 1;
+        const cardWidth = parseFloat(getComputedStyle(slides[0]).width) || slides[0].offsetWidth;
+        step = last ? (slides[last].offsetLeft - slides[0].offsetLeft) / last : slider.clientWidth || 1;
+        centers = slides.map((s, i) => slides[0].offsetLeft + i * step + cardWidth / 2);
+      };
+      const leftFor = (i) => centers[i] - slider.clientWidth / 2;
+      // Re-measure whenever the width changed: after a resize the browser may report the
+      // re-snapped scroll position before the ResizeObserver below has run.
+      let width = 0;
+      const syncLayout = () => {
+        if (slider.clientWidth === width) return false;
+        width = slider.clientWidth;
+        measure();
+        return true;
+      };
+
+      let active = -1;
+      let revealed = false;
+      const setActive = (i, instant) => {
+        if (i === active) return;
+        const prev = slides[active];
+        active = i;
+        if (!revealed) return;
+        if (prev) prev.classList.remove('is-active');
+        const slide = slides[i];
+        if (instant) slide.classList.add('is-instant');
+        slide.classList.add('is-active');
+        if (instant) { void slide.offsetWidth; slide.classList.remove('is-instant'); }
+      };
+
+      let frame = 0;
+      const lastD = [];
+      const update = () => {
+        frame = 0;
+        syncLayout();
+        const mid = slider.scrollLeft + slider.clientWidth / 2;
+        let nearest = 0;
+        let best = Infinity;
+        for (let i = 0; i < slides.length; i++) {
+          const raw = (centers[i] - mid) / step;
+          if (Math.abs(raw) < best) { best = Math.abs(raw); nearest = i; }
+          if (!motion) continue;
+          const d = Math.round(Math.max(-3, Math.min(3, raw)) * 1000) / 1000;
+          if (lastD[i] === d) continue;
+          lastD[i] = d;
+          cards[i].style.setProperty('--d', d);
+          cards[i].style.setProperty('--ad', Math.abs(d));
+          cards[i].style.setProperty('--arc', Math.round(d * d * 1000) / 1000);
+        }
+        setActive(nearest);
+        if (progress) {
+          const pos = (mid - centers[first]) / step;
+          progress.style.setProperty('--p', loop ? ((pos % count) + count) % count : Math.max(0, Math.min(count - 1, pos)));
+        }
+      };
+      const requestUpdate = () => { if (!frame) frame = requestAnimationFrame(update); };
+
+      const goTo = (i, smooth = true) => {
+        slider.scrollTo({ left: leftFor(clampIndex(i)), behavior: smooth && motion ? 'smooth' : 'auto' });
       };
       const move = (dir) => {
-        const max = slider.scrollWidth - slider.clientWidth;
-        let target = slider.scrollLeft + dir * step();
-        if (dir > 0 && slider.scrollLeft >= max - 5) target = 0;
-        if (dir < 0 && slider.scrollLeft <= 5) target = max;
-        slider.scrollTo({ left: target, behavior: 'smooth' });
+        let target = active + dir;
+        if (!loop && (target < 0 || target >= count)) target = dir > 0 ? 0 : count - 1;
+        goTo(target);
       };
-      $('[data-prev]', section)?.addEventListener('click', () => move(-1));
-      $('[data-next]', section)?.addEventListener('click', () => move(1));
+
+      // When the wheel comes to rest on a clone, jump to the matching original. Both look
+      // identical, so the swap is invisible and the wheel can keep turning either way.
+      let touching = false;
+      let drag = null;
+      let retries = 0;
+      const settle = () => {
+        if (touching || drag) return;
+        // Snapping back on lets the wheel come to rest on a card.
+        slider.classList.remove('is-dragging');
+        if (frame) cancelAnimationFrame(frame);
+        update();
+        if (!loop) return;
+        const offCentre = Math.abs(centers[active] - (slider.scrollLeft + slider.clientWidth / 2));
+        if (offCentre > 2 && retries++ < 10) { settleWhenIdle(); return; }
+        retries = 0;
+        const logical = active - first;
+        if (logical >= 0 && logical < count) return;
+        const target = first + ((logical % count) + count) % count;
+        slider.scrollLeft += centers[target] - centers[active];
+        setActive(target, true);
+        update();
+      };
+      // Never jump while momentum is still carrying the wheel: wait until scrolling has gone quiet.
+      let settleTimer;
+      let lastScroll = 0;
+      const settleWhenIdle = () => {
+        clearTimeout(settleTimer);
+        settleTimer = setTimeout(() => (performance.now() - lastScroll > 140 ? settle() : settleWhenIdle()), 160);
+      };
+      slider.addEventListener('scroll', () => {
+        lastScroll = performance.now();
+        requestUpdate();
+        settleWhenIdle();
+      }, { passive: true });
+      slider.addEventListener('scrollend', settle);
+      slider.addEventListener('touchstart', () => { touching = true; }, { passive: true });
+      const touchEnd = () => { touching = false; settleWhenIdle(); };
+      slider.addEventListener('touchend', touchEnd, { passive: true });
+      slider.addEventListener('touchcancel', touchEnd, { passive: true });
+
+      // Autoplay: only while on screen, paused on hover or focus, stopped for good once the
+      // customer takes the wheel. Never starts when reduced motion is requested.
+      const speed = Number(section.dataset.autoplay) || 0;
+      const toggle = $('[data-autoplay-toggle]', section);
+      let stopped = !speed || !motion;
+      let inView = false;
+      let hovering = false;
+      let focused = false;
+      let timer = null;
+      const schedule = () => {
+        clearInterval(timer);
+        timer = null;
+        if (!stopped && inView && !hovering && !focused && !document.hidden) {
+          // Stops by itself if the theme editor re-renders the section.
+          timer = setInterval(() => (section.isConnected ? move(1) : clearInterval(timer)), speed * 1000);
+        }
+        if (toggle) {
+          toggle.classList.toggle('is-paused', stopped);
+          toggle.setAttribute('aria-label', stopped ? toggle.dataset.labelPlay : toggle.dataset.labelPause);
+        }
+      };
+      const takeOver = () => { if (!stopped) { stopped = true; schedule(); } };
+      if (toggle) toggle.addEventListener('click', () => { stopped = !stopped; if (!stopped) move(1); schedule(); });
+      slider.addEventListener('mouseenter', () => { hovering = true; schedule(); });
+      slider.addEventListener('mouseleave', () => { hovering = false; schedule(); });
+      section.addEventListener('focusin', (e) => { focused = !e.target.closest('[data-autoplay-toggle]'); schedule(); });
+      section.addEventListener('focusout', () => { focused = false; schedule(); });
+      document.addEventListener('visibilitychange', schedule);
+      slider.addEventListener('pointerdown', takeOver);
+      slider.addEventListener('wheel', (e) => { if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) takeOver(); }, { passive: true });
+
+      $('[data-prev]', section)?.addEventListener('click', () => { takeOver(); move(-1); });
+      $('[data-next]', section)?.addEventListener('click', () => { takeOver(); move(1); });
+      slider.addEventListener('keydown', (e) => {
+        if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+        e.preventDefault();
+        takeOver();
+        move(e.key === 'ArrowRight' ? 1 : -1);
+      });
+
+      // Mouse: drag the wheel and let go to land on the next review. Touch scrolls natively.
+      let suppressClick = false;
+      slider.addEventListener('pointerdown', (e) => {
+        if (e.pointerType !== 'mouse' || e.button !== 0) return;
+        drag = { x: e.clientX, left: slider.scrollLeft, from: active, moved: false };
+      });
+      slider.addEventListener('pointermove', (e) => {
+        if (!drag) return;
+        const dx = e.clientX - drag.x;
+        if (!drag.moved) {
+          if (Math.abs(dx) < 5) return;
+          // Only a real drag captures the pointer, so a plain click still reaches the card.
+          drag.moved = true;
+          slider.classList.add('is-dragging');
+          slider.setPointerCapture(e.pointerId);
+        }
+        slider.scrollLeft = drag.left - dx;
+      });
+      const endDrag = (e) => {
+        if (!drag) return;
+        const dx = e.clientX - drag.x;
+        const { from, moved } = drag;
+        drag = null;
+        suppressClick = moved;
+        if (!moved) return;
+        const jump = Math.max(1, Math.round(Math.abs(dx) / step));
+        goTo(Math.abs(dx) > step * 0.12 ? from + (dx < 0 ? jump : -jump) : active);
+        // If the wheel was already in place no scroll event follows, so tidy up here.
+        setTimeout(() => { if (!drag && Math.abs(slider.scrollLeft - leftFor(active)) < 2) settle(); }, 80);
+      };
+      slider.addEventListener('pointerup', endDrag);
+      slider.addEventListener('pointercancel', endDrag);
+      slider.addEventListener('dragstart', (e) => e.preventDefault());
+      // Clicking a side card brings it to the centre.
+      slider.addEventListener('click', (e) => {
+        if (suppressClick) { suppressClick = false; return; }
+        const i = slides.indexOf(e.target.closest('.testimonials__slide'));
+        if (i > -1 && i !== active) { takeOver(); goTo(i); }
+      });
+
+      section.addEventListener('shopify:block:select', (e) => {
+        const i = slides.indexOf(e.target.closest('.testimonials__slide'));
+        if (i > -1) { takeOver(); goTo(i, false); }
+      });
+
+      // Start on the first review (or the middle one when the wheel cannot loop, so it looks balanced).
+      syncLayout();
+      const start = loop ? first : Math.floor((count - 1) / 2);
+      slider.scrollLeft = leftFor(start);
+      update();
+      slides.forEach((s, i) => s.style.setProperty('--enter', Math.max(0, Math.min(7, i - (start - 3)))));
+      if (motion) {
+        // Hide the cards for their entrance without animating them out first.
+        section.classList.add('is-instant', 'is-wheel');
+        void section.offsetWidth;
+        section.classList.remove('is-instant');
+      }
+
+      // Keep the same review centred when the width changes.
+      new ResizeObserver(() => {
+        const keep = active;
+        if (!syncLayout()) return;
+        if (keep > -1) slider.scrollLeft = leftFor(keep);
+        update();
+      }).observe(slider);
+
+      const enter = () => {
+        section.classList.add('is-in');
+        // The centred review writes itself in once its card has landed.
+        setTimeout(() => {
+          revealed = true;
+          const i = active;
+          active = -1;
+          setActive(i);
+        }, motion ? 600 : 0);
+      };
+      if (!('IntersectionObserver' in window)) { inView = true; enter(); schedule(); return; }
+      new IntersectionObserver(([entry]) => {
+        inView = entry.isIntersecting;
+        if (inView && !section.classList.contains('is-in')) enter();
+        schedule();
+      }, { threshold: 0.2 }).observe(section);
     });
   }
 
@@ -445,6 +721,31 @@
       };
       thumbs.forEach((t) => t.addEventListener('click', (e) => { e.preventDefault(); showMedia(t.dataset.mediaId); }));
 
+      // Touch gallery: swipe horizontally while preserving normal vertical scrolling.
+      const gallery = $('.product__main-photos', section);
+      if (gallery && slides.length > 1) {
+        let startX = 0;
+        let startY = 0;
+        let tracking = false;
+        gallery.addEventListener('touchstart', (e) => {
+          if (e.touches.length !== 1) return;
+          startX = e.touches[0].clientX;
+          startY = e.touches[0].clientY;
+          tracking = true;
+        }, { passive: true });
+        gallery.addEventListener('touchend', (e) => {
+          if (!tracking || !e.changedTouches.length) return;
+          tracking = false;
+          const dx = e.changedTouches[0].clientX - startX;
+          const dy = e.changedTouches[0].clientY - startY;
+          if (Math.abs(dx) < 45 || Math.abs(dx) <= Math.abs(dy)) return;
+          const activeIndex = Math.max(0, slides.findIndex((slide) => slide.classList.contains('is-active')));
+          const nextIndex = (activeIndex + (dx < 0 ? 1 : -1) + slides.length) % slides.length;
+          showMedia(slides[nextIndex].dataset.mediaId);
+        }, { passive: true });
+        gallery.addEventListener('touchcancel', () => { tracking = false; }, { passive: true });
+      }
+
       // Variants
       const json = $('[data-variants]', section);
       if (!json) return;
@@ -492,7 +793,7 @@
   // Sections fade in once as they enter the viewport (CSS skips it under reduced motion).
   function initReveal(root) {
     if (!('IntersectionObserver' in window)) return;
-    const targets = $$('.index-section, .testimonials, .features, .grid-product', root).filter((el) => !el.closest('.hero') && !el.querySelector('[data-story-animate]'));
+    const targets = $$('.index-section, .features, .grid-product', root).filter((el) => !el.closest('.hero') && !el.querySelector('[data-story-animate]'));
     const io = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;

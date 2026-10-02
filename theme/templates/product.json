@@ -171,6 +171,10 @@
         "heading": "Cosa dicono le nostre clienti"
       }
     },
+    "closure-message": {
+      "type": "closure-message",
+      "settings": {}
+    },
     "text-and-image": {
       "type": "text-and-image",
       "settings": {
@@ -186,31 +190,36 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Perché acquistare da noi?"
+            "question": "Perché acquistare da Oriona?",
+            "answer": "<p>Scegliere Oriona significa trovare capi pensati per donne reali, con stile, vestibilità curata e assistenza dedicata.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "Quanto tempo richiede la spedizione?"
+            "question": "Quanto tempo richiede la spedizione?",
+            "answer": "<p>La spedizione tracciata è gratuita su ogni ordine in Italia, senza minimo di spesa. Riceverai il tracking via email.</p>"
           }
         },
         "q3": {
           "type": "question",
           "settings": {
-            "question": "Dov’è il mio ordine?"
+            "question": "Dov’è il mio ordine?",
+            "answer": "<p>Quando il tuo ordine parte, ti inviamo il numero di tracking per seguire la consegna fino alla porta.</p>"
           }
         },
         "q4": {
           "type": "question",
           "settings": {
-            "question": "Come funzionano i resi?"
+            "question": "Come funzionano i resi?",
+            "answer": "<p>Hai 30 giorni dalla consegna per richiedere un reso. Scrivici e ti guideremo in modo semplice e veloce.</p>"
           }
         },
         "q5": {
           "type": "question",
           "settings": {
-            "question": "Quali metodi di pagamento accettate?"
+            "question": "Quali metodi di pagamento accettate?",
+            "answer": "<p>Puoi pagare in modo sicuro con Visa, Mastercard, American Express, PayPal, Apple Pay, Google Pay e Klarna.</p>"
           }
         }
       },
@@ -224,7 +233,7 @@
       "settings": {
         "title": "Domande frequenti"
       },
-      "disabled": true
+      "disabled": false
     },
     "features": {
       "type": "feature-icons",
@@ -234,7 +243,7 @@
           "settings": {
             "icon": "truck",
             "title": "Spedizione gratuita",
-            "text": "<p>Su tutti gli ordini, con numero di tracciamento.</p>"
+            "text": "<p>Spedizione tracciata gratuita su ogni ordine in Italia, senza minimo di spesa.</p>"
           }
         },
         "f2": {
@@ -242,7 +251,7 @@
           "settings": {
             "icon": "refresh",
             "title": "Resi entro 30 giorni",
-            "text": "<p>Hai 30 giorni per cambiare idea.</p>"
+            "text": "<p>Hai 30 giorni dalla consegna per cambiare idea.</p>"
           }
         },
         "f3": {
@@ -250,7 +259,7 @@
           "settings": {
             "icon": "lock",
             "title": "Pagamento sicuro",
-            "text": "<p>Pagamento crittografato e protetto.</p>"
+            "text": "<p>Pagamenti crittografati e protetti ad ogni acquisto.</p>"
           }
         }
       },
@@ -260,10 +269,17 @@
         "f3"
       ],
       "settings": {},
-      "disabled": true
+      "disabled": false
     },
     "newsletter": {
       "type": "newsletter",
+      "settings": {
+        "title": "Iscriviti e partecipa per vincere un buono da 150 €",
+        "text": "<p>Lascia la tua email per ricevere le ultime novità e partecipare all'estrazione.</p>"
+      }
+    },
+    "business-accordion": {
+      "type": "business-accordion",
       "settings": {}
     },
     "back-to-top": {
@@ -282,12 +298,12 @@
   "order": [
     "marquee",
     "main",
-    "recommendations",
     "testimonials",
-    "text-and-image",
+    "closure-message",
     "faq",
     "features",
     "newsletter",
+    "business-accordion",
     "back-to-top"
   ]
 }

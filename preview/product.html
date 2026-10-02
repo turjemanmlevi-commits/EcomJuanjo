@@ -121,18 +121,23 @@
                     </div>
                     <p class="product-form__error" data-product-error role="alert" hidden></p>
                   </form>
+                  <ul class="payment-icons payment-icons--preview" aria-label="Metodi di pagamento accettati">
+                    <li aria-label="Visa"><svg viewBox="0 0 72 28" role="img"><text x="36" y="19" text-anchor="middle">VISA</text></svg></li>
+                    <li aria-label="Mastercard"><svg viewBox="0 0 72 28" role="img"><circle cx="31" cy="14" r="9"/><circle cx="41" cy="14" r="9"/></svg></li>
+                    <li aria-label="American Express"><svg viewBox="0 0 72 28" role="img"><rect x="1" y="3" width="70" height="22" rx="3"/><text x="36" y="18" text-anchor="middle">AMEX</text></svg></li>
+                    <li aria-label="PayPal"><svg viewBox="0 0 72 28" role="img"><text x="36" y="19" text-anchor="middle">PayPal</text></svg></li>
+                    <li aria-label="Apple Pay"><svg viewBox="0 0 82 28" role="img"><text x="41" y="19" text-anchor="middle"> Pay</text></svg></li>
+                    <li aria-label="Google Pay"><svg viewBox="0 0 88 28" role="img"><text x="44" y="19" text-anchor="middle"><tspan>G</tspan><tspan> Pay</tspan></text></svg></li>
+                    <li aria-label="Klarna"><svg viewBox="0 0 72 28" role="img"><rect x="1" y="3" width="70" height="22" rx="3"/><text x="36" y="18" text-anchor="middle">Klarna.</text></svg></li>
+                  </ul>
                 </div>
 
                 <div class="sticky-atc" data-sticky-atc aria-hidden="true">
-                  <div class="sticky-atc__info" data-price-block>
-                    <span class="sticky-atc__title">Nome del prodotto | Tuta cammello con scollo</span>
-                    <span class="sticky-atc__price" data-price>89,95 €</span>
-                  </div>
-                  <button type="button" class="btn btn--buy sticky-atc__btn" data-sticky-buy tabindex="-1">Aggiungi</button>
+                  <button type="button" class="btn btn--buy sticky-atc__btn" data-sticky-buy tabindex="-1">Aggiungi al carrello</button>
                 </div>
 
                 <div class="product-block">
-                  <div class="notice-box" style="--notice-bg: #f5f2ed; --notice-accent: #1c1b1a">
+                  <div class="notice-box notice-box--closure" style="--notice-bg: #ffe4e6; --notice-accent: #c1121f">
                     <div class="notice-box__title"><span class="notice-box__icon" aria-hidden="true">🤍</span><span>Svendita per chiusura</span></div>
                     <div class="notice-box__text"><p>Dopo 14 anni chiudiamo la nostra boutique e tutto ciò che resta è scontato del <strong>50%</strong>. Finché puoi ancora cliccare “Aggiungi al carrello”, questo capo è ancora disponibile al prezzo di chiusura.</p></div>
                   </div>
@@ -168,8 +173,12 @@
 
       <div data-include="featured-collection"></div>
       <div data-include="testimonials"></div>
+      <div data-include="closure-message"></div>
+      <div data-include="faq"></div>
+      <div data-include="features"></div>
 
       <div data-include="newsletter"></div>
+      <div data-include="business-accordion"></div>
       <div data-include="back-to-top"></div>
     </main>
 

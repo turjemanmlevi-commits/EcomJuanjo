@@ -243,10 +243,6 @@
 
                 {%- comment -%} Mobile only: compact add-to-cart bar shown once the main button scrolls out of view. {%- endcomment -%}
                 <div class="sticky-atc" data-sticky-atc aria-hidden="true">
-                  <div class="sticky-atc__info" data-price-block>
-                    <span class="sticky-atc__title">{{ product.title | escape }}</span>
-                    <span class="sticky-atc__price" data-price>{{ current_variant.price | money }}</span>
-                  </div>
                   <button type="button" class="btn btn--buy sticky-atc__btn" data-sticky-buy tabindex="-1" {% unless current_variant.available %}disabled{% endunless %}>
                     {{- 'products.add_to_cart_short' | t -}}
                   </button>

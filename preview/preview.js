@@ -14,6 +14,8 @@
     left: '<svg viewBox="0 0 50 21" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M50 10.5H2M11 1.5l-9 9 9 9"/></svg>',
     right: '<svg viewBox="0 0 50 21" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M0 10.5h48M39 1.5l9 9-9 9"/></svg>',
     truck: '<svg viewBox="0 0 42 42" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="M3 10h22v18H3zM25 16h8l6 6v6H25z"/><circle cx="11" cy="31" r="3.5" fill="#fff"/><circle cx="31" cy="31" r="3.5" fill="#fff"/></svg>',
+    pause: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5.5v13M15 5.5v13"/></svg>',
+    play: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M8 5.5v13l10-6.5z"/></svg>',
     star: '<svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8-6.2-3.2L5.8 21 7 14.2 2 9.3l6.9-1z"/></svg>',
     gift: '<svg viewBox="0 0 42 42" fill="currentColor"><path d="M6 13h30v8H6zM8 23h11.5v13H8zM22.5 23H34v13H22.5z"/><path d="M21 12c-2-6-10-8-11-3s6 5 11 3zm0 0c2-6 10-8 11-3s-6 5-11 3z" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>',
     refresh: '<svg viewBox="0 0 42 42" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M33 21a12 12 0 0 1-20 9M9 21a12 12 0 0 1 20-9"/><path d="M29 5v7h-7M13 37v-7h7"/></svg>',
@@ -147,12 +149,23 @@
 
   const starSvg = '<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.02 4.23 L14.01 10.40 L20.50 10.40 L15.25 14.23 L17.23 20.37 L12.02 16.54 L6.77 20.37 L8.75 14.23 L3.50 10.40 L9.99 10.40Z M15.25 14.23 L15.93 16.35 L12.02 16.54Z"/></svg>';
   const starsHtml = (rating, label, compact) => `<div class="product-rating${compact ? ' product-rating--compact' : ''}" role="img" aria-label="${rating} / 5">${[1, 2, 3, 4, 5].map((i) => `<span class="product-rating__star" style="--fill: ${Math.round(Math.min(1, Math.max(0, rating - i + 1)) * 100)}%">${starSvg}</span>`).join('')}<span class="product-rating__text">${label}</span></div>`;
+  const localImageSets = {
+    'premium-leather-shoulder-bag': ['01-in-use.png', '02-product.png', '03-detail.png', '04-lifestyle.png'],
+  };
+  const productImage = (p) => {
+    if (p.images && p.images.length) return p.images.map((path) => `../theme/${path}`);
+    const images = localImageSets[p.handle];
+    if (images) return images.map((name) => `../theme/assets/products/${p.handle}/${name}`);
+    return p.image ? [`../theme/${p.image}`] : [];
+  };
 
   // Mirrors snippets/product-card.liquid.
   const card = (p) => {
     const onSale = p.compare_at_price > p.price;
     const tag = !p.available ? '<div class="grid-product__tag grid-product__tag--soldout">Esaurito</div>' : onSale ? `<div class="grid-product__tag">-${Math.floor(((p.compare_at_price - p.price) * 100) / p.compare_at_price)}%</div>` : '';
-    return `<div class="grid-product">${tag}<a href="${productUrl(p)}" class="grid-product__link"><div class="grid-product__image-mask"><div class="grid__image-ratio">${ph(esc(p.title.split(' ').slice(0, 2).join(' ')))}</div></div><div class="grid-product__meta"><div class="grid-product__title">${esc(p.title)}</div>${starsHtml(p.rating, `(${p.reviews})`, true)}<div class="grid-product__price${onSale ? ' grid-product__price--sale' : ''}"><span>${money(p.price)}</span>${onSale ? `<span class="grid-product__price--original">${money(p.compare_at_price)}</span>` : ''}</div></div></a></div>`;
+    const images = productImage(p);
+    const visual = images.length ? `<img src="${images[0]}" alt="${esc(p.imageAlt || p.title)}">` : ph(esc(p.title.split(' ').slice(0, 2).join(' ')));
+    return `<div class="grid-product">${tag}<a href="${productUrl(p)}" class="grid-product__link"><div class="grid-product__image-mask"><div class="grid__image-ratio">${visual}</div></div><div class="grid-product__meta"><div class="grid-product__title">${esc(p.title)}</div>${starsHtml(p.rating, `(${p.reviews})`, true)}<div class="grid-product__price${onSale ? ' grid-product__price--sale' : ''}"><span>${money(p.price)}</span>${onSale ? `<span class="grid-product__price--original">${money(p.compare_at_price)}</span>` : ''}</div></div></a></div>`;
   };
   const currentProduct = products.find((p) => p.handle === params.get('p')) || products[4];
   const featured = document.body.classList.contains('template-product')
@@ -176,10 +189,16 @@
     ['Taglia giusta al primo colpo grazie alle misure indicate.', 'Paola', 'Trieste'],
     ['Il mio capo preferito di questa stagione. Grazie!', 'Anna', 'Cagliari'],
   ];
-  const testimonial = (i) => `<div class="testimonials__slide"><div class="testimonials__media"><img src="img/review-${i}.png" alt="" loading="lazy"></div><div class="testimonials__content"><div class="testimonials__stars" role="img" aria-label="5 / 5">${[1, 2, 3, 4, 5].map(() => `<span class="product-rating__star">${starSvg}</span>`).join('')}</div><blockquote class="testimonials__text"><p>${sampleReviews[i - 1][0]}</p></blockquote><div class="testimonials__author"><strong>${sampleReviews[i - 1][1]}</strong> ${sampleReviews[i - 1][2]}</div></div></div>`;
+  const testimonial = (i) => `<div class="testimonials__slide" role="group" aria-roledescription="slide" aria-label="${i} / ${sampleReviews.length}"><div class="testimonials__card"><div class="testimonials__media"><img src="img/review-${i}.webp" alt="" loading="lazy" draggable="false"></div><div class="testimonials__content"><div class="testimonials__stars" role="img" aria-label="5 / 5">${[1, 2, 3, 4, 5].map(() => `<span class="product-rating__star">${starSvg}</span>`).join('')}</div><blockquote class="testimonials__text"><p>${sampleReviews[i - 1][0]}</p></blockquote><div class="testimonials__author"><strong>${sampleReviews[i - 1][1]}</strong> <span>${sampleReviews[i - 1][2]}</span></div></div></div></div>`;
 
-  const faq = ['Perché acquistare da noi?', 'Quanto tempo richiede la spedizione?', 'Dov’è il mio ordine?', 'Come funzionano i resi?', 'Quali metodi di pagamento accettate?']
-    .map((q, i) => `<div class="faq__item"><button type="button" class="collapsible-trigger collapsible-trigger--inline" aria-controls="FAQ-${i}" aria-expanded="false"><span class="collapsible-trigger__icon collapsible-trigger__icon--circle">${icon.down}</span><span>${q}</span></button><div id="FAQ-${i}" class="collapsible-content"><div><div class="collapsible-content__inner--faq rte"><p>Anteprima della risposta: due o tre frasi chiare e concrete.</p></div></div></div></div>`)
+  const faq = [
+    ['Perché acquistare da Oriona?', 'Scegliere Oriona significa trovare capi pensati per donne reali, con stile, vestibilità curata e assistenza dedicata.'],
+    ['Quanto tempo richiede la spedizione?', 'La spedizione tracciata è gratuita su ogni ordine in Italia, senza minimo di spesa. Riceverai il tracking via email.'],
+    ['Dov’è il mio ordine?', 'Quando il tuo ordine parte, ti inviamo il numero di tracking per seguire la consegna fino alla porta.'],
+    ['Come funzionano i resi?', 'Hai 30 giorni dalla consegna per richiedere un reso. Scrivici e ti guideremo in modo semplice e veloce.'],
+    ['Quali metodi di pagamento accettate?', 'Puoi pagare in modo sicuro con Visa, Mastercard, American Express, PayPal, Apple Pay, Google Pay e Klarna.'],
+  ]
+    .map(([q, answer], i) => `<div class="faq__item"><button type="button" class="collapsible-trigger collapsible-trigger--inline" aria-controls="FAQ-${i}" aria-expanded="false"><span class="collapsible-trigger__icon collapsible-trigger__icon--circle">${icon.down}</span><span>${q}</span></button><div id="FAQ-${i}" class="collapsible-content"><div><div class="collapsible-content__inner--faq rte"><p>${answer}</p></div></div></div></div>`)
     .join('');
 
   const policies = { 'politica-di-rimborso': 'Politica di rimborso', 'informativa-sulla-privacy': 'Informativa sulla privacy', 'termini-di-servizio': 'Termini di servizio', 'politica-di-spedizione': 'Politica di spedizione', 'informazioni-di-contatto': 'Informazioni di contatto' };
@@ -217,13 +236,15 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
 
     'featured-collection': `<div class="index-section"><div class="page-width"><div class="section-header"><h2 class="section-header__title">${document.body.classList.contains('template-product') ? 'Completa il tuo look' : 'I nostri più venduti'}</h2></div></div><div class="page-width"><div class="grid" style="--columns:5">${featured.map(card).join('')}</div></div></div>`,
 
-    testimonials: `<div class="testimonials" data-testimonials><div class="testimonials__inner"><div class="testimonials__header"><h2 class="testimonials__heading">Cosa dicono le nostre clienti</h2><div class="testimonials__subheading">Recensioni di esempio · anteprima del design</div><div class="testimonials__nav"><button type="button" data-prev aria-label="Precedente">${icon.left}</button><button type="button" data-next aria-label="Successivo">${icon.right}</button></div></div><div class="testimonials__slider">${Array.from({ length: 14 }, (_, i) => i + 1).map(testimonial).join('')}</div></div></div>`,
+    testimonials: `<div class="testimonials" data-testimonials data-autoplay="5" role="region" aria-roledescription="carousel" aria-labelledby="TestimonialsPreview"><div class="testimonials__inner"><div class="testimonials__header"><h2 class="testimonials__heading" id="TestimonialsPreview">Cosa dicono le nostre clienti</h2><div class="testimonials__subheading">Recensioni di esempio · anteprima del design</div></div><div class="testimonials__controls"><div class="testimonials__progress" data-progress aria-hidden="true"><span></span></div><button type="button" class="testimonials__toggle" data-autoplay-toggle aria-label="Metti in pausa" data-label-pause="Metti in pausa" data-label-play="Riprendi"><span class="testimonials__icon-pause">${icon.pause}</span><span class="testimonials__icon-play">${icon.play}</span></button><div class="testimonials__nav"><button type="button" data-prev aria-label="Precedente">${icon.left}</button><button type="button" data-next aria-label="Successivo">${icon.right}</button></div></div><div class="testimonials__slider" tabindex="0">${Array.from({ length: 14 }, (_, i) => i + 1).map(testimonial).join('')}</div></div></div>`,
+    'closure-message': `<section class="closure-message" aria-labelledby="ClosureMessagePreview"><div class="page-width page-width--narrow text-center"><h2 id="ClosureMessagePreview">Ultima occasione</h2><div class="closure-message__text rte"><p>Quattordici anni fa abbiamo deciso di costruire questo sogno. Oggi, a causa dell'aumento dei costi, è arrivato il momento di chiudere.</p><p>Tutto è scontato fino al <strong>50%</strong> e questi sono gli ultimi pezzi: non ci saranno riassortimenti.</p><p>Grazie per questi quattordici anni meravigliosi.</p></div></div></section>`,
 
     faq: `<div class="index-section"><div class="page-width page-width--narrow"><header class="section-header"><h2 class="section-header__title">Domande frequenti</h2></header><div class="faq__list">${faq}</div></div></div>`,
 
-    features: `<div class="features"><div class="features__inner"><div class="features__grid">${feature('truck', 'Spedizione gratuita', 'Su tutti gli ordini, con numero di tracciamento.')}${feature('refresh', 'Resi entro 30 giorni', 'Hai 30 giorni per cambiare idea.')}${feature('lock', 'Pagamento sicuro', 'Pagamento crittografato e protetto.')}</div></div></div>`,
+    features: `<div class="features"><div class="features__inner"><div class="features__grid">${feature('truck', 'Spedizione gratuita', 'Spedizione tracciata gratuita su ogni ordine in Italia, senza minimo di spesa.')}${feature('refresh', 'Resi entro 30 giorni', 'Hai 30 giorni dalla consegna per cambiare idea.')}${feature('lock', 'Pagamento sicuro', 'Pagamenti crittografati e protetti ad ogni acquisto.')}</div></div></div>`,
 
-    newsletter: `<div class="newsletter-section"><div class="page-width text-center"><div class="theme-block"><p class="h3">Iscriviti alla nostra newsletter</p></div><div class="theme-block"><div class="rte"><p>Scopri per prima novità e promozioni.</p></div></div><div class="theme-block"><form onsubmit="return false"><div class="newsletter__input-group"><input type="email" class="newsletter__input" placeholder="Inserisci la tua email"><button type="submit" class="btn">Iscriviti</button></div></form></div></div></div>`,
+    newsletter: `<div class="newsletter-section"><div class="page-width text-center"><div class="theme-block"><p class="h3">Iscriviti e partecipa per vincere un buono da 150 €</p></div><div class="theme-block"><div class="rte"><p>Lascia la tua email per ricevere le ultime novità e partecipare all'estrazione.</p></div></div><div class="theme-block"><form onsubmit="return false"><div class="newsletter__input-group"><input type="email" class="newsletter__input" placeholder="Inserisci la tua email"><button type="submit" class="btn">Partecipa</button></div></form></div></div></div>`,
+    'business-accordion': `<section class="business-accordion" aria-label="Informazioni sul nostro negozio"><div class="page-width page-width--narrow"><div class="business-accordion__item"><button class="collapsible-trigger collapsible-trigger--inline" type="button" aria-controls="BusinessStoryPreview" aria-expanded="false"><span>La nostra storia</span><span class="collapsible-trigger__icon"><span data-icon="down"></span></span></button><div id="BusinessStoryPreview" class="collapsible-content"><div><div class="collapsible-content__inner rte"><p>Siamo Tati e il nostro piccolo negozio nasce dalla passione per capi belli, facili da indossare e scelti con cura.</p></div></div></div></div><div class="business-accordion__item"><button class="collapsible-trigger collapsible-trigger--inline" type="button" aria-controls="BusinessContactPreview" aria-expanded="false"><span>Contatti e assistenza</span><span class="collapsible-trigger__icon"><span data-icon="down"></span></span></button><div id="BusinessContactPreview" class="collapsible-content"><div><div class="collapsible-content__inner rte"><p>Scrivici dal lunedì al venerdì, dalle 9:00 alle 17:00. Ti risponderemo il prima possibile.</p></div></div></div></div><div class="business-accordion__item"><button class="collapsible-trigger collapsible-trigger--inline" type="button" aria-controls="BusinessShippingPreview" aria-expanded="false"><span>Spedizioni e resi</span><span class="collapsible-trigger__icon"><span data-icon="down"></span></span></button><div id="BusinessShippingPreview" class="collapsible-content"><div><div class="collapsible-content__inner rte"><p>Spedizione tracciata e resi facili entro 30 giorni su tutti gli ordini.</p></div></div></div></div></div></section>`,
 
     'back-to-top': `<div class="index-section"><div class="page-width"><div class="btt-row"><div class="btt-wrapper"><button type="button" class="btt-btn" data-back-to-top>Torna su ${icon.up}</button></div></div></div></div>`,
 
@@ -374,17 +395,21 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
       descriptionBlock.innerHTML = `<p>${esc(p.description)}</p><p><strong>Perché sceglierlo</strong></p><ul>${highlights.map(h => `<li>${h}</li>`).join('')}</ul>`;
     }
     section.querySelectorAll('.product-image-main').forEach((el, i) => { el.dataset.ph = `${p.title} · Immagine ${i + 1}`; });
-    const localImageSets = {
-      'premium-leather-shoulder-bag': ['01-in-use.png', '02-product.png', '03-detail.png', '04-lifestyle.png'],
-    };
-    const localImages = localImageSets[p.handle];
-    if (localImages) {
+    const localImages = productImage(p);
+    if (localImages.length) {
       section.querySelectorAll('.product-main-slide').forEach((slide, i) => {
-        const file = localImages[i];
+        const file = localImages[i] || localImages[0];
         if (file) {
           const image = slide.querySelector('.product-image-main');
           image.removeAttribute('data-ph');
-          image.innerHTML = `<img src="../theme/assets/products/${p.handle}/${file}" alt="${esc(p.title)} · Immagine ${i + 1}">`;
+          image.innerHTML = `<img src="${file}" alt="${esc(p.imageAlt || p.title)} · Immagine ${i + 1}">`;
+        }
+      });
+      section.querySelectorAll('.product__thumb').forEach((thumb, i) => {
+        const file = localImages[i] || localImages[0];
+        if (file) {
+          thumb.removeAttribute('data-ph');
+          thumb.innerHTML = `<img src="${file}" alt="${esc(p.imageAlt || p.title)} · Miniatura ${i + 1}">`;
         }
       });
     }

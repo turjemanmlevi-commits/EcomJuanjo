@@ -29,13 +29,21 @@ window.CATALOG = {
       "category": "Bolsos",
       "vendor": "levence.com",
       "sourceUrl": "https://levence.com/products/levence-premium-leather-shoulder-bag",
+      "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png",
+      "images": [
+        "assets/products/premium-leather-shoulder-bag/01-in-use.png",
+        "assets/products/premium-leather-shoulder-bag/02-product.png",
+        "assets/products/premium-leather-shoulder-bag/03-detail.png",
+        "assets/products/premium-leather-shoulder-bag/04-lifestyle.png"
+      ],
+      "imageAlt": "Premium Leather Shoulder Bag · immagine catalogo",
       "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Premium Leather Shoulder Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
       "price": 5300,
       "compare_at_price": 10500,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -59,7 +67,8 @@ window.CATALOG = {
           ],
           "price": 5300,
           "compare_at_price": 10500,
-          "available": true
+          "available": true,
+          "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png"
         },
         {
           "id": 1002,
@@ -69,7 +78,8 @@ window.CATALOG = {
           ],
           "price": 5300,
           "compare_at_price": 10500,
-          "available": true
+          "available": true,
+          "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png"
         },
         {
           "id": 1003,
@@ -79,7 +89,8 @@ window.CATALOG = {
           ],
           "price": 5300,
           "compare_at_price": 10500,
-          "available": true
+          "available": true,
+          "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png"
         },
         {
           "id": 1004,
@@ -89,7 +100,8 @@ window.CATALOG = {
           ],
           "price": 5300,
           "compare_at_price": 10500,
-          "available": true
+          "available": true,
+          "image": "assets/products/premium-leather-shoulder-bag/01-in-use.png"
         }
       ],
       "rating": 4.6,
@@ -105,13 +117,21 @@ window.CATALOG = {
       "category": "Bolsos",
       "vendor": "ayvaofficial.com",
       "sourceUrl": "https://ayvaofficial.com/products/the-brooklyn-bag",
+      "image": "assets/products/the-brooklyn-bag/01-hero.png",
+      "images": [
+        "assets/products/the-brooklyn-bag/01-hero.png",
+        "assets/products/the-brooklyn-bag/02-milan.png",
+        "assets/products/the-brooklyn-bag/03-detail.png",
+        "assets/products/the-brooklyn-bag/04-cafe.png"
+      ],
+      "imageAlt": "The Brooklyn Bag · immagine catalogo",
       "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Brooklyn Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
       "price": 4800,
       "compare_at_price": 8600,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -135,7 +155,8 @@ window.CATALOG = {
           ],
           "price": 4800,
           "compare_at_price": 8600,
-          "available": true
+          "available": true,
+          "image": "assets/products/the-brooklyn-bag/01-hero.png"
         },
         {
           "id": 1006,
@@ -145,7 +166,8 @@ window.CATALOG = {
           ],
           "price": 4800,
           "compare_at_price": 8600,
-          "available": true
+          "available": true,
+          "image": "assets/products/the-brooklyn-bag/01-hero.png"
         },
         {
           "id": 1007,
@@ -155,7 +177,8 @@ window.CATALOG = {
           ],
           "price": 4800,
           "compare_at_price": 8600,
-          "available": true
+          "available": true,
+          "image": "assets/products/the-brooklyn-bag/01-hero.png"
         },
         {
           "id": 1008,
@@ -165,7 +188,8 @@ window.CATALOG = {
           ],
           "price": 4800,
           "compare_at_price": 8600,
-          "available": true
+          "available": true,
+          "image": "assets/products/the-brooklyn-bag/01-hero.png"
         }
       ],
       "rating": 4.7,
@@ -175,19 +199,24 @@ window.CATALOG = {
     },
     {
       "id": 3,
-      "handle": "luhxe-travel-bag-2-0",
-      "title": "Luhxe Travel Bag 2.0",
+      "handle": "the-foldie-sling-bag",
+      "title": "The Foldie Sling Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "luhxe.com",
-      "sourceUrl": "https://luhxe.com/products/luhxe-0",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Luhxe Travel Bag 2.0 unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 12900,
-      "compare_at_price": 19999,
+      "vendor": "the-foldie.co.uk",
+      "sourceUrl": "https://the-foldie.co.uk/products/the-foldie%C2%AE-sling-bag",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "The Foldie Sling Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Foldie Sling Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 4995,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -209,9 +238,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 12900,
-          "compare_at_price": 19999,
-          "available": true
+          "price": 4995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1010,
@@ -219,9 +249,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 12900,
-          "compare_at_price": 19999,
-          "available": true
+          "price": 4995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1011,
@@ -229,9 +260,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 12900,
-          "compare_at_price": 19999,
-          "available": true
+          "price": 4995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1012,
@@ -239,9 +271,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 12900,
-          "compare_at_price": 19999,
-          "available": true
+          "price": 4995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -251,19 +284,24 @@ window.CATALOG = {
     },
     {
       "id": 4,
-      "handle": "2packbag-travel-kit-mochila-compresion",
-      "title": "2PackBag Travel Kit (mochila compresion)",
+      "handle": "ciara-vintage",
+      "title": "Ciara Vintage",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "twopackbag.com",
-      "sourceUrl": "https://twopackbag.com/products/twopackbag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. 2PackBag Travel Kit (mochila compresion) unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4999,
-      "compare_at_price": 9999,
+      "vendor": "voviabags.com",
+      "sourceUrl": "https://voviabags.com/products/ciara-vintage",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Vintage · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Vintage unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 7600,
+      "compare_at_price": 11300,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -285,9 +323,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 4999,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 7600,
+          "compare_at_price": 11300,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1014,
@@ -295,9 +334,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 4999,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 7600,
+          "compare_at_price": 11300,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1015,
@@ -305,9 +345,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 4999,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 7600,
+          "compare_at_price": 11300,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1016,
@@ -315,9 +356,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 4999,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 7600,
+          "compare_at_price": 11300,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -327,19 +369,24 @@ window.CATALOG = {
     },
     {
       "id": 5,
-      "handle": "the-foldie-sling-bag",
-      "title": "The Foldie Sling Bag",
+      "handle": "travel-sling-bag-2-0",
+      "title": "Travel Sling Bag 2.0",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "the-foldie.co.uk",
-      "sourceUrl": "https://the-foldie.co.uk/products/the-foldie%C2%AE-sling-bag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Foldie Sling Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4995,
+      "vendor": "conceptglobal.co",
+      "sourceUrl": "https://conceptglobal.co/products/travel-sling-bag-2-0",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Travel Sling Bag 2.0 · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Travel Sling Bag 2.0 unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 4490,
       "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -361,9 +408,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 4995,
+          "price": 4490,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1018,
@@ -371,9 +419,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 4995,
+          "price": 4490,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1019,
@@ -381,9 +430,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 4995,
+          "price": 4490,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1020,
@@ -391,9 +441,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 4995,
+          "price": 4490,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -403,19 +454,24 @@ window.CATALOG = {
     },
     {
       "id": 6,
-      "handle": "ciara-vintage",
-      "title": "Ciara Vintage",
+      "handle": "luxury-leather-hobo-anti-theft-handbag-pouch",
+      "title": "Luxury Leather Hobo Anti-Theft Handbag + Pouch",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-vintage",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Vintage unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 7600,
-      "compare_at_price": 11300,
+      "vendor": "libracases.com",
+      "sourceUrl": "https://libracases.com/products/luxury-hobo-handbag-special-gift-1",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Luxury Leather Hobo Anti-Theft Handbag + Pouch · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Luxury Leather Hobo Anti-Theft Handbag + Pouch unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 3995,
+      "compare_at_price": 7990,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -437,9 +493,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 7600,
-          "compare_at_price": 11300,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 7990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1022,
@@ -447,9 +504,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 7600,
-          "compare_at_price": 11300,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 7990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1023,
@@ -457,9 +515,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 7600,
-          "compare_at_price": 11300,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 7990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1024,
@@ -467,9 +526,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 7600,
-          "compare_at_price": 11300,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 7990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -479,19 +539,24 @@ window.CATALOG = {
     },
     {
       "id": 7,
-      "handle": "travel-sling-bag-2-0",
-      "title": "Travel Sling Bag 2.0",
+      "handle": "luxury-leather-hobo-anti-theft-handbag-2-0",
+      "title": "Luxury Leather Hobo Anti-Theft Handbag 2.0",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "conceptglobal.co",
-      "sourceUrl": "https://conceptglobal.co/products/travel-sling-bag-2-0",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Travel Sling Bag 2.0 unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4490,
-      "compare_at_price": 0,
+      "vendor": "libracases.com",
+      "sourceUrl": "https://libracases.com/products/luxury-anti-theft-hobo-bag-2-0",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Luxury Leather Hobo Anti-Theft Handbag 2.0 · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Luxury Leather Hobo Anti-Theft Handbag 2.0 unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 5495,
+      "compare_at_price": 10990,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -513,9 +578,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 4490,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 10990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1026,
@@ -523,9 +589,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 4490,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 10990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1027,
@@ -533,9 +600,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 4490,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 10990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1028,
@@ -543,9 +611,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 4490,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 10990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -555,19 +624,24 @@ window.CATALOG = {
     },
     {
       "id": 8,
-      "handle": "luxury-leather-hobo-anti-theft-handbag-pouch",
-      "title": "Luxury Leather Hobo Anti-Theft Handbag + Pouch",
+      "handle": "overpackbag-mochila-compresion",
+      "title": "OverPackBag (mochila compresion)",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "libracases.com",
-      "sourceUrl": "https://libracases.com/products/luxury-hobo-handbag-special-gift-1",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Luxury Leather Hobo Anti-Theft Handbag + Pouch unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 3995,
-      "compare_at_price": 7990,
+      "vendor": "overpackbag.com",
+      "sourceUrl": "https://overpackbag.com/products/overpack-bag%E2%84%A2",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "OverPackBag (mochila compresion) · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. OverPackBag (mochila compresion) unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 4999,
+      "compare_at_price": 9998,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -589,9 +663,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 3995,
-          "compare_at_price": 7990,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 9998,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1030,
@@ -599,9 +674,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 3995,
-          "compare_at_price": 7990,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 9998,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1031,
@@ -609,9 +685,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 3995,
-          "compare_at_price": 7990,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 9998,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1032,
@@ -619,9 +696,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 3995,
-          "compare_at_price": 7990,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 9998,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -631,19 +709,24 @@ window.CATALOG = {
     },
     {
       "id": 9,
-      "handle": "luxury-leather-hobo-anti-theft-handbag-2-0",
-      "title": "Luxury Leather Hobo Anti-Theft Handbag 2.0",
+      "handle": "tri-sling-bag",
+      "title": "Tri-Sling Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "libracases.com",
-      "sourceUrl": "https://libracases.com/products/luxury-anti-theft-hobo-bag-2-0",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Luxury Leather Hobo Anti-Theft Handbag 2.0 unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 5495,
-      "compare_at_price": 10990,
+      "vendor": "armarex.store",
+      "sourceUrl": "https://armarex.store/products/tri-sling-bag-onyx",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Tri-Sling Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Tri-Sling Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 9000,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -665,9 +748,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 5495,
-          "compare_at_price": 10990,
-          "available": true
+          "price": 9000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1034,
@@ -675,9 +759,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 5495,
-          "compare_at_price": 10990,
-          "available": true
+          "price": 9000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1035,
@@ -685,9 +770,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 5495,
-          "compare_at_price": 10990,
-          "available": true
+          "price": 9000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1036,
@@ -695,9 +781,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 5495,
-          "compare_at_price": 10990,
-          "available": true
+          "price": 9000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -707,19 +794,24 @@ window.CATALOG = {
     },
     {
       "id": 10,
-      "handle": "overpackbag-mochila-compresion",
-      "title": "OverPackBag (mochila compresion)",
+      "handle": "ona-soft-bag",
+      "title": "Ona Soft Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "overpackbag.com",
-      "sourceUrl": "https://overpackbag.com/products/overpack-bag%E2%84%A2",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. OverPackBag (mochila compresion) unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4999,
-      "compare_at_price": 9998,
+      "vendor": "olend.net",
+      "sourceUrl": "https://olend.net/products/ona",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ona Soft Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ona Soft Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 8200,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -741,9 +833,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 4999,
-          "compare_at_price": 9998,
-          "available": true
+          "price": 8200,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1038,
@@ -751,9 +844,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 4999,
-          "compare_at_price": 9998,
-          "available": true
+          "price": 8200,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1039,
@@ -761,9 +855,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 4999,
-          "compare_at_price": 9998,
-          "available": true
+          "price": 8200,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1040,
@@ -771,9 +866,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 4999,
-          "compare_at_price": 9998,
-          "available": true
+          "price": 8200,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -783,19 +879,24 @@ window.CATALOG = {
     },
     {
       "id": 11,
-      "handle": "tri-sling-bag",
-      "title": "Tri-Sling Bag",
+      "handle": "the-maya-tote",
+      "title": "The Maya (tote)",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "armarex.store",
-      "sourceUrl": "https://armarex.store/products/tri-sling-bag-onyx",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Tri-Sling Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 9000,
-      "compare_at_price": 0,
+      "vendor": "ooomay.com",
+      "sourceUrl": "https://ooomay.com/products/the-maya",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "The Maya (tote) · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Maya (tote) unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 4400,
+      "compare_at_price": 8900,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -817,9 +918,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 9000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4400,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1042,
@@ -827,9 +929,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 9000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4400,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1043,
@@ -837,9 +940,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 9000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4400,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1044,
@@ -847,9 +951,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 9000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4400,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -859,19 +964,24 @@ window.CATALOG = {
     },
     {
       "id": 12,
-      "handle": "ona-soft-bag",
-      "title": "Ona Soft Bag",
+      "handle": "nova-sling",
+      "title": "Nova Sling",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "olend.net",
-      "sourceUrl": "https://olend.net/products/ona",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ona Soft Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 8200,
-      "compare_at_price": 0,
+      "vendor": "ayvaofficial.com",
+      "sourceUrl": "https://ayvaofficial.com/products/nova-sling",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Nova Sling · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Nova Sling unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 3500,
+      "compare_at_price": 7000,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -893,9 +1003,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 8200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3500,
+          "compare_at_price": 7000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1046,
@@ -903,9 +1014,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 8200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3500,
+          "compare_at_price": 7000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1047,
@@ -913,9 +1025,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 8200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3500,
+          "compare_at_price": 7000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1048,
@@ -923,9 +1036,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 8200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3500,
+          "compare_at_price": 7000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -935,19 +1049,24 @@ window.CATALOG = {
     },
     {
       "id": 13,
-      "handle": "the-maya-tote",
-      "title": "The Maya (tote)",
+      "handle": "florvane-leather-handbag",
+      "title": "Florvane Leather Handbag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "ooomay.com",
-      "sourceUrl": "https://ooomay.com/products/the-maya",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Maya (tote) unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4400,
-      "compare_at_price": 8900,
+      "vendor": "chiccharm.group",
+      "sourceUrl": "https://chiccharm.group/products/florvane-leather-handbag",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Florvane Leather Handbag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Florvane Leather Handbag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 6800,
+      "compare_at_price": 12100,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -969,9 +1088,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 4400,
-          "compare_at_price": 8900,
-          "available": true
+          "price": 6800,
+          "compare_at_price": 12100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1050,
@@ -979,9 +1099,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 4400,
-          "compare_at_price": 8900,
-          "available": true
+          "price": 6800,
+          "compare_at_price": 12100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1051,
@@ -989,9 +1110,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 4400,
-          "compare_at_price": 8900,
-          "available": true
+          "price": 6800,
+          "compare_at_price": 12100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1052,
@@ -999,9 +1121,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 4400,
-          "compare_at_price": 8900,
-          "available": true
+          "price": 6800,
+          "compare_at_price": 12100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -1011,19 +1134,24 @@ window.CATALOG = {
     },
     {
       "id": 14,
-      "handle": "nova-sling",
-      "title": "Nova Sling",
+      "handle": "wander-anti-theft-travel-bag",
+      "title": "WANDER+ Anti-Theft Travel Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "ayvaofficial.com",
-      "sourceUrl": "https://ayvaofficial.com/products/nova-sling",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Nova Sling unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 3500,
-      "compare_at_price": 7000,
+      "vendor": "wander-plus.com",
+      "sourceUrl": "https://wander-plus.com/products/native-bags",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "WANDER+ Anti-Theft Travel Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. WANDER+ Anti-Theft Travel Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 2999,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1045,9 +1173,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 3500,
-          "compare_at_price": 7000,
-          "available": true
+          "price": 2999,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1054,
@@ -1055,9 +1184,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 3500,
-          "compare_at_price": 7000,
-          "available": true
+          "price": 2999,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1055,
@@ -1065,9 +1195,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 3500,
-          "compare_at_price": 7000,
-          "available": true
+          "price": 2999,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1056,
@@ -1075,9 +1206,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 3500,
-          "compare_at_price": 7000,
-          "available": true
+          "price": 2999,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -1087,19 +1219,24 @@ window.CATALOG = {
     },
     {
       "id": 15,
-      "handle": "florvane-leather-handbag",
-      "title": "Florvane Leather Handbag",
+      "handle": "aryna-bag",
+      "title": "Aryna Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "chiccharm.group",
-      "sourceUrl": "https://chiccharm.group/products/florvane-leather-handbag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Florvane Leather Handbag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 6800,
-      "compare_at_price": 12100,
+      "vendor": "maisonginza.com",
+      "sourceUrl": "https://maisonginza.com/products/aryna-bag",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Aryna Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Aryna Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 0,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1121,9 +1258,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 6800,
-          "compare_at_price": 12100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1058,
@@ -1131,9 +1269,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 6800,
-          "compare_at_price": 12100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1059,
@@ -1141,9 +1280,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 6800,
-          "compare_at_price": 12100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1060,
@@ -1151,9 +1291,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 6800,
-          "compare_at_price": 12100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -1163,19 +1304,24 @@ window.CATALOG = {
     },
     {
       "id": 16,
-      "handle": "wander-anti-theft-travel-bag",
-      "title": "WANDER+ Anti-Theft Travel Bag",
+      "handle": "dumpling-bag",
+      "title": "Dumpling Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "wander-plus.com",
-      "sourceUrl": "https://wander-plus.com/products/native-bags",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. WANDER+ Anti-Theft Travel Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 2999,
+      "vendor": "olend.net",
+      "sourceUrl": "https://olend.net/products/dumpling-bag",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Dumpling Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Dumpling Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 8700,
       "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1197,9 +1343,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 2999,
+          "price": 8700,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1062,
@@ -1207,9 +1354,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 2999,
+          "price": 8700,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1063,
@@ -1217,9 +1365,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 2999,
+          "price": 8700,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1064,
@@ -1227,9 +1376,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 2999,
+          "price": 8700,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -1239,19 +1389,24 @@ window.CATALOG = {
     },
     {
       "id": 17,
-      "handle": "aryna-bag",
-      "title": "Aryna Bag",
+      "handle": "the-blair-tote",
+      "title": "The Blair (tote)",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "maisonginza.com",
-      "sourceUrl": "https://maisonginza.com/products/aryna-bag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Aryna Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 0,
-      "compare_at_price": 0,
+      "vendor": "ooomay.com",
+      "sourceUrl": "https://ooomay.com/products/blair-tote-bag",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "The Blair (tote) · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Blair (tote) unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 6900,
+      "compare_at_price": 11900,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1273,9 +1428,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 11900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1066,
@@ -1283,9 +1439,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 11900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1067,
@@ -1293,9 +1450,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 11900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1068,
@@ -1303,9 +1461,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 11900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -1315,19 +1474,24 @@ window.CATALOG = {
     },
     {
       "id": 18,
-      "handle": "dumpling-bag",
-      "title": "Dumpling Bag",
+      "handle": "lucia-woven-bag",
+      "title": "Lucia Woven Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "olend.net",
-      "sourceUrl": "https://olend.net/products/dumpling-bag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Dumpling Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 8700,
-      "compare_at_price": 0,
+      "vendor": "soera-store.com",
+      "sourceUrl": "https://soera-store.com/products/lucia-woven-handbag",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Lucia Woven Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Lucia Woven Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 7400,
+      "compare_at_price": 13600,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1349,9 +1513,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 8700,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7400,
+          "compare_at_price": 13600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1070,
@@ -1359,9 +1524,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 8700,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7400,
+          "compare_at_price": 13600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1071,
@@ -1369,9 +1535,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 8700,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7400,
+          "compare_at_price": 13600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1072,
@@ -1379,9 +1546,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 8700,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7400,
+          "compare_at_price": 13600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -1391,19 +1559,24 @@ window.CATALOG = {
     },
     {
       "id": 19,
-      "handle": "the-blair-tote",
-      "title": "The Blair (tote)",
+      "handle": "gofree-the-roomiest-bum-bag",
+      "title": "GoFree - The Roomiest Bum Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "ooomay.com",
-      "sourceUrl": "https://ooomay.com/products/blair-tote-bag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Blair (tote) unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 6900,
-      "compare_at_price": 11900,
+      "vendor": "emmafy.com",
+      "sourceUrl": "https://emmafy.com/products/gofree-the-roomiest-crossbody",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "GoFree - The Roomiest Bum Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. GoFree - The Roomiest Bum Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 6997,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1425,9 +1598,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 6900,
-          "compare_at_price": 11900,
-          "available": true
+          "price": 6997,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1074,
@@ -1435,9 +1609,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 6900,
-          "compare_at_price": 11900,
-          "available": true
+          "price": 6997,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1075,
@@ -1445,9 +1620,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 6900,
-          "compare_at_price": 11900,
-          "available": true
+          "price": 6997,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1076,
@@ -1455,9 +1631,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 6900,
-          "compare_at_price": 11900,
-          "available": true
+          "price": 6997,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -1467,19 +1644,24 @@ window.CATALOG = {
     },
     {
       "id": 20,
-      "handle": "lucia-woven-bag",
-      "title": "Lucia Woven Bag",
+      "handle": "siv-sling-bag",
+      "title": "SIV Sling Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "soera-store.com",
-      "sourceUrl": "https://soera-store.com/products/lucia-woven-handbag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Lucia Woven Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 7400,
-      "compare_at_price": 13600,
+      "vendor": "totelabel.com",
+      "sourceUrl": "https://totelabel.com/products/slingbag-black",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "SIV Sling Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. SIV Sling Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 5100,
+      "compare_at_price": 6900,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1501,9 +1683,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 7400,
-          "compare_at_price": 13600,
-          "available": true
+          "price": 5100,
+          "compare_at_price": 6900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1078,
@@ -1511,9 +1694,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 7400,
-          "compare_at_price": 13600,
-          "available": true
+          "price": 5100,
+          "compare_at_price": 6900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1079,
@@ -1521,9 +1705,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 7400,
-          "compare_at_price": 13600,
-          "available": true
+          "price": 5100,
+          "compare_at_price": 6900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1080,
@@ -1531,9 +1716,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 7400,
-          "compare_at_price": 13600,
-          "available": true
+          "price": 5100,
+          "compare_at_price": 6900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -1543,19 +1729,24 @@ window.CATALOG = {
     },
     {
       "id": 21,
-      "handle": "gofree-the-roomiest-bum-bag",
-      "title": "GoFree - The Roomiest Bum Bag",
+      "handle": "ciara-essential",
+      "title": "Ciara Essential",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "emmafy.com",
-      "sourceUrl": "https://emmafy.com/products/gofree-the-roomiest-crossbody",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. GoFree - The Roomiest Bum Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 6997,
-      "compare_at_price": 0,
+      "vendor": "voviabags.com",
+      "sourceUrl": "https://voviabags.com/products/ciara-special-edition",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Essential · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Essential unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 7800,
+      "compare_at_price": 10900,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1577,9 +1768,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 6997,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7800,
+          "compare_at_price": 10900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1082,
@@ -1587,9 +1779,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 6997,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7800,
+          "compare_at_price": 10900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1083,
@@ -1597,9 +1790,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 6997,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7800,
+          "compare_at_price": 10900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1084,
@@ -1607,9 +1801,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 6997,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7800,
+          "compare_at_price": 10900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -1619,19 +1814,24 @@ window.CATALOG = {
     },
     {
       "id": 22,
-      "handle": "siv-sling-bag",
-      "title": "SIV Sling Bag",
+      "handle": "the-foldie-crossbody",
+      "title": "The Foldie Crossbody",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "totelabel.com",
-      "sourceUrl": "https://totelabel.com/products/slingbag-black",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. SIV Sling Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 5100,
-      "compare_at_price": 6900,
+      "vendor": "the-foldie.co.uk",
+      "sourceUrl": "https://the-foldie.co.uk/products/the-foldie%C2%AE-crossbody-copy-1",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "The Foldie Crossbody · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Foldie Crossbody unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 4995,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1653,9 +1853,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 5100,
-          "compare_at_price": 6900,
-          "available": true
+          "price": 4995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1086,
@@ -1663,9 +1864,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 5100,
-          "compare_at_price": 6900,
-          "available": true
+          "price": 4995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1087,
@@ -1673,9 +1875,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 5100,
-          "compare_at_price": 6900,
-          "available": true
+          "price": 4995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1088,
@@ -1683,9 +1886,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 5100,
-          "compare_at_price": 6900,
-          "available": true
+          "price": 4995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -1695,19 +1899,24 @@ window.CATALOG = {
     },
     {
       "id": 23,
-      "handle": "ciara-essential",
-      "title": "Ciara Essential",
+      "handle": "the-marseille",
+      "title": "The Marseille",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-special-edition",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Essential unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 7800,
-      "compare_at_price": 10900,
+      "vendor": "ayvaofficial.com",
+      "sourceUrl": "https://ayvaofficial.com/products/the-marseille",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "The Marseille · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Marseille unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 7000,
+      "compare_at_price": 8700,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1729,9 +1938,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 7800,
-          "compare_at_price": 10900,
-          "available": true
+          "price": 7000,
+          "compare_at_price": 8700,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1090,
@@ -1739,9 +1949,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 7800,
-          "compare_at_price": 10900,
-          "available": true
+          "price": 7000,
+          "compare_at_price": 8700,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1091,
@@ -1749,9 +1960,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 7800,
-          "compare_at_price": 10900,
-          "available": true
+          "price": 7000,
+          "compare_at_price": 8700,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1092,
@@ -1759,9 +1971,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 7800,
-          "compare_at_price": 10900,
-          "available": true
+          "price": 7000,
+          "compare_at_price": 8700,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -1771,19 +1984,24 @@ window.CATALOG = {
     },
     {
       "id": 24,
-      "handle": "the-foldie-crossbody",
-      "title": "The Foldie Crossbody",
+      "handle": "vintage-bag",
+      "title": "Vintage Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "the-foldie.co.uk",
-      "sourceUrl": "https://the-foldie.co.uk/products/the-foldie%C2%AE-crossbody-copy-1",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Foldie Crossbody unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4995,
-      "compare_at_price": 0,
+      "vendor": "libracases.com",
+      "sourceUrl": "https://libracases.com/products/libra-vintage-bag",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Vintage Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Vintage Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 3495,
+      "compare_at_price": 6990,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1805,9 +2023,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 4995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3495,
+          "compare_at_price": 6990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1094,
@@ -1815,9 +2034,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 4995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3495,
+          "compare_at_price": 6990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1095,
@@ -1825,9 +2045,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 4995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3495,
+          "compare_at_price": 6990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1096,
@@ -1835,9 +2056,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 4995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3495,
+          "compare_at_price": 6990,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -1847,19 +2069,24 @@ window.CATALOG = {
     },
     {
       "id": 25,
-      "handle": "the-marseille",
-      "title": "The Marseille",
+      "handle": "crossbody-bag-2-0",
+      "title": "Crossbody Bag 2.0",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "ayvaofficial.com",
-      "sourceUrl": "https://ayvaofficial.com/products/the-marseille",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Marseille unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 7000,
-      "compare_at_price": 8700,
+      "vendor": "conceptglobal.co",
+      "sourceUrl": "https://conceptglobal.co/products/crossbody-bag",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Crossbody Bag 2.0 · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Crossbody Bag 2.0 unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 3990,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1881,9 +2108,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 7000,
-          "compare_at_price": 8700,
-          "available": true
+          "price": 3990,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1098,
@@ -1891,9 +2119,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 7000,
-          "compare_at_price": 8700,
-          "available": true
+          "price": 3990,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1099,
@@ -1901,9 +2130,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 7000,
-          "compare_at_price": 8700,
-          "available": true
+          "price": 3990,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1100,
@@ -1911,9 +2141,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 7000,
-          "compare_at_price": 8700,
-          "available": true
+          "price": 3990,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -1923,19 +2154,24 @@ window.CATALOG = {
     },
     {
       "id": 26,
-      "handle": "vintage-bag",
-      "title": "Vintage Bag",
+      "handle": "the-julie-crossbody",
+      "title": "The Julie (crossbody)",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "libracases.com",
-      "sourceUrl": "https://libracases.com/products/libra-vintage-bag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Vintage Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 3495,
-      "compare_at_price": 6990,
+      "vendor": "ooomay.com",
+      "sourceUrl": "https://ooomay.com/products/the-julie-crossbody",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "The Julie (crossbody) · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Julie (crossbody) unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 4900,
+      "compare_at_price": 9000,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -1957,9 +2193,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 3495,
-          "compare_at_price": 6990,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1102,
@@ -1967,9 +2204,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 3495,
-          "compare_at_price": 6990,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1103,
@@ -1977,9 +2215,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 3495,
-          "compare_at_price": 6990,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1104,
@@ -1987,9 +2226,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 3495,
-          "compare_at_price": 6990,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -1999,19 +2239,24 @@ window.CATALOG = {
     },
     {
       "id": 27,
-      "handle": "crossbody-bag-2-0",
-      "title": "Crossbody Bag 2.0",
+      "handle": "gerda-shopper-bag",
+      "title": "Gerda Shopper Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "conceptglobal.co",
-      "sourceUrl": "https://conceptglobal.co/products/crossbody-bag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Crossbody Bag 2.0 unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 3990,
+      "vendor": "soera-store.com",
+      "sourceUrl": "https://soera-store.com/products/gerda-shopper-bag",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Gerda Shopper Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Gerda Shopper Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 7400,
       "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2033,9 +2278,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 3990,
+          "price": 7400,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1106,
@@ -2043,9 +2289,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 3990,
+          "price": 7400,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1107,
@@ -2053,9 +2300,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 3990,
+          "price": 7400,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1108,
@@ -2063,9 +2311,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 3990,
+          "price": 7400,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -2075,19 +2324,24 @@ window.CATALOG = {
     },
     {
       "id": 28,
-      "handle": "the-julie-crossbody",
-      "title": "The Julie (crossbody)",
+      "handle": "miniona-soft-bag",
+      "title": "MiniOna Soft Bag",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "ooomay.com",
-      "sourceUrl": "https://ooomay.com/products/the-julie-crossbody",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. The Julie (crossbody) unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4900,
-      "compare_at_price": 9000,
+      "vendor": "olend.net",
+      "sourceUrl": "https://olend.net/products/mini-ona",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "MiniOna Soft Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. MiniOna Soft Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 7700,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2109,9 +2363,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 4900,
-          "compare_at_price": 9000,
-          "available": true
+          "price": 7700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1110,
@@ -2119,9 +2374,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 4900,
-          "compare_at_price": 9000,
-          "available": true
+          "price": 7700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1111,
@@ -2129,9 +2385,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 4900,
-          "compare_at_price": 9000,
-          "available": true
+          "price": 7700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1112,
@@ -2139,9 +2396,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 4900,
-          "compare_at_price": 9000,
-          "available": true
+          "price": 7700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -2151,19 +2409,24 @@ window.CATALOG = {
     },
     {
       "id": 29,
-      "handle": "gerda-shopper-bag",
-      "title": "Gerda Shopper Bag",
+      "handle": "ciara-suede",
+      "title": "Ciara Suede",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "soera-store.com",
-      "sourceUrl": "https://soera-store.com/products/gerda-shopper-bag",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Gerda Shopper Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 7400,
-      "compare_at_price": 0,
+      "vendor": "voviabags.com",
+      "sourceUrl": "https://voviabags.com/products/ciara-suede",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Suede · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Suede unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 6500,
+      "compare_at_price": 8600,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2185,9 +2448,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 7400,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6500,
+          "compare_at_price": 8600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1114,
@@ -2195,9 +2459,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 7400,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6500,
+          "compare_at_price": 8600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1115,
@@ -2205,9 +2470,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 7400,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6500,
+          "compare_at_price": 8600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1116,
@@ -2215,9 +2481,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 7400,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6500,
+          "compare_at_price": 8600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -2227,19 +2494,24 @@ window.CATALOG = {
     },
     {
       "id": 30,
-      "handle": "miniona-soft-bag",
-      "title": "MiniOna Soft Bag",
+      "handle": "woven-oversized",
+      "title": "Woven Oversized",
       "collection": "borse",
       "category": "Bolsos",
-      "vendor": "olend.net",
-      "sourceUrl": "https://olend.net/products/mini-ona",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. MiniOna Soft Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 7700,
-      "compare_at_price": 0,
+      "vendor": "voviabags.com",
+      "sourceUrl": "https://voviabags.com/products/woven-oversized-kopie-2",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Woven Oversized · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Woven Oversized unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 6000,
+      "compare_at_price": 8200,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2261,9 +2533,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 7700,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6000,
+          "compare_at_price": 8200,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1118,
@@ -2271,9 +2544,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 7700,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6000,
+          "compare_at_price": 8200,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1119,
@@ -2281,9 +2555,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 7700,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6000,
+          "compare_at_price": 8200,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1120,
@@ -2291,9 +2566,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 7700,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6000,
+          "compare_at_price": 8200,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -2303,19 +2579,24 @@ window.CATALOG = {
     },
     {
       "id": 31,
-      "handle": "ciara-suede",
-      "title": "Ciara Suede",
+      "handle": "ciara-vintage-limited-edition",
+      "title": "Ciara Vintage - Limited Edition",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-suede",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Suede unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 6500,
-      "compare_at_price": 8600,
+      "sourceUrl": "https://voviabags.com/products/ciara-vintage-canvas",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Vintage - Limited Edition · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Vintage - Limited Edition unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 7600,
+      "compare_at_price": 10900,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2337,9 +2618,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 6500,
-          "compare_at_price": 8600,
-          "available": true
+          "price": 7600,
+          "compare_at_price": 10900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1122,
@@ -2347,9 +2629,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 6500,
-          "compare_at_price": 8600,
-          "available": true
+          "price": 7600,
+          "compare_at_price": 10900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1123,
@@ -2357,9 +2640,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 6500,
-          "compare_at_price": 8600,
-          "available": true
+          "price": 7600,
+          "compare_at_price": 10900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1124,
@@ -2367,9 +2651,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 6500,
-          "compare_at_price": 8600,
-          "available": true
+          "price": 7600,
+          "compare_at_price": 10900,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -2379,19 +2664,24 @@ window.CATALOG = {
     },
     {
       "id": 32,
-      "handle": "woven-oversized",
-      "title": "Woven Oversized",
+      "handle": "ciara-genuine-leather",
+      "title": "Ciara Genuine Leather",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/woven-oversized-kopie-2",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Woven Oversized unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 6000,
-      "compare_at_price": 8200,
+      "sourceUrl": "https://voviabags.com/products/ciara-premium-copy",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Genuine Leather · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Genuine Leather unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 8200,
+      "compare_at_price": 12100,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2413,9 +2703,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 6000,
-          "compare_at_price": 8200,
-          "available": true
+          "price": 8200,
+          "compare_at_price": 12100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1126,
@@ -2423,9 +2714,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 6000,
-          "compare_at_price": 8200,
-          "available": true
+          "price": 8200,
+          "compare_at_price": 12100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1127,
@@ -2433,9 +2725,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 6000,
-          "compare_at_price": 8200,
-          "available": true
+          "price": 8200,
+          "compare_at_price": 12100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1128,
@@ -2443,9 +2736,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 6000,
-          "compare_at_price": 8200,
-          "available": true
+          "price": 8200,
+          "compare_at_price": 12100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -2455,19 +2749,24 @@ window.CATALOG = {
     },
     {
       "id": 33,
-      "handle": "ciara-vintage-limited-edition",
-      "title": "Ciara Vintage - Limited Edition",
+      "handle": "ciara-mini",
+      "title": "Ciara Mini",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-vintage-canvas",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Vintage - Limited Edition unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 7600,
-      "compare_at_price": 10900,
+      "sourceUrl": "https://voviabags.com/products/ciara-mini-coffee",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Mini · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Mini unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 6000,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2489,9 +2788,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 7600,
-          "compare_at_price": 10900,
-          "available": true
+          "price": 6000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1130,
@@ -2499,9 +2799,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 7600,
-          "compare_at_price": 10900,
-          "available": true
+          "price": 6000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1131,
@@ -2509,9 +2810,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 7600,
-          "compare_at_price": 10900,
-          "available": true
+          "price": 6000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1132,
@@ -2519,9 +2821,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 7600,
-          "compare_at_price": 10900,
-          "available": true
+          "price": 6000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -2531,19 +2834,24 @@ window.CATALOG = {
     },
     {
       "id": 34,
-      "handle": "ciara-genuine-leather",
-      "title": "Ciara Genuine Leather",
+      "handle": "ciara-nova",
+      "title": "Ciara Nova",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-premium-copy",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Genuine Leather unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 8200,
-      "compare_at_price": 12100,
+      "sourceUrl": "https://voviabags.com/products/ciara-nova-1",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Nova · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Nova unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 5100,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2565,9 +2873,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 8200,
-          "compare_at_price": 12100,
-          "available": true
+          "price": 5100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1134,
@@ -2575,9 +2884,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 8200,
-          "compare_at_price": 12100,
-          "available": true
+          "price": 5100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1135,
@@ -2585,9 +2895,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 8200,
-          "compare_at_price": 12100,
-          "available": true
+          "price": 5100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1136,
@@ -2595,9 +2906,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 8200,
-          "compare_at_price": 12100,
-          "available": true
+          "price": 5100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -2607,19 +2919,24 @@ window.CATALOG = {
     },
     {
       "id": 35,
-      "handle": "ciara-mini",
-      "title": "Ciara Mini",
+      "handle": "vintage-tote",
+      "title": "Vintage Tote",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-mini-coffee",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Mini unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 6000,
-      "compare_at_price": 0,
+      "sourceUrl": "https://voviabags.com/products/everyday-shopper-3",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Vintage Tote · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Vintage Tote unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 4200,
+      "compare_at_price": 6000,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2641,9 +2958,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 6000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4200,
+          "compare_at_price": 6000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1138,
@@ -2651,9 +2969,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 6000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4200,
+          "compare_at_price": 6000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1139,
@@ -2661,9 +2980,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 6000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4200,
+          "compare_at_price": 6000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1140,
@@ -2671,9 +2991,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 6000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4200,
+          "compare_at_price": 6000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -2683,19 +3004,24 @@ window.CATALOG = {
     },
     {
       "id": 36,
-      "handle": "ciara-nova",
-      "title": "Ciara Nova",
+      "handle": "hailey-woven",
+      "title": "Hailey Woven",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-nova-1",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Nova unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 5100,
-      "compare_at_price": 0,
+      "sourceUrl": "https://voviabags.com/products/hailey-woven",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Hailey Woven · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Hailey Woven unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 6500,
+      "compare_at_price": 8600,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2717,9 +3043,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 5100,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6500,
+          "compare_at_price": 8600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1142,
@@ -2727,9 +3054,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 5100,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6500,
+          "compare_at_price": 8600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1143,
@@ -2737,9 +3065,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 5100,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6500,
+          "compare_at_price": 8600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1144,
@@ -2747,9 +3076,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 5100,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6500,
+          "compare_at_price": 8600,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -2759,19 +3089,24 @@ window.CATALOG = {
     },
     {
       "id": 37,
-      "handle": "vintage-tote",
-      "title": "Vintage Tote",
+      "handle": "lara-suede",
+      "title": "Lara Suede",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/everyday-shopper-3",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Vintage Tote unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4200,
-      "compare_at_price": 6000,
+      "sourceUrl": "https://voviabags.com/products/lara-suede",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Lara Suede · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Lara Suede unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 6900,
+      "compare_at_price": 10000,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2793,9 +3128,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 4200,
-          "compare_at_price": 6000,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 10000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1146,
@@ -2803,9 +3139,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 4200,
-          "compare_at_price": 6000,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 10000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1147,
@@ -2813,9 +3150,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 4200,
-          "compare_at_price": 6000,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 10000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1148,
@@ -2823,9 +3161,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 4200,
-          "compare_at_price": 6000,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 10000,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -2835,19 +3174,24 @@ window.CATALOG = {
     },
     {
       "id": 38,
-      "handle": "hailey-woven",
-      "title": "Hailey Woven",
+      "handle": "rhea-oversized",
+      "title": "Rhea Oversized",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/hailey-woven",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Hailey Woven unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 6500,
-      "compare_at_price": 8600,
+      "sourceUrl": "https://voviabags.com/products/rhea-oversized-copy",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Rhea Oversized · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Rhea Oversized unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 7800,
+      "compare_at_price": 10100,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2869,9 +3213,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 6500,
-          "compare_at_price": 8600,
-          "available": true
+          "price": 7800,
+          "compare_at_price": 10100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1150,
@@ -2879,9 +3224,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 6500,
-          "compare_at_price": 8600,
-          "available": true
+          "price": 7800,
+          "compare_at_price": 10100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1151,
@@ -2889,9 +3235,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 6500,
-          "compare_at_price": 8600,
-          "available": true
+          "price": 7800,
+          "compare_at_price": 10100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1152,
@@ -2899,9 +3246,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 6500,
-          "compare_at_price": 8600,
-          "available": true
+          "price": 7800,
+          "compare_at_price": 10100,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -2911,19 +3259,24 @@ window.CATALOG = {
     },
     {
       "id": 39,
-      "handle": "lara-suede",
-      "title": "Lara Suede",
+      "handle": "baggy-vegan-leather",
+      "title": "Baggy Vegan Leather",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/lara-suede",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Lara Suede unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 6900,
-      "compare_at_price": 10000,
+      "sourceUrl": "https://voviabags.com/products/baggy-vegan-leather-2",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Baggy Vegan Leather · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Baggy Vegan Leather unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 5400,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -2945,9 +3298,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 6900,
-          "compare_at_price": 10000,
-          "available": true
+          "price": 5400,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1154,
@@ -2955,9 +3309,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 6900,
-          "compare_at_price": 10000,
-          "available": true
+          "price": 5400,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1155,
@@ -2965,9 +3320,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 6900,
-          "compare_at_price": 10000,
-          "available": true
+          "price": 5400,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1156,
@@ -2975,9 +3331,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 6900,
-          "compare_at_price": 10000,
-          "available": true
+          "price": 5400,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -2987,19 +3344,24 @@ window.CATALOG = {
     },
     {
       "id": 40,
-      "handle": "rhea-oversized",
-      "title": "Rhea Oversized",
+      "handle": "valentina-tote",
+      "title": "Valentina Tote",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/rhea-oversized-copy",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Rhea Oversized unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 7800,
-      "compare_at_price": 10100,
+      "sourceUrl": "https://voviabags.com/products/valentina-tote-3",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Valentina Tote · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Valentina Tote unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 5600,
+      "compare_at_price": 7800,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -3021,9 +3383,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 7800,
-          "compare_at_price": 10100,
-          "available": true
+          "price": 5600,
+          "compare_at_price": 7800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1158,
@@ -3031,9 +3394,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 7800,
-          "compare_at_price": 10100,
-          "available": true
+          "price": 5600,
+          "compare_at_price": 7800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1159,
@@ -3041,9 +3405,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 7800,
-          "compare_at_price": 10100,
-          "available": true
+          "price": 5600,
+          "compare_at_price": 7800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1160,
@@ -3051,9 +3416,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 7800,
-          "compare_at_price": 10100,
-          "available": true
+          "price": 5600,
+          "compare_at_price": 7800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -3063,19 +3429,24 @@ window.CATALOG = {
     },
     {
       "id": 41,
-      "handle": "baggy-vegan-leather",
-      "title": "Baggy Vegan Leather",
+      "handle": "moire-suede",
+      "title": "Moiré Suede",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/baggy-vegan-leather-2",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Baggy Vegan Leather unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 5400,
+      "sourceUrl": "https://voviabags.com/products/suede-mini",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Moiré Suede · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Moiré Suede unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 5500,
       "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -3097,9 +3468,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 5400,
+          "price": 5500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1162,
@@ -3107,9 +3479,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 5400,
+          "price": 5500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1163,
@@ -3117,9 +3490,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 5400,
+          "price": 5500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1164,
@@ -3127,9 +3501,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 5400,
+          "price": 5500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -3139,19 +3514,24 @@ window.CATALOG = {
     },
     {
       "id": 42,
-      "handle": "valentina-tote",
-      "title": "Valentina Tote",
+      "handle": "vintage-work",
+      "title": "Vintage Work",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/valentina-tote-3",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Valentina Tote unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 5600,
-      "compare_at_price": 7800,
+      "sourceUrl": "https://voviabags.com/products/kopie-van-vintage-work-3",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Vintage Work · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Vintage Work unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 6800,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -3173,9 +3553,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 5600,
-          "compare_at_price": 7800,
-          "available": true
+          "price": 6800,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1166,
@@ -3183,9 +3564,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 5600,
-          "compare_at_price": 7800,
-          "available": true
+          "price": 6800,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1167,
@@ -3193,9 +3575,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 5600,
-          "compare_at_price": 7800,
-          "available": true
+          "price": 6800,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1168,
@@ -3203,9 +3586,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 5600,
-          "compare_at_price": 7800,
-          "available": true
+          "price": 6800,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -3215,19 +3599,24 @@ window.CATALOG = {
     },
     {
       "id": 43,
-      "handle": "moire-suede",
-      "title": "Moiré Suede",
+      "handle": "ciara-beauty-bag",
+      "title": "Ciara Beauty Bag",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/suede-mini",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Moiré Suede unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 5500,
+      "sourceUrl": "https://voviabags.com/products/ciara-beauty-bag-black",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Beauty Bag · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Beauty Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 4000,
       "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -3249,9 +3638,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 5500,
+          "price": 4000,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1170,
@@ -3259,9 +3649,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 5500,
+          "price": 4000,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1171,
@@ -3269,9 +3660,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 5500,
+          "price": 4000,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1172,
@@ -3279,9 +3671,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 5500,
+          "price": 4000,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -3291,19 +3684,24 @@ window.CATALOG = {
     },
     {
       "id": 44,
-      "handle": "vintage-work",
-      "title": "Vintage Work",
+      "handle": "wallet-vintage",
+      "title": "Wallet Vintage",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/kopie-van-vintage-work-3",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Vintage Work unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 6800,
-      "compare_at_price": 0,
+      "sourceUrl": "https://voviabags.com/products/wallet-2",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Wallet Vintage · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Wallet Vintage unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 2100,
+      "compare_at_price": 2800,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -3325,9 +3723,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 6800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2100,
+          "compare_at_price": 2800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1174,
@@ -3335,9 +3734,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 6800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2100,
+          "compare_at_price": 2800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1175,
@@ -3345,9 +3745,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 6800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2100,
+          "compare_at_price": 2800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1176,
@@ -3355,9 +3756,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 6800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2100,
+          "compare_at_price": 2800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -3367,19 +3769,24 @@ window.CATALOG = {
     },
     {
       "id": 45,
-      "handle": "ciara-beauty-bag",
-      "title": "Ciara Beauty Bag",
+      "handle": "ciara-vintage-pouch",
+      "title": "Ciara Vintage Pouch",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-beauty-bag-black",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Beauty Bag unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 4000,
-      "compare_at_price": 0,
+      "sourceUrl": "https://voviabags.com/products/ciara-vintage-pouch",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Vintage Pouch · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Vintage Pouch unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 1500,
+      "compare_at_price": 2800,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -3401,9 +3808,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 4000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1500,
+          "compare_at_price": 2800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1178,
@@ -3411,9 +3819,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 4000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1500,
+          "compare_at_price": 2800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1179,
@@ -3421,9 +3830,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 4000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1500,
+          "compare_at_price": 2800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1180,
@@ -3431,9 +3841,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 4000,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1500,
+          "compare_at_price": 2800,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.6,
@@ -3443,19 +3854,24 @@ window.CATALOG = {
     },
     {
       "id": 46,
-      "handle": "wallet-vintage",
-      "title": "Wallet Vintage",
+      "handle": "wallet-suede",
+      "title": "Wallet Suede",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/wallet-2",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Wallet Vintage unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 2100,
+      "sourceUrl": "https://voviabags.com/products/wallet",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Wallet Suede · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Wallet Suede unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 2300,
       "compare_at_price": 2800,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -3477,9 +3893,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 2100,
+          "price": 2300,
           "compare_at_price": 2800,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1182,
@@ -3487,9 +3904,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 2100,
+          "price": 2300,
           "compare_at_price": 2800,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1183,
@@ -3497,9 +3915,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 2100,
+          "price": 2300,
           "compare_at_price": 2800,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1184,
@@ -3507,9 +3926,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 2100,
+          "price": 2300,
           "compare_at_price": 2800,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.7,
@@ -3519,19 +3939,24 @@ window.CATALOG = {
     },
     {
       "id": 47,
-      "handle": "ciara-vintage-pouch",
-      "title": "Ciara Vintage Pouch",
+      "handle": "ciara-suede-pouch",
+      "title": "Ciara Suede Pouch",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-vintage-pouch",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Vintage Pouch unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 1500,
+      "sourceUrl": "https://voviabags.com/products/ciara-vintage-pouch-1",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Suede Pouch · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Suede Pouch unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 1700,
       "compare_at_price": 2800,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -3553,9 +3978,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 1500,
+          "price": 1700,
           "compare_at_price": 2800,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1186,
@@ -3563,9 +3989,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 1500,
+          "price": 1700,
           "compare_at_price": 2800,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1187,
@@ -3573,9 +4000,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 1500,
+          "price": 1700,
           "compare_at_price": 2800,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1188,
@@ -3583,9 +4011,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 1500,
+          "price": 1700,
           "compare_at_price": 2800,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.8,
@@ -3595,19 +4024,24 @@ window.CATALOG = {
     },
     {
       "id": 48,
-      "handle": "wallet-suede",
-      "title": "Wallet Suede",
+      "handle": "ciara-wallet",
+      "title": "Ciara Wallet",
       "collection": "borse",
       "category": "Bolsos",
       "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/wallet",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Wallet Suede unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 2300,
-      "compare_at_price": 2800,
+      "sourceUrl": "https://voviabags.com/products/ciara-wallet-black",
+      "image": "assets/products/generated-bag-brown.png",
+      "images": [
+        "assets/products/generated-bag-brown.png"
+      ],
+      "imageAlt": "Ciara Wallet · immagine catalogo",
+      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Wallet unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
+      "price": 3400,
+      "compare_at_price": 0,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Marrone",
@@ -3629,9 +4063,10 @@ window.CATALOG = {
             "Nero",
             "Taglia unica"
           ],
-          "price": 2300,
-          "compare_at_price": 2800,
-          "available": true
+          "price": 3400,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1190,
@@ -3639,9 +4074,10 @@ window.CATALOG = {
             "Marrone",
             "Taglia unica"
           ],
-          "price": 2300,
-          "compare_at_price": 2800,
-          "available": true
+          "price": 3400,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1191,
@@ -3649,9 +4085,10 @@ window.CATALOG = {
             "Beige",
             "Taglia unica"
           ],
-          "price": 2300,
-          "compare_at_price": 2800,
-          "available": true
+          "price": 3400,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         },
         {
           "id": 1192,
@@ -3659,9 +4096,10 @@ window.CATALOG = {
             "Crema",
             "Taglia unica"
           ],
-          "price": 2300,
-          "compare_at_price": 2800,
-          "available": true
+          "price": 3400,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-bag-brown.png"
         }
       ],
       "rating": 4.9,
@@ -3671,30 +4109,38 @@ window.CATALOG = {
     },
     {
       "id": 49,
-      "handle": "ciara-suede-pouch",
-      "title": "Ciara Suede Pouch",
-      "collection": "borse",
-      "category": "Bolsos",
-      "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-vintage-pouch-1",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Suede Pouch unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 1700,
-      "compare_at_price": 2800,
-      "tags": "Borse, Novità, Selezione Juanjo",
+      "handle": "sculpt-brief-braguita-moldeadora",
+      "title": "Sculpt Brief (braguita moldeadora)",
+      "collection": "abbigliamento",
+      "category": "Ropa",
+      "vendor": "saybeam.com",
+      "sourceUrl": "https://saybeam.com/products/saybeam-sculpt-brief",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Sculpt Brief (braguita moldeadora) · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Sculpt Brief (braguita moldeadora) aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 3057,
+      "compare_at_price": 0,
+      "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
-            "Marrone",
             "Beige",
-            "Crema"
+            "Bianco",
+            "Verde"
           ]
         },
         {
           "name": "Talla",
           "values": [
-            "Taglia unica"
+            "S",
+            "M",
+            "L",
+            "XL"
           ]
         }
       ],
@@ -3703,41 +4149,177 @@ window.CATALOG = {
           "id": 1193,
           "options": [
             "Nero",
-            "Taglia unica"
+            "S"
           ],
-          "price": 1700,
-          "compare_at_price": 2800,
-          "available": true
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
           "id": 1194,
           "options": [
-            "Marrone",
-            "Taglia unica"
+            "Nero",
+            "M"
           ],
-          "price": 1700,
-          "compare_at_price": 2800,
-          "available": true
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
           "id": 1195,
           "options": [
-            "Beige",
-            "Taglia unica"
+            "Nero",
+            "L"
           ],
-          "price": 1700,
-          "compare_at_price": 2800,
-          "available": true
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
           "id": 1196,
           "options": [
-            "Crema",
-            "Taglia unica"
+            "Nero",
+            "XL"
           ],
-          "price": 1700,
-          "compare_at_price": 2800,
-          "available": true
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1197,
+          "options": [
+            "Beige",
+            "S"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1198,
+          "options": [
+            "Beige",
+            "M"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1199,
+          "options": [
+            "Beige",
+            "L"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1200,
+          "options": [
+            "Beige",
+            "XL"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1201,
+          "options": [
+            "Bianco",
+            "S"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1202,
+          "options": [
+            "Bianco",
+            "M"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1203,
+          "options": [
+            "Bianco",
+            "L"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1204,
+          "options": [
+            "Bianco",
+            "XL"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1205,
+          "options": [
+            "Verde",
+            "S"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1206,
+          "options": [
+            "Verde",
+            "M"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1207,
+          "options": [
+            "Verde",
+            "L"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1208,
+          "options": [
+            "Verde",
+            "XL"
+          ],
+          "price": 3057,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.6,
@@ -3747,73 +4329,217 @@ window.CATALOG = {
     },
     {
       "id": 50,
-      "handle": "ciara-wallet",
-      "title": "Ciara Wallet",
-      "collection": "borse",
-      "category": "Bolsos",
-      "vendor": "voviabags.com",
-      "sourceUrl": "https://voviabags.com/products/ciara-wallet-black",
-      "description": "La borsa che segue il tuo ritmo senza rinunciare allo stile. Ciara Wallet unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.",
-      "price": 3400,
-      "compare_at_price": 0,
-      "tags": "Borse, Novità, Selezione Juanjo",
+      "handle": "stm-tex-short-oversized-rain-jacket",
+      "title": "STM-TEX Short Oversized Rain Jacket",
+      "collection": "abbigliamento",
+      "category": "Ropa",
+      "vendor": "puffit.com",
+      "sourceUrl": "https://puffit.com/products/stm-tex-short-oversized-rain-jacket-stay-puffit",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "STM-TEX Short Oversized Rain Jacket · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. STM-TEX Short Oversized Rain Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 5499,
+      "compare_at_price": 7999,
+      "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
-            "Marrone",
             "Beige",
-            "Crema"
+            "Bianco",
+            "Verde"
           ]
         },
         {
           "name": "Talla",
           "values": [
-            "Taglia unica"
+            "S",
+            "M",
+            "L",
+            "XL"
           ]
         }
       ],
       "variants": [
         {
-          "id": 1197,
+          "id": 1209,
           "options": [
             "Nero",
-            "Taglia unica"
+            "S"
           ],
-          "price": 3400,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1198,
+          "id": 1210,
           "options": [
-            "Marrone",
-            "Taglia unica"
+            "Nero",
+            "M"
           ],
-          "price": 3400,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1199,
+          "id": 1211,
+          "options": [
+            "Nero",
+            "L"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1212,
+          "options": [
+            "Nero",
+            "XL"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1213,
           "options": [
             "Beige",
-            "Taglia unica"
+            "S"
           ],
-          "price": 3400,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1200,
+          "id": 1214,
           "options": [
-            "Crema",
-            "Taglia unica"
+            "Beige",
+            "M"
           ],
-          "price": 3400,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1215,
+          "options": [
+            "Beige",
+            "L"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1216,
+          "options": [
+            "Beige",
+            "XL"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1217,
+          "options": [
+            "Bianco",
+            "S"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1218,
+          "options": [
+            "Bianco",
+            "M"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1219,
+          "options": [
+            "Bianco",
+            "L"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1220,
+          "options": [
+            "Bianco",
+            "XL"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1221,
+          "options": [
+            "Verde",
+            "S"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1222,
+          "options": [
+            "Verde",
+            "M"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1223,
+          "options": [
+            "Verde",
+            "L"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
+        },
+        {
+          "id": 1224,
+          "options": [
+            "Verde",
+            "XL"
+          ],
+          "price": 5499,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.7,
@@ -3823,19 +4549,24 @@ window.CATALOG = {
     },
     {
       "id": 51,
-      "handle": "sculpt-brief-braguita-moldeadora",
-      "title": "Sculpt Brief (braguita moldeadora)",
+      "handle": "anti-roll-shaper-shorts",
+      "title": "Anti-Roll Shaper Shorts",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "saybeam.com",
-      "sourceUrl": "https://saybeam.com/products/saybeam-sculpt-brief",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Sculpt Brief (braguita moldeadora) aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 3057,
+      "vendor": "tryfemlush.com",
+      "sourceUrl": "https://tryfemlush.com/products/anti-roll-shaper-shorts",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Anti-Roll Shaper Shorts · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Anti-Roll Shaper Shorts aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 0,
       "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -3855,164 +4586,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1201,
+          "id": 1225,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1202,
+          "id": 1226,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1203,
+          "id": 1227,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1204,
+          "id": 1228,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1205,
+          "id": 1229,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1206,
+          "id": 1230,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1207,
+          "id": 1231,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1208,
+          "id": 1232,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1209,
+          "id": 1233,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1210,
+          "id": 1234,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1211,
+          "id": 1235,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1212,
+          "id": 1236,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1213,
+          "id": 1237,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1214,
+          "id": 1238,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1215,
+          "id": 1239,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1216,
+          "id": 1240,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 3057,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.8,
@@ -4022,19 +4769,24 @@ window.CATALOG = {
     },
     {
       "id": 52,
-      "handle": "stm-tex-short-oversized-rain-jacket",
-      "title": "STM-TEX Short Oversized Rain Jacket",
+      "handle": "sheer-illusion-fleece-lined-tights",
+      "title": "Sheer Illusion Fleece-Lined Tights",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "puffit.com",
-      "sourceUrl": "https://puffit.com/products/stm-tex-short-oversized-rain-jacket-stay-puffit",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. STM-TEX Short Oversized Rain Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 5499,
-      "compare_at_price": 7999,
+      "vendor": "irazia.com",
+      "sourceUrl": "https://irazia.com/products/fleece-leggings",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Sheer Illusion Fleece-Lined Tights · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Sheer Illusion Fleece-Lined Tights aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 2700,
+      "compare_at_price": 4600,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -4054,164 +4806,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1217,
+          "id": 1241,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1218,
+          "id": 1242,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1219,
+          "id": 1243,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1220,
+          "id": 1244,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1221,
+          "id": 1245,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1222,
+          "id": 1246,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1223,
+          "id": 1247,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1224,
+          "id": 1248,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1225,
+          "id": 1249,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1226,
+          "id": 1250,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1227,
+          "id": 1251,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1228,
+          "id": 1252,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1229,
+          "id": 1253,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1230,
+          "id": 1254,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1231,
+          "id": 1255,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1232,
+          "id": 1256,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 5499,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 4600,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.9,
@@ -4221,19 +4989,24 @@ window.CATALOG = {
     },
     {
       "id": 53,
-      "handle": "anti-roll-shaper-shorts",
-      "title": "Anti-Roll Shaper Shorts",
+      "handle": "tuck-n-lift-seamless-slip-short",
+      "title": "Tuck-N-Lift Seamless Slip Short",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "tryfemlush.com",
-      "sourceUrl": "https://tryfemlush.com/products/anti-roll-shaper-shorts",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Anti-Roll Shaper Shorts aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 0,
+      "vendor": "bellashapewear.com",
+      "sourceUrl": "https://bellashapewear.com/products/tuck-n-lift-seamless-slip-short",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Tuck-N-Lift Seamless Slip Short · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Tuck-N-Lift Seamless Slip Short aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 3500,
       "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -4253,164 +5026,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1233,
+          "id": 1257,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1234,
+          "id": 1258,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1235,
+          "id": 1259,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1236,
+          "id": 1260,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1237,
+          "id": 1261,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1238,
+          "id": 1262,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1239,
+          "id": 1263,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1240,
+          "id": 1264,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1241,
+          "id": 1265,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1242,
+          "id": 1266,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1243,
+          "id": 1267,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1244,
+          "id": 1268,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1245,
+          "id": 1269,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1246,
+          "id": 1270,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1247,
+          "id": 1271,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1248,
+          "id": 1272,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 0,
+          "price": 3500,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.6,
@@ -4420,19 +5209,24 @@ window.CATALOG = {
     },
     {
       "id": 54,
-      "handle": "sheer-illusion-fleece-lined-tights",
-      "title": "Sheer Illusion Fleece-Lined Tights",
+      "handle": "wireless-lifting-jelly-bra",
+      "title": "Wireless Lifting Jelly Bra",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "irazia.com",
-      "sourceUrl": "https://irazia.com/products/fleece-leggings",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Sheer Illusion Fleece-Lined Tights aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 2700,
-      "compare_at_price": 4600,
+      "vendor": "madammuse.co",
+      "sourceUrl": "https://madammuse.co/products/wireless-deep-v-shaping-bra",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Wireless Lifting Jelly Bra · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Wireless Lifting Jelly Bra aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 1995,
+      "compare_at_price": 3990,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -4452,164 +5246,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1249,
+          "id": 1273,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1250,
+          "id": 1274,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1251,
+          "id": 1275,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1252,
+          "id": 1276,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1253,
+          "id": 1277,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1254,
+          "id": 1278,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1255,
+          "id": 1279,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1256,
+          "id": 1280,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1257,
+          "id": 1281,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1258,
+          "id": 1282,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1259,
+          "id": 1283,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1260,
+          "id": 1284,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1261,
+          "id": 1285,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1262,
+          "id": 1286,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1263,
+          "id": 1287,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1264,
+          "id": 1288,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 2700,
-          "compare_at_price": 4600,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.7,
@@ -4619,19 +5429,24 @@ window.CATALOG = {
     },
     {
       "id": 55,
-      "handle": "tuck-n-lift-seamless-slip-short",
-      "title": "Tuck-N-Lift Seamless Slip Short",
+      "handle": "stm-tex-classic-relaxed-fit-rain-hoodie",
+      "title": "STM-TEX Classic Relaxed Fit Rain Hoodie",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "bellashapewear.com",
-      "sourceUrl": "https://bellashapewear.com/products/tuck-n-lift-seamless-slip-short",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Tuck-N-Lift Seamless Slip Short aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 3500,
-      "compare_at_price": 0,
+      "vendor": "puffit.com",
+      "sourceUrl": "https://puffit.com/products/summer-hoodie-raincoat-jacket",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "STM-TEX Classic Relaxed Fit Rain Hoodie · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. STM-TEX Classic Relaxed Fit Rain Hoodie aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 4999,
+      "compare_at_price": 7999,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -4651,164 +5466,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1265,
+          "id": 1289,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1266,
+          "id": 1290,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1267,
+          "id": 1291,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1268,
+          "id": 1292,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1269,
+          "id": 1293,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1270,
+          "id": 1294,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1271,
+          "id": 1295,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1272,
+          "id": 1296,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1273,
+          "id": 1297,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1274,
+          "id": 1298,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1275,
+          "id": 1299,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1276,
+          "id": 1300,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1277,
+          "id": 1301,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1278,
+          "id": 1302,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1279,
+          "id": 1303,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1280,
+          "id": 1304,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 3500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.8,
@@ -4818,19 +5649,24 @@ window.CATALOG = {
     },
     {
       "id": 56,
-      "handle": "wireless-lifting-jelly-bra",
-      "title": "Wireless Lifting Jelly Bra",
+      "handle": "elevate-sculpting-flare-leggings",
+      "title": "Elevate Sculpting Flare Leggings",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "madammuse.co",
-      "sourceUrl": "https://madammuse.co/products/wireless-deep-v-shaping-bra",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Wireless Lifting Jelly Bra aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 1995,
-      "compare_at_price": 3990,
+      "vendor": "thrivin.com",
+      "sourceUrl": "https://thrivin.com/products/elevate-sculpting-mid-v-waist-flare-leggings-latte",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Elevate Sculpting Flare Leggings · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Elevate Sculpting Flare Leggings aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 4800,
+      "compare_at_price": 6100,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -4850,164 +5686,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1281,
+          "id": 1305,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1282,
+          "id": 1306,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1283,
+          "id": 1307,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1284,
+          "id": 1308,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1285,
+          "id": 1309,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1286,
+          "id": 1310,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1287,
+          "id": 1311,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1288,
+          "id": 1312,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1289,
+          "id": 1313,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1290,
+          "id": 1314,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1291,
+          "id": 1315,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1292,
+          "id": 1316,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1293,
+          "id": 1317,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1294,
+          "id": 1318,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1295,
+          "id": 1319,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1296,
+          "id": 1320,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 4800,
+          "compare_at_price": 6100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.9,
@@ -5017,19 +5869,24 @@ window.CATALOG = {
     },
     {
       "id": 57,
-      "handle": "stm-tex-classic-relaxed-fit-rain-hoodie",
-      "title": "STM-TEX Classic Relaxed Fit Rain Hoodie",
+      "handle": "women-s-relaxed-fit-denim-coverall-jumpsuit",
+      "title": "Women's Relaxed Fit Denim Coverall Jumpsuit",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "puffit.com",
-      "sourceUrl": "https://puffit.com/products/summer-hoodie-raincoat-jacket",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. STM-TEX Classic Relaxed Fit Rain Hoodie aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 4999,
-      "compare_at_price": 7999,
+      "vendor": "madepants.com",
+      "sourceUrl": "https://madepants.com/collections/womens-jumpsuits",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Women's Relaxed Fit Denim Coverall Jumpsuit · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Women's Relaxed Fit Denim Coverall Jumpsuit aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 0,
+      "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -5049,164 +5906,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1297,
+          "id": 1321,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1298,
+          "id": 1322,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1299,
+          "id": 1323,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1300,
+          "id": 1324,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1301,
+          "id": 1325,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1302,
+          "id": 1326,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1303,
+          "id": 1327,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1304,
+          "id": 1328,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1305,
+          "id": 1329,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1306,
+          "id": 1330,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1307,
+          "id": 1331,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1308,
+          "id": 1332,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1309,
+          "id": 1333,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1310,
+          "id": 1334,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1311,
+          "id": 1335,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1312,
+          "id": 1336,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 4999,
-          "compare_at_price": 7999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.6,
@@ -5216,19 +6089,24 @@ window.CATALOG = {
     },
     {
       "id": 58,
-      "handle": "elevate-sculpting-flare-leggings",
-      "title": "Elevate Sculpting Flare Leggings",
+      "handle": "women-s-plaid-wide-leg-overalls",
+      "title": "Women's Plaid Wide-Leg Overalls",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "thrivin.com",
-      "sourceUrl": "https://thrivin.com/products/elevate-sculpting-mid-v-waist-flare-leggings-latte",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Elevate Sculpting Flare Leggings aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 4800,
-      "compare_at_price": 6100,
+      "vendor": "madepants.com",
+      "sourceUrl": "https://madepants.com/collections/womens-overalls",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Women's Plaid Wide-Leg Overalls · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Women's Plaid Wide-Leg Overalls aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 0,
+      "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -5248,164 +6126,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1313,
+          "id": 1337,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1314,
+          "id": 1338,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1315,
+          "id": 1339,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1316,
+          "id": 1340,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1317,
+          "id": 1341,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1318,
+          "id": 1342,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1319,
+          "id": 1343,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1320,
+          "id": 1344,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1321,
+          "id": 1345,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1322,
+          "id": 1346,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1323,
+          "id": 1347,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1324,
+          "id": 1348,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1325,
+          "id": 1349,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1326,
+          "id": 1350,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1327,
+          "id": 1351,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1328,
+          "id": 1352,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 4800,
-          "compare_at_price": 6100,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.7,
@@ -5415,19 +6309,24 @@ window.CATALOG = {
     },
     {
       "id": 59,
-      "handle": "women-s-relaxed-fit-denim-coverall-jumpsuit",
-      "title": "Women's Relaxed Fit Denim Coverall Jumpsuit",
+      "handle": "stm-tex-fleece-lined-short-oversized-rain-jacket",
+      "title": "STM-TEX Fleece Lined Short Oversized Rain Jacket",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "madepants.com",
-      "sourceUrl": "https://madepants.com/collections/womens-jumpsuits",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Women's Relaxed Fit Denim Coverall Jumpsuit aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 0,
-      "compare_at_price": 0,
+      "vendor": "puffit.com",
+      "sourceUrl": "https://puffit.com/products/stm-tex-one-size-short-oversized-fleece-lined-rain-jacket",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "STM-TEX Fleece Lined Short Oversized Rain Jacket · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. STM-TEX Fleece Lined Short Oversized Rain Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 6999,
+      "compare_at_price": 10999,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -5447,164 +6346,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1329,
+          "id": 1353,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1330,
+          "id": 1354,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1331,
+          "id": 1355,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1332,
+          "id": 1356,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1333,
+          "id": 1357,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1334,
+          "id": 1358,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1335,
+          "id": 1359,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1336,
+          "id": 1360,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1337,
+          "id": 1361,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1338,
+          "id": 1362,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1339,
+          "id": 1363,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1340,
+          "id": 1364,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1341,
+          "id": 1365,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1342,
+          "id": 1366,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1343,
+          "id": 1367,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1344,
+          "id": 1368,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 6999,
+          "compare_at_price": 10999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.8,
@@ -5614,19 +6529,24 @@ window.CATALOG = {
     },
     {
       "id": 60,
-      "handle": "women-s-plaid-wide-leg-overalls",
-      "title": "Women's Plaid Wide-Leg Overalls",
+      "handle": "warmcore-faux-fur-lined-hooded-short-puffer",
+      "title": "WarmCore Faux Fur Lined Hooded Short Puffer",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "madepants.com",
-      "sourceUrl": "https://madepants.com/collections/womens-overalls",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Women's Plaid Wide-Leg Overalls aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 0,
-      "compare_at_price": 0,
+      "vendor": "puffit.com",
+      "sourceUrl": "https://puffit.com/products/warmcore-premium-faux-fur-lined-short-puffer-jacket-with-removable-hood",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "WarmCore Faux Fur Lined Hooded Short Puffer · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. WarmCore Faux Fur Lined Hooded Short Puffer aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 7999,
+      "compare_at_price": 12999,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -5646,164 +6566,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1345,
+          "id": 1369,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1346,
+          "id": 1370,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1347,
+          "id": 1371,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1348,
+          "id": 1372,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1349,
+          "id": 1373,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1350,
+          "id": 1374,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1351,
+          "id": 1375,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1352,
+          "id": 1376,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1353,
+          "id": 1377,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1354,
+          "id": 1378,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1355,
+          "id": 1379,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1356,
+          "id": 1380,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1357,
+          "id": 1381,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1358,
+          "id": 1382,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1359,
+          "id": 1383,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1360,
+          "id": 1384,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 7999,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.9,
@@ -5813,19 +6749,24 @@ window.CATALOG = {
     },
     {
       "id": 61,
-      "handle": "stm-tex-fleece-lined-short-oversized-rain-jacket",
-      "title": "STM-TEX Fleece Lined Short Oversized Rain Jacket",
+      "handle": "warmcore-classic-short-detachable-hooded-puffer",
+      "title": "WarmCore Classic Short Detachable Hooded Puffer",
       "collection": "abbigliamento",
       "category": "Ropa",
       "vendor": "puffit.com",
-      "sourceUrl": "https://puffit.com/products/stm-tex-one-size-short-oversized-fleece-lined-rain-jacket",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. STM-TEX Fleece Lined Short Oversized Rain Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 6999,
-      "compare_at_price": 10999,
+      "sourceUrl": "https://puffit.com/products/detachable-hood-puffer-jacket",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "WarmCore Classic Short Detachable Hooded Puffer · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. WarmCore Classic Short Detachable Hooded Puffer aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 5999,
+      "compare_at_price": 6999,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -5845,164 +6786,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1361,
+          "id": 1385,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1362,
+          "id": 1386,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1363,
+          "id": 1387,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1364,
+          "id": 1388,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1365,
+          "id": 1389,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1366,
+          "id": 1390,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1367,
+          "id": 1391,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1368,
+          "id": 1392,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1369,
+          "id": 1393,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1370,
+          "id": 1394,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1371,
+          "id": 1395,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1372,
+          "id": 1396,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1373,
+          "id": 1397,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1374,
+          "id": 1398,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1375,
+          "id": 1399,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1376,
+          "id": 1400,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 6999,
-          "compare_at_price": 10999,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 6999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.6,
@@ -6012,19 +6969,24 @@ window.CATALOG = {
     },
     {
       "id": 62,
-      "handle": "warmcore-faux-fur-lined-hooded-short-puffer",
-      "title": "WarmCore Faux Fur Lined Hooded Short Puffer",
+      "handle": "stm-tex-fleece-lined-relaxed-fit-rain-hoodie",
+      "title": "STM-TEX Fleece Lined Relaxed Fit Rain Hoodie",
       "collection": "abbigliamento",
       "category": "Ropa",
       "vendor": "puffit.com",
-      "sourceUrl": "https://puffit.com/products/warmcore-premium-faux-fur-lined-short-puffer-jacket-with-removable-hood",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. WarmCore Faux Fur Lined Hooded Short Puffer aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 7999,
-      "compare_at_price": 12999,
+      "sourceUrl": "https://puffit.com/products/stm-tex-fleece-lined-relaxed-fit-rain-hoodie",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "STM-TEX Fleece Lined Relaxed Fit Rain Hoodie · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. STM-TEX Fleece Lined Relaxed Fit Rain Hoodie aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 6499,
+      "compare_at_price": 9999,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -6044,164 +7006,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1377,
+          "id": 1401,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1378,
+          "id": 1402,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1379,
+          "id": 1403,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1380,
+          "id": 1404,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1381,
+          "id": 1405,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1382,
+          "id": 1406,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1383,
+          "id": 1407,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1384,
+          "id": 1408,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1385,
+          "id": 1409,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1386,
+          "id": 1410,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1387,
+          "id": 1411,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1388,
+          "id": 1412,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1389,
+          "id": 1413,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1390,
+          "id": 1414,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1391,
+          "id": 1415,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1392,
+          "id": 1416,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 7999,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 6499,
+          "compare_at_price": 9999,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.7,
@@ -6211,19 +7189,24 @@ window.CATALOG = {
     },
     {
       "id": 63,
-      "handle": "warmcore-classic-short-detachable-hooded-puffer",
-      "title": "WarmCore Classic Short Detachable Hooded Puffer",
+      "handle": "feathra-ultralight-down-jacket",
+      "title": "Feathra Ultralight Down Jacket",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "puffit.com",
-      "sourceUrl": "https://puffit.com/products/detachable-hood-puffer-jacket",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. WarmCore Classic Short Detachable Hooded Puffer aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 5999,
-      "compare_at_price": 6999,
+      "vendor": "olyndralondon.com",
+      "sourceUrl": "https://olyndralondon.com/products/feathra-ultralight-down-jacket",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Feathra Ultralight Down Jacket · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Feathra Ultralight Down Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 2800,
+      "compare_at_price": 5000,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -6243,164 +7226,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1393,
+          "id": 1417,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1394,
+          "id": 1418,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1395,
+          "id": 1419,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1396,
+          "id": 1420,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1397,
+          "id": 1421,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1398,
+          "id": 1422,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1399,
+          "id": 1423,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1400,
+          "id": 1424,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1401,
+          "id": 1425,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1402,
+          "id": 1426,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1403,
+          "id": 1427,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1404,
+          "id": 1428,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1405,
+          "id": 1429,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1406,
+          "id": 1430,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1407,
+          "id": 1431,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1408,
+          "id": 1432,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 5999,
-          "compare_at_price": 6999,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.8,
@@ -6410,19 +7409,24 @@ window.CATALOG = {
     },
     {
       "id": 64,
-      "handle": "stm-tex-fleece-lined-relaxed-fit-rain-hoodie",
-      "title": "STM-TEX Fleece Lined Relaxed Fit Rain Hoodie",
+      "handle": "satin-scoop-neck-camisole-maxi-dress",
+      "title": "Satin Scoop Neck Camisole Maxi Dress",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "puffit.com",
-      "sourceUrl": "https://puffit.com/products/stm-tex-fleece-lined-relaxed-fit-rain-hoodie",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. STM-TEX Fleece Lined Relaxed Fit Rain Hoodie aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 6499,
-      "compare_at_price": 9999,
+      "vendor": "becauseofalice.com",
+      "sourceUrl": "https://becauseofalice.com/products/satin-scoop-neck-camisole-maxi-dress-carob-1",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Satin Scoop Neck Camisole Maxi Dress · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Satin Scoop Neck Camisole Maxi Dress aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 10000,
+      "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -6442,164 +7446,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1409,
+          "id": 1433,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1410,
+          "id": 1434,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1411,
+          "id": 1435,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1412,
+          "id": 1436,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1413,
+          "id": 1437,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1414,
+          "id": 1438,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1415,
+          "id": 1439,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1416,
+          "id": 1440,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1417,
+          "id": 1441,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1418,
+          "id": 1442,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1419,
+          "id": 1443,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1420,
+          "id": 1444,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1421,
+          "id": 1445,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1422,
+          "id": 1446,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1423,
+          "id": 1447,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1424,
+          "id": 1448,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 6499,
-          "compare_at_price": 9999,
-          "available": true
+          "price": 10000,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.9,
@@ -6609,19 +7629,24 @@ window.CATALOG = {
     },
     {
       "id": 65,
-      "handle": "feathra-ultralight-down-jacket",
-      "title": "Feathra Ultralight Down Jacket",
+      "handle": "serena-heritage-coat",
+      "title": "Serena Heritage Coat",
       "collection": "abbigliamento",
       "category": "Ropa",
       "vendor": "olyndralondon.com",
-      "sourceUrl": "https://olyndralondon.com/products/feathra-ultralight-down-jacket",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Feathra Ultralight Down Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "sourceUrl": "https://olyndralondon.com/products/serena-heritage-coat",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Serena Heritage Coat · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Serena Heritage Coat aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
       "price": 2800,
-      "compare_at_price": 5000,
+      "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -6641,164 +7666,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1425,
+          "id": 1449,
           "options": [
             "Nero",
             "S"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1426,
+          "id": 1450,
           "options": [
             "Nero",
             "M"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1427,
+          "id": 1451,
           "options": [
             "Nero",
             "L"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1428,
+          "id": 1452,
           "options": [
             "Nero",
             "XL"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1429,
+          "id": 1453,
           "options": [
             "Beige",
             "S"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1430,
+          "id": 1454,
           "options": [
             "Beige",
             "M"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1431,
+          "id": 1455,
           "options": [
             "Beige",
             "L"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1432,
+          "id": 1456,
           "options": [
             "Beige",
             "XL"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1433,
+          "id": 1457,
           "options": [
             "Bianco",
             "S"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1434,
+          "id": 1458,
           "options": [
             "Bianco",
             "M"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1435,
+          "id": 1459,
           "options": [
             "Bianco",
             "L"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1436,
+          "id": 1460,
           "options": [
             "Bianco",
             "XL"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1437,
+          "id": 1461,
           "options": [
             "Verde",
             "S"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1438,
+          "id": 1462,
           "options": [
             "Verde",
             "M"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1439,
+          "id": 1463,
           "options": [
             "Verde",
             "L"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1440,
+          "id": 1464,
           "options": [
             "Verde",
             "XL"
           ],
           "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.6,
@@ -6808,19 +7849,24 @@ window.CATALOG = {
     },
     {
       "id": 66,
-      "handle": "satin-scoop-neck-camisole-maxi-dress",
-      "title": "Satin Scoop Neck Camisole Maxi Dress",
+      "handle": "amelie-overcoat",
+      "title": "Amelie Overcoat",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "becauseofalice.com",
-      "sourceUrl": "https://becauseofalice.com/products/satin-scoop-neck-camisole-maxi-dress-carob-1",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Satin Scoop Neck Camisole Maxi Dress aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 10000,
+      "vendor": "olyndralondon.com",
+      "sourceUrl": "https://olyndralondon.com/products/amelie-overcoat",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Amelie Overcoat · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Amelie Overcoat aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 3200,
       "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -6840,164 +7886,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1441,
+          "id": 1465,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1442,
+          "id": 1466,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1443,
+          "id": 1467,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1444,
+          "id": 1468,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1445,
+          "id": 1469,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1446,
+          "id": 1470,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1447,
+          "id": 1471,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1448,
+          "id": 1472,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1449,
+          "id": 1473,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1450,
+          "id": 1474,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1451,
+          "id": 1475,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1452,
+          "id": 1476,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1453,
+          "id": 1477,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1454,
+          "id": 1478,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1455,
+          "id": 1479,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1456,
+          "id": 1480,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 10000,
+          "price": 3200,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.7,
@@ -7007,19 +8069,24 @@ window.CATALOG = {
     },
     {
       "id": 67,
-      "handle": "serena-heritage-coat",
-      "title": "Serena Heritage Coat",
+      "handle": "lottie-cosy-oversized-sweater",
+      "title": "Lottie Cosy Oversized Sweater",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "olyndralondon.com",
-      "sourceUrl": "https://olyndralondon.com/products/serena-heritage-coat",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Serena Heritage Coat aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 2800,
-      "compare_at_price": 0,
+      "vendor": "grace-and-oliver.com",
+      "sourceUrl": "https://grace-and-oliver.com/products/lottie-sweater",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Lottie Cosy Oversized Sweater · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Lottie Cosy Oversized Sweater aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 2995,
+      "compare_at_price": 14995,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -7039,164 +8106,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1457,
+          "id": 1481,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1458,
+          "id": 1482,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1459,
+          "id": 1483,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1460,
+          "id": 1484,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1461,
+          "id": 1485,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1462,
+          "id": 1486,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1463,
+          "id": 1487,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1464,
+          "id": 1488,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1465,
+          "id": 1489,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1466,
+          "id": 1490,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1467,
+          "id": 1491,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1468,
+          "id": 1492,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1469,
+          "id": 1493,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1470,
+          "id": 1494,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1471,
+          "id": 1495,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1472,
+          "id": 1496,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 2800,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2995,
+          "compare_at_price": 14995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.8,
@@ -7206,19 +8289,24 @@ window.CATALOG = {
     },
     {
       "id": 68,
-      "handle": "amelie-overcoat",
-      "title": "Amelie Overcoat",
+      "handle": "cynthia-artful-hooded-cardigan",
+      "title": "Cynthia Artful Hooded Cardigan",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "olyndralondon.com",
-      "sourceUrl": "https://olyndralondon.com/products/amelie-overcoat",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Amelie Overcoat aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 3200,
-      "compare_at_price": 0,
+      "vendor": "grace-and-oliver.com",
+      "sourceUrl": "https://grace-and-oliver.com/products/cynthia-cardigan",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Cynthia Artful Hooded Cardigan · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Cynthia Artful Hooded Cardigan aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 3995,
+      "compare_at_price": 19995,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -7238,164 +8326,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1473,
+          "id": 1497,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1474,
+          "id": 1498,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1475,
+          "id": 1499,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1476,
+          "id": 1500,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1477,
+          "id": 1501,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1478,
+          "id": 1502,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1479,
+          "id": 1503,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1480,
+          "id": 1504,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1481,
+          "id": 1505,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1482,
+          "id": 1506,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1483,
+          "id": 1507,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1484,
+          "id": 1508,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1485,
+          "id": 1509,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1486,
+          "id": 1510,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1487,
+          "id": 1511,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1488,
+          "id": 1512,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 3200,
-          "compare_at_price": 0,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 19995,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.9,
@@ -7405,19 +8509,24 @@ window.CATALOG = {
     },
     {
       "id": 69,
-      "handle": "lottie-cosy-oversized-sweater",
-      "title": "Lottie Cosy Oversized Sweater",
+      "handle": "rachel-heritage-herringbone-jacket",
+      "title": "Rachel Heritage Herringbone Jacket",
       "collection": "abbigliamento",
       "category": "Ropa",
       "vendor": "grace-and-oliver.com",
-      "sourceUrl": "https://grace-and-oliver.com/products/lottie-sweater",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Lottie Cosy Oversized Sweater aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 2995,
-      "compare_at_price": 14995,
+      "sourceUrl": "https://grace-and-oliver.com/products/rachel-jacket",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Rachel Heritage Herringbone Jacket · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Rachel Heritage Herringbone Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 5495,
+      "compare_at_price": 27495,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -7437,164 +8546,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1489,
+          "id": 1513,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1490,
+          "id": 1514,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1491,
+          "id": 1515,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1492,
+          "id": 1516,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1493,
+          "id": 1517,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1494,
+          "id": 1518,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1495,
+          "id": 1519,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1496,
+          "id": 1520,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1497,
+          "id": 1521,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1498,
+          "id": 1522,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1499,
+          "id": 1523,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1500,
+          "id": 1524,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1501,
+          "id": 1525,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1502,
+          "id": 1526,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1503,
+          "id": 1527,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1504,
+          "id": 1528,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 2995,
-          "compare_at_price": 14995,
-          "available": true
+          "price": 5495,
+          "compare_at_price": 27495,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.6,
@@ -7604,19 +8729,24 @@ window.CATALOG = {
     },
     {
       "id": 70,
-      "handle": "cynthia-artful-hooded-cardigan",
-      "title": "Cynthia Artful Hooded Cardigan",
+      "handle": "vivienne-cowl-neck-knit-jumper",
+      "title": "Vivienne Cowl Neck Knit Jumper",
       "collection": "abbigliamento",
       "category": "Ropa",
       "vendor": "grace-and-oliver.com",
-      "sourceUrl": "https://grace-and-oliver.com/products/cynthia-cardigan",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Cynthia Artful Hooded Cardigan aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "sourceUrl": "https://grace-and-oliver.com/products/vivienne-jumper",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Vivienne Cowl Neck Knit Jumper · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Vivienne Cowl Neck Knit Jumper aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
       "price": 3995,
       "compare_at_price": 19995,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -7636,164 +8766,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1505,
+          "id": 1529,
           "options": [
             "Nero",
             "S"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1506,
+          "id": 1530,
           "options": [
             "Nero",
             "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1507,
+          "id": 1531,
           "options": [
             "Nero",
             "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1508,
+          "id": 1532,
           "options": [
             "Nero",
             "XL"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1509,
+          "id": 1533,
           "options": [
             "Beige",
             "S"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1510,
+          "id": 1534,
           "options": [
             "Beige",
             "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1511,
+          "id": 1535,
           "options": [
             "Beige",
             "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1512,
+          "id": 1536,
           "options": [
             "Beige",
             "XL"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1513,
+          "id": 1537,
           "options": [
             "Bianco",
             "S"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1514,
+          "id": 1538,
           "options": [
             "Bianco",
             "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1515,
+          "id": 1539,
           "options": [
             "Bianco",
             "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1516,
+          "id": 1540,
           "options": [
             "Bianco",
             "XL"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1517,
+          "id": 1541,
           "options": [
             "Verde",
             "S"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1518,
+          "id": 1542,
           "options": [
             "Verde",
             "M"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1519,
+          "id": 1543,
           "options": [
             "Verde",
             "L"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1520,
+          "id": 1544,
           "options": [
             "Verde",
             "XL"
           ],
           "price": 3995,
           "compare_at_price": 19995,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.7,
@@ -7803,19 +8949,24 @@ window.CATALOG = {
     },
     {
       "id": 71,
-      "handle": "rachel-heritage-herringbone-jacket",
-      "title": "Rachel Heritage Herringbone Jacket",
+      "handle": "lorena-floral-sleeveless-midi-dress",
+      "title": "Lorena Floral Sleeveless Midi Dress",
       "collection": "abbigliamento",
       "category": "Ropa",
       "vendor": "grace-and-oliver.com",
-      "sourceUrl": "https://grace-and-oliver.com/products/rachel-jacket",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Rachel Heritage Herringbone Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 5495,
-      "compare_at_price": 27495,
+      "sourceUrl": "https://grace-and-oliver.com/products/lorena-dress",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Lorena Floral Sleeveless Midi Dress · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Lorena Floral Sleeveless Midi Dress aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 3995,
+      "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -7835,164 +8986,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1521,
+          "id": 1545,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1522,
+          "id": 1546,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1523,
+          "id": 1547,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1524,
+          "id": 1548,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1525,
+          "id": 1549,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1526,
+          "id": 1550,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1527,
+          "id": 1551,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1528,
+          "id": 1552,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1529,
+          "id": 1553,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1530,
+          "id": 1554,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1531,
+          "id": 1555,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1532,
+          "id": 1556,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1533,
+          "id": 1557,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1534,
+          "id": 1558,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1535,
+          "id": 1559,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1536,
+          "id": 1560,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 5495,
-          "compare_at_price": 27495,
-          "available": true
+          "price": 3995,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.8,
@@ -8002,19 +9169,24 @@ window.CATALOG = {
     },
     {
       "id": 72,
-      "handle": "vivienne-cowl-neck-knit-jumper",
-      "title": "Vivienne Cowl Neck Knit Jumper",
+      "handle": "francesca-geometric-sleeveless-maxi-dress",
+      "title": "Francesca Geometric Sleeveless Maxi Dress",
       "collection": "abbigliamento",
       "category": "Ropa",
       "vendor": "grace-and-oliver.com",
-      "sourceUrl": "https://grace-and-oliver.com/products/vivienne-jumper",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Vivienne Cowl Neck Knit Jumper aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "sourceUrl": "https://grace-and-oliver.com/products/francescadress",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Francesca Geometric Sleeveless Maxi Dress · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Francesca Geometric Sleeveless Maxi Dress aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
       "price": 3995,
-      "compare_at_price": 19995,
+      "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -8034,164 +9206,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1537,
+          "id": 1561,
           "options": [
             "Nero",
             "S"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1538,
+          "id": 1562,
           "options": [
             "Nero",
             "M"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1539,
+          "id": 1563,
           "options": [
             "Nero",
             "L"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1540,
+          "id": 1564,
           "options": [
             "Nero",
             "XL"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1541,
+          "id": 1565,
           "options": [
             "Beige",
             "S"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1542,
+          "id": 1566,
           "options": [
             "Beige",
             "M"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1543,
+          "id": 1567,
           "options": [
             "Beige",
             "L"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1544,
+          "id": 1568,
           "options": [
             "Beige",
             "XL"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1545,
+          "id": 1569,
           "options": [
             "Bianco",
             "S"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1546,
+          "id": 1570,
           "options": [
             "Bianco",
             "M"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1547,
+          "id": 1571,
           "options": [
             "Bianco",
             "L"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1548,
+          "id": 1572,
           "options": [
             "Bianco",
             "XL"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1549,
+          "id": 1573,
           "options": [
             "Verde",
             "S"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1550,
+          "id": 1574,
           "options": [
             "Verde",
             "M"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1551,
+          "id": 1575,
           "options": [
             "Verde",
             "L"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1552,
+          "id": 1576,
           "options": [
             "Verde",
             "XL"
           ],
           "price": 3995,
-          "compare_at_price": 19995,
-          "available": true
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.9,
@@ -8201,19 +9389,24 @@ window.CATALOG = {
     },
     {
       "id": 73,
-      "handle": "lorena-floral-sleeveless-midi-dress",
-      "title": "Lorena Floral Sleeveless Midi Dress",
+      "handle": "seamless-balconette-bra",
+      "title": "Seamless Balconette Bra",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "grace-and-oliver.com",
-      "sourceUrl": "https://grace-and-oliver.com/products/lorena-dress",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Lorena Floral Sleeveless Midi Dress aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 3995,
-      "compare_at_price": 0,
+      "vendor": "madammuse.co",
+      "sourceUrl": "https://madammuse.co/products/seamless-balconette-bra",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Seamless Balconette Bra · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Seamless Balconette Bra aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 1995,
+      "compare_at_price": 3990,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -8233,164 +9426,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1553,
+          "id": 1577,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1554,
+          "id": 1578,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1555,
+          "id": 1579,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1556,
+          "id": 1580,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1557,
+          "id": 1581,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1558,
+          "id": 1582,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1559,
+          "id": 1583,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1560,
+          "id": 1584,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1561,
+          "id": 1585,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1562,
+          "id": 1586,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1563,
+          "id": 1587,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1564,
+          "id": 1588,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1565,
+          "id": 1589,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1566,
+          "id": 1590,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1567,
+          "id": 1591,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1568,
+          "id": 1592,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 1995,
+          "compare_at_price": 3990,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.6,
@@ -8400,19 +9609,24 @@ window.CATALOG = {
     },
     {
       "id": 74,
-      "handle": "francesca-geometric-sleeveless-maxi-dress",
-      "title": "Francesca Geometric Sleeveless Maxi Dress",
+      "handle": "deep-v-wireless-push-up-bra",
+      "title": "Deep V Wireless Push-Up Bra",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "grace-and-oliver.com",
-      "sourceUrl": "https://grace-and-oliver.com/products/francescadress",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Francesca Geometric Sleeveless Maxi Dress aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 3995,
-      "compare_at_price": 0,
+      "vendor": "bellashapewear.com",
+      "sourceUrl": "https://bellashapewear.com/products/deep-v-wireless-push-up-bra",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Deep V Wireless Push-Up Bra · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Deep V Wireless Push-Up Bra aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 2300,
+      "compare_at_price": 3100,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -8432,164 +9646,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1569,
+          "id": 1593,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1570,
+          "id": 1594,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1571,
+          "id": 1595,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1572,
+          "id": 1596,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1573,
+          "id": 1597,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1574,
+          "id": 1598,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1575,
+          "id": 1599,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1576,
+          "id": 1600,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1577,
+          "id": 1601,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1578,
+          "id": 1602,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1579,
+          "id": 1603,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1580,
+          "id": 1604,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1581,
+          "id": 1605,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1582,
+          "id": 1606,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1583,
+          "id": 1607,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1584,
+          "id": 1608,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 3995,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2300,
+          "compare_at_price": 3100,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.7,
@@ -8599,19 +9829,24 @@ window.CATALOG = {
     },
     {
       "id": 75,
-      "handle": "seamless-balconette-bra",
-      "title": "Seamless Balconette Bra",
+      "handle": "thermal-zip-up-jumpsuit",
+      "title": "Thermal Zip-Up Jumpsuit",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "madammuse.co",
-      "sourceUrl": "https://madammuse.co/products/seamless-balconette-bra",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Seamless Balconette Bra aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 1995,
-      "compare_at_price": 3990,
+      "vendor": "irazia.com",
+      "sourceUrl": "https://irazia.com/products/fleece-jumpsuit",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Thermal Zip-Up Jumpsuit · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Thermal Zip-Up Jumpsuit aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 3800,
+      "compare_at_price": 6200,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -8631,164 +9866,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1585,
+          "id": 1609,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1586,
+          "id": 1610,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1587,
+          "id": 1611,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1588,
+          "id": 1612,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1589,
+          "id": 1613,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1590,
+          "id": 1614,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1591,
+          "id": 1615,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1592,
+          "id": 1616,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1593,
+          "id": 1617,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1594,
+          "id": 1618,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1595,
+          "id": 1619,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1596,
+          "id": 1620,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1597,
+          "id": 1621,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1598,
+          "id": 1622,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1599,
+          "id": 1623,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1600,
+          "id": 1624,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 1995,
-          "compare_at_price": 3990,
-          "available": true
+          "price": 3800,
+          "compare_at_price": 6200,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.8,
@@ -8798,19 +10049,24 @@ window.CATALOG = {
     },
     {
       "id": 76,
-      "handle": "deep-v-wireless-push-up-bra",
-      "title": "Deep V Wireless Push-Up Bra",
+      "handle": "rosalia-elegant-jacket-with-stand-collar",
+      "title": "Rosalia Elegant Jacket with Stand Collar",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "bellashapewear.com",
-      "sourceUrl": "https://bellashapewear.com/products/deep-v-wireless-push-up-bra",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Deep V Wireless Push-Up Bra aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 2300,
-      "compare_at_price": 3100,
+      "vendor": "soera-store.com",
+      "sourceUrl": "https://soera-store.com/products/rosalia-elegant-jacket-with-stand-collar-jacket",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Rosalia Elegant Jacket with Stand Collar · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Rosalia Elegant Jacket with Stand Collar aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 7900,
+      "compare_at_price": 15800,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -8830,164 +10086,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1601,
+          "id": 1625,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1602,
+          "id": 1626,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1603,
+          "id": 1627,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1604,
+          "id": 1628,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1605,
+          "id": 1629,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1606,
+          "id": 1630,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1607,
+          "id": 1631,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1608,
+          "id": 1632,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1609,
+          "id": 1633,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1610,
+          "id": 1634,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1611,
+          "id": 1635,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1612,
+          "id": 1636,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1613,
+          "id": 1637,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1614,
+          "id": 1638,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1615,
+          "id": 1639,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1616,
+          "id": 1640,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 2300,
-          "compare_at_price": 3100,
-          "available": true
+          "price": 7900,
+          "compare_at_price": 15800,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.9,
@@ -8997,19 +10269,24 @@ window.CATALOG = {
     },
     {
       "id": 77,
-      "handle": "thermal-zip-up-jumpsuit",
-      "title": "Thermal Zip-Up Jumpsuit",
+      "handle": "carla-asymmetrical-leather-jacket",
+      "title": "Carla Asymmetrical Leather Jacket",
       "collection": "abbigliamento",
       "category": "Ropa",
-      "vendor": "irazia.com",
-      "sourceUrl": "https://irazia.com/products/fleece-jumpsuit",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Thermal Zip-Up Jumpsuit aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 3800,
-      "compare_at_price": 6200,
+      "vendor": "soera-store.com",
+      "sourceUrl": "https://soera-store.com/products/celine-asymmetrical-leather-jacket",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Carla Asymmetrical Leather Jacket · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Carla Asymmetrical Leather Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 10200,
+      "compare_at_price": 20300,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -9029,164 +10306,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1617,
+          "id": 1641,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1618,
+          "id": 1642,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1619,
+          "id": 1643,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1620,
+          "id": 1644,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1621,
+          "id": 1645,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1622,
+          "id": 1646,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1623,
+          "id": 1647,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1624,
+          "id": 1648,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1625,
+          "id": 1649,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1626,
+          "id": 1650,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1627,
+          "id": 1651,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1628,
+          "id": 1652,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1629,
+          "id": 1653,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1630,
+          "id": 1654,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1631,
+          "id": 1655,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1632,
+          "id": 1656,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 3800,
-          "compare_at_price": 6200,
-          "available": true
+          "price": 10200,
+          "compare_at_price": 20300,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.6,
@@ -9196,19 +10489,24 @@ window.CATALOG = {
     },
     {
       "id": 78,
-      "handle": "rosalia-elegant-jacket-with-stand-collar",
-      "title": "Rosalia Elegant Jacket with Stand Collar",
+      "handle": "lucie-faux-fur-maxi-coat",
+      "title": "Lucie Faux Fur Maxi Coat",
       "collection": "abbigliamento",
       "category": "Ropa",
       "vendor": "soera-store.com",
-      "sourceUrl": "https://soera-store.com/products/rosalia-elegant-jacket-with-stand-collar-jacket",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Rosalia Elegant Jacket with Stand Collar aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 7900,
-      "compare_at_price": 15800,
+      "sourceUrl": "https://soera-store.com/products/lucie-faux-fur-maxi-coat",
+      "image": "assets/products/generated-clothing-camel.png",
+      "images": [
+        "assets/products/generated-clothing-camel.png"
+      ],
+      "imageAlt": "Lucie Faux Fur Maxi Coat · immagine catalogo",
+      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Lucie Faux Fur Maxi Coat aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
+      "price": 12500,
+      "compare_at_price": 0,
       "tags": "Abbigliamento, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -9228,164 +10526,180 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1633,
+          "id": 1657,
           "options": [
             "Nero",
             "S"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1634,
+          "id": 1658,
           "options": [
             "Nero",
             "M"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1635,
+          "id": 1659,
           "options": [
             "Nero",
             "L"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1636,
+          "id": 1660,
           "options": [
             "Nero",
             "XL"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1637,
+          "id": 1661,
           "options": [
             "Beige",
             "S"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1638,
+          "id": 1662,
           "options": [
             "Beige",
             "M"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1639,
+          "id": 1663,
           "options": [
             "Beige",
             "L"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1640,
+          "id": 1664,
           "options": [
             "Beige",
             "XL"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1641,
+          "id": 1665,
           "options": [
             "Bianco",
             "S"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1642,
+          "id": 1666,
           "options": [
             "Bianco",
             "M"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1643,
+          "id": 1667,
           "options": [
             "Bianco",
             "L"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1644,
+          "id": 1668,
           "options": [
             "Bianco",
             "XL"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1645,
+          "id": 1669,
           "options": [
             "Verde",
             "S"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1646,
+          "id": 1670,
           "options": [
             "Verde",
             "M"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1647,
+          "id": 1671,
           "options": [
             "Verde",
             "L"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         },
         {
-          "id": 1648,
+          "id": 1672,
           "options": [
             "Verde",
             "XL"
           ],
-          "price": 7900,
-          "compare_at_price": 15800,
-          "available": true
+          "price": 12500,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-clothing-camel.png"
         }
       ],
       "rating": 4.7,
@@ -9395,196 +10709,307 @@ window.CATALOG = {
     },
     {
       "id": 79,
-      "handle": "carla-asymmetrical-leather-jacket",
-      "title": "Carla Asymmetrical Leather Jacket",
-      "collection": "abbigliamento",
-      "category": "Ropa",
-      "vendor": "soera-store.com",
-      "sourceUrl": "https://soera-store.com/products/celine-asymmetrical-leather-jacket",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Carla Asymmetrical Leather Jacket aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 10200,
-      "compare_at_price": 20300,
-      "tags": "Abbigliamento, Novità, Selezione Juanjo",
+      "handle": "all-day-ultra-comfortable-walker",
+      "title": "All-Day Ultra Comfortable Walker",
+      "collection": "scarpe",
+      "category": "Calzado",
+      "vendor": "olyndralondon.com",
+      "sourceUrl": "https://olyndralondon.com/products/all-day-comfortable-walker",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "All-Day Ultra Comfortable Walker · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. All-Day Ultra Comfortable Walker è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 2400,
+      "compare_at_price": 4000,
+      "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
-            "Bianco",
-            "Verde"
+            "Marrone",
+            "Bianco"
           ]
         },
         {
           "name": "Talla",
           "values": [
-            "S",
-            "M",
-            "L",
-            "XL"
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41"
           ]
         }
       ],
       "variants": [
         {
-          "id": 1649,
+          "id": 1673,
           "options": [
             "Nero",
-            "S"
+            "36"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1650,
+          "id": 1674,
           "options": [
             "Nero",
-            "M"
+            "37"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1651,
+          "id": 1675,
           "options": [
             "Nero",
-            "L"
+            "38"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1652,
+          "id": 1676,
           "options": [
             "Nero",
-            "XL"
+            "39"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1653,
+          "id": 1677,
+          "options": [
+            "Nero",
+            "40"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1678,
+          "options": [
+            "Nero",
+            "41"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1679,
           "options": [
             "Beige",
-            "S"
+            "36"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1654,
+          "id": 1680,
           "options": [
             "Beige",
-            "M"
+            "37"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1655,
+          "id": 1681,
           "options": [
             "Beige",
-            "L"
+            "38"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1656,
+          "id": 1682,
           "options": [
             "Beige",
-            "XL"
+            "39"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1657,
+          "id": 1683,
+          "options": [
+            "Beige",
+            "40"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1684,
+          "options": [
+            "Beige",
+            "41"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1685,
+          "options": [
+            "Marrone",
+            "36"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1686,
+          "options": [
+            "Marrone",
+            "37"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1687,
+          "options": [
+            "Marrone",
+            "38"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1688,
+          "options": [
+            "Marrone",
+            "39"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1689,
+          "options": [
+            "Marrone",
+            "40"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1690,
+          "options": [
+            "Marrone",
+            "41"
+          ],
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1691,
           "options": [
             "Bianco",
-            "S"
+            "36"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1658,
+          "id": 1692,
           "options": [
             "Bianco",
-            "M"
+            "37"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1659,
+          "id": 1693,
           "options": [
             "Bianco",
-            "L"
+            "38"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1660,
+          "id": 1694,
           "options": [
             "Bianco",
-            "XL"
+            "39"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1661,
+          "id": 1695,
           "options": [
-            "Verde",
-            "S"
+            "Bianco",
+            "40"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1662,
+          "id": 1696,
           "options": [
-            "Verde",
-            "M"
+            "Bianco",
+            "41"
           ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
-        },
-        {
-          "id": 1663,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
-        },
-        {
-          "id": 1664,
-          "options": [
-            "Verde",
-            "XL"
-          ],
-          "price": 10200,
-          "compare_at_price": 20300,
-          "available": true
+          "price": 2400,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.8,
@@ -9594,196 +11019,307 @@ window.CATALOG = {
     },
     {
       "id": 80,
-      "handle": "lucie-faux-fur-maxi-coat",
-      "title": "Lucie Faux Fur Maxi Coat",
-      "collection": "abbigliamento",
-      "category": "Ropa",
-      "vendor": "soera-store.com",
-      "sourceUrl": "https://soera-store.com/products/lucie-faux-fur-maxi-coat",
-      "description": "Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. Lucie Faux Fur Maxi Coat aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.",
-      "price": 12500,
-      "compare_at_price": 0,
-      "tags": "Abbigliamento, Novità, Selezione Juanjo",
+      "handle": "tressa-orthopedic-mule-flats",
+      "title": "Tressa Orthopedic Mule Flats",
+      "collection": "scarpe",
+      "category": "Calzado",
+      "vendor": "bomre.com",
+      "sourceUrl": "https://bomre.com/products/tressa-orthopedic-mule-flats",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Tressa Orthopedic Mule Flats · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Tressa Orthopedic Mule Flats è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 5999,
+      "compare_at_price": 14999,
+      "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
-            "Bianco",
-            "Verde"
+            "Marrone",
+            "Bianco"
           ]
         },
         {
           "name": "Talla",
           "values": [
-            "S",
-            "M",
-            "L",
-            "XL"
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41"
           ]
         }
       ],
       "variants": [
         {
-          "id": 1665,
+          "id": 1697,
           "options": [
             "Nero",
-            "S"
+            "36"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1666,
+          "id": 1698,
           "options": [
             "Nero",
-            "M"
+            "37"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1667,
+          "id": 1699,
           "options": [
             "Nero",
-            "L"
+            "38"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1668,
+          "id": 1700,
           "options": [
             "Nero",
-            "XL"
+            "39"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1669,
+          "id": 1701,
+          "options": [
+            "Nero",
+            "40"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1702,
+          "options": [
+            "Nero",
+            "41"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1703,
           "options": [
             "Beige",
-            "S"
+            "36"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1670,
+          "id": 1704,
           "options": [
             "Beige",
-            "M"
+            "37"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1671,
+          "id": 1705,
           "options": [
             "Beige",
-            "L"
+            "38"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1672,
+          "id": 1706,
           "options": [
             "Beige",
-            "XL"
+            "39"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1673,
+          "id": 1707,
+          "options": [
+            "Beige",
+            "40"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1708,
+          "options": [
+            "Beige",
+            "41"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1709,
+          "options": [
+            "Marrone",
+            "36"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1710,
+          "options": [
+            "Marrone",
+            "37"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1711,
+          "options": [
+            "Marrone",
+            "38"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1712,
+          "options": [
+            "Marrone",
+            "39"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1713,
+          "options": [
+            "Marrone",
+            "40"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1714,
+          "options": [
+            "Marrone",
+            "41"
+          ],
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 1715,
           "options": [
             "Bianco",
-            "S"
+            "36"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1674,
+          "id": 1716,
           "options": [
             "Bianco",
-            "M"
+            "37"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1675,
+          "id": 1717,
           "options": [
             "Bianco",
-            "L"
+            "38"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1676,
+          "id": 1718,
           "options": [
             "Bianco",
-            "XL"
+            "39"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1677,
+          "id": 1719,
           "options": [
-            "Verde",
-            "S"
+            "Bianco",
+            "40"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1678,
+          "id": 1720,
           "options": [
-            "Verde",
-            "M"
+            "Bianco",
+            "41"
           ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 1679,
-          "options": [
-            "Verde",
-            "L"
-          ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 1680,
-          "options": [
-            "Verde",
-            "XL"
-          ],
-          "price": 12500,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 14999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.9,
@@ -9793,19 +11329,24 @@ window.CATALOG = {
     },
     {
       "id": 81,
-      "handle": "all-day-ultra-comfortable-walker",
-      "title": "All-Day Ultra Comfortable Walker",
+      "handle": "groovers-barefoot",
+      "title": "Groovers (barefoot)",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "olyndralondon.com",
-      "sourceUrl": "https://olyndralondon.com/products/all-day-comfortable-walker",
-      "description": "Fai ogni passo con più comfort e stile. All-Day Ultra Comfortable Walker è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 2400,
-      "compare_at_price": 4000,
+      "vendor": "bearefoot.com",
+      "sourceUrl": "https://bearefoot.com/products/groovers",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Groovers (barefoot) · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Groovers (barefoot) è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 7899,
+      "compare_at_price": 17499,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -9827,244 +11368,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1681,
+          "id": 1721,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1682,
+          "id": 1722,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1683,
+          "id": 1723,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1684,
+          "id": 1724,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1685,
+          "id": 1725,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1686,
+          "id": 1726,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1687,
+          "id": 1727,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1688,
+          "id": 1728,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1689,
+          "id": 1729,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1690,
+          "id": 1730,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1691,
+          "id": 1731,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1692,
+          "id": 1732,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1693,
+          "id": 1733,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1694,
+          "id": 1734,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1695,
+          "id": 1735,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1696,
+          "id": 1736,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1697,
+          "id": 1737,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1698,
+          "id": 1738,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1699,
+          "id": 1739,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1700,
+          "id": 1740,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1701,
+          "id": 1741,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1702,
+          "id": 1742,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1703,
+          "id": 1743,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1704,
+          "id": 1744,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 2400,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 7899,
+          "compare_at_price": 17499,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.6,
@@ -10074,19 +11639,24 @@ window.CATALOG = {
     },
     {
       "id": 82,
-      "handle": "tressa-orthopedic-mule-flats",
-      "title": "Tressa Orthopedic Mule Flats",
+      "handle": "ortho-stretch-comfort-shoes",
+      "title": "Ortho Stretch Comfort Shoes",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "bomre.com",
-      "sourceUrl": "https://bomre.com/products/tressa-orthopedic-mule-flats",
-      "description": "Fai ogni passo con più comfort e stile. Tressa Orthopedic Mule Flats è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 5999,
-      "compare_at_price": 14999,
+      "vendor": "cloudsslides.co.uk",
+      "sourceUrl": "https://cloudsslides.co.uk/products/ortho-stretch-comfort-shoes%E2%84%A2",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Ortho Stretch Comfort Shoes · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Ortho Stretch Comfort Shoes è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 4999,
+      "compare_at_price": 7500,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -10108,244 +11678,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1705,
+          "id": 1745,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1706,
+          "id": 1746,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1707,
+          "id": 1747,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1708,
+          "id": 1748,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1709,
+          "id": 1749,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1710,
+          "id": 1750,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1711,
+          "id": 1751,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1712,
+          "id": 1752,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1713,
+          "id": 1753,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1714,
+          "id": 1754,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1715,
+          "id": 1755,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1716,
+          "id": 1756,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1717,
+          "id": 1757,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1718,
+          "id": 1758,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1719,
+          "id": 1759,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1720,
+          "id": 1760,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1721,
+          "id": 1761,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1722,
+          "id": 1762,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1723,
+          "id": 1763,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1724,
+          "id": 1764,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1725,
+          "id": 1765,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1726,
+          "id": 1766,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1727,
+          "id": 1767,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1728,
+          "id": 1768,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 5999,
-          "compare_at_price": 14999,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 7500,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.7,
@@ -10355,19 +11949,24 @@ window.CATALOG = {
     },
     {
       "id": 83,
-      "handle": "groovers-barefoot",
-      "title": "Groovers (barefoot)",
+      "handle": "solyn-barefoot-bogo",
+      "title": "Solyn (barefoot, BOGO)",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "bearefoot.com",
-      "sourceUrl": "https://bearefoot.com/products/groovers",
-      "description": "Fai ogni passo con più comfort e stile. Groovers (barefoot) è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 7899,
-      "compare_at_price": 17499,
+      "vendor": "voyabarefoot.com",
+      "sourceUrl": "https://voyabarefoot.com/products/solyn-bogo",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Solyn (barefoot, BOGO) · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Solyn (barefoot, BOGO) è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 7995,
+      "compare_at_price": 12999,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -10389,244 +11988,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1729,
+          "id": 1769,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1730,
+          "id": 1770,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1731,
+          "id": 1771,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1732,
+          "id": 1772,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1733,
+          "id": 1773,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1734,
+          "id": 1774,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1735,
+          "id": 1775,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1736,
+          "id": 1776,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1737,
+          "id": 1777,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1738,
+          "id": 1778,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1739,
+          "id": 1779,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1740,
+          "id": 1780,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1741,
+          "id": 1781,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1742,
+          "id": 1782,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1743,
+          "id": 1783,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1744,
+          "id": 1784,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1745,
+          "id": 1785,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1746,
+          "id": 1786,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1747,
+          "id": 1787,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1748,
+          "id": 1788,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1749,
+          "id": 1789,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1750,
+          "id": 1790,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1751,
+          "id": 1791,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1752,
+          "id": 1792,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 7899,
-          "compare_at_price": 17499,
-          "available": true
+          "price": 7995,
+          "compare_at_price": 12999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.8,
@@ -10636,19 +12259,24 @@ window.CATALOG = {
     },
     {
       "id": 84,
-      "handle": "ortho-stretch-comfort-shoes",
-      "title": "Ortho Stretch Comfort Shoes",
+      "handle": "pluffi-slippers",
+      "title": "Pluffi Slippers",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "cloudsslides.co.uk",
-      "sourceUrl": "https://cloudsslides.co.uk/products/ortho-stretch-comfort-shoes%E2%84%A2",
-      "description": "Fai ogni passo con più comfort e stile. Ortho Stretch Comfort Shoes è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 4999,
-      "compare_at_price": 7500,
+      "vendor": "pluffi.com",
+      "sourceUrl": "https://pluffi.com/products/pluffi-slippers",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Pluffi Slippers · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Pluffi Slippers è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 2700,
+      "compare_at_price": 0,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -10670,244 +12298,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1753,
+          "id": 1793,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1754,
+          "id": 1794,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1755,
+          "id": 1795,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1756,
+          "id": 1796,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1757,
+          "id": 1797,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1758,
+          "id": 1798,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1759,
+          "id": 1799,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1760,
+          "id": 1800,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1761,
+          "id": 1801,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1762,
+          "id": 1802,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1763,
+          "id": 1803,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1764,
+          "id": 1804,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1765,
+          "id": 1805,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1766,
+          "id": 1806,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1767,
+          "id": 1807,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1768,
+          "id": 1808,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1769,
+          "id": 1809,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1770,
+          "id": 1810,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1771,
+          "id": 1811,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1772,
+          "id": 1812,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1773,
+          "id": 1813,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1774,
+          "id": 1814,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1775,
+          "id": 1815,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1776,
+          "id": 1816,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 4999,
-          "compare_at_price": 7500,
-          "available": true
+          "price": 2700,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.9,
@@ -10917,19 +12569,24 @@ window.CATALOG = {
     },
     {
       "id": 85,
-      "handle": "solyn-barefoot-bogo",
-      "title": "Solyn (barefoot, BOGO)",
+      "handle": "thick-soled-cushioned-casual-sandals",
+      "title": "Thick-Soled Cushioned Casual Sandals",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "voyabarefoot.com",
-      "sourceUrl": "https://voyabarefoot.com/products/solyn-bogo",
-      "description": "Fai ogni passo con più comfort e stile. Solyn (barefoot, BOGO) è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 7995,
-      "compare_at_price": 12999,
+      "vendor": "belksale.com",
+      "sourceUrl": "https://belksale.com/products/womens-thick-soled-cushioned-casual-sandals",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Thick-Soled Cushioned Casual Sandals · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Thick-Soled Cushioned Casual Sandals è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 0,
+      "compare_at_price": 0,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -10951,244 +12608,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1777,
+          "id": 1817,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1778,
+          "id": 1818,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1779,
+          "id": 1819,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1780,
+          "id": 1820,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1781,
+          "id": 1821,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1782,
+          "id": 1822,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1783,
+          "id": 1823,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1784,
+          "id": 1824,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1785,
+          "id": 1825,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1786,
+          "id": 1826,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1787,
+          "id": 1827,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1788,
+          "id": 1828,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1789,
+          "id": 1829,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1790,
+          "id": 1830,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1791,
+          "id": 1831,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1792,
+          "id": 1832,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1793,
+          "id": 1833,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1794,
+          "id": 1834,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1795,
+          "id": 1835,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1796,
+          "id": 1836,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1797,
+          "id": 1837,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1798,
+          "id": 1838,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1799,
+          "id": 1839,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1800,
+          "id": 1840,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 7995,
-          "compare_at_price": 12999,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.6,
@@ -11198,19 +12879,24 @@ window.CATALOG = {
     },
     {
       "id": 86,
-      "handle": "pluffi-slippers",
-      "title": "Pluffi Slippers",
+      "handle": "orthopaedic-slip-on-shoes-for-women",
+      "title": "Orthopaedic Slip-On Shoes for Women",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "pluffi.com",
-      "sourceUrl": "https://pluffi.com/products/pluffi-slippers",
-      "description": "Fai ogni passo con più comfort e stile. Pluffi Slippers è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 2700,
+      "vendor": "belksale.com",
+      "sourceUrl": "https://belksale.com/products/orthopaedic-slip-on-shoes-for-women-uk",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Orthopaedic Slip-On Shoes for Women · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Orthopaedic Slip-On Shoes for Women è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 0,
       "compare_at_price": 0,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -11232,244 +12918,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1801,
+          "id": 1841,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1802,
+          "id": 1842,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1803,
+          "id": 1843,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1804,
+          "id": 1844,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1805,
+          "id": 1845,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1806,
+          "id": 1846,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1807,
+          "id": 1847,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1808,
+          "id": 1848,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1809,
+          "id": 1849,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1810,
+          "id": 1850,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1811,
+          "id": 1851,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1812,
+          "id": 1852,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1813,
+          "id": 1853,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1814,
+          "id": 1854,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1815,
+          "id": 1855,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1816,
+          "id": 1856,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1817,
+          "id": 1857,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1818,
+          "id": 1858,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1819,
+          "id": 1859,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1820,
+          "id": 1860,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1821,
+          "id": 1861,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1822,
+          "id": 1862,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1823,
+          "id": 1863,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1824,
+          "id": 1864,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 2700,
+          "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.7,
@@ -11479,19 +13189,24 @@ window.CATALOG = {
     },
     {
       "id": 87,
-      "handle": "thick-soled-cushioned-casual-sandals",
-      "title": "Thick-Soled Cushioned Casual Sandals",
+      "handle": "genuine-suede-clogs",
+      "title": "Genuine Suede Clogs",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "belksale.com",
-      "sourceUrl": "https://belksale.com/products/womens-thick-soled-cushioned-casual-sandals",
-      "description": "Fai ogni passo con più comfort e stile. Thick-Soled Cushioned Casual Sandals è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 0,
-      "compare_at_price": 0,
+      "vendor": "qomfortco.com",
+      "sourceUrl": "https://qomfortco.com/products/genuine-suede-clogs-by-qomfort",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Genuine Suede Clogs · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Genuine Suede Clogs è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 4900,
+      "compare_at_price": 9800,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -11513,244 +13228,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1825,
+          "id": 1865,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1826,
+          "id": 1866,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1827,
+          "id": 1867,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1828,
+          "id": 1868,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1829,
+          "id": 1869,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1830,
+          "id": 1870,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1831,
+          "id": 1871,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1832,
+          "id": 1872,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1833,
+          "id": 1873,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1834,
+          "id": 1874,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1835,
+          "id": 1875,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1836,
+          "id": 1876,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1837,
+          "id": 1877,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1838,
+          "id": 1878,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1839,
+          "id": 1879,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1840,
+          "id": 1880,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1841,
+          "id": 1881,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1842,
+          "id": 1882,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1843,
+          "id": 1883,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1844,
+          "id": 1884,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1845,
+          "id": 1885,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1846,
+          "id": 1886,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1847,
+          "id": 1887,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1848,
+          "id": 1888,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 4900,
+          "compare_at_price": 9800,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.8,
@@ -11760,19 +13499,24 @@ window.CATALOG = {
     },
     {
       "id": 88,
-      "handle": "orthopaedic-slip-on-shoes-for-women",
-      "title": "Orthopaedic Slip-On Shoes for Women",
+      "handle": "mia-orthopedic-sneakers",
+      "title": "Mia Orthopedic Sneakers",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "belksale.com",
-      "sourceUrl": "https://belksale.com/products/orthopaedic-slip-on-shoes-for-women-uk",
-      "description": "Fai ogni passo con più comfort e stile. Orthopaedic Slip-On Shoes for Women è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 0,
-      "compare_at_price": 0,
+      "vendor": "olyndralondon.com",
+      "sourceUrl": "https://olyndralondon.com/products/mia-comfortabele-orthopedische-sneakers",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Mia Orthopedic Sneakers · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Mia Orthopedic Sneakers è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 2800,
+      "compare_at_price": 5000,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -11794,244 +13538,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1849,
+          "id": 1889,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1850,
+          "id": 1890,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1851,
+          "id": 1891,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1852,
+          "id": 1892,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1853,
+          "id": 1893,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1854,
+          "id": 1894,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1855,
+          "id": 1895,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1856,
+          "id": 1896,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1857,
+          "id": 1897,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1858,
+          "id": 1898,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1859,
+          "id": 1899,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1860,
+          "id": 1900,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1861,
+          "id": 1901,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1862,
+          "id": 1902,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1863,
+          "id": 1903,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1864,
+          "id": 1904,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1865,
+          "id": 1905,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1866,
+          "id": 1906,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1867,
+          "id": 1907,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1868,
+          "id": 1908,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1869,
+          "id": 1909,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1870,
+          "id": 1910,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1871,
+          "id": 1911,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1872,
+          "id": 1912,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2800,
+          "compare_at_price": 5000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.9,
@@ -12041,19 +13809,24 @@ window.CATALOG = {
     },
     {
       "id": 89,
-      "handle": "genuine-suede-clogs",
-      "title": "Genuine Suede Clogs",
+      "handle": "women-s-winter-thick-sole-warm-snow-boots",
+      "title": "Women's Winter Thick Sole Warm Snow Boots",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "qomfortco.com",
-      "sourceUrl": "https://qomfortco.com/products/genuine-suede-clogs-by-qomfort",
-      "description": "Fai ogni passo con più comfort e stile. Genuine Suede Clogs è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 4900,
-      "compare_at_price": 9800,
+      "vendor": "belkmalls.com",
+      "sourceUrl": "https://belkmalls.com/products/womens-winter-thick-sole-warm-snow-boots-a",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Women's Winter Thick Sole Warm Snow Boots · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Women's Winter Thick Sole Warm Snow Boots è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 0,
+      "compare_at_price": 0,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -12075,244 +13848,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1873,
+          "id": 1913,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1874,
+          "id": 1914,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1875,
+          "id": 1915,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1876,
+          "id": 1916,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1877,
+          "id": 1917,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1878,
+          "id": 1918,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1879,
+          "id": 1919,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1880,
+          "id": 1920,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1881,
+          "id": 1921,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1882,
+          "id": 1922,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1883,
+          "id": 1923,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1884,
+          "id": 1924,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1885,
+          "id": 1925,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1886,
+          "id": 1926,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1887,
+          "id": 1927,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1888,
+          "id": 1928,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1889,
+          "id": 1929,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1890,
+          "id": 1930,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1891,
+          "id": 1931,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1892,
+          "id": 1932,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1893,
+          "id": 1933,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1894,
+          "id": 1934,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1895,
+          "id": 1935,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1896,
+          "id": 1936,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 4900,
-          "compare_at_price": 9800,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.6,
@@ -12322,19 +14119,24 @@ window.CATALOG = {
     },
     {
       "id": 90,
-      "handle": "mia-orthopedic-sneakers",
-      "title": "Mia Orthopedic Sneakers",
+      "handle": "women-s-open-toe-orthopaedic-sandals",
+      "title": "Women's Open-Toe Orthopaedic Sandals",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "olyndralondon.com",
-      "sourceUrl": "https://olyndralondon.com/products/mia-comfortabele-orthopedische-sneakers",
-      "description": "Fai ogni passo con più comfort e stile. Mia Orthopedic Sneakers è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 2800,
-      "compare_at_price": 5000,
+      "vendor": "belksale.com",
+      "sourceUrl": "https://belksale.com/products/womens-comfortable-open-toe-orthopaedic-sandals",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Women's Open-Toe Orthopaedic Sandals · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Women's Open-Toe Orthopaedic Sandals è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 0,
+      "compare_at_price": 0,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -12356,244 +14158,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1897,
+          "id": 1937,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1898,
+          "id": 1938,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1899,
+          "id": 1939,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1900,
+          "id": 1940,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1901,
+          "id": 1941,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1902,
+          "id": 1942,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1903,
+          "id": 1943,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1904,
+          "id": 1944,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1905,
+          "id": 1945,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1906,
+          "id": 1946,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1907,
+          "id": 1947,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1908,
+          "id": 1948,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1909,
+          "id": 1949,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1910,
+          "id": 1950,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1911,
+          "id": 1951,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1912,
+          "id": 1952,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1913,
+          "id": 1953,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1914,
+          "id": 1954,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1915,
+          "id": 1955,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1916,
+          "id": 1956,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1917,
+          "id": 1957,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1918,
+          "id": 1958,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1919,
+          "id": 1959,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1920,
+          "id": 1960,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 2800,
-          "compare_at_price": 5000,
-          "available": true
+          "price": 0,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.7,
@@ -12603,19 +14429,24 @@ window.CATALOG = {
     },
     {
       "id": 91,
-      "handle": "women-s-winter-thick-sole-warm-snow-boots",
-      "title": "Women's Winter Thick Sole Warm Snow Boots",
+      "handle": "faux-suede-knee-high-stretch-boot",
+      "title": "Faux Suede Knee-High Stretch Boot",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "belkmalls.com",
-      "sourceUrl": "https://belkmalls.com/products/womens-winter-thick-sole-warm-snow-boots-a",
-      "description": "Fai ogni passo con più comfort e stile. Women's Winter Thick Sole Warm Snow Boots è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "vendor": "brillantshoes.com",
+      "sourceUrl": "https://brillantshoes.com/products/faux-suede-knee-high-stretch-boot-2",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Faux Suede Knee-High Stretch Boot · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Faux Suede Knee-High Stretch Boot è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
       "price": 0,
       "compare_at_price": 0,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -12637,244 +14468,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1921,
+          "id": 1961,
           "options": [
             "Nero",
             "36"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1922,
+          "id": 1962,
           "options": [
             "Nero",
             "37"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1923,
+          "id": 1963,
           "options": [
             "Nero",
             "38"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1924,
+          "id": 1964,
           "options": [
             "Nero",
             "39"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1925,
+          "id": 1965,
           "options": [
             "Nero",
             "40"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1926,
+          "id": 1966,
           "options": [
             "Nero",
             "41"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1927,
+          "id": 1967,
           "options": [
             "Beige",
             "36"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1928,
+          "id": 1968,
           "options": [
             "Beige",
             "37"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1929,
+          "id": 1969,
           "options": [
             "Beige",
             "38"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1930,
+          "id": 1970,
           "options": [
             "Beige",
             "39"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1931,
+          "id": 1971,
           "options": [
             "Beige",
             "40"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1932,
+          "id": 1972,
           "options": [
             "Beige",
             "41"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1933,
+          "id": 1973,
           "options": [
             "Marrone",
             "36"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1934,
+          "id": 1974,
           "options": [
             "Marrone",
             "37"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1935,
+          "id": 1975,
           "options": [
             "Marrone",
             "38"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1936,
+          "id": 1976,
           "options": [
             "Marrone",
             "39"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1937,
+          "id": 1977,
           "options": [
             "Marrone",
             "40"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1938,
+          "id": 1978,
           "options": [
             "Marrone",
             "41"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1939,
+          "id": 1979,
           "options": [
             "Bianco",
             "36"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1940,
+          "id": 1980,
           "options": [
             "Bianco",
             "37"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1941,
+          "id": 1981,
           "options": [
             "Bianco",
             "38"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1942,
+          "id": 1982,
           "options": [
             "Bianco",
             "39"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1943,
+          "id": 1983,
           "options": [
             "Bianco",
             "40"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1944,
+          "id": 1984,
           "options": [
             "Bianco",
             "41"
           ],
           "price": 0,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.8,
@@ -12884,19 +14739,24 @@ window.CATALOG = {
     },
     {
       "id": 92,
-      "handle": "women-s-open-toe-orthopaedic-sandals",
-      "title": "Women's Open-Toe Orthopaedic Sandals",
+      "handle": "fur-cozy-slippers",
+      "title": "Fur Cozy Slippers",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "belksale.com",
-      "sourceUrl": "https://belksale.com/products/womens-comfortable-open-toe-orthopaedic-sandals",
-      "description": "Fai ogni passo con più comfort e stile. Women's Open-Toe Orthopaedic Sandals è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 0,
-      "compare_at_price": 0,
+      "vendor": "cloudsslides.co.uk",
+      "sourceUrl": "https://cloudsslides.co.uk/products/fur-cozy-slippers%E2%84%A2",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Fur Cozy Slippers · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Fur Cozy Slippers è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 2399,
+      "compare_at_price": 4000,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -12918,244 +14778,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1945,
+          "id": 1985,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1946,
+          "id": 1986,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1947,
+          "id": 1987,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1948,
+          "id": 1988,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1949,
+          "id": 1989,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1950,
+          "id": 1990,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1951,
+          "id": 1991,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1952,
+          "id": 1992,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1953,
+          "id": 1993,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1954,
+          "id": 1994,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1955,
+          "id": 1995,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1956,
+          "id": 1996,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1957,
+          "id": 1997,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1958,
+          "id": 1998,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1959,
+          "id": 1999,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1960,
+          "id": 2000,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1961,
+          "id": 2001,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1962,
+          "id": 2002,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1963,
+          "id": 2003,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1964,
+          "id": 2004,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1965,
+          "id": 2005,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1966,
+          "id": 2006,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1967,
+          "id": 2007,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1968,
+          "id": 2008,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 2399,
+          "compare_at_price": 4000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.9,
@@ -13165,19 +15049,24 @@ window.CATALOG = {
     },
     {
       "id": 93,
-      "handle": "faux-suede-knee-high-stretch-boot",
-      "title": "Faux Suede Knee-High Stretch Boot",
+      "handle": "montra-orthopedic-shoes",
+      "title": "Montra Orthopedic Shoes",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "brillantshoes.com",
-      "sourceUrl": "https://brillantshoes.com/products/faux-suede-knee-high-stretch-boot-2",
-      "description": "Fai ogni passo con più comfort e stile. Faux Suede Knee-High Stretch Boot è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 0,
-      "compare_at_price": 0,
+      "vendor": "bomre.com",
+      "sourceUrl": "https://bomre.com/products/montra-orthopedic-shoes",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Montra Orthopedic Shoes · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Montra Orthopedic Shoes è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 5999,
+      "compare_at_price": 16000,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -13199,244 +15088,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1969,
+          "id": 2009,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1970,
+          "id": 2010,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1971,
+          "id": 2011,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1972,
+          "id": 2012,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1973,
+          "id": 2013,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1974,
+          "id": 2014,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1975,
+          "id": 2015,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1976,
+          "id": 2016,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1977,
+          "id": 2017,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1978,
+          "id": 2018,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1979,
+          "id": 2019,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1980,
+          "id": 2020,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1981,
+          "id": 2021,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1982,
+          "id": 2022,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1983,
+          "id": 2023,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1984,
+          "id": 2024,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1985,
+          "id": 2025,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1986,
+          "id": 2026,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1987,
+          "id": 2027,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1988,
+          "id": 2028,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1989,
+          "id": 2029,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1990,
+          "id": 2030,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1991,
+          "id": 2031,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1992,
+          "id": 2032,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 0,
-          "compare_at_price": 0,
-          "available": true
+          "price": 5999,
+          "compare_at_price": 16000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.6,
@@ -13446,19 +15359,24 @@ window.CATALOG = {
     },
     {
       "id": 94,
-      "handle": "fur-cozy-slippers",
-      "title": "Fur Cozy Slippers",
+      "handle": "calvona-orthopedic-slip-ons",
+      "title": "Calvona Orthopedic Slip-Ons",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "cloudsslides.co.uk",
-      "sourceUrl": "https://cloudsslides.co.uk/products/fur-cozy-slippers%E2%84%A2",
-      "description": "Fai ogni passo con più comfort e stile. Fur Cozy Slippers è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 2399,
-      "compare_at_price": 4000,
+      "vendor": "bomre.com",
+      "sourceUrl": "https://bomre.com/products/calvona-orthopedic-slip-ons",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Calvona Orthopedic Slip-Ons · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Calvona Orthopedic Slip-Ons è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 4999,
+      "compare_at_price": 11000,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -13480,244 +15398,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 1993,
+          "id": 2033,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1994,
+          "id": 2034,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1995,
+          "id": 2035,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1996,
+          "id": 2036,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1997,
+          "id": 2037,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1998,
+          "id": 2038,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 1999,
+          "id": 2039,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2000,
+          "id": 2040,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2001,
+          "id": 2041,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2002,
+          "id": 2042,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2003,
+          "id": 2043,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2004,
+          "id": 2044,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2005,
+          "id": 2045,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2006,
+          "id": 2046,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2007,
+          "id": 2047,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2008,
+          "id": 2048,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2009,
+          "id": 2049,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2010,
+          "id": 2050,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2011,
+          "id": 2051,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2012,
+          "id": 2052,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2013,
+          "id": 2053,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2014,
+          "id": 2054,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2015,
+          "id": 2055,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2016,
+          "id": 2056,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 2399,
-          "compare_at_price": 4000,
-          "available": true
+          "price": 4999,
+          "compare_at_price": 11000,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.7,
@@ -13727,19 +15669,24 @@ window.CATALOG = {
     },
     {
       "id": 95,
-      "handle": "montra-orthopedic-shoes",
-      "title": "Montra Orthopedic Shoes",
+      "handle": "sledders-barefoot-invierno",
+      "title": "Sledders (barefoot invierno)",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "bomre.com",
-      "sourceUrl": "https://bomre.com/products/montra-orthopedic-shoes",
-      "description": "Fai ogni passo con più comfort e stile. Montra Orthopedic Shoes è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 5999,
-      "compare_at_price": 16000,
+      "vendor": "bearefoot.com",
+      "sourceUrl": "https://bearefoot.com/products/sledders",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Sledders (barefoot invierno) · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Sledders (barefoot invierno) è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 7699,
+      "compare_at_price": 16999,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -13761,244 +15708,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2017,
+          "id": 2057,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2018,
+          "id": 2058,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2019,
+          "id": 2059,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2020,
+          "id": 2060,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2021,
+          "id": 2061,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2022,
+          "id": 2062,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2023,
+          "id": 2063,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2024,
+          "id": 2064,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2025,
+          "id": 2065,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2026,
+          "id": 2066,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2027,
+          "id": 2067,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2028,
+          "id": 2068,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2029,
+          "id": 2069,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2030,
+          "id": 2070,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2031,
+          "id": 2071,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2032,
+          "id": 2072,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2033,
+          "id": 2073,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2034,
+          "id": 2074,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2035,
+          "id": 2075,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2036,
+          "id": 2076,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2037,
+          "id": 2077,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2038,
+          "id": 2078,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2039,
+          "id": 2079,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2040,
+          "id": 2080,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 5999,
-          "compare_at_price": 16000,
-          "available": true
+          "price": 7699,
+          "compare_at_price": 16999,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.8,
@@ -14008,19 +15979,24 @@ window.CATALOG = {
     },
     {
       "id": 96,
-      "handle": "calvona-orthopedic-slip-ons",
-      "title": "Calvona Orthopedic Slip-Ons",
+      "handle": "piper-western-pull-on-ankle-boots",
+      "title": "Piper Western Pull-On Ankle Boots",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "bomre.com",
-      "sourceUrl": "https://bomre.com/products/calvona-orthopedic-slip-ons",
-      "description": "Fai ogni passo con più comfort e stile. Calvona Orthopedic Slip-Ons è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 4999,
-      "compare_at_price": 11000,
+      "vendor": "grace-and-oliver.com",
+      "sourceUrl": "https://grace-and-oliver.com/products/piper-ankle-boots",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Piper Western Pull-On Ankle Boots · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. Piper Western Pull-On Ankle Boots è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 4495,
+      "compare_at_price": 22495,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -14042,244 +16018,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2041,
+          "id": 2081,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2042,
+          "id": 2082,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2043,
+          "id": 2083,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2044,
+          "id": 2084,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2045,
+          "id": 2085,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2046,
+          "id": 2086,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2047,
+          "id": 2087,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2048,
+          "id": 2088,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2049,
+          "id": 2089,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2050,
+          "id": 2090,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2051,
+          "id": 2091,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2052,
+          "id": 2092,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2053,
+          "id": 2093,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2054,
+          "id": 2094,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2055,
+          "id": 2095,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2056,
+          "id": 2096,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2057,
+          "id": 2097,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2058,
+          "id": 2098,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2059,
+          "id": 2099,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2060,
+          "id": 2100,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2061,
+          "id": 2101,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2062,
+          "id": 2102,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2063,
+          "id": 2103,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2064,
+          "id": 2104,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 4999,
-          "compare_at_price": 11000,
-          "available": true
+          "price": 4495,
+          "compare_at_price": 22495,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.9,
@@ -14289,19 +16289,24 @@ window.CATALOG = {
     },
     {
       "id": 97,
-      "handle": "sledders-barefoot-invierno",
-      "title": "Sledders (barefoot invierno)",
+      "handle": "100-vegan-suede-clogs",
+      "title": "100% Vegan Suede Clogs",
       "collection": "scarpe",
       "category": "Calzado",
-      "vendor": "bearefoot.com",
-      "sourceUrl": "https://bearefoot.com/products/sledders",
-      "description": "Fai ogni passo con più comfort e stile. Sledders (barefoot invierno) è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 7699,
-      "compare_at_price": 16999,
+      "vendor": "qomfortco.com",
+      "sourceUrl": "https://qomfortco.com/products/vegan-suede-clogs",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "100% Vegan Suede Clogs · immagine catalogo",
+      "description": "Fai ogni passo con più comfort e stile. 100% Vegan Suede Clogs è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
+      "price": 6900,
+      "compare_at_price": 8900,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -14323,244 +16328,268 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2065,
+          "id": 2105,
           "options": [
             "Nero",
             "36"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2066,
+          "id": 2106,
           "options": [
             "Nero",
             "37"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2067,
+          "id": 2107,
           "options": [
             "Nero",
             "38"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2068,
+          "id": 2108,
           "options": [
             "Nero",
             "39"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2069,
+          "id": 2109,
           "options": [
             "Nero",
             "40"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2070,
+          "id": 2110,
           "options": [
             "Nero",
             "41"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2071,
+          "id": 2111,
           "options": [
             "Beige",
             "36"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2072,
+          "id": 2112,
           "options": [
             "Beige",
             "37"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2073,
+          "id": 2113,
           "options": [
             "Beige",
             "38"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2074,
+          "id": 2114,
           "options": [
             "Beige",
             "39"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2075,
+          "id": 2115,
           "options": [
             "Beige",
             "40"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2076,
+          "id": 2116,
           "options": [
             "Beige",
             "41"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2077,
+          "id": 2117,
           "options": [
             "Marrone",
             "36"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2078,
+          "id": 2118,
           "options": [
             "Marrone",
             "37"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2079,
+          "id": 2119,
           "options": [
             "Marrone",
             "38"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2080,
+          "id": 2120,
           "options": [
             "Marrone",
             "39"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2081,
+          "id": 2121,
           "options": [
             "Marrone",
             "40"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2082,
+          "id": 2122,
           "options": [
             "Marrone",
             "41"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2083,
+          "id": 2123,
           "options": [
             "Bianco",
             "36"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2084,
+          "id": 2124,
           "options": [
             "Bianco",
             "37"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2085,
+          "id": 2125,
           "options": [
             "Bianco",
             "38"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2086,
+          "id": 2126,
           "options": [
             "Bianco",
             "39"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2087,
+          "id": 2127,
           "options": [
             "Bianco",
             "40"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
-          "id": 2088,
+          "id": 2128,
           "options": [
             "Bianco",
             "41"
           ],
-          "price": 7699,
-          "compare_at_price": 16999,
-          "available": true
+          "price": 6900,
+          "compare_at_price": 8900,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
       "rating": 4.6,
@@ -14570,581 +16599,24 @@ window.CATALOG = {
     },
     {
       "id": 98,
-      "handle": "piper-western-pull-on-ankle-boots",
-      "title": "Piper Western Pull-On Ankle Boots",
-      "collection": "scarpe",
-      "category": "Calzado",
-      "vendor": "grace-and-oliver.com",
-      "sourceUrl": "https://grace-and-oliver.com/products/piper-ankle-boots",
-      "description": "Fai ogni passo con più comfort e stile. Piper Western Pull-On Ankle Boots è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 4495,
-      "compare_at_price": 22495,
-      "tags": "Scarpe, Novità, Selezione Juanjo",
-      "options": [
-        {
-          "name": "Color",
-          "values": [
-            "Nero",
-            "Beige",
-            "Marrone",
-            "Bianco"
-          ]
-        },
-        {
-          "name": "Talla",
-          "values": [
-            "36",
-            "37",
-            "38",
-            "39",
-            "40",
-            "41"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": 2089,
-          "options": [
-            "Nero",
-            "36"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2090,
-          "options": [
-            "Nero",
-            "37"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2091,
-          "options": [
-            "Nero",
-            "38"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2092,
-          "options": [
-            "Nero",
-            "39"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2093,
-          "options": [
-            "Nero",
-            "40"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2094,
-          "options": [
-            "Nero",
-            "41"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2095,
-          "options": [
-            "Beige",
-            "36"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2096,
-          "options": [
-            "Beige",
-            "37"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2097,
-          "options": [
-            "Beige",
-            "38"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2098,
-          "options": [
-            "Beige",
-            "39"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2099,
-          "options": [
-            "Beige",
-            "40"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2100,
-          "options": [
-            "Beige",
-            "41"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2101,
-          "options": [
-            "Marrone",
-            "36"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2102,
-          "options": [
-            "Marrone",
-            "37"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2103,
-          "options": [
-            "Marrone",
-            "38"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2104,
-          "options": [
-            "Marrone",
-            "39"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2105,
-          "options": [
-            "Marrone",
-            "40"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2106,
-          "options": [
-            "Marrone",
-            "41"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2107,
-          "options": [
-            "Bianco",
-            "36"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2108,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2109,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2110,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2111,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        },
-        {
-          "id": 2112,
-          "options": [
-            "Bianco",
-            "41"
-          ],
-          "price": 4495,
-          "compare_at_price": 22495,
-          "available": true
-        }
-      ],
-      "rating": 4.7,
-      "reviews": 209,
-      "createdAt": 97,
-      "available": true
-    },
-    {
-      "id": 99,
-      "handle": "100-vegan-suede-clogs",
-      "title": "100% Vegan Suede Clogs",
-      "collection": "scarpe",
-      "category": "Calzado",
-      "vendor": "qomfortco.com",
-      "sourceUrl": "https://qomfortco.com/products/vegan-suede-clogs",
-      "description": "Fai ogni passo con più comfort e stile. 100% Vegan Suede Clogs è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
-      "price": 6900,
-      "compare_at_price": 8900,
-      "tags": "Scarpe, Novità, Selezione Juanjo",
-      "options": [
-        {
-          "name": "Color",
-          "values": [
-            "Nero",
-            "Beige",
-            "Marrone",
-            "Bianco"
-          ]
-        },
-        {
-          "name": "Talla",
-          "values": [
-            "36",
-            "37",
-            "38",
-            "39",
-            "40",
-            "41"
-          ]
-        }
-      ],
-      "variants": [
-        {
-          "id": 2113,
-          "options": [
-            "Nero",
-            "36"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2114,
-          "options": [
-            "Nero",
-            "37"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2115,
-          "options": [
-            "Nero",
-            "38"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2116,
-          "options": [
-            "Nero",
-            "39"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2117,
-          "options": [
-            "Nero",
-            "40"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2118,
-          "options": [
-            "Nero",
-            "41"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2119,
-          "options": [
-            "Beige",
-            "36"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2120,
-          "options": [
-            "Beige",
-            "37"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2121,
-          "options": [
-            "Beige",
-            "38"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2122,
-          "options": [
-            "Beige",
-            "39"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2123,
-          "options": [
-            "Beige",
-            "40"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2124,
-          "options": [
-            "Beige",
-            "41"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2125,
-          "options": [
-            "Marrone",
-            "36"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2126,
-          "options": [
-            "Marrone",
-            "37"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2127,
-          "options": [
-            "Marrone",
-            "38"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2128,
-          "options": [
-            "Marrone",
-            "39"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2129,
-          "options": [
-            "Marrone",
-            "40"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2130,
-          "options": [
-            "Marrone",
-            "41"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2131,
-          "options": [
-            "Bianco",
-            "36"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2132,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2133,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2134,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2135,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        },
-        {
-          "id": 2136,
-          "options": [
-            "Bianco",
-            "41"
-          ],
-          "price": 6900,
-          "compare_at_price": 8900,
-          "available": true
-        }
-      ],
-      "rating": 4.8,
-      "reviews": 66,
-      "createdAt": 98,
-      "available": true
-    },
-    {
-      "id": 100,
       "handle": "paloma-vintage-western-ankle-boots",
       "title": "Paloma Vintage Western Ankle Boots",
       "collection": "scarpe",
       "category": "Calzado",
       "vendor": "olyndralondon.com",
       "sourceUrl": "https://olyndralondon.com/products/paloma-vintage-western-ankle-boots",
+      "image": "assets/products/generated-shoe-beige.png",
+      "images": [
+        "assets/products/generated-shoe-beige.png"
+      ],
+      "imageAlt": "Paloma Vintage Western Ankle Boots · immagine catalogo",
       "description": "Fai ogni passo con più comfort e stile. Paloma Vintage Western Ankle Boots è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.",
       "price": 3100,
       "compare_at_price": 0,
       "tags": "Scarpe, Novità, Selezione Juanjo",
       "options": [
         {
-          "name": "Color",
+          "name": "Colore",
           "values": [
             "Nero",
             "Beige",
@@ -15166,249 +16638,273 @@ window.CATALOG = {
       ],
       "variants": [
         {
-          "id": 2137,
+          "id": 2129,
           "options": [
             "Nero",
             "36"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2130,
+          "options": [
+            "Nero",
+            "37"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2131,
+          "options": [
+            "Nero",
+            "38"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2132,
+          "options": [
+            "Nero",
+            "39"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2133,
+          "options": [
+            "Nero",
+            "40"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2134,
+          "options": [
+            "Nero",
+            "41"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2135,
+          "options": [
+            "Beige",
+            "36"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2136,
+          "options": [
+            "Beige",
+            "37"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
+        },
+        {
+          "id": 2137,
+          "options": [
+            "Beige",
+            "38"
+          ],
+          "price": 3100,
+          "compare_at_price": 0,
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2138,
           "options": [
-            "Nero",
-            "37"
+            "Beige",
+            "39"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2139,
           "options": [
-            "Nero",
-            "38"
+            "Beige",
+            "40"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2140,
           "options": [
-            "Nero",
-            "39"
+            "Beige",
+            "41"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2141,
           "options": [
-            "Nero",
-            "40"
+            "Marrone",
+            "36"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2142,
           "options": [
-            "Nero",
-            "41"
+            "Marrone",
+            "37"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2143,
           "options": [
-            "Beige",
-            "36"
+            "Marrone",
+            "38"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2144,
           "options": [
-            "Beige",
-            "37"
+            "Marrone",
+            "39"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2145,
           "options": [
-            "Beige",
-            "38"
+            "Marrone",
+            "40"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2146,
           "options": [
-            "Beige",
-            "39"
+            "Marrone",
+            "41"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2147,
           "options": [
-            "Beige",
-            "40"
+            "Bianco",
+            "36"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2148,
           "options": [
-            "Beige",
-            "41"
+            "Bianco",
+            "37"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2149,
           "options": [
-            "Marrone",
-            "36"
+            "Bianco",
+            "38"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2150,
           "options": [
-            "Marrone",
-            "37"
+            "Bianco",
+            "39"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2151,
           "options": [
-            "Marrone",
-            "38"
+            "Bianco",
+            "40"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         },
         {
           "id": 2152,
           "options": [
-            "Marrone",
-            "39"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 2153,
-          "options": [
-            "Marrone",
-            "40"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 2154,
-          "options": [
-            "Marrone",
-            "41"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 2155,
-          "options": [
-            "Bianco",
-            "36"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 2156,
-          "options": [
-            "Bianco",
-            "37"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 2157,
-          "options": [
-            "Bianco",
-            "38"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 2158,
-          "options": [
-            "Bianco",
-            "39"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 2159,
-          "options": [
-            "Bianco",
-            "40"
-          ],
-          "price": 3100,
-          "compare_at_price": 0,
-          "available": true
-        },
-        {
-          "id": 2160,
-          "options": [
             "Bianco",
             "41"
           ],
           "price": 3100,
           "compare_at_price": 0,
-          "available": true
+          "available": true,
+          "image": "assets/products/generated-shoe-beige.png"
         }
       ],
-      "rating": 4.9,
-      "reviews": 103,
-      "createdAt": 99,
+      "rating": 4.7,
+      "reviews": 209,
+      "createdAt": 97,
       "available": true
     }
   ]

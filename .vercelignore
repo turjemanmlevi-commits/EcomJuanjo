@@ -7,3 +7,6 @@ tools/
 .codex/
 .aws/
 README.md
+.env*
+.claude/
+IMPORTACION_SHOPIFY.md
