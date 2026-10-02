@@ -28,7 +28,7 @@
   <meta property="og:image:height" content="{{ 1200 | divided_by: page_image.aspect_ratio | round }}">
   <meta property="og:image:alt" content="{{ page_image.alt | default: og_title | escape }}">
 {%- else -%}
-  <meta property="og:image" content="https:{{ 'hero.jpg' | asset_url }}">
+  <meta property="og:image" content="https:{{ 'hero.png' | asset_url }}">
 {%- endif -%}
 
 {%- if request.page_type == 'product' -%}

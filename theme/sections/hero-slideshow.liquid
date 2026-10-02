@@ -19,7 +19,7 @@
           {%- if forloop.first -%}{%- assign loading = 'eager' -%}{%- assign priority = 'high' -%}{%- endif -%}
           {{ block.settings.image | image_url: width: 3000 | image_tag: class: 'hero__image', loading: loading, fetchpriority: priority, sizes: '100vw', widths: '750, 1100, 1500, 2000, 3000', alt: block.settings.image.alt | default: block.settings.title }}
         {%- elsif forloop.first -%}
-          <img class="hero__image" src="{{ 'hero.jpg' | asset_url }}" alt="{{ block.settings.title | escape }}" width="1672" height="941" loading="eager" fetchpriority="high">
+          <img class="hero__image" src="{{ 'hero.png' | asset_url }}" alt="{{ block.settings.title | escape }}" width="1672" height="941" loading="eager" fetchpriority="high">
         {%- else -%}
           {{ 'lifestyle-1' | placeholder_svg_tag }}
         {%- endif -%}
@@ -89,7 +89,7 @@
       "type": "slide",
       "name": "Diapositiva",
       "settings": [
-        { "type": "image_picker", "id": "image", "label": "Imagen", "info": "Si la primera diapositiva no tiene imagen se usa la incluida en el tema (assets/hero.jpg)." },
+        { "type": "image_picker", "id": "image", "label": "Imagen", "info": "Si la primera diapositiva no tiene imagen se usa la incluida en el tema (assets/hero.png)." },
         { "type": "image_picker", "id": "image_mobile", "label": "Imagen para móvil" },
         { "type": "text", "id": "title", "label": "Título", "default": "Dopo 14 anni, chiudiamo" },
         { "type": "text", "id": "subtitle", "label": "Subtítulo", "default": "Tutto al 50%" },
