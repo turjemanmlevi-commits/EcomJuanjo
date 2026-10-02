@@ -1,5 +1,12 @@
 <section class="closure-message" aria-labelledby="ClosureMessage-{{ section.id }}">
-  <div class="page-width page-width--narrow text-center">
+  <div class="closure-message__media">
+    {%- if section.settings.image != blank -%}
+      {{ section.settings.image | image_url: width: 2000 | image_tag: class: 'closure-message__image', loading: 'lazy', sizes: '100vw', widths: '750, 1100, 1500, 2000', alt: '' }}
+    {%- else -%}
+      <img class="closure-message__image" src="{{ 'closure-sisters.webp' | asset_url }}" alt="" width="1916" height="821" loading="lazy">
+    {%- endif -%}
+  </div>
+  <div class="closure-message__content text-center">
     <h2 id="ClosureMessage-{{ section.id }}">Ultima occasione</h2>
     <div class="closure-message__text rte">
       <p>Quattordici anni fa abbiamo deciso di costruire questo sogno. Oggi, a causa dell'aumento dei costi, è arrivato il momento di chiudere.</p>
@@ -12,7 +19,9 @@
 {% schema %}
 {
   "name": "Messaggio di chiusura",
-  "settings": [],
+  "settings": [
+    { "type": "image_picker", "id": "image", "label": "Imagen de fondo", "info": "El texto va a la izquierda: usa una foto con esa zona despejada. Vacío = imagen incluida en el tema (assets/closure-sisters.webp)." }
+  ],
   "presets": [{ "name": "Messaggio di chiusura" }]
 }
 {% endschema %}

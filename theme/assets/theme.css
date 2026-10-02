@@ -636,9 +636,14 @@ input[type="text"], input[type="email"], input[type="search"], input[type="numbe
 .newsletter__input { flex: 1 1 auto; min-width: 0; height: 43px; border: 0 !important; background: rgba(255, 255, 255, 0.6) !important; font-weight: 400; }
 .newsletter__input-group .btn { white-space: nowrap; }
 .newsletter__message { margin-top: 15px; font-size: 0.85em; }
-.closure-message { padding: 78px 0 72px; background: #fff; }
-.closure-message h2 { margin: 0 0 22px; font-family: var(--font-body); font-size: clamp(28px, 4vw, 42px); font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; }
-.closure-message__text { max-width: 620px; margin: 0 auto; font-size: clamp(17px, 2vw, 21px); line-height: 1.55; }
+/* Text sits on the empty wall on the left of the photo; the sisters stay in view on the right. */
+.closure-message { position: relative; display: flex; align-items: center; min-height: clamp(460px, 42.85vw, 720px); padding: 64px 0; overflow: hidden; background: #f3eee8; }
+.closure-message__media { position: absolute; inset: 0; }
+.closure-message__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(246, 242, 237, 0.6) 0%, rgba(246, 242, 237, 0.42) 42%, rgba(246, 242, 237, 0) 60%); }
+.closure-message__image { width: 100%; height: 100%; object-fit: cover; object-position: 80% center; }
+.closure-message__content { position: relative; width: 48%; padding: 0 2% 0 6%; }
+.closure-message h2 { margin: 0 0 22px; font-family: var(--font-body); font-size: clamp(26px, 3.2vw, 42px); font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; }
+.closure-message__text { max-width: 560px; margin: 0 auto; font-size: clamp(16px, 1.5vw, 20px); line-height: 1.55; }
 .closure-message__text p { margin: 0 auto 20px; }
 .closure-message__text p:last-child { margin-bottom: 0; }
 .business-accordion { padding: 18px 0 72px; }
@@ -935,6 +940,12 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.5); }
 
   .newsletter-section { padding: 40px 0; }
   .btt-wrapper { flex-basis: 100%; }
+
+  /* Too narrow for text over the photo: the photo becomes a banner above the text. */
+  .closure-message { display: block; min-height: 0; padding: 0 0 52px; background: #fff; }
+  .closure-message__media { position: relative; aspect-ratio: 4 / 3; }
+  .closure-message__media::after { display: none; }
+  .closure-message__content { width: auto; padding: 36px 20px 0; }
 
   .site-footer { padding: 40px 0; }
   .site-footer .grid { gap: 30px; }
