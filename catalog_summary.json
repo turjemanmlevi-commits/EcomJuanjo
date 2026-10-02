@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-02T19:55:14.794Z",
+  "products": 97,
+  "variants": 1153,
+  "collections": [
+    {
+      "handle": "borse",
+      "group": "Accessori",
+      "title": "Borse",
+      "description": "Modelli pratici e raffinati per completare ogni look, ogni giorno."
+    },
+    {
+      "handle": "scarpe",
+      "group": "Calzature",
+      "title": "Scarpe",
+      "description": "Comfort e stile per accompagnarti con sicurezza in ogni occasione."
+    },
+    {
+      "handle": "abbigliamento",
+      "group": "Abbigliamento",
+      "title": "Abbigliamento",
+      "description": "Capi facili da indossare, abbinare e vivere per tutta la stagione."
+    }
+  ],
+  "imagePlan": {
+    "planned": 1548,
+    "uniqueSetsReady": 7,
+    "generatedImagesReady": 174
+  }
+}

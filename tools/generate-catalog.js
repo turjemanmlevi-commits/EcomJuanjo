@@ -35,6 +35,22 @@ const productImageSets = {
     'assets/products/the-brooklyn-bag/03-detail.png',
     'assets/products/the-brooklyn-bag/04-cafe.png',
   ],
+  'the-foldie-sling-bag': [
+    'assets/products/the-foldie-sling-bag/01-hero.png',
+    'assets/products/the-foldie-sling-bag/02-milan.png',
+    'assets/products/the-foldie-sling-bag/03-detail.png',
+    'assets/products/the-foldie-sling-bag/04-cafe.png',
+    'assets/products/the-foldie-sling-bag/05-station.png',
+    'assets/products/the-foldie-sling-bag/06-lifestyle.png',
+  ],
+  'ciara-vintage': [
+    'assets/products/ciara-vintage/01-hero.png',
+    'assets/products/ciara-vintage/02-milan.png',
+    'assets/products/ciara-vintage/03-detail.png',
+    'assets/products/ciara-vintage/04-cafe.png',
+    'assets/products/ciara-vintage/05-street.png',
+    'assets/products/ciara-vintage/06-capacity.png',
+  ],
   '2packbag-travel-kit-mochila-compresion': [
     'assets/products/2packbag-travel-kit/01-hero.png',
     'assets/products/2packbag-travel-kit/02-packing.png',
@@ -45,7 +61,108 @@ const productImageSets = {
   ],
 };
 
+const productColorImageSets = {
+  'the-maya-tote': Object.fromEntries(['Black', 'Chocolate', 'Brown', 'Burgundy', 'Stone', 'Pink', 'Sky'].map(color => [color, [
+    `assets/products/the-maya-tote/${color}/01-hero.png`,
+    `assets/products/the-maya-tote/${color}/02-beige.png`,
+    `assets/products/the-maya-tote/${color}/03-milan.png`,
+    `assets/products/the-maya-tote/${color}/04-cafe.png`,
+  ]])),
+  'luxury-leather-hobo-anti-theft-handbag-2-0': {
+    Black: [
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/01-hero.png',
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/02-beige.png',
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/03-milan.png',
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/04-cafe.png',
+    ],
+    Brown: [
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Brown/01-hero.png',
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Brown/02-beige.png',
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Brown/03-milan.png',
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Brown/04-cafe.png',
+    ],
+    Beige: [
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Beige/01-hero.png',
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Beige/02-beige.png',
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Beige/03-milan.png',
+      'assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Beige/04-cafe.png',
+    ],
+  },
+  'luxury-leather-hobo-anti-theft-handbag-pouch': {
+    Brown: [
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/01-hero.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/02-milan.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/03-detail.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/04-cafe.png',
+    ],
+    Black: [
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Black/01-hero.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Black/02-milan.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Black/03-detail.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Black/04-cafe.png',
+    ],
+    Blue: [
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Blue/01-hero.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Blue/02-milan.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Blue/03-detail.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Blue/04-cafe.png',
+    ],
+    Grey: [
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Grey/01-hero.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Grey/02-milan.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Grey/03-detail.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Grey/04-cafe.png',
+    ],
+    Burgundy: [
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Burgundy/01-hero.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Burgundy/02-milan.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Burgundy/03-detail.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Burgundy/04-cafe.png',
+    ],
+    Red: [
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/01-hero.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/02-milan.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/03-detail.png',
+      'assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/04-cafe.png',
+    ],
+  },
+};
+
 const sourceOverrides = {
+  'the-maya-tote': {
+    title: 'The Maya',
+    vendor: 'OOOMAY',
+    description: 'La bolsa que hace que llevarlo todo siga viéndose elegante. The Maya está confeccionada en piel vegana premium de tacto suave, incorpora bolsillos bien pensados y espacio para un portátil de 15 pulgadas, libros y tus esenciales diarios. Elige cierre magnético o cremallera y llévala del trabajo al fin de semana.',
+    price: 4400,
+    compare_at_price: 8900,
+  },
+  'tri-sling-bag': {
+    title: 'Tri-Sling Bag — Onyx',
+    vendor: 'ARMAREX',
+    description: 'Una silueta pulita, tre modi di indossarla e tutto lo spazio che serve ogni giorno. La Tri-Sling Bag — Onyx è realizzata in nylon resistente all’acqua, con imbottitura leggera, custodia per borraccia, scomparto imbottito per laptop fino a 15 pollici e dettagli YKK. Capiente ma facile da portare, con 12,5 litri per accompagnarti ovunque.',
+    price: 9000,
+  },
+  'luxury-leather-hobo-anti-theft-handbag-2-0': {
+    title: 'Luxury Leather Hobo Anti-Theft Handbag 2.0 + FREE Pouch Wallet (6-Layer Security Edition)',
+    vendor: 'Libra Cases',
+    description: 'Eleganza quotidiana, protezione intelligente. La Luxury Hobo Anti-Theft Handbag 2.0 combina fodera RFID, cerniere bloccabili, tracolla anti-taglio, tasche nascoste e uno scomparto imbottito per laptop fino a 15 pollici. Una compagna femminile e raffinata per città, lavoro e viaggi.',
+    price: 5495,
+    compare_at_price: 10990,
+  },
+  'luxury-leather-hobo-anti-theft-handbag-pouch': {
+    title: 'Luxury Hobo Anti-Theft Handbag + FREE Pouch Wallet',
+    vendor: 'Libra Cases',
+    description: 'Una hobo ligera, espaciosa y pensata per sentirti sicura ogni giorno. La Luxury Hobo Anti-Theft Handbag organizza tutto ciò che ti serve con più tasche e un design elegante, mentre il pouch wallet incluso completa il set. Scegli il tuo colore e porta con te stile e praticità.',
+    price: 5250,
+    compare_at_price: 10500,
+  },
+  'ciara-vintage': {
+    title: 'Ciara Vintage',
+    vendor: 'VOVIA',
+    description: 'Una borsa con anima vintage e spazio per la vita di ogni giorno. Ciara Vintage è realizzata in pelle vegana premium, può essere portata a mano o a spalla e accoglie anche un laptop da 13 pollici, con tracolla regolabile e un raffinato charm removibile. Elegante, pratica e pensata per accompagnarti dal lavoro al weekend.',
+    price: 8700,
+    compare_at_price: 13000,
+  },
   'the-foldie-sling-bag': {
     title: 'The Foldie® Sling bag',
     vendor: 'The Foldie',
@@ -82,6 +199,11 @@ function variants(row) {
 }
 
 function optionsFor(row, fallback) {
+  if (/the maya \(tote\)/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black', 'Chocolate', 'Brown', 'Burgundy', 'Stone', 'Pink', 'Sky'] }, { name: 'Stile', values: ['Magnet', 'Zipper'] }];
+  if (/tri-sling bag/i.test(row.Producto)) return [{ name: 'Colore', values: ['Onyx'] }];
+  if (/luxury leather hobo anti-theft handbag 2\.0/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black', 'Brown', 'Beige'] }];
+  if (/luxury leather hobo anti-theft handbag \+ pouch/i.test(row.Producto)) return [{ name: 'Colore', values: ['Brown', 'Black', 'Blue', 'Grey', 'Burgundy', 'Red'] }];
+  if (/ciara vintage$/i.test(row.Producto)) return [{ name: 'Colore', values: ['Coffee'] }];
   if (/foldie sling/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black'] }];
   if (/2packbag travel kit/i.test(row.Producto)) return [{ name: 'Offerta', values: ['Buy 1 GET 1 FREE', 'Buy 2 GET 2 FREE + Free Shipping'] }];
   return [{ name: 'Colore', values: fallback.colors }, { name: 'Talla', values: fallback.sizes }];
@@ -94,6 +216,8 @@ const products = rows.map((row, i) => {
   const v = variants(row);
   const optionConfig = optionsFor(row, v);
   const override = sourceOverrides[slug(row.Producto)] || {};
+  const colorSets = productColorImageSets[slug(row.Producto)] || null;
+  const baseImages = productImageSets[slug(row.Producto)] || [categoryAssets[row.Categoria] || categoryAssets.Ropa];
   const product = {
     id: i + 1,
     handle: slug(row.Producto),
@@ -102,12 +226,12 @@ const products = rows.map((row, i) => {
     category: row.Categoria,
     vendor: override.vendor || row.Tienda,
     sourceUrl: row.Link,
-    image: (productImageSets[slug(row.Producto)] || [categoryAssets[row.Categoria] || categoryAssets.Ropa])[0],
-    images: productImageSets[slug(row.Producto)] || [categoryAssets[row.Categoria] || categoryAssets.Ropa],
+    image: colorSets ? Object.values(colorSets)[0][0] : baseImages[0],
+    images: colorSets ? Object.values(colorSets).flat() : baseImages,
     imageAlt: `${row.Producto} · immagine catalogo`,
     description: override.description || description(row, meta),
-    price: money(row.Precio),
-    compare_at_price: money(row['Precio tachado']),
+    price: override.price || money(row.Precio),
+    compare_at_price: override.compare_at_price || money(row['Precio tachado']),
     tags: [meta.title, 'Novità', 'Selezione Juanjo'].join(', '),
     options: optionConfig,
     variants: [],
@@ -120,7 +244,8 @@ const products = rows.map((row, i) => {
   primaryValues.forEach(first => secondaryValues.forEach(second => {
     const variantOptions = product.options[1] ? [first, second] : [first];
     const offer = override.offers?.[first];
-    product.variants.push({ id: ++vid, options: variantOptions, price: offer?.price || product.price, compare_at_price: offer?.compare_at_price || product.compare_at_price, available: true, image: product.image });
+    const variantImage = colorSets?.[first]?.[0] || product.image;
+    product.variants.push({ id: ++vid, options: variantOptions, price: offer?.price || product.price, compare_at_price: offer?.compare_at_price || product.compare_at_price, available: true, image: variantImage });
   }));
   product.available = true;
   return product;
@@ -143,9 +268,9 @@ const plannedImageCount = products.reduce((n, p) => {
 }, 0);
 fs.writeFileSync(path.join(root, 'catalog_summary.json'), JSON.stringify({ generatedAt: new Date().toISOString(), products: products.length, variants: products.reduce((n, p) => n + p.variants.length, 0), collections, imagePlan: { planned: plannedImageCount, uniqueSetsReady: products.filter(p => p.images.length > 1).length, generatedImagesReady: products.reduce((n, p) => n + p.images.length, 0) } }, null, 2));
 const imageRoles = {
-  'Bolsos': ['foto de producto sobre fondo limpio', 'bolso llevado al hombro en un look urbano', 'detalle cercano de textura y cierres', 'bolso en uso durante un plan cotidiano'],
-  'Calzado': ['foto de producto sobre fondo limpio', 'calzado puesto en movimiento', 'detalle cercano de material y suela', 'look completo en un entorno urbano'],
-  'Ropa': ['prenda en modelo sobre fondo limpio', 'look completo en un entorno italiano', 'detalle cercano de tejido y acabado', 'prenda en movimiento con luz natural'],
+  'Bolsos': ['producto solo sobre fondo beige editorial, vista frontal', 'producto solo sobre fondo beige editorial, vista tres cuartos', 'bolso llevado por una modelo italiana en un look elegante de ciudad', 'bolso en uso por una modelo italiana durante un plan cotidiano chic'],
+  'Calzado': ['producto solo sobre fondo beige editorial, vista lateral', 'producto solo sobre fondo beige editorial, vista tres cuartos', 'calzado llevado por una modelo italiana en movimiento', 'look femenino completo con modelo italiana en un entorno urbano'],
+  'Ropa': ['prenda sola sobre fondo beige editorial, vista frontal', 'prenda sola sobre fondo beige editorial, vista posterior o tres cuartos', 'look completo con modelo italiana en un entorno italiano', 'prenda en movimiento con una modelo italiana bajo luz natural'],
 };
 const modelSet = [
   'modella italiana mediterranea, capelli castani mossi',
