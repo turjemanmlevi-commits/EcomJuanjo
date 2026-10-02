@@ -1,0 +1,382 @@
+{
+  "https://becauseofalice.com/products/satin-scoop-neck-camisole-maxi-dress-carob-1": {
+    "index": 65,
+    "title": "Abito sottoveste in raso Dalia",
+    "productType": "Abiti",
+    "category": "Apparel & Accessories > Clothing > Dresses",
+    "descriptionHtml": "<p>Il raso scivola sulla pelle e cattura la luce a ogni passo: lucido, fluido, di peso medio, abbastanza corposo da cadere bene. Il taglio in sbieco lo accompagna lungo il corpo e la gonna scende dritta, a colonna, fino in fondo.</p><p>Dalia è la sottoveste lunga dal sapore anni ’90, in un caldo color carruba. Pensala per una cena importante o per un matrimonio in città: il corpo ha un taglio morbido, non fasciante, e ti lascia muovere senza pensieri per tutta la sera.</p><ul><li><strong>Taglio in sbieco:</strong> il tessuto segue le linee del corpo con naturalezza e si muove con te.</li><li><strong>Scollo arrotondato:</strong> una curva delicata che valorizza décolleté e clavicole.</li><li><strong>Spalline sottili regolabili:</strong> trovi in un attimo la lunghezza giusta per la tua figura.</li><li><strong>Gonna a colonna:</strong> una linea lunga e pulita che slancia la silhouette.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: raso lucido e fluido di peso medio</li><li>Colore: carruba</li><li>Lunghezza: maxi, con gonna a colonna</li><li>Spalline: sottili, regolabili</li><li>Vestibilità: taglio in sbieco, corpo morbido e rilassato</li><li>Prova e cura: il raso è delicato, togli gioielli e anelli quando lo provi per evitare fili tirati</li></ul>",
+    "seoTitle": "Abito sottoveste in raso Dalia color carruba",
+    "seoDescription": "Abito sottoveste lungo in raso lucido e fluido, taglio in sbieco anni ’90, scollo arrotondato, spalline sottili regolabili e gonna a colonna.",
+    "options": [
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "XS", "it": "XS" },
+        { "src": "S", "it": "S" },
+        { "src": "M", "it": "M" },
+        { "src": "L", "it": "L" },
+        { "src": "XL", "it": "XL" }
+      ] }
+    ]
+  },
+  "https://olyndralondon.com/products/serena-heritage-coat": {
+    "index": 66,
+    "title": "Cappotto in lana Ornella",
+    "productType": "Giacche e cappotti",
+    "category": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets",
+    "descriptionHtml": "<p>Appena lo chiudi, senti la lana fare il suo lavoro: morbida al tatto, calda, capace di trattenere il calore anche nelle mattine più pungenti. La linea è dritta e pulita, rifinita da una fila di bottoni, senza nulla di superfluo.</p><p>Ornella è il cappotto da indossare ogni giorno, dall’ufficio alla passeggiata d’autunno fino al caffè con un’amica. Il taglio dritto lascia libertà nei movimenti e si porta bene su jeans, gonne e abiti. Con dieci colori, dal grigio al verde chiaro, puoi sceglierlo sobrio oppure farne il punto di colore del tuo inverno.</p><ul><li><strong>Lana morbida e calda:</strong> isola dal freddo e resta piacevole sulla pelle per tutta la giornata.</li><li><strong>Taglio dritto:</strong> accompagna la figura con eleganza senza stringere, così ti muovi in libertà.</li><li><strong>Chiusura a bottoni:</strong> un dettaglio classico che rifinisce il cappotto con raffinatezza.</li><li><strong>Facile da abbinare:</strong> sta bene su jeans, gonne e vestiti, per ogni momento della settimana.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: lana</li><li>Chiusura: bottoni</li><li>Vestibilità: taglio dritto, pensato per lasciare libertà di movimento</li><li>Colori: marrone, grigio, nero, argento, viola, verde, arancione, blu, rosa, verde chiaro</li><li>Taglie: da S / UK 6-8 a 3XL / UK 18</li></ul>",
+    "seoTitle": "Cappotto in lana Ornella dal taglio dritto",
+    "seoDescription": "Cappotto in lana morbida e calda, taglio dritto e chiusura a bottoni. Elegante su jeans, gonne o abiti, in dieci colori dal grigio al verde chiaro.",
+    "options": [
+      { "source_name": "Colour", "name": "Colore", "values": [
+        { "src": "Brown", "it": "Marrone" },
+        { "src": "Grey", "it": "Grigio" },
+        { "src": "Black", "it": "Nero" },
+        { "src": "Silver", "it": "Argento" },
+        { "src": "Purple", "it": "Viola" },
+        { "src": "Green", "it": "Verde" },
+        { "src": "Orange", "it": "Arancione" },
+        { "src": "Blue", "it": "Blu" },
+        { "src": "Pink", "it": "Rosa" },
+        { "src": "Light Green", "it": "Verde chiaro" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "S / UK 6-8", "it": "S / UK 6-8" },
+        { "src": "M / UK 10", "it": "M / UK 10" },
+        { "src": "L / UK 12", "it": "L / UK 12" },
+        { "src": "XL / UK 14", "it": "XL / UK 14" },
+        { "src": "XXL / UK 16", "it": "XXL / UK 16" },
+        { "src": "3XL / UK 18", "it": "3XL / UK 18" }
+      ] }
+    ]
+  },
+  "https://olyndralondon.com/products/amelie-overcoat": {
+    "index": 67,
+    "title": "Cappotto doppiopetto Adele",
+    "productType": "Giacche e cappotti",
+    "category": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets > Overcoats",
+    "descriptionHtml": "<p>Doppiopetto, cintura in vita e una linea sartoriale che disegna la figura: Adele ha il carattere dei cappotti classici, con una morbidezza che senti subito sotto le dita. Il misto lana è caldo ma traspirante, liscio al tatto.</p><p>Lo indossi sopra un abito per andare in ufficio, oppure su pantaloni e jeans nel fine settimana: la struttura resta composta e il taglio rimane femminile. Ti accompagna nei giorni freddi e anche a primavera, quando l’aria è ancora frizzante e serve uno strato in più.</p><ul><li><strong>Taglio sartoriale:</strong> strutturato ma femminile, valorizza la silhouette senza irrigidirla.</li><li><strong>Misto lana morbido:</strong> caldo e traspirante, con una superficie liscia piacevole da toccare.</li><li><strong>Doppiopetto classico:</strong> la chiusura di tradizione, con un’aria moderna e curata.</li><li><strong>Tasche profonde e cintura robusta:</strong> mani al caldo e punto vita segnato, con praticità.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: misto lana</li><li>Chiusura: doppiopetto, con cintura</li><li>Tasche: profonde</li><li>Vestibilità: linea asciutta e sartoriale; se preferisci una vestibilità più morbida, scegli la taglia successiva</li><li>Colori: crema, rosa, verde, nero</li><li>Taglie: dalla S alla XXL (UK)</li></ul>",
+    "seoTitle": "Cappotto doppiopetto Adele in misto lana",
+    "seoDescription": "Cappotto doppiopetto in misto lana morbido e traspirante, taglio sartoriale femminile, cintura in vita e tasche profonde. Da portare su abiti o jeans.",
+    "options": [
+      { "source_name": "Color", "name": "Colore", "values": [
+        { "src": "Cream", "it": "Crema" },
+        { "src": "Pink", "it": "Rosa" },
+        { "src": "Green", "it": "Verde" },
+        { "src": "Black", "it": "Nero" }
+      ] },
+      { "source_name": "Size (UK)", "name": "Taglia (UK)", "values": [
+        { "src": "S", "it": "S" },
+        { "src": "M", "it": "M" },
+        { "src": "L", "it": "L" },
+        { "src": "XL", "it": "XL" },
+        { "src": "XXL", "it": "XXL" }
+      ] }
+    ]
+  },
+  "https://grace-and-oliver.com/products/lottie-sweater": {
+    "index": 68,
+    "title": "Maglione oversize Gioia",
+    "productType": "Maglieria",
+    "category": "Apparel & Accessories > Clothing > Clothing Tops > Sweaters",
+    "descriptionHtml": "<p>Ci sono mattine in cui vuoi solo qualcosa di morbido addosso, che ti scaldi e ti faccia sentire comunque in ordine. Gioia nasce per quelle mattine: un maglione dalla linea ampia e rilassata, dolce sulla pelle e caldo dalla colazione fino a sera.</p><p>Il taglio oversize sfiora il corpo senza segnarlo e sta bene su ogni figura. Un piccolo motivo giocoso lo rende personale, ma resta discreto e raffinato: lo porti con i pantaloni durante la settimana, con i jeans la domenica o con una gonna quando vuoi un tocco più curato.</p><ul><li><strong>Morbido e caldo:</strong> una sensazione delicata che ti accompagna per tutto il giorno.</li><li><strong>Vestibilità oversize:</strong> comoda, ampia, mai costrittiva, gentile con ogni silhouette.</li><li><strong>Motivo giocoso:</strong> un dettaglio sottile che aggiunge carattere senza alzare la voce.</li><li><strong>Dieci colori:</strong> dai toni pieni come nero e marrone a giallo, arancione e azzurro.</li></ul><p><strong>Dettagli</strong></p><ul><li>Vestibilità: oversize, rilassata</li><li>Abbinamenti: pantaloni, jeans o gonna</li><li>Colori: azzurro, rosa, arancione, verde, nero, rosso, giallo, blu, marrone, viola</li><li>Taglie: da 8/10 (S) a 22/24 (5XL)</li></ul>",
+    "seoTitle": "Maglione oversize Gioia morbido e caldo",
+    "seoDescription": "Maglione oversize morbido e caldo, con vestibilità rilassata e un piccolo motivo giocoso. Facile con pantaloni, jeans o gonna, in dieci colori.",
+    "options": [
+      { "source_name": "Colour", "name": "Colore", "values": [
+        { "src": "Light Blue", "it": "Azzurro" },
+        { "src": "Pink", "it": "Rosa" },
+        { "src": "Orange", "it": "Arancione" },
+        { "src": "Green", "it": "Verde" },
+        { "src": "Black", "it": "Nero" },
+        { "src": "Red", "it": "Rosso" },
+        { "src": "Yellow", "it": "Giallo" },
+        { "src": "Blue", "it": "Blu" },
+        { "src": "Brown", "it": "Marrone" },
+        { "src": "Purple", "it": "Viola" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "8/10 (S)", "it": "8/10 (S)" },
+        { "src": "10/12 (M)", "it": "10/12 (M)" },
+        { "src": "12/14 (L)", "it": "12/14 (L)" },
+        { "src": "14/16 (XL)", "it": "14/16 (XL)" },
+        { "src": "16/18 (2XL)", "it": "16/18 (2XL)" },
+        { "src": "18/20 (3XL)", "it": "18/20 (3XL)" },
+        { "src": "20/22 (4XL)", "it": "20/22 (4XL)" },
+        { "src": "22/24 (5XL)", "it": "22/24 (5XL)" }
+      ] }
+    ]
+  },
+  "https://grace-and-oliver.com/products/cynthia-cardigan": {
+    "index": 69,
+    "title": "Cardigan con cappuccio Iole",
+    "productType": "Maglieria",
+    "category": "Apparel & Accessories > Clothing > Clothing Tops > Cardigans",
+    "descriptionHtml": "<p>Fuori, un patchwork di colori che mette di buon umore; dentro, una fodera soffice che ti avvolge appena lo indossi. Iole è il cardigan per i giorni in cui hai voglia di calore, ma non di rinunciare a un po’ di estro.</p><p>Anche il cappuccio è foderato, così nelle giornate più fresche, magari durante una passeggiata al lago, hai un riparo in più. La linea è morbida e rilassata: cade con naturalezza sul corpo, ti lascia libera nei movimenti e resta comunque ordinata. Sopra una maglia semplice, con pantaloni o gonna, completa il look in un gesto.</p><ul><li><strong>Fodera morbida:</strong> soffice e calda, rende il cardigan piacevole da portare per tutta la giornata.</li><li><strong>Cappuccio foderato:</strong> un livello di calore in più quando l’aria si fa fresca.</li><li><strong>Vestibilità rilassata:</strong> drappeggia con dolcezza e lascia spazio ai movimenti.</li><li><strong>Fantasie d’artista:</strong> cinque stampe tra cui scegliere, dai blocchi multicolore all’arcobaleno, fino ai gatti.</li></ul><p><strong>Dettagli</strong></p><ul><li>Fodera: interno soffice, anche nel cappuccio</li><li>Disegno: patchwork artistico</li><li>Vestibilità: morbida e rilassata</li><li>Fantasie: blocchi multicolore, arcobaleno, retrò, gatti, stampa ottanio e arancio</li><li>Taglie: da 8/10 (S) a 20/22 (4XL)</li></ul>",
+    "seoTitle": "Cardigan con cappuccio Iole, fodera morbida",
+    "seoDescription": "Cardigan con cappuccio foderato e fodera interna soffice, vestibilità rilassata e fantasie artistiche: blocchi multicolore, arcobaleno, retrò e gatti.",
+    "options": [
+      { "source_name": "Colour", "name": "Colore", "values": [
+        { "src": "Multicolour Block", "it": "Blocchi multicolore" },
+        { "src": "Rainbow", "it": "Arcobaleno" },
+        { "src": "Retro", "it": "Retrò" },
+        { "src": "Cat", "it": "Gatti" },
+        { "src": "Teal & Orange Print", "it": "Stampa ottanio e arancio" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "8/10 (S)", "it": "8/10 (S)" },
+        { "src": "10/12 (M)", "it": "10/12 (M)" },
+        { "src": "12/14 (L)", "it": "12/14 (L)" },
+        { "src": "14/16 (XL)", "it": "14/16 (XL)" },
+        { "src": "16/18 (2XL)", "it": "16/18 (2XL)" },
+        { "src": "18/20 (3XL)", "it": "18/20 (3XL)" },
+        { "src": "20/22 (4XL)", "it": "20/22 (4XL)" }
+      ] }
+    ]
+  },
+  "https://grace-and-oliver.com/products/rachel-jacket": {
+    "index": 70,
+    "title": "Giacca a spina di pesce Bruna",
+    "productType": "Giacche e cappotti",
+    "category": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets",
+    "descriptionHtml": "<p>La trama a spina di pesce, i profili a contrasto, i bottoni dall’aria antica: Bruna ha il fascino delle giacche di campagna di una volta, con un taglio strutturato che la rende attuale. Il verde oliva è caldo, terroso, facilissimo da portare.</p><p>È la giacca per le passeggiate del fine settimana e per il pranzo con le amiche, ma la indossi volentieri anche sopra una camicetta semplice quando vuoi essere più curata. Leggera quanto basta per sovrapporla, calda abbastanza da contarci nelle giornate fresche, senza mai ingombrare.</p><ul><li><strong>Trama a spina di pesce:</strong> il disegno classico che dà profondità e carattere al tessuto.</li><li><strong>Taglio sartoriale:</strong> sfiora il corpo e definisce la silhouette, lasciandoti muovere con comodità.</li><li><strong>Profili a contrasto:</strong> rifiniture curate che sottolineano la linea con eleganza.</li><li><strong>Bottoni in stile antico:</strong> un tocco d’altri tempi che fa la differenza nei dettagli.</li><li><strong>Versatile:</strong> si abbina a jeans, pantaloni sartoriali o una camicetta.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tessuto: lavorazione a spina di pesce</li><li>Finiture: profili a contrasto, bottoni in stile antico</li><li>Vestibilità: sartoriale, segna la figura ma lascia libertà di movimento</li><li>Colore: verde oliva</li><li>Taglie: da 6/8 (XS) a 18/20 (3XL)</li></ul>",
+    "seoTitle": "Giacca a spina di pesce Bruna verde oliva",
+    "seoDescription": "Giacca sartoriale a spina di pesce verde oliva, con profili a contrasto e bottoni in stile antico. Leggera da sovrapporre, si abbina a jeans e camicette.",
+    "options": [
+      { "source_name": "Colour", "name": "Colore", "values": [
+        { "src": "Olive", "it": "Verde oliva" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "6/8 (XS)", "it": "6/8 (XS)" },
+        { "src": "8/10 (S)", "it": "8/10 (S)" },
+        { "src": "10/12 (M)", "it": "10/12 (M)" },
+        { "src": "12/14 (L)", "it": "12/14 (L)" },
+        { "src": "14/16 (XL)", "it": "14/16 (XL)" },
+        { "src": "16/18 (2XL)", "it": "16/18 (2XL)" },
+        { "src": "18/20 (3XL)", "it": "18/20 (3XL)" }
+      ] }
+    ]
+  },
+  "https://grace-and-oliver.com/products/vivienne-jumper": {
+    "index": 71,
+    "title": "Maglione con collo a cascata Chiara",
+    "productType": "Maglieria",
+    "category": "Apparel & Accessories > Clothing > Clothing Tops > Sweaters",
+    "descriptionHtml": "<p>Morbide pieghe attorno al collo che incorniciano il viso con delicatezza: basta questo per trasformare un maglione in qualcosa di elegante. Chiara è in maglia, soffice a contatto con la pelle e calda quanto serve nelle giornate fresche.</p><p>Lo indossi con i pantaloni per il lavoro, con una gonna quando esci con le amiche o con i jeans nelle giornate a casa. Non chiede pensieri, eppure ti fa sembrare sempre curata.</p><ul><li><strong>Collo a cascata:</strong> morbido e drappeggiato, dà un finale raffinato a qualsiasi look.</li><li><strong>Morbido sulla pelle:</strong> pensato per stare comoda tutto il giorno, senza fastidi.</li><li><strong>Linea classica:</strong> un modello che non passa di moda e torna utile stagione dopo stagione.</li><li><strong>Facile da abbinare:</strong> si veste elegante o rilassato in un attimo.</li><li><strong>Undici colori:</strong> dal bianco e dal beige fino a toni vivaci come rosso, arancione e celeste.</li></ul><p><strong>Dettagli</strong></p><ul><li>Lavorazione: maglia</li><li>Collo: a cascata, drappeggiato</li><li>Abbinamenti: pantaloni, gonne o jeans</li><li>Colori: rosso, rosa, nero, marrone, verde, viola, arancione, bianco, verde chiaro, celeste, beige</li><li>Taglie: da 8/10 (S) a 18/20 (3XL)</li></ul>",
+    "seoTitle": "Maglione con collo a cascata Chiara in maglia",
+    "seoDescription": "Maglione in maglia con collo a cascata che incornicia il viso, morbido sulla pelle e caldo. Da portare con pantaloni, gonne o jeans, in undici colori.",
+    "options": [
+      { "source_name": "Colour", "name": "Colore", "values": [
+        { "src": "Red", "it": "Rosso" },
+        { "src": "Pink", "it": "Rosa" },
+        { "src": "Black", "it": "Nero" },
+        { "src": "Brown", "it": "Marrone" },
+        { "src": "Green", "it": "Verde" },
+        { "src": "Purple", "it": "Viola" },
+        { "src": "Orange", "it": "Arancione" },
+        { "src": "White", "it": "Bianco" },
+        { "src": "Light Green", "it": "Verde chiaro" },
+        { "src": "Sky Blue", "it": "Celeste" },
+        { "src": "Beige", "it": "Beige" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "8/10 (S)", "it": "8/10 (S)" },
+        { "src": "10/12 (M)", "it": "10/12 (M)" },
+        { "src": "12/14 (L)", "it": "12/14 (L)" },
+        { "src": "14/16 (XL)", "it": "14/16 (XL)" },
+        { "src": "16/18 (2XL)", "it": "16/18 (2XL)" },
+        { "src": "18/20 (3XL)", "it": "18/20 (3XL)" }
+      ] }
+    ]
+  },
+  "https://grace-and-oliver.com/products/lorena-dress": {
+    "index": 72,
+    "title": "Abito midi floreale Licia",
+    "productType": "Abiti",
+    "category": "Apparel & Accessories > Clothing > Dresses",
+    "descriptionHtml": "<p>Lo infili in pochi secondi e sei pronta. Licia è un abito midi senza maniche dal taglio ampio e arioso, che si muove con te e non stringe mai, nemmeno alla fine di una lunga giornata.</p><p>La stampa floreale blu e oro è raffinata e discreta, mai chiassosa. Nelle giornate calde lo porti da solo, magari a un pranzo all’aperto; quando la sera rinfresca basta un cardigan sulle spalle. Puoi renderlo più elegante con gli accessori o tenerlo semplice, a seconda di dove ti porta la giornata.</p><ul><li><strong>Vita leggermente arricciata:</strong> sfiora il corpo con dolcezza e disegna una silhouette aggraziata.</li><li><strong>Taglio morbido:</strong> ampio e leggero, ti lascia libera dal mattino alla sera.</li><li><strong>Tasche laterali:</strong> pratiche per le piccole cose di ogni giorno, così hai le mani libere.</li><li><strong>Stampa floreale:</strong> blu e oro, elegante senza mai essere eccessiva.</li></ul><p><strong>Dettagli</strong></p><ul><li>Lunghezza: midi</li><li>Maniche: senza maniche</li><li>Tasche: laterali</li><li>Vestibilità: ampia e morbida, con vita arricciata</li><li>Fantasia: floreale blu e oro</li><li>Taglie: da 8/10 (S) a 22/24 (5XL)</li></ul>",
+    "seoTitle": "Abito midi floreale Licia senza maniche",
+    "seoDescription": "Abito midi senza maniche con stampa floreale blu e oro, taglio ampio e arioso, vita leggermente arricciata e tasche laterali. Comodo dal mattino a sera.",
+    "options": [
+      { "source_name": "Colour", "name": "Colore", "values": [
+        { "src": "Navy & Gold Floral", "it": "Floreale blu e oro" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "8/10 (S)", "it": "8/10 (S)" },
+        { "src": "10/12 (M)", "it": "10/12 (M)" },
+        { "src": "12/14 (L)", "it": "12/14 (L)" },
+        { "src": "14/16 (XL)", "it": "14/16 (XL)" },
+        { "src": "16/18 (2XL)", "it": "16/18 (2XL)" },
+        { "src": "18/20 (3XL)", "it": "18/20 (3XL)" },
+        { "src": "20/22 (4XL)", "it": "20/22 (4XL)" },
+        { "src": "22/24 (5XL)", "it": "22/24 (5XL)" }
+      ] }
+    ]
+  },
+  "https://grace-and-oliver.com/products/francescadress": {
+    "index": 73,
+    "title": "Abito lungo geometrico Franca",
+    "productType": "Abiti",
+    "category": "Apparel & Accessories > Clothing > Dresses",
+    "descriptionHtml": "<p>Dalla spalla all’orlo, una sola linea lunga e continua: Franca è un abito senza maniche che scende morbido sul corpo e slancia la figura senza alcuno sforzo. Il tessuto è leggero e soffice, quasi non lo senti addosso.</p><p>La fantasia geometrica dà carattere con discrezione. Con i sandali e qualche gioiello diventa l’abito per una cena in vacanza o una festa in famiglia; senza accessori è perfetto per le giornate calde di tutti i giorni. Lo indossi e ti senti subito in ordine, senza bisogno di pensarci troppo.</p><ul><li><strong>Linea lunga e fluida:</strong> drappeggia con grazia e accompagna ogni movimento.</li><li><strong>Leggero e morbido:</strong> comodo per ore, anche quando fa caldo.</li><li><strong>Fantasia geometrica:</strong> un disegno raffinato che resta attuale nel tempo.</li><li><strong>Tre colori:</strong> nero, blu o rosa, da vestire eleganti o rilassati.</li></ul><p><strong>Dettagli</strong></p><ul><li>Lunghezza: maxi</li><li>Maniche: senza maniche</li><li>Tessuto: leggero e morbido</li><li>Vestibilità: morbida e fluida, sfiora la figura</li><li>Colori: nero, blu, rosa</li><li>Taglie: da 6/8 (XS) a 16/18 (2XL)</li></ul>",
+    "seoTitle": "Abito lungo geometrico Franca senza maniche",
+    "seoDescription": "Abito lungo senza maniche con fantasia geometrica, tessuto leggero e morbido e linea fluida dalla spalla all’orlo. In nero, blu o rosa, per l’estate.",
+    "options": [
+      { "source_name": "Colour", "name": "Colore", "values": [
+        { "src": "Black", "it": "Nero" },
+        { "src": "Blue", "it": "Blu" },
+        { "src": "Pink", "it": "Rosa" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "6/8 (XS)", "it": "6/8 (XS)" },
+        { "src": "8/10 (S)", "it": "8/10 (S)" },
+        { "src": "10/12 (M)", "it": "10/12 (M)" },
+        { "src": "12/14 (L)", "it": "12/14 (L)" },
+        { "src": "14/16 (XL)", "it": "14/16 (XL)" },
+        { "src": "16/18 (2XL)", "it": "16/18 (2XL)" }
+      ] }
+    ]
+  },
+  "https://madammuse.co/products/seamless-balconette-bra": {
+    "index": 74,
+    "title": "Reggiseno balconcino senza cuciture Pia",
+    "productType": "Intimo e modellanti",
+    "category": "Apparel & Accessories > Clothing > Lingerie > Bras",
+    "descriptionHtml": "<p>Sostegno vero, senza imbottiture e senza spessori. Pia è un reggiseno a balconcino senza cuciture e non imbottito: solleva e modella il seno in modo naturale, e dopo pochi minuti quasi ti dimentichi di averlo addosso.</p><p>Le sue linee pulite spariscono sotto una t-shirt aderente come sotto la camicia che porti in ufficio, così puoi indossarlo con tutto, dal mattino alla sera. Lo senti come una seconda pelle e ti sostiene per tutta la giornata, senza aggiungere volume.</p><ul><li><strong>Senza cuciture:</strong> nessun segno sotto i vestiti, anche i più aderenti.</li><li><strong>Taglio a balconcino:</strong> sostiene e solleva, disegnando una forma naturale.</li><li><strong>Non imbottito:</strong> leggero e sottile, senza effetto ingombrante.</li><li><strong>Comodo tutto il giorno:</strong> sostegno costante, ora dopo ora.</li><li><strong>Cinque colori:</strong> nude, bianco e nero per ogni giorno, marrone e rosso quando vuoi osare.</li></ul><p><strong>Dettagli</strong></p><ul><li>Modello: balconcino senza cuciture, non imbottito</li><li>Giro sotto seno: 34, 36, 38, 40, 42</li><li>Coppa: B, C, D, DD/E, F</li><li>Colori: marrone, bianco, nero, nude, rosso</li></ul>",
+    "seoTitle": "Reggiseno balconcino senza cuciture Pia",
+    "seoDescription": "Reggiseno a balconcino senza cuciture e non imbottito: solleva e sostiene il seno in modo naturale, invisibile sotto i vestiti. Coppe dalla B alla F.",
+    "options": [
+      { "source_name": "Color", "name": "Colore", "values": [
+        { "src": "Brown", "it": "Marrone" },
+        { "src": "White", "it": "Bianco" },
+        { "src": "Black", "it": "Nero" },
+        { "src": "Nude", "it": "Nude" },
+        { "src": "Red", "it": "Rosso" }
+      ] },
+      { "source_name": "Band size", "name": "Giro sotto seno", "values": [
+        { "src": "34", "it": "34" },
+        { "src": "36", "it": "36" },
+        { "src": "38", "it": "38" },
+        { "src": "40", "it": "40" },
+        { "src": "42", "it": "42" }
+      ] },
+      { "source_name": "Cup size", "name": "Coppa", "values": [
+        { "src": "B", "it": "B" },
+        { "src": "C", "it": "C" },
+        { "src": "D", "it": "D" },
+        { "src": "DD/E", "it": "DD/E" },
+        { "src": "F", "it": "F" }
+      ] }
+    ]
+  },
+  "https://bellashapewear.com/products/deep-v-wireless-push-up-bra": {
+    "index": 75,
+    "title": "Reggiseno push-up senza ferretto Rita",
+    "productType": "Intimo e modellanti",
+    "category": "Apparel & Accessories > Clothing > Lingerie > Bras",
+    "descriptionHtml": "<p>Tutto l’effetto push-up che cerchi, senza ferretti rigidi a premere. Al loro posto Rita ha morbide strisce in gel liquido che sollevano il seno e creano una scollatura naturale, restando comode per l’intera giornata.</p><p>Lo scollo profondo a V lo rende perfetto sotto i top scollati e l’abito di una cena a due, ma sta altrettanto bene sotto una semplice t-shirt. Le imbottiture sono traspiranti, con oltre 200 fori per far circolare l’aria, così resti fresca anche nelle giornate più lunghe.</p><ul><li><strong>Sostegno in gel:</strong> strisce in gel liquido al posto dei ferretti, per sollevare senza fastidi.</li><li><strong>Scollo profondo a V:</strong> valorizza il décolleté con una scollatura naturale.</li><li><strong>Imbottiture traspiranti:</strong> più di 200 fori lasciano respirare la pelle.</li><li><strong>Senza cuciture:</strong> resta invisibile sotto qualsiasi capo.</li><li><strong>Effetto levigante:</strong> rende più liscia la linea sotto le ascelle e sulla schiena.</li></ul><p><strong>Dettagli</strong></p><ul><li>Sostegno: strisce in gel liquido, senza ferretto</li><li>Scollo: profondo a V</li><li>Imbottiture: traspiranti, con più di 200 fori d’aerazione</li><li>Spalline: regolabili</li><li>Colori: nude marrone, beige, marrone, nero</li><li>Taglie: dalla S alla 3XL</li></ul>",
+    "seoTitle": "Reggiseno push-up senza ferretto Rita, scollo a V",
+    "seoDescription": "Reggiseno push-up senza ferretto con scollo profondo a V, sostegno in gel liquido, imbottiture traspiranti con oltre 200 fori e spalline regolabili.",
+    "options": [
+      { "source_name": "Color", "name": "Colore", "values": [
+        { "src": "Brown-Nude", "it": "Nude marrone" },
+        { "src": "Beige", "it": "Beige" },
+        { "src": "Brown", "it": "Marrone" },
+        { "src": "Black", "it": "Nero" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "S", "it": "S" },
+        { "src": "M", "it": "M" },
+        { "src": "L", "it": "L" },
+        { "src": "XL", "it": "XL" },
+        { "src": "XXL", "it": "XXL" },
+        { "src": "3XL", "it": "3XL" }
+      ] }
+    ]
+  },
+  "https://irazia.com/products/fleece-jumpsuit": {
+    "index": 76,
+    "title": "Tuta termica con zip Nina",
+    "productType": "Tute e salopette",
+    "category": "Apparel & Accessories > Clothing > One-Pieces",
+    "descriptionHtml": "<p>Chiudi una zip e sei vestita: calda, avvolta e modellata in un unico capo. Dentro, Nina è foderata in pile; fuori, il tessuto elasticizzato abbraccia le curve e segna il punto vita.</p><p>La zip frontale decide la copertura: chiusa fino in alto per un pomeriggio di commissioni al freddo o una serata sul divano, aperta quanto vuoi quando cerchi un look più audace. Il tessuto è molto elastico, quindi resta comoda tutto il giorno, anche se sei alta.</p><ul><li><strong>Interno in pile:</strong> trattiene il calore senza aggiungere volume.</li><li><strong>Effetto modellante:</strong> leviga il punto vita e valorizza le curve.</li><li><strong>Super elastica:</strong> si adatta al corpo e ti segue in ogni movimento.</li><li><strong>Zip frontale:</strong> la copertura la scegli tu, tutta chiusa o più aperta.</li><li><strong>Completamente coprente:</strong> mai trasparente, in tutti e sette i colori.</li></ul><p><strong>Dettagli</strong></p><ul><li>Interno: foderato in pile</li><li>Tessuto: elasticizzato, modellante e coprente</li><li>Chiusura: zip frontale</li><li>Vestibilità: aderente, comoda anche per chi è alta</li><li>Colori: nero, crema vaniglia, viola prugna, blu mirtillo, caffellatte, espresso, grigio</li><li>Taglie: S, M, L, XL</li></ul>",
+    "seoTitle": "Tuta termica con zip Nina foderata in pile",
+    "seoDescription": "Tuta intera foderata in pile con zip frontale, tessuto super elastico e modellante che segna il punto vita. Coprente, mai trasparente, in sette colori.",
+    "options": [
+      { "source_name": "Color", "name": "Colore", "values": [
+        { "src": "Black", "it": "Nero" },
+        { "src": "Vanilla Cream", "it": "Crema vaniglia" },
+        { "src": "Plum Purple", "it": "Viola prugna" },
+        { "src": "Berry Blue", "it": "Blu mirtillo" },
+        { "src": "Latte", "it": "Caffellatte" },
+        { "src": "Espresso", "it": "Espresso" },
+        { "src": "Gray", "it": "Grigio" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "S", "it": "S" },
+        { "src": "M", "it": "M" },
+        { "src": "L", "it": "L" },
+        { "src": "XL", "it": "XL" }
+      ] }
+    ]
+  },
+  "https://soera-store.com/products/rosalia-elegant-jacket-with-stand-collar-jacket": {
+    "index": 77,
+    "title": "Giacca con collo alla coreana Tiziana",
+    "productType": "Giacche e cappotti",
+    "category": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets",
+    "descriptionHtml": "<p>Basta guardare il colletto: si alza dritto attorno al collo, incornicia il viso e ripara dalle folate di vento. È il dettaglio che dà a Tiziana un’aria quasi architettonica; il resto è pulizia, con una fila di bottoni monopetto e linee essenziali.</p><p>Il poliestere di qualità ha l’aspetto strutturato della lana ma pesa poco, perfetto per vestirsi a strati in autunno. Ampia quanto basta per stare sopra un maglione grosso, abbastanza sartoriale da portarla da sola su una camicetta leggera: dalla riunione di lavoro al brunch della domenica.</p><ul><li><strong>Collo alla coreana:</strong> valorizza il viso e protegge dal vento.</li><li><strong>Chiusura monopetto:</strong> una silhouette snella e minimalista.</li><li><strong>Leggera ma strutturata:</strong> l’effetto della lana, senza il peso.</li><li><strong>Toni neutri:</strong> grigio, blu navy, nero, tortora e beige, facili da abbinare.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: poliestere</li><li>Chiusura: monopetto con bottoni</li><li>Maniche: lunghe</li><li>Misure: S spalle 49 cm, busto 106 cm, lunghezza 54 cm, manica 54 cm; M spalle 50 cm, busto 110 cm, lunghezza 55 cm, manica 55 cm; L spalle 51 cm, busto 116 cm, lunghezza 56 cm, manica 56 cm</li><li>Vestibilità: morbida ma sartoriale; veste leggermente piccola, controlla le misure prima di scegliere</li><li>Cura: lavatrice a freddo con ciclo delicato oppure a mano; asciugare appesa</li></ul>",
+    "seoTitle": "Giacca con collo alla coreana Tiziana, monopetto",
+    "seoDescription": "Giacca monopetto con collo alla coreana, in poliestere leggero dall’aspetto strutturato. Linea essenziale, ideale a strati in autunno, in cinque neutri.",
+    "options": [
+      { "source_name": "Color", "name": "Colore", "values": [
+        { "src": "Grey", "it": "Grigio" },
+        { "src": "Navy Blue", "it": "Blu navy" },
+        { "src": "Black", "it": "Nero" },
+        { "src": "Taupe", "it": "Tortora" },
+        { "src": "Beige", "it": "Beige" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "S", "it": "S" },
+        { "src": "M", "it": "M" },
+        { "src": "L", "it": "L" }
+      ] }
+    ]
+  },
+  "https://soera-store.com/products/celine-asymmetrical-leather-jacket": {
+    "index": 78,
+    "title": "Giacca asimmetrica Marcella",
+    "productType": "Giacche e cappotti",
+    "category": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets",
+    "descriptionHtml": "<p>Asimmetrica, decisa, eppure elegante. Marcella prende un classico del guardaroba e lo rilegge con un taglio asimmetrico che lo rende subito contemporaneo. È in pelle vegana, si chiude con una zip e ha maniche lunghe e una vestibilità ampia.</p><p>È la giacca delle giornate d’autunno: sopra t-shirt e jeans nel weekend, oppure su un abito per un evento in cui vuoi farti notare. La linea ampia lascia spazio anche a un maglione sotto.</p><ul><li><strong>Design asimmetrico:</strong> un dettaglio contemporaneo su una forma classica.</li><li><strong>Pelle vegana:</strong> resistente, pensata per durare nel tempo.</li><li><strong>Chiusura con zip:</strong> si indossa e si toglie in un attimo.</li><li><strong>Vestibilità ampia:</strong> comoda tutto il giorno e ideale per vestirsi a strati.</li><li><strong>Tre colori:</strong> nero, marrone o un rosso deciso.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana</li><li>Chiusura: zip</li><li>Maniche: lunghe</li><li>Misure: S busto 120 cm, lunghezza 64 cm; M busto 124 cm, lunghezza 65 cm; L busto 128 cm, lunghezza 66 cm (misurate a mano, possibile scarto di 1-3 cm)</li><li>Peso: circa 1,03 kg</li><li>Vestibilità: ampia e veste grande, ti consigliamo una taglia in meno</li><li>Cura: solo lavaggio a secco</li></ul>",
+    "seoTitle": "Giacca asimmetrica Marcella in pelle vegana",
+    "seoDescription": "Giacca asimmetrica in pelle vegana con chiusura a zip, maniche lunghe e vestibilità ampia da portare a strati. In nero, marrone o rosso, per l’autunno.",
+    "options": [
+      { "source_name": "Color", "name": "Colore", "values": [
+        { "src": "Black", "it": "Nero" },
+        { "src": "Brown", "it": "Marrone" },
+        { "src": "Red", "it": "Rosso" }
+      ] },
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "XS", "it": "XS" },
+        { "src": "S", "it": "S" },
+        { "src": "M", "it": "M" },
+        { "src": "L", "it": "L" }
+      ] }
+    ]
+  },
+  "https://soera-store.com/products/lucie-faux-fur-maxi-coat": {
+    "index": 79,
+    "title": "Cappotto maxi in pelliccia ecologica Sara",
+    "productType": "Giacche e cappotti",
+    "category": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets",
+    "descriptionHtml": "<p>Una cena d’inverno, il freddo appena fuori dalla porta e questo cappotto sulle spalle: Sara ti avvolge in una pelliccia ecologica soffice come una nuvola, che rende quasi piacevole uscire al gelo. La lunghezza maxi arriva a sfiorare il pavimento e ha una presenza che non passa inosservata.</p><p>Il marrone è ricco, caldo, terroso, e si sposa con tutti i neutri. Il modello aperto e la caduta morbida funzionano sopra una sottoveste per la sera come sopra jeans e maglioni di tutti i giorni: spalle e maniche sono abbastanza ampie da non stringere nemmeno sopra la maglia più spessa.</p><ul><li><strong>Pelliccia ecologica:</strong> morbida e vaporosa, accogliente a contatto con la pelle.</li><li><strong>Lunghezza maxi:</strong> copre tutta la figura, per un effetto avvolgente e scenografico.</li><li><strong>Caduta morbida:</strong> strutturata ma rilassata, scende larga sul corpo.</li><li><strong>Spazio per gli strati:</strong> spalle e maniche comode sopra maglioni e capi in maglia.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelliccia ecologica</li><li>Colore: marrone</li><li>Lunghezza: 136 cm nella taglia L</li><li>Vestibilità: ampia e rilassata, modello aperto</li><li>Cura: pulizia localizzata; conservare appeso per mantenerne la forma</li></ul>",
+    "seoTitle": "Cappotto maxi in pelliccia ecologica Sara",
+    "seoDescription": "Cappotto lungo in pelliccia ecologica marrone, soffice e vaporoso, con vestibilità morbida e aperta da portare su maglioni, jeans o un abito da sera.",
+    "options": [
+      { "source_name": "Size", "name": "Taglia", "values": [
+        { "src": "S", "it": "S" },
+        { "src": "M", "it": "M" },
+        { "src": "L", "it": "L" }
+      ] }
+    ]
+  }
+}
