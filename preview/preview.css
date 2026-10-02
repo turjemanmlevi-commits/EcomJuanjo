@@ -1,9 +1,9 @@
 /* Static preview only: the values css-variables.liquid outputs from theme settings. */
 :root {
-  --font-heading: "Tenor Sans", sans-serif;
+  --font-heading: "Bodoni Moda", "Didot", "Bodoni 72", serif;
   --font-heading-weight: 400;
-  --font-body: Outfit, sans-serif;
-  --font-body-weight: 300;
+  --font-body: "Bodoni Moda", "Didot", "Bodoni 72", serif;
+  --font-body-weight: 400;
   --font-body-size: 17px;
 
   --color-body: #ffffff;

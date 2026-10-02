@@ -14,13 +14,13 @@
         "type": "font_picker",
         "id": "type_header_font",
         "label": "Fuente de títulos",
-        "default": "tenor_sans_n4"
+        "default": "bodoni_moda_n4"
       },
       {
         "type": "font_picker",
         "id": "type_base_font",
         "label": "Fuente de texto",
-        "default": "outfit_n3"
+        "default": "bodoni_moda_n4"
       },
       {
         "type": "range",
