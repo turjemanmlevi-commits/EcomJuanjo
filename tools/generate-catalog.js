@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { applyItalianCopy } = require('./catalog-it');
 
 const root = path.resolve(__dirname, '..');
 const csv = fs.readFileSync(path.join(root, 'winners_combinado_100.csv'), 'utf8').replace(/^\uFEFF/, '').trim();
@@ -210,16 +211,16 @@ const products = rows.map((row, i) => {
     product.variants.push({ id: ++vid, options: variantOptions, price: offer?.price || product.price, compare_at_price: offer?.compare_at_price || product.compare_at_price, available: true, image: variantImage });
   }));
   product.available = true;
-  return product;
+  return applyItalianCopy(product, row, colorSets);
 });
 
 const js = `// Generated from winners_combinado_100.csv. Source URLs are kept for review only.\nwindow.CATALOG = ${JSON.stringify({ collections, products }, null, 2)};\n`;
 fs.writeFileSync(path.join(root, 'preview', 'catalog.js'), js);
 
-const out = ['Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Price,Variant Compare At Price,Variant Inventory Qty,Variant Inventory Policy,Image Src,Image Position,SEO Title,SEO Description'];
+const out = ['Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Option3 Name,Option3 Value,Variant SKU,Variant Price,Variant Compare At Price,Variant Inventory Qty,Variant Inventory Policy,Image Src,Image Position,SEO Title,SEO Description'];
 for (const p of products) {
   for (const v of p.variants) {
-    const values = [p.handle, p.title, `<p>${p.description}</p>`, p.vendor, p.category, p.category, p.tags, 'TRUE', p.options[0].name, v.options[0], p.options[1]?.name || '', p.options[1] ? (v.options[1] || '') : '', `${p.handle}-${slug(v.options.join('-'))}`, (v.price / 100).toFixed(2), p.compare_at_price ? (p.compare_at_price / 100).toFixed(2) : '', '0', 'continue', p.image, '1', p.title, p.description];
+    const values = [p.handle, p.title, p.bodyHtml || `<p>${p.description}</p>`, p.vendor, p.category, p.category, p.tags, 'TRUE', p.options[0].name, v.options[0], p.options[1]?.name || '', p.options[1] ? (v.options[1] || '') : '', p.options[2]?.name || '', p.options[2] ? (v.options[2] || '') : '', `${p.handle}-${slug(v.options.join('-'))}`, (v.price / 100).toFixed(2), v.compare_at_price ? (v.compare_at_price / 100).toFixed(2) : '', '0', 'continue', p.image, '1', p.title, p.seoDescription || p.description];
     out.push(values.map(x => `"${String(x).replace(/"/g, '""')}"`).join(','));
   }
 }
@@ -261,7 +262,7 @@ const imagePlan = products.map(p => ({
     const imageColors = p.options[0].name === 'Colore' ? p.options[0].values : ['unico'];
     const count = imageColors.length === 1 ? 6 : 4;
     return Array.from({ length: count }, (_, viewIndex) => ({
-      filename: `${p.handle}/${slug(color)}/${String(viewIndex + 1).padStart(2, '0')}-${slug((imageRoles[p.category] || imageRoles.Ropa)[viewIndex % (imageRoles[p.category] || imageRoles.Ropa).length])}.png`,
+      filename: `${p.imageKey || p.handle}/${slug(p.colorSources?.[color] || color)}/${String(viewIndex + 1).padStart(2, '0')}-${slug((imageRoles[p.category] || imageRoles.Ropa)[viewIndex % (imageRoles[p.category] || imageRoles.Ropa).length])}.png`,
       color,
       role: (imageRoles[p.category] || imageRoles.Ropa)[viewIndex % (imageRoles[p.category] || imageRoles.Ropa).length],
       model: modelSet[(p.id + colorIndex + viewIndex) % modelSet.length],

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-02T20:06:18.017Z",
+  "generatedAt": "2026-10-02T20:24:07.049Z",
   "products": 95,
-  "variants": 1148,
+  "variants": 3251,
   "collections": [
     {
       "handle": "borse",
@@ -23,7 +23,7 @@
     }
   ],
   "imagePlan": {
-    "planned": 1526,
+    "planned": 2706,
     "uniqueSetsReady": 6,
     "generatedImagesReady": 167
   }
