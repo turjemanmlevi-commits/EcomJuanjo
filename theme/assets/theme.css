@@ -458,7 +458,9 @@ input[type="text"], input[type="email"], input[type="search"], input[type="numbe
   position: relative;
   display: flex; gap: var(--gap);
   padding: 14px 0 28px;
-  overflow-x: auto; overscroll-behavior-x: contain;
+  /* The tilted, dropped cards overflow downwards; hiding that keeps the slider from
+     scrolling vertically, so swiping down over it always scrolls the page. */
+  overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   cursor: grab;
@@ -497,7 +499,6 @@ input[type="text"], input[type="email"], input[type="search"], input[type="numbe
       rotate(calc(var(--d, 0) * var(--wheel-tilt)))
       scale(calc(1 - var(--ad, 0) * var(--wheel-shrink)));
     opacity: clamp(0, 1.75 - var(--ad, 0) * 0.55, 1);
-    will-change: transform;
   }
   /* Photos drift against the swipe for a little depth. */
   .testimonials.is-wheel .testimonials__media img,

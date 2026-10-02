@@ -482,6 +482,8 @@
           if (!motion) continue;
           const d = Math.round(Math.max(-3, Math.min(3, raw)) * 1000) / 1000;
           if (lastD[i] === d) continue;
+          // Only cards on or near screen get their own layer; 40-odd photo layers strain phones.
+          if (lastD[i] === undefined || (Math.abs(lastD[i]) < 3) !== (Math.abs(d) < 3)) cards[i].style.willChange = Math.abs(d) < 3 ? 'transform' : 'auto';
           lastD[i] = d;
           cards[i].style.setProperty('--d', d);
           cards[i].style.setProperty('--ad', Math.abs(d));
@@ -535,6 +537,8 @@
       };
       slider.addEventListener('scroll', () => {
         lastScroll = performance.now();
+        // A finger that actually turns the wheel takes over; one just scrolling the page past it does not.
+        if (touching) takeOver();
         requestUpdate();
         settleWhenIdle();
       }, { passive: true });
@@ -558,7 +562,10 @@
         timer = null;
         if (!stopped && inView && !hovering && !focused && !document.hidden) {
           // Stops by itself if the theme editor re-renders the section.
-          timer = setInterval(() => (section.isConnected ? move(1) : clearInterval(timer)), speed * 1000);
+          timer = setInterval(() => {
+            if (!section.isConnected) clearInterval(timer);
+            else if (!touching) move(1); // never turn under a resting finger
+          }, speed * 1000);
         }
         if (toggle) {
           toggle.classList.toggle('is-paused', stopped);
@@ -567,12 +574,14 @@
       };
       const takeOver = () => { if (!stopped) { stopped = true; schedule(); } };
       if (toggle) toggle.addEventListener('click', () => { stopped = !stopped; if (!stopped) move(1); schedule(); });
-      slider.addEventListener('mouseenter', () => { hovering = true; schedule(); });
-      slider.addEventListener('mouseleave', () => { hovering = false; schedule(); });
-      section.addEventListener('focusin', (e) => { focused = !e.target.closest('[data-autoplay-toggle]'); schedule(); });
+      // Touch screens fire emulated mouse events after a tap, so hover only counts for a real mouse.
+      slider.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') { hovering = true; schedule(); } });
+      slider.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') { hovering = false; schedule(); } });
+      // Keyboard focus pauses; a tap that happens to focus the slider does not.
+      section.addEventListener('focusin', (e) => { focused = e.target.matches(':focus-visible') && !e.target.closest('[data-autoplay-toggle]'); schedule(); });
       section.addEventListener('focusout', () => { focused = false; schedule(); });
       document.addEventListener('visibilitychange', schedule);
-      slider.addEventListener('pointerdown', takeOver);
+      slider.addEventListener('pointerdown', (e) => { if (e.pointerType === 'mouse') takeOver(); });
       slider.addEventListener('wheel', (e) => { if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) takeOver(); }, { passive: true });
 
       $('[data-prev]', section)?.addEventListener('click', () => { takeOver(); move(-1); });
