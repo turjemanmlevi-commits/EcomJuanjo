@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { applyItalianCopy } = require('./catalog-it');
 
 const root = path.resolve(__dirname, '..');
 const csv = fs.readFileSync(path.join(root, 'winners_combinado_100.csv'), 'utf8').replace(/^\uFEFF/, '').trim();
@@ -128,137 +129,71 @@ const productColorImageSets = {
   },
 };
 
-const sourceOverrides = {
-  'the-maya-tote': {
-    title: 'The Maya',
-    vendor: 'OOOMAY',
-    description: 'La bolsa que hace que llevarlo todo siga viéndose elegante. The Maya está confeccionada en piel vegana premium de tacto suave, incorpora bolsillos bien pensados y espacio para un portátil de 15 pulgadas, libros y tus esenciales diarios. Elige cierre magnético o cremallera y llévala del trabajo al fin de semana.',
-    price: 4400,
-    compare_at_price: 8900,
-  },
-  'tri-sling-bag': {
-    title: 'Tri-Sling Bag — Onyx',
-    vendor: 'ARMAREX',
-    description: 'Una silueta pulita, tre modi di indossarla e tutto lo spazio che serve ogni giorno. La Tri-Sling Bag — Onyx è realizzata in nylon resistente all’acqua, con imbottitura leggera, custodia per borraccia, scomparto imbottito per laptop fino a 15 pollici e dettagli YKK. Capiente ma facile da portare, con 12,5 litri per accompagnarti ovunque.',
-    price: 9000,
-  },
-  'luxury-leather-hobo-anti-theft-handbag-2-0': {
-    title: 'Luxury Leather Hobo Anti-Theft Handbag 2.0 + FREE Pouch Wallet (6-Layer Security Edition)',
-    vendor: 'Libra Cases',
-    description: 'Eleganza quotidiana, protezione intelligente. La Luxury Hobo Anti-Theft Handbag 2.0 combina fodera RFID, cerniere bloccabili, tracolla anti-taglio, tasche nascoste e uno scomparto imbottito per laptop fino a 15 pollici. Una compagna femminile e raffinata per città, lavoro e viaggi.',
-    price: 5495,
-    compare_at_price: 10990,
-  },
-  'luxury-leather-hobo-anti-theft-handbag-pouch': {
-    title: 'Luxury Hobo Anti-Theft Handbag + FREE Pouch Wallet',
-    vendor: 'Libra Cases',
-    description: 'Una hobo ligera, espaciosa y pensata per sentirti sicura ogni giorno. La Luxury Hobo Anti-Theft Handbag organizza tutto ciò che ti serve con più tasche e un design elegante, mentre il pouch wallet incluso completa il set. Scegli il tuo colore e porta con te stile e praticità.',
-    price: 5250,
-    compare_at_price: 10500,
-  },
-  'ciara-vintage': {
-    title: 'Ciara Vintage',
-    vendor: 'VOVIA',
-    description: 'Una borsa con anima vintage e spazio per la vita di ogni giorno. Ciara Vintage è realizzata in pelle vegana premium, può essere portata a mano o a spalla e accoglie anche un laptop da 13 pollici, con tracolla regolabile e un raffinato charm removibile. Elegante, pratica e pensata per accompagnarti dal lavoro al weekend.',
-    price: 8700,
-    compare_at_price: 13000,
-  },
-  'the-foldie-sling-bag': {
-    title: 'The Foldie® Sling bag',
-    vendor: 'The Foldie',
-    description: 'Il tuo alleato elegante per muoverti a mani libere. The Foldie® Sling bag protegge i tuoi indispensabili con chiusure sicure, tracolla anti-taglio, tasca RFID e scomparto posteriore nascosto, restando leggerissima: pesa meno di 200 g. Compatta, regolabile e pronta per ogni passeggiata, viaggio o giornata in città.',
-  },
-  '2packbag-travel-kit-mochila-compresion': {
-    title: '2PackBag™ Travel Kit',
-    vendor: '2PackBag',
-    description: 'Viaggia più leggero e porta con te tutto quello che ami. 2PackBag™ comprime i tuoi vestiti in pochi secondi grazie alla chiusura ermetica e alla pompa elettrica USB-C, così hai più spazio nel bagaglio a mano e meno stress prima di partire. Misura 45 × 30 × 20 cm ed è pensata per accompagnarti viaggio dopo viaggio.',
-    offers: {
-      'Buy 1 GET 1 FREE': { price: 4999, compare_at_price: 19998 },
-      'Buy 2 GET 2 FREE + Free Shipping': { price: 9998, compare_at_price: 39996 },
-    },
-  },
+// Our CSV has no price for these: competitor price in EUR (Storefront API, market IT) or
+// converted from USD/GBP. Review them before importing.
+const priceFallbacks = {
+  'https://maisonginza.com/products/aryna-bag': 5495,
+  'https://tryfemlush.com/products/anti-roll-shaper-shorts': 3695,
+  'https://madepants.com/collections/womens-jumpsuits': 5499,
+  'https://madepants.com/collections/womens-overalls': 3999,
+  'https://belksale.com/products/womens-thick-soled-cushioned-casual-sandals': 2099,
+  'https://belksale.com/products/orthopaedic-slip-on-shoes-for-women-uk': 2099,
+  'https://belkmalls.com/products/womens-winter-thick-sole-warm-snow-boots-a': 2699,
+  'https://belksale.com/products/womens-comfortable-open-toe-orthopaedic-sandals': 2099,
 };
 
 const slug = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const esc = s => String(s).replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$/g, '\\$');
 const money = s => Math.round(parseFloat(String(s).replace(',', '.')) * 100) || 0;
 
-function description(row, meta) {
-  const name = row.Producto;
-  if (row.Categoria === 'Bolsos') return `La borsa che segue il tuo ritmo senza rinunciare allo stile. ${name} unisce una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.`;
-  if (row.Categoria === 'Calzado') return `Fai ogni passo con più comfort e stile. ${name} è pensato per accompagnarti ogni giorno, con un design versatile facile da abbinare ai tuoi look preferiti.`;
-  return `Il tuo nuovo capo essenziale, semplice da indossare e facile da valorizzare. ${name} aggiunge un tocco speciale al look e ti fa sentire sempre a tuo agio, in ogni occasione.`;
-}
-
-function variants(row) {
-  const name = row.Producto.toLowerCase();
-  if (row.Categoria === 'Calzado') return { colors: ['Nero', 'Beige', 'Marrone', 'Bianco'], sizes: ['36', '37', '38', '39', '40', '41'] };
-  if (row.Categoria === 'Bolsos') return { colors: ['Nero', 'Marrone', 'Beige', 'Crema'], sizes: ['Taglia unica'] };
-  if (/set|pack|kit|one piece|swimsuit|bikini/i.test(name)) return { colors: ['Nero', 'Beige', 'Blu', 'Verde'], sizes: ['S', 'M', 'L', 'XL'] };
-  return { colors: ['Nero', 'Beige', 'Bianco', 'Verde'], sizes: ['S', 'M', 'L', 'XL'] };
-}
-
-function optionsFor(row, fallback) {
-  if (/the maya \(tote\)/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black', 'Chocolate', 'Brown', 'Burgundy', 'Stone', 'Pink', 'Sky'] }, { name: 'Stile', values: ['Magnet', 'Zipper'] }];
-  if (/tri-sling bag/i.test(row.Producto)) return [{ name: 'Colore', values: ['Onyx'] }];
-  if (/luxury leather hobo anti-theft handbag 2\.0/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black', 'Brown', 'Beige'] }];
-  if (/luxury leather hobo anti-theft handbag \+ pouch/i.test(row.Producto)) return [{ name: 'Colore', values: ['Brown', 'Black', 'Blue', 'Grey', 'Burgundy', 'Red'] }];
-  if (/ciara vintage$/i.test(row.Producto)) return [{ name: 'Colore', values: ['Coffee'] }];
-  if (/foldie sling/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black'] }];
-  if (/2packbag travel kit/i.test(row.Producto)) return [{ name: 'Offerta', values: ['Buy 1 GET 1 FREE', 'Buy 2 GET 2 FREE + Free Shipping'] }];
-  return [{ name: 'Colore', values: fallback.colors }, { name: 'Talla', values: fallback.sizes }];
-}
-
 const collections = Object.values(categoryMap).map(meta => ({ handle: meta.collection, group: meta.group, title: meta.title, description: meta.description }));
-let vid = 1000;
 const products = rows.map((row, i) => {
   const meta = categoryMap[row.Categoria] || categoryMap.Ropa;
-  const v = variants(row);
-  const optionConfig = optionsFor(row, v);
-  const override = sourceOverrides[slug(row.Producto)] || {};
   const colorSets = productColorImageSets[slug(row.Producto)] || null;
-  const baseImages = productImageSets[slug(row.Producto)] || [categoryAssets[row.Categoria] || categoryAssets.Ropa];
-  const product = {
+  const ownImages = (colorSets ? Object.values(colorSets).flat() : productImageSets[slug(row.Producto)] || []).filter(file => fs.existsSync(path.join(root, 'theme', file)));
+  const product = applyItalianCopy({
     id: i + 1,
     handle: slug(row.Producto),
-    title: override.title || row.Producto,
     collection: meta.collection,
     category: row.Categoria,
-    vendor: override.vendor || row.Tienda,
     sourceUrl: row.Link,
-    image: colorSets ? Object.values(colorSets)[0][0] : baseImages[0],
-    images: colorSets ? Object.values(colorSets).flat() : baseImages,
-    imageAlt: `${row.Producto} · immagine catalogo`,
-    description: override.description || description(row, meta),
-    price: override.price || money(row.Precio),
-    compare_at_price: override.compare_at_price || money(row['Precio tachado']),
-    tags: [meta.title, 'Novità', 'Selezione Juanjo'].join(', '),
-    options: optionConfig,
-    variants: [],
-    rating: [4.6, 4.7, 4.8, 4.9][i % 4],
-    reviews: 40 + ((i * 37) % 180),
+    price: money(row.Precio) || priceFallbacks[row.Link] || 0,
+    compare_at_price: money(row['Precio tachado']),
     createdAt: i,
-  };
-  const primaryValues = product.options[0].values;
-  const secondaryValues = product.options[1] ? product.options[1].values : [''];
-  primaryValues.forEach(first => secondaryValues.forEach(second => {
-    const variantOptions = product.options[1] ? [first, second] : [first];
-    const offer = override.offers?.[first];
-    const variantImage = colorSets?.[first]?.[0] || product.image;
-    product.variants.push({ id: ++vid, options: variantOptions, price: offer?.price || product.price, compare_at_price: offer?.compare_at_price || product.compare_at_price, available: true, image: variantImage });
-  }));
-  product.available = true;
+  }, row, colorSets);
+  // Generated category pictures stand in for missing photos in the preview only; they are not imported.
+  product.ownImages = ownImages;
+  product.images = ownImages.length ? ownImages : [categoryAssets[row.Categoria] || categoryAssets.Ropa];
+  product.image = product.images[0];
+  product.variants.forEach(v => { v.image = v.image || product.image; });
+  product.tags = [meta.title, product.productType, 'Novità'].join(', ');
+  product.priceToReview = !money(row.Precio);
   return product;
 });
 
 const js = `// Generated from winners_combinado_100.csv. Source URLs are kept for review only.\nwindow.CATALOG = ${JSON.stringify({ collections, products }, null, 2)};\n`;
 fs.writeFileSync(path.join(root, 'preview', 'catalog.js'), js);
 
-const out = ['Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Price,Variant Compare At Price,Variant Inventory Qty,Variant Inventory Policy,Image Src,Image Position,SEO Title,SEO Description'];
+// Shopify product CSV: product fields on the first row of each handle, one row per variant,
+// extra rows for images beyond the variant count. Sold-out source variants are imported as sold out.
+const columns = ['Handle', 'Title', 'Body (HTML)', 'Vendor', 'Product Category', 'Type', 'Tags', 'Published', 'Option1 Name', 'Option1 Value', 'Option2 Name', 'Option2 Value', 'Option3 Name', 'Option3 Value', 'Variant SKU', 'Variant Inventory Tracker', 'Variant Inventory Qty', 'Variant Inventory Policy', 'Variant Fulfillment Service', 'Variant Price', 'Variant Compare At Price', 'Variant Requires Shipping', 'Variant Taxable', 'Image Src', 'Image Position', 'Image Alt Text', 'Variant Image', 'SEO Title', 'SEO Description', 'Status'];
+const out = [columns.join(',')];
+const skus = new Set();
 for (const p of products) {
-  for (const v of p.variants) {
-    const values = [p.handle, p.title, `<p>${p.description}</p>`, p.vendor, p.category, p.category, p.tags, 'TRUE', p.options[0].name, v.options[0], p.options[1]?.name || '', p.options[1] ? (v.options[1] || '') : '', `${p.handle}-${slug(v.options.join('-'))}`, (v.price / 100).toFixed(2), p.compare_at_price ? (p.compare_at_price / 100).toFixed(2) : '', '0', 'continue', p.image, '1', p.title, p.description];
-    out.push(values.map(x => `"${String(x).replace(/"/g, '""')}"`).join(','));
+  const images = p.ownImages;
+  const lines = Math.max(p.variants.length, images.length);
+  for (let n = 0; n < lines; n++) {
+    const v = p.variants[n];
+    const row = { Handle: p.handle };
+    if (n === 0) Object.assign(row, { Title: p.title, 'Body (HTML)': p.bodyHtml, Vendor: p.vendor, 'Product Category': p.taxonomy, Type: p.productType, Tags: p.tags, Published: p.verified ? 'TRUE' : 'FALSE', 'SEO Title': p.seoTitle, 'SEO Description': p.seoDescription, Status: p.verified ? 'active' : 'draft' });
+    if (v) {
+      let sku = `${p.handle}-${slug(v.options.join('-'))}`.slice(0, 120);
+      for (let k = 2; skus.has(sku); k++) sku = `${p.handle}-${slug(v.options.join('-'))}`.slice(0, 115) + `-${k}`;
+      skus.add(sku);
+      p.options.forEach((o, k) => { if (n === 0) row[`Option${k + 1} Name`] = o.name; row[`Option${k + 1} Value`] = v.options[k]; });
+      Object.assign(row, { 'Variant SKU': sku, 'Variant Inventory Tracker': 'shopify', 'Variant Inventory Qty': '0', 'Variant Inventory Policy': v.available ? 'continue' : 'deny', 'Variant Fulfillment Service': 'manual', 'Variant Price': (v.price / 100).toFixed(2), 'Variant Compare At Price': v.compare_at_price ? (v.compare_at_price / 100).toFixed(2) : '', 'Variant Requires Shipping': 'TRUE', 'Variant Taxable': 'TRUE', 'Variant Image': images.includes(v.image) ? v.image : '' });
+    }
+    if (images[n]) Object.assign(row, { 'Image Src': images[n], 'Image Position': String(n + 1), 'Image Alt Text': `${p.title} · ${n + 1}` });
+    out.push(columns.map(c => `"${String(row[c] ?? '').replace(/"/g, '""')}"`).join(','));
   }
 }
 fs.writeFileSync(path.join(root, 'shopify_import_100_productos_it.csv'), out.join('\n') + '\n');
@@ -266,7 +201,7 @@ const plannedImageCount = products.reduce((n, p) => {
   const colors = p.options[0].name === 'Colore' ? p.options[0].values : ['unico'];
   return n + (colors.length === 1 ? 6 : colors.length * 4);
 }, 0);
-fs.writeFileSync(path.join(root, 'catalog_summary.json'), JSON.stringify({ generatedAt: new Date().toISOString(), products: products.length, variants: products.reduce((n, p) => n + p.variants.length, 0), collections, imagePlan: { planned: plannedImageCount, uniqueSetsReady: products.filter(p => p.images.length > 1).length, generatedImagesReady: products.reduce((n, p) => n + p.images.length, 0) } }, null, 2));
+fs.writeFileSync(path.join(root, 'catalog_summary.json'), JSON.stringify({ generatedAt: new Date().toISOString(), products: products.length, variants: products.reduce((n, p) => n + p.variants.length, 0), collections, imagePlan: { planned: plannedImageCount, uniqueSetsReady: products.filter(p => p.ownImages.length > 1).length, generatedImagesReady: products.reduce((n, p) => n + p.ownImages.length, 0) } }, null, 2));
 const imageRoles = {
   'Bolsos': ['producto solo sobre fondo beige editorial, vista frontal', 'producto solo sobre fondo beige editorial, vista tres cuartos', 'bolso llevado por una modelo italiana en un look elegante de ciudad', 'bolso en uso por una modelo italiana durante un plan cotidiano chic'],
   'Calzado': ['producto solo sobre fondo beige editorial, vista lateral', 'producto solo sobre fondo beige editorial, vista tres cuartos', 'calzado llevado por una modelo italiana en movimiento', 'look femenino completo con modelo italiana en un entorno urbano'],

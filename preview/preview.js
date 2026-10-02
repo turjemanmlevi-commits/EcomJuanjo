@@ -169,7 +169,7 @@
     const tag = !p.available ? '<div class="grid-product__tag grid-product__tag--soldout">Esaurito</div>' : onSale ? `<div class="grid-product__tag">-${Math.floor(((p.compare_at_price - p.price) * 100) / p.compare_at_price)}%</div>` : '';
     const images = productImage(p);
     const visual = images.length ? `<img src="${images[0]}" alt="${esc(p.imageAlt || p.title)}">` : ph(esc(p.title.split(' ').slice(0, 2).join(' ')));
-    return `<div class="grid-product">${tag}<a href="${productUrl(p)}" class="grid-product__link"><div class="grid-product__image-mask"><div class="grid__image-ratio">${visual}</div></div><div class="grid-product__meta"><div class="grid-product__title">${esc(p.title)}</div>${starsHtml(p.rating, `(${p.reviews})`, true)}<div class="grid-product__price${onSale ? ' grid-product__price--sale' : ''}"><span>${money(p.price)}</span>${onSale ? `<span class="grid-product__price--original">${money(p.compare_at_price)}</span>` : ''}</div></div></a></div>`;
+    return `<div class="grid-product">${tag}<a href="${productUrl(p)}" class="grid-product__link"><div class="grid-product__image-mask"><div class="grid__image-ratio">${visual}</div></div><div class="grid-product__meta"><div class="grid-product__title">${esc(p.title)}</div>${p.rating ? starsHtml(p.rating, `(${p.reviews})`, true) : ''}<div class="grid-product__price${onSale ? ' grid-product__price--sale' : ''}"><span>${money(p.price)}</span>${onSale ? `<span class="grid-product__price--original">${money(p.compare_at_price)}</span>` : ''}</div></div></a></div>`;
   };
   const currentProduct = products.find((p) => p.handle === params.get('p')) || products[4];
   const featured = document.body.classList.contains('template-product')
@@ -396,7 +396,8 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
     section.querySelector('.product-single__title').textContent = p.title;
     section.querySelector('.product-block--header').insertAdjacentHTML('beforebegin', `<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><a href="${collectionUrl(col.handle)}">${col.title}</a></nav>`);
     const descriptionBlock = [...section.querySelectorAll('.product-single__meta .product-block .rte')].find((el) => !el.closest('.product-block--tab'));
-    if (descriptionBlock) {
+    if (descriptionBlock && p.bodyHtml) descriptionBlock.innerHTML = p.bodyHtml;
+    else if (descriptionBlock) {
       const highlights = p.category === 'Bolsos'
         ? ['Spazio per i tuoi indispensabili', 'Design versatile da giorno e da sera', 'Pensata per accompagnarti ogni giorno']
         : p.category === 'Calzado'
@@ -424,11 +425,13 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
       });
     }
 
-    const full = Math.floor(p.rating);
-    section.querySelector('.product-rating').outerHTML = starsHtml(p.rating, `${p.rating} (${p.reviews} recensioni)`, false);
-    const ratingEl = section.querySelector('.product-rating');
-    ratingEl.parentElement.classList.add('product-rating-row');
-    ratingEl.insertAdjacentHTML('afterend', '<a class="product-rating__source" href="https://it.trustpilot.com" target="_blank" rel="noopener"><img src="../theme/assets/trustpilot-logo.webp" alt="Recensioni su Trustpilot" width="400" height="98"></a>');
+    // Stars only when the product has real reviews; the catalogue carries none yet.
+    if (p.rating) {
+      section.querySelector('.product-rating').outerHTML = starsHtml(p.rating, `${p.rating} (${p.reviews} recensioni)`, false);
+      section.querySelector('.product-rating').parentElement.classList.add('product-rating-row');
+    } else {
+      section.querySelector('.product-rating').remove();
+    }
 
     const onSale = variant.compare_at_price > variant.price;
     const priceBlock = section.querySelector('.product-single__meta [data-price-block]');
