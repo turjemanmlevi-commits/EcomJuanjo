@@ -1702,8 +1702,8 @@
       "status": "reference-asset-ready"
     },
     {
-      "handle": "zaino-da-viaggio-alba",
-      "title": "Zaino da viaggio Alba",
+      "handle": "sacca-sottovuoto-da-viaggio-alba",
+      "title": "Sacca sottovuoto da viaggio Alba",
       "category": "Bolsos",
       "sourceUrl": "https://overpackbag.com/products/overpack-bag%E2%84%A2",
       "colors": [
@@ -1734,42 +1734,42 @@
       ],
       "imageSlots": [
         {
-          "filename": "zaino-da-viaggio-alba/unico/01-producto-solo-sobre-fondo-beige-editorial-vista-frontal.png",
+          "filename": "sacca-sottovuoto-da-viaggio-alba/unico/01-producto-solo-sobre-fondo-beige-editorial-vista-frontal.png",
           "color": "unico",
           "role": "producto solo sobre fondo beige editorial, vista frontal",
           "model": "modella italiana mediterranea, capelli castani mossi",
           "status": "pending-generation"
         },
         {
-          "filename": "zaino-da-viaggio-alba/unico/02-producto-solo-sobre-fondo-beige-editorial-vista-tres-cuartos.png",
+          "filename": "sacca-sottovuoto-da-viaggio-alba/unico/02-producto-solo-sobre-fondo-beige-editorial-vista-tres-cuartos.png",
           "color": "unico",
           "role": "producto solo sobre fondo beige editorial, vista tres cuartos",
           "model": "modella italiana dai capelli scuri raccolti, look minimal",
           "status": "pending-generation"
         },
         {
-          "filename": "zaino-da-viaggio-alba/unico/03-bolso-llevado-por-una-modelo-italiana-en-un-look-elegante-de-ciudad.png",
+          "filename": "sacca-sottovuoto-da-viaggio-alba/unico/03-bolso-llevado-por-una-modelo-italiana-en-un-look-elegante-de-ciudad.png",
           "color": "unico",
           "role": "bolso llevado por una modelo italiana en un look elegante de ciudad",
           "model": "modella italiana bionda, stile milanese contemporaneo",
           "status": "pending-generation"
         },
         {
-          "filename": "zaino-da-viaggio-alba/unico/04-bolso-en-uso-por-una-modelo-italiana-durante-un-plan-cotidiano-chic.png",
+          "filename": "sacca-sottovuoto-da-viaggio-alba/unico/04-bolso-en-uso-por-una-modelo-italiana-durante-un-plan-cotidiano-chic.png",
           "color": "unico",
           "role": "bolso en uso por una modelo italiana durante un plan cotidiano chic",
           "model": "modella italiana con capelli ramati, styling editoriale",
           "status": "pending-generation"
         },
         {
-          "filename": "zaino-da-viaggio-alba/unico/05-producto-solo-sobre-fondo-beige-editorial-vista-frontal.png",
+          "filename": "sacca-sottovuoto-da-viaggio-alba/unico/05-producto-solo-sobre-fondo-beige-editorial-vista-frontal.png",
           "color": "unico",
           "role": "producto solo sobre fondo beige editorial, vista frontal",
           "model": "modella italiana con caschetto nero, estetica sofisticata",
           "status": "pending-generation"
         },
         {
-          "filename": "zaino-da-viaggio-alba/unico/06-producto-solo-sobre-fondo-beige-editorial-vista-tres-cuartos.png",
+          "filename": "sacca-sottovuoto-da-viaggio-alba/unico/06-producto-solo-sobre-fondo-beige-editorial-vista-tres-cuartos.png",
           "color": "unico",
           "role": "producto solo sobre fondo beige editorial, vista tres cuartos",
           "model": "modella italiana dai capelli ricci, look naturale",

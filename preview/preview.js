@@ -395,7 +395,7 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
 
     section.querySelector('.product-single__title').textContent = p.title;
     section.querySelector('.product-block--header').insertAdjacentHTML('beforebegin', `<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><a href="${collectionUrl(col.handle)}">${col.title}</a></nav>`);
-    const descriptionBlock = [...section.querySelectorAll('.product-single__meta .product-block .rte')].find((el) => !el.closest('.product-block--tab'));
+    const descriptionBlock = [...section.querySelectorAll('.product-single__meta .product-block .rte')].find((el) => !el.closest('.product-block--tab, dialog'));
     if (descriptionBlock && p.bodyHtml) descriptionBlock.innerHTML = p.bodyHtml;
     else if (descriptionBlock) {
       const highlights = p.category === 'Bolsos'

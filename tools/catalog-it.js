@@ -24,7 +24,7 @@ function normaliseSize(option) {
   const m = option.name.match(/^Taglia\s*\(([^)]+)\)$/);
   if (!m) return option;
   const system = m[1].trim().split(/\s+/)[0].toUpperCase();
-  const label = v => (/^\d/.test(v) ? `${system} ${v}` : v);
+  const label = v => (!/\b(UK|US|EU)\b/.test(v) && /^(\d|Donna|Uomo)/.test(v) ? `${system} ${v}` : v);
   return { ...option, name: 'Taglia', values: option.values.map(label), lookup: new Map([...option.lookup].map(([src, it]) => [src, label(it)])) };
 }
 

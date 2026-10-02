@@ -36,10 +36,10 @@ window.CATALOG = {
       "productType": "Borse a spalla",
       "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Shoulder Bags",
       "imageAlt": "Borsa a spalla Vittoria",
-      "description": "Borsa a spalla Vittoria da portare ogni giorno, con le mani libere: scegli tra nero, marrone, verde oliva, rosa, rosso e blu per ogni tuo look.",
+      "description": "Borsa a spalla Vittoria con scomparti antifurto nascosti e cinghia regolabile, da portare sotto il braccio o a tracolla. Leggera, per città e viaggi.",
       "seoTitle": "Borsa a spalla Vittoria in sei colori",
-      "seoDescription": "Borsa a spalla Vittoria da portare ogni giorno, con le mani libere: scegli tra nero, marrone, verde oliva, rosa, rosso e blu per ogni tuo look.",
-      "bodyHtml": "<p>Ci sono borse che scegli per un’occasione e borse che finiscono sulla spalla ogni mattina, quasi senza pensarci. Vittoria è pensata per la seconda categoria: una borsa a spalla da tenere vicina, che ti lascia le mani libere per il caffè, l’ombrello o il telefono.</p><p>La vera domanda è il colore. Nero e marrone sono le scelte che non tradiscono mai, dal lunedì in ufficio alla cena del sabato. Verde oliva e blu portano carattere senza alzare la voce, mentre rosa e rosso sono per chi vuole che la borsa diventi il punto luce dell’outfit, anche sopra un semplice jeans con il maglione.</p><ul><li><strong>Da portare a spalla:</strong> si sistema sotto il braccio e ti lascia libere entrambe le mani.</li><li><strong>Sei colori:</strong> nero, marrone, verde oliva, rosa, rosso e blu, dai neutri più facili alle tinte vivaci.</li><li><strong>Abbinamenti semplici:</strong> i toni neutri accompagnano ogni giorno, quelli accesi ravvivano i capi più basici.</li></ul><p><strong>Dettagli</strong></p><ul><li>Formato: borsa a spalla</li><li>Colori disponibili: nero, marrone, verde oliva, rosa, rosso, blu</li></ul>",
+      "seoDescription": "Borsa a spalla Vittoria con scomparti antifurto nascosti e cinghia regolabile, da portare sotto il braccio o a tracolla. Leggera, per città e viaggi.",
+      "bodyHtml": "<p>Le cose importanti restano vicine e al sicuro: Vittoria ha scomparti antifurto nascosti, dove telefono e portafoglio spariscono alla vista ma tornano in mano in un attimo. Si porta stretta sotto il braccio oppure a tracolla, e la cinghia regolabile sta bene sia sopra il cappotto sia sotto la giacca.</p><p>È pensata per l’uso di tutti i giorni e per il viaggio, dal tragitto verso l’ufficio ai corridoi affollati di un aeroporto. Dentro trovano posto uno smartphone grande, il portafoglio, le chiavi, il passaporto e il power bank, ognuno nel suo scomparto.</p><ul><li><strong>Scomparti antifurto nascosti:</strong> chiusure magnetiche e cerniere robuste proteggono ciò che conta.</li><li><strong>Vestibilità regolabile:</strong> sotto il braccio o a tracolla, con una cinghia pensata per distribuire il peso.</li><li><strong>Carattere vintage:</strong> il materiale effetto pelle resiste alle intemperie e si ammorbidisce con il tempo.</li><li><strong>Leggera e robusta:</strong> cuciture rinforzate e zip solide, per accompagnarti a lungo.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: effetto pelle vintage, resistente alle intemperie</li><li>Chiusure: cerniere e chiusure magnetiche</li><li>Tasche: scomparti separati, con tasche antifurto nascoste</li><li>Tracolla: completamente regolabile, da portare sotto il braccio o a tracolla</li><li>Contiene: smartphone grande, portafoglio, chiavi, passaporto, power bank</li></ul>",
       "verified": true,
       "colorSources": {
         "Nero": "Black",
@@ -252,10 +252,10 @@ window.CATALOG = {
       "productType": "Borse da viaggio e zaini",
       "taxonomy": "Luggage & Bags > Duffel Bags",
       "imageAlt": "Borsa da viaggio Olimpia",
-      "description": "Borsa da viaggio Olimpia 2.0: tre abiti e vestiti per oltre dieci giorni in un solo bagaglio. Modello Classico o trolley, in rosa, antracite o bianco.",
-      "seoTitle": "Borsa da viaggio Olimpia per oltre 10 giorni di vestiti",
-      "seoDescription": "Borsa da viaggio Olimpia 2.0: tre abiti e vestiti per oltre dieci giorni in un solo bagaglio. Modello Classico o trolley, in rosa, antracite o bianco.",
-      "bodyHtml": "<p>Tre abiti piegati con cura e, accanto, i vestiti per più di dieci giorni: tutto in una sola borsa. Olimpia arriva nella versione 2.0, rinnovata e migliorata, per chi vuole partire con un unico bagaglio e la testa leggera.</p><p>Pensa a un matrimonio fuori città, con l’abito della cerimonia e quello per la sera dopo: invece di dividere tutto tra più valigie, lo sistemi qui. Meno pezzi da gestire in aeroporto, meno supplementi per il bagaglio extra. Puoi sceglierla nel modello Classico o nella versione trolley, quando preferisci farla scorrere invece di portarla.</p><ul><li><strong>Spazio per i viaggi lunghi:</strong> ci stanno tre abiti più i vestiti per oltre dieci giorni.</li><li><strong>Un bagaglio al posto di due:</strong> riunisci tutto in un’unica borsa e riduci i costi del bagaglio extra.</li><li><strong>Versione 2.0:</strong> il modello è stato rinnovato e migliorato rispetto alla prima edizione.</li><li><strong>Due modelli:</strong> Classico oppure trolley, in base a come ami viaggiare.</li></ul><p><strong>Dettagli</strong></p><ul><li>Capienza: tre abiti più vestiti per oltre dieci giorni</li><li>Modelli: Classico o versione trolley</li><li>Colori: rosa, antracite, bianco neve</li></ul>",
+      "description": "Borsa da viaggio Olimpia in pelle vegana, formato cabina: gruccia integrata, fodera antipiega, vano scarpe e versione trolley con ruote rimovibili.",
+      "seoTitle": "Borsa da viaggio Olimpia in pelle vegana, misura cabina",
+      "seoDescription": "Borsa da viaggio Olimpia in pelle vegana, formato cabina: gruccia integrata, fodera antipiega, vano scarpe e versione trolley con ruote rimovibili.",
+      "bodyHtml": "<p>Tre abiti piegati con cura e, accanto, i vestiti per più di dieci giorni: tutto in una borsa pensata per le misure del bagaglio a mano. Olimpia 2.0 ha una gruccia integrata e una fodera antipiega, così i tuoi abiti viaggiano distesi e arrivano più in ordine.</p><p>Dentro ogni cosa ha il suo posto: un vano dedicato tiene le scarpe lontane dai vestiti e più tasche accolgono i trucchi. Fuori, la pelle vegana con rivestimento idrorepellente non teme schizzi e pioggia leggera. La porti in spalla con la tracolla imbottita oppure scegli la versione trolley, con ruote che si staccano quando vuoi una linea più snella.</p><ul><li><strong>Formato cabina:</strong> 20 x 9 x 12,5 pollici, studiata sulle misure del bagaglio a mano delle compagnie aeree.</li><li><strong>Abiti più in ordine:</strong> gruccia integrata e fodera antipiega.</li><li><strong>Scarpe separate:</strong> uno scomparto dedicato le tiene lontane dai vestiti.</li><li><strong>Trucchi a portata di mano:</strong> più tasche pensate per il make-up.</li><li><strong>Spalla o ruote:</strong> tracolla imbottita e, nella versione trolley, ruote rimovibili.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana (PU) con rivestimento idrorepellente</li><li>Misure: 20 x 9 x 12,5 pollici (circa 51 x 23 x 32 cm)</li><li>Peso: 1,1 kg</li><li>Interno: gruccia, fodera antipiega, vano scarpe, tasche make-up</li><li>Chiusure: cerniere antiscivolo</li><li>Trasporto: tracolla imbottita; ruote rimovibili nella versione trolley</li><li>Colori: rosa, antracite, bianco neve</li></ul>",
       "verified": true,
       "colorSources": {
         "Rosa": "Rose",
@@ -369,12 +369,12 @@ window.CATALOG = {
       "title": "Kit da viaggio Marta",
       "vendor": "ORIONA",
       "productType": "Borse da viaggio e zaini",
-      "taxonomy": "Luggage & Bags > Backpacks",
+      "taxonomy": "Luggage & Bags > Duffel Bags",
       "imageAlt": "Kit da viaggio Marta",
-      "description": "Kit da viaggio Marta: i vestiti per due settimane nel bagaglio a mano, senza imbarcare la valigia in stiva. Per partire leggera e senza costi extra.",
-      "seoTitle": "Kit da viaggio Marta: 2 settimane nel bagaglio a mano",
-      "seoDescription": "Kit da viaggio Marta: i vestiti per due settimane nel bagaglio a mano, senza imbarcare la valigia in stiva. Per partire leggera e senza costi extra.",
-      "bodyHtml": "<p>Il bagaglio a mano può bastare anche per due settimane. Il kit da viaggio Marta nasce esattamente per questo: farti entrare in cabina con i vestiti per quattordici giorni, senza dover imbarcare una valigia in stiva.</p><p>È pensato per chi ama viaggiare leggera ma non vuole rinunciare al cambio giusto per ogni giornata. Te ne accorgi al rientro da un giro di quindici giorni tra città diverse: niente attesa al nastro bagagli, niente costi per la valigia da stiva, e sei già pronta a ripartire. Lo prepari con calma la sera prima e la mattina chiudi la porta senza pensieri.</p><ul><li><strong>Due settimane in cabina:</strong> fa entrare nel bagaglio a mano i vestiti per quattordici giorni.</li><li><strong>Zero costi per il bagaglio:</strong> se tutto viaggia con te, non paghi la valigia da imbarcare.</li><li><strong>Più libertà di movimento:</strong> scendi dall’aereo e sei già pronta a uscire.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tipo: kit da viaggio per il bagaglio a mano</li><li>Capienza: vestiti per due settimane</li><li>Versione: modello unico</li></ul>",
+      "description": "Kit da viaggio Marta: sacca sottovuoto in nylon impermeabile da 45 x 30 x 20 cm con pompa elettrica USB-C, per due settimane di vestiti in cabina.",
+      "seoTitle": "Kit da viaggio Marta: sacca sottovuoto con pompa",
+      "seoDescription": "Kit da viaggio Marta: sacca sottovuoto in nylon impermeabile da 45 x 30 x 20 cm con pompa elettrica USB-C, per due settimane di vestiti in cabina.",
+      "bodyHtml": "<p>Il bagaglio a mano può bastare anche per due settimane, se i vestiti occupano metà dello spazio. Il kit Marta unisce una sacca sottovuoto in nylon impermeabile e una piccola pompa elettrica: chiudi la zip ermetica, premi il pulsante e in pochi secondi la sacca si riduce a metà della sua misura.</p><p>La sacca misura 45 x 30 x 20 cm e accoglie da 10 a 15 capi, a seconda dello spessore. Entra nel trolley da cabina, nello zaino, nel borsone o nella valigia da stiva. La pompa sta in una tasca della giacca, si ricarica via USB-C e fa fino a 20 compressioni con una carica, così in hotel rifai i bagagli anche senza una presa vicina.</p><ul><li><strong>Metà dell’ingombro:</strong> compressa, la sacca si riduce a metà della sua misura.</li><li><strong>Pompa elettrica inclusa:</strong> ricaricabile via USB-C, fino a 20 utilizzi per carica.</li><li><strong>Vestiti protetti:</strong> il nylon impermeabile e antistrappo li tiene puliti e asciutti.</li></ul><p><strong>Dettagli</strong></p><ul><li>Nel kit: sacca sottovuoto e pompa elettrica</li><li>Materiale: nylon impermeabile, resistente agli strappi</li><li>Misure della sacca: 45 x 30 x 20 cm</li><li>Capienza: da 10 a 15 capi, in base allo spessore</li><li>Chiusura: zip ermetica antiperdita</li><li>Pompa: 8,5 x 3,5 cm, ricarica USB-C, fino a 20 compressioni per carica</li><li>Consiglio: stendi i capi piegati in piano prima di chiudere</li></ul>",
       "verified": true,
       "colorSources": {},
       "options": [
@@ -927,10 +927,10 @@ window.CATALOG = {
       "productType": "Borse a spalla",
       "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Hobo Bags",
       "imageAlt": "Borsa hobo antifurto Clelia",
-      "description": "Borsa hobo antifurto Clelia effetto pelle, morbida e resistente all’acqua, con tasca nascosta, due tracolle regolabili e pochette coordinata inclusa.",
-      "seoTitle": "Borsa hobo antifurto Clelia con tasca nascosta",
-      "seoDescription": "Borsa hobo antifurto Clelia effetto pelle, morbida e resistente all’acqua, con tasca nascosta, due tracolle regolabili e pochette coordinata inclusa.",
-      "bodyHtml": "<p>La prima cosa che noti è la morbidezza: Clelia ha la forma rilassata della hobo, ma dentro è tutt’altro che disordinata. Gli scomparti ben pensati tengono ogni cosa al suo posto e una tasca antifurto nascosta custodisce ciò che conta di più.</p><p>Ha un’aria da borsa firmata e si porta senza pensarci. Con le due tracolle regolabili decidi tu: a mano, a spalla, oppure a tracolla quando giri per una città nuova e vuoi sentirla vicina. Il materiale resiste all’acqua e ai graffi, così non devi trattarla con i guanti.</p><ul><li><strong>Tasca antifurto nascosta:</strong> uno spazio segreto per quello che vuoi tenere al sicuro.</li><li><strong>Scomparti intelligenti:</strong> ogni oggetto trova il suo spazio, senza frugare.</li><li><strong>Tre modi di portarla:</strong> due tracolle regolabili per usarla a mano, a spalla o a tracolla.</li><li><strong>Pratica ogni giorno:</strong> morbida, resistente all’acqua e ai graffi, fatta per durare anni.</li><li><strong>Pochette coordinata:</strong> nella confezione trovi anche una pochette portafoglio abbinata.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: effetto pelle morbido, resistente all’acqua e antigraffio</li><li>Interno: scomparti organizzati e tasca antifurto nascosta</li><li>Tracolle: due, regolabili</li><li>Incluso: pochette portafoglio coordinata</li><li>Colori: marrone, nero, blu, grigio, bordeaux, rosso</li></ul>",
+      "description": "Borsa hobo antifurto Clelia in pelle vegana morbida, resistente all’acqua e ai graffi, con tasca nascosta sul retro, zip e due tracolle regolabili.",
+      "seoTitle": "Borsa hobo antifurto Clelia in pelle vegana",
+      "seoDescription": "Borsa hobo antifurto Clelia in pelle vegana morbida, resistente all’acqua e ai graffi, con tasca nascosta sul retro, zip e due tracolle regolabili.",
+      "bodyHtml": "<p>La prima cosa che noti è la morbidezza della pelle vegana, liscia e piena al tatto. Clelia ha la forma rilassata della hobo, finiture metalliche curate e nappine eleganti che la rendono riconoscibile. Dentro, gli scomparti ben pensati accolgono tutto, dal tablet al lucidalabbra.</p><p>La sicurezza è discreta: una cerniera chiude la borsa in alto e sul retro c’è una tasca nascosta per ciò che non vuoi perdere di vista. Con le due tracolle regolabili passi da borsa a mano a borsa a spalla o a tracolla in pochi secondi, dal brunch del sabato all’imbarco di un volo.</p><ul><li><strong>Tasca posteriore nascosta:</strong> uno spazio segreto per quello che vuoi tenere al sicuro.</li><li><strong>Zip superiore:</strong> la borsa resta chiusa e il contenuto al riparo da mani curiose.</li><li><strong>Tre modi di portarla:</strong> a mano, a spalla o a tracolla, regolando le due tracolle.</li><li><strong>Fatta per durare:</strong> resiste ad acqua, graffi e usura, stagione dopo stagione.</li><li><strong>Pochette coordinata:</strong> nella confezione trovi anche una pochette portafoglio abbinata.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana morbida, resistente all’acqua e ai graffi</li><li>Finiture: minuteria metallica pregiata, nappine decorative</li><li>Chiusura: cerniera superiore</li><li>Interno: scomparti organizzati, spazio anche per un tablet</li><li>Tasche: tasca antifurto nascosta sul retro</li><li>Tracolle: due, regolabili</li><li>Incluso: pochette portafoglio coordinata</li><li>Colori: marrone, nero, blu, grigio, bordeaux, rosso</li></ul>",
       "verified": true,
       "colorSources": {
         "Marrone": "Brown",
@@ -1087,10 +1087,10 @@ window.CATALOG = {
       "productType": "Borse a spalla",
       "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Hobo Bags",
       "imageAlt": "Borsa hobo antifurto Clelia 2.0",
-      "description": "Borsa hobo antifurto Clelia 2.0, edizione a sei livelli di sicurezza, con pochette portafoglio coordinata inclusa. In nero, marrone o beige.",
-      "seoTitle": "Borsa hobo antifurto Clelia 2.0 con pochette",
-      "seoDescription": "Borsa hobo antifurto Clelia 2.0, edizione a sei livelli di sicurezza, con pochette portafoglio coordinata inclusa. In nero, marrone o beige.",
-      "bodyHtml": "<p>Clelia 2.0 nasce con una parola d’ordine: protezione. È la nuova versione della nostra hobo antifurto, in un’edizione dedicata alla sicurezza su sei livelli, per portare con te ciò che ti serve con più tranquillità.</p><p>La forma è quella morbida e accogliente della hobo, facile da abbinare dal lunedì al weekend. È pensata per chi vuole una borsa elegante e insieme tranquilla da portare tra la gente, sul tram all’ora di punta o in viaggio. Insieme alla borsa ricevi una pochette portafoglio coordinata, comoda da spostare in un’altra borsa quando la sera cambi look.</p><ul><li><strong>Edizione a sei livelli di sicurezza:</strong> la versione 2.0 è dedicata alla protezione di ciò che porti con te.</li><li><strong>Linea hobo:</strong> forma morbida e rilassata, con finitura effetto pelle.</li><li><strong>Pochette portafoglio inclusa:</strong> coordinata alla borsa, per avere carte e contanti sempre in ordine.</li><li><strong>Tre colori da tutti i giorni:</strong> nero, marrone e beige, neutri che stanno bene con tutto.</li></ul><p><strong>Dettagli</strong></p><ul><li>Modello: hobo antifurto, versione 2.0</li><li>Finitura: effetto pelle</li><li>Sicurezza: edizione a sei livelli</li><li>Incluso: pochette portafoglio coordinata</li><li>Colori: nero, marrone, beige</li></ul>",
+      "description": "Borsa hobo antifurto Clelia 2.0: fodera RFID, cerniere bloccabili, tracolla antitaglio, vano laptop da 15 pollici e pochette coordinata inclusa.",
+      "seoTitle": "Borsa hobo antifurto Clelia 2.0 con fodera RFID",
+      "seoDescription": "Borsa hobo antifurto Clelia 2.0: fodera RFID, cerniere bloccabili, tracolla antitaglio, vano laptop da 15 pollici e pochette coordinata inclusa.",
+      "bodyHtml": "<p>Al tavolino di un caffè la appoggi accanto a te e fai passare la cinghia laterale intorno alla gamba della sedia: Clelia 2.0 resta lì, ancorata, mentre ti godi il cappuccino. È la nuova versione della nostra hobo antifurto, con sei livelli di sicurezza dentro una linea morbida ed elegante.</p><p>Ogni livello ha un compito preciso. La fodera intera scherma i segnali RFID, così carte, passaporto e dispositivi sono protetti ovunque li metti. Le doppie cerniere dorate hanno un blocco integrato, la tracolla nasconde un’anima rinforzata che resiste ai tagli e gli scomparti nascosti, a filo della borsa, da fuori non si vedono. C’è anche un vano imbottito per il laptop fino a 15 pollici, con tasche laterali per la borraccia.</p><ul><li><strong>Fodera RFID completa:</strong> protegge carte, passaporto e dispositivi in ogni tasca.</li><li><strong>Cerniere con blocco:</strong> doppie zip dorate con meccanismo di chiusura integrato.</li><li><strong>Tracolla antitaglio:</strong> l’anima rinforzata la rende difficile da tagliare.</li><li><strong>Scomparti invisibili:</strong> a filo della borsa, per carte, contanti e chiavi.</li><li><strong>Cinghia da tavolo:</strong> la ancora a sedia o tavolino al bar, al ristorante, in aeroporto.</li></ul><p><strong>Dettagli</strong></p><ul><li>Sicurezza: sei livelli, dalla fodera RFID alla cinghia da tavolo</li><li>Finiture: effetto pelle, doppie cerniere color oro</li><li>Interno: vano imbottito per laptop fino a 15 pollici</li><li>Tasche: laterali per la borraccia, scomparti nascosti</li><li>Incluso: pochette portafoglio coordinata</li><li>Colori: nero, marrone, beige</li></ul>",
       "verified": true,
       "colorSources": {
         "Nero": "Black",
@@ -1174,7 +1174,7 @@ window.CATALOG = {
     },
     {
       "id": 10,
-      "handle": "zaino-da-viaggio-alba",
+      "handle": "sacca-sottovuoto-da-viaggio-alba",
       "collection": "borse",
       "category": "Bolsos",
       "sourceUrl": "https://overpackbag.com/products/overpack-bag%E2%84%A2",
@@ -1182,15 +1182,15 @@ window.CATALOG = {
       "compare_at_price": 9998,
       "createdAt": 9,
       "imageKey": "overpackbag-mochila-compresion",
-      "title": "Zaino da viaggio Alba",
+      "title": "Sacca sottovuoto da viaggio Alba",
       "vendor": "ORIONA",
       "productType": "Borse da viaggio e zaini",
-      "taxonomy": "Luggage & Bags > Backpacks",
-      "imageAlt": "Zaino da viaggio Alba",
-      "description": "Zaino da viaggio Alba, pensato per chi vuole portare di più e spendere di meno: un solo zaino sulle spalle e le mani libere per tutto il viaggio.",
-      "seoTitle": "Zaino da viaggio Alba per portare di più",
-      "seoDescription": "Zaino da viaggio Alba, pensato per chi vuole portare di più e spendere di meno: un solo zaino sulle spalle e le mani libere per tutto il viaggio.",
-      "bodyHtml": "<p>Porta di più, spendi di meno: lo zaino da viaggio Alba ruota tutto intorno a questa idea. È per chi prepara il bagaglio pensando a cosa può aggiungere, non a cosa deve lasciare a casa.</p><p>Ti immagini già in fila all’imbarco per un weekend lungo, con un solo zaino sulle spalle e niente altro da trascinare. È un compagno di viaggio semplice e diretto, per chi vuole muoversi con un unico bagaglio e tenere le mani libere per biglietto, telefono e un caffè al volo. Lo prepari, lo chiudi, parti.</p><ul><li><strong>Pensato per riempirlo:</strong> nasce per farti portare più cose in un solo zaino.</li><li><strong>Meno spese:</strong> l’idea di partenza è viaggiare pagando di meno.</li><li><strong>Mani libere:</strong> si porta sulle spalle, così ti muovi agile tra stazioni e aeroporti.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tipo: zaino da viaggio</li><li>Versione: modello unico</li></ul>",
+      "taxonomy": "Luggage & Bags > Duffel Bags",
+      "imageAlt": "Sacca sottovuoto da viaggio Alba",
+      "description": "Sacca sottovuoto da viaggio Alba in nylon impermeabile, 45 x 30 x 20 cm, fino a 15 capi: pompa elettrica USB-C inclusa o compressione a mano.",
+      "seoTitle": "Sacca sottovuoto da viaggio Alba con pompa elettrica",
+      "seoDescription": "Sacca sottovuoto da viaggio Alba in nylon impermeabile, 45 x 30 x 20 cm, fino a 15 capi: pompa elettrica USB-C inclusa o compressione a mano.",
+      "bodyHtml": "<p>Porta di più, spendi di meno: Alba è una sacca sottovuoto pensata per farti stare in valigia quello che di solito lasci a casa. La riempi con i capi piegati, chiudi la zip ermetica, colleghi la pompa alla valvola e in una decina di secondi l’aria se ne va.</p><p>Misura 45 x 30 x 20 cm e accoglie fino a 15 capi, in media abbastanza per 7–10 giorni: una settimana al mare o una trasferta di lavoro. Si infila in qualsiasi trolley, zaino o borsone. La pompa arriva già carica e si ricarica via USB-C; e se preferisci fare senza, arrotoli la sacca e fai uscire l’aria dalla valvola a mano, in circa un minuto.</p><ul><li><strong>Più spazio nello stesso bagaglio:</strong> compressa, la sacca si riduce a metà della sua misura.</li><li><strong>Due modi per comprimere:</strong> con la pompa elettrica in pochi secondi o arrotolandola a mano.</li><li><strong>Vestiti freschi:</strong> la chiusura ermetica li tiene lontani dagli odori.</li><li><strong>Nylon impermeabile:</strong> resistente agli strappi, da riusare viaggio dopo viaggio.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: nylon impermeabile antistrappo</li><li>Misure: 45 x 30 x 20 cm</li><li>Capienza: fino a 15 capi, circa 7–10 giorni di viaggio</li><li>Chiusura: zip ermetica antiperdita, con valvola</li><li>Pompa inclusa: 8,5 x 3,5 cm, ricarica USB-C, 20 utilizzi per carica</li><li>Consiglio: piega i capi con cura e stendili in piano</li></ul>",
       "verified": true,
       "colorSources": {},
       "options": [
@@ -1289,10 +1289,10 @@ window.CATALOG = {
       "productType": "Borse a spalla",
       "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Shoulder Bags",
       "imageAlt": "Borsa morbida Allegra",
-      "description": "Borsa morbida Allegra in nylon leggero e idrorepellente, porta un laptop fino a 17\" e ha tracolle sostituibili. Oltre settanta colori e fantasie.",
+      "description": "Borsa morbida Allegra in nylon idrorepellente imbottito, 19 litri e 380 g: porta un laptop da 17\" e si usa a mano, a spalla, a tracolla o come zaino.",
       "seoTitle": "Borsa morbida Allegra in nylon idrorepellente",
-      "seoDescription": "Borsa morbida Allegra in nylon leggero e idrorepellente, porta un laptop fino a 17\" e ha tracolle sostituibili. Oltre settanta colori e fantasie.",
-      "bodyHtml": "<p>Allegra è una di quelle borse che non ti chiedono di scegliere cosa lasciare a casa: dentro entra perfino un portatile fino a 17 pollici. Eppure è morbida, si piega docile contro il fianco ed è fatta di nylon leggero e idrorepellente, che non teme qualche goccia di pioggia.</p><p>Va bene per la giornata in ufficio come per il weekend fuori porta, e cambia faccia insieme a te: le tracolle si possono sostituire, così giochi con gli abbinamenti senza cambiare borsa. Poi c’è il colore, con una scelta quasi infinita: tinte unite dal nero al lime, righe in cotone, quadri, pois, vichy, leopardato, velluto a coste e stampe grafiche.</p><ul><li><strong>Spazio vero:</strong> compatibile con laptop fino a 17\", con il resto della giornata intorno.</li><li><strong>Idrorepellente:</strong> il nylon leggero respinge l’acqua, comodo nelle giornate incerte.</li><li><strong>Tracolle sostituibili:</strong> le cambi quando vuoi per rinnovare il look.</li><li><strong>Una palette enorme:</strong> oltre settanta varianti tra tinte unite, fantasie e tessuti diversi.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: nylon leggero idrorepellente; alcune varianti in cotone o velluto a coste, come indicato nel nome del colore</li><li>Capienza: compatibile con laptop fino a 17\"</li><li>Tracolla: sostituibile</li><li>Disponibile anche in versione piccola: Borsa morbida Allegra Mini</li></ul>",
+      "seoDescription": "Borsa morbida Allegra in nylon idrorepellente imbottito, 19 litri e 380 g: porta un laptop da 17\" e si usa a mano, a spalla, a tracolla o come zaino.",
+      "bodyHtml": "<p>Allegra è una di quelle borse che non ti chiedono di scegliere cosa lasciare a casa: 19 litri di spazio, un portatile fino a 17 pollici, e pesa appena 380 grammi. Il nylon leggero e idrorepellente è imbottito, morbido sotto il braccio, e non teme qualche goccia di pioggia.</p><p>Si porta in quattro modi: a mano, a spalla, a tracolla oppure, cambiando le tracolle, come zaino. La tracolla gonfia è morbida e si regola con facilità, e tirando le fettucce laterali puoi chiudere la borsa e cambiarne la forma. E i colori sono quasi infiniti, tra tinte unite, righe, quadri e pois.</p><ul><li><strong>Quattro modi di portarla:</strong> borsa a mano, a spalla, a tracolla o zaino.</li><li><strong>Chiusura magnetica:</strong> lo scomparto principale si apre e si chiude con un gesto.</li><li><strong>Tasche pratiche:</strong> una tasca interna e una esterna con cerniera per gli essenziali.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: nylon leggero, imbottito e idrorepellente; alcune varianti in cotone o velluto a coste, come indicato nel nome del colore</li><li>Misure: 32 x 42 x 14 cm, 19 L; peso 380 g</li><li>Capienza: laptop fino a 17\"</li><li>Chiusura: clip magnetica</li><li>Tasche: 1 interna, 1 esterna con cerniera</li><li>Tracolle: regolabili (a spalla fino a 100 cm), sostituibili per usarla come zaino</li><li>Cura: spazzola morbida, acqua tiepida e sapone</li></ul>",
       "verified": true,
       "colorSources": {
         "Ripstop nero": "Ripstop Black",
@@ -2217,10 +2217,10 @@ window.CATALOG = {
       "productType": "Borse tote e shopper",
       "taxonomy": "Luggage & Bags > Tote Bags",
       "imageAlt": "Borsa tote Camilla",
-      "description": "Borsa tote Camilla per tutti i giorni, con chiusura magnetica o a cerniera. Sette colori: nero, cioccolato, marrone, bordeaux, pietra, rosa, celeste.",
+      "description": "Borsa tote Camilla in pelle vegana idrorepellente: porta un laptop da 15\", ha chiusura magnetica o a zip e tasche interne. Sette colori da scegliere.",
       "seoTitle": "Borsa tote Camilla con chiusura a scelta",
-      "seoDescription": "Borsa tote Camilla per tutti i giorni, con chiusura magnetica o a cerniera. Sette colori: nero, cioccolato, marrone, bordeaux, pietra, rosa, celeste.",
-      "bodyHtml": "<p>Con Camilla la scelta più personale non riguarda il colore, ma il modo in cui si chiude. Puoi volerla con chiusura magnetica, che si apre con un gesto quando sei di corsa, oppure con cerniera, se preferisci sapere che tutto resta al suo posto anche sul tram affollato.</p><p>È una borsa tote da vita quotidiana: ti segue in ufficio e nelle commissioni del sabato mattina. Le sette tinte vanno dai neutri caldi, come cioccolato, marrone e pietra, al nero più rigoroso, fino a bordeaux, rosa e celeste per chi cerca un tocco di colore.</p><ul><li><strong>Due chiusure a scelta:</strong> magnetica per la praticità, a cerniera per tenere tutto ben chiuso.</li><li><strong>Formato tote:</strong> una borsa da tutti i giorni, pronta ad accompagnarti dalla mattina alla sera.</li><li><strong>Sette colori:</strong> nero, cioccolato, marrone, bordeaux, pietra, rosa e celeste.</li><li><strong>Abbinamenti facili:</strong> i neutri vanno con tutto, rosa e celeste addolciscono i look più scuri.</li></ul><p><strong>Dettagli</strong></p><ul><li>Formato: borsa tote</li><li>Chiusura: magnetica oppure con cerniera, a tua scelta</li><li>Colori: nero, cioccolato, marrone, bordeaux, pietra, rosa, celeste</li></ul>",
+      "seoDescription": "Borsa tote Camilla in pelle vegana idrorepellente: porta un laptop da 15\", ha chiusura magnetica o a zip e tasche interne. Sette colori da scegliere.",
+      "bodyHtml": "<p>Con Camilla la scelta più personale non riguarda il colore, ma il modo in cui si chiude: magnetica, che si apre con un gesto quando sei di corsa, oppure con cerniera, se vuoi sapere che tutto resta al suo posto anche sul tram affollato.</p><p>Dentro entra la giornata intera: un laptop da 15 pollici, il tablet, libri e agenda, la pochette dei trucchi, la borraccia e le cuffie. La pelle vegana è morbida e cedevole, idrorepellente quanto basta per non temere un caffè rovesciato o qualche goccia di pioggia. La tracolla è extra larga, e tutto è pensato per restare leggero dalla mattina alla sera.</p><ul><li><strong>Due chiusure a scelta:</strong> magnetica per la praticità, a cerniera per tenere tutto ben chiuso.</li><li><strong>Spazio per il laptop:</strong> accoglie un portatile da 15\" insieme a tablet, libri e borraccia.</li><li><strong>Tasche organizzate:</strong> una esterna con bottone automatico, una interna con zip e due taschine aperte.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana (PU) idrorepellente</li><li>Misure: 35 x 26 x 12,5 cm (L x A x P); altezza manico 28 cm</li><li>Chiusura: magnetica oppure con cerniera, a tua scelta</li><li>Tasche: 1 esterna con bottone automatico, 1 interna con zip, 2 interne aperte</li><li>Tracolla: extra larga</li><li>Cura: panno umido che non lasci pelucchi; evita il sole diretto prolungato e riponila in verticale in un luogo fresco e asciutto</li></ul>",
       "verified": true,
       "colorSources": {
         "Nero": "Black",
@@ -2488,10 +2488,10 @@ window.CATALOG = {
       "productType": "Tracolle e marsupi",
       "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Cross Body Bags",
       "imageAlt": "Borsa sling Zoe",
-      "description": "Borsa sling Zoe in nylon leggero e resistente all’acqua, con più tasche e tracolla regolabile da 40 a 116 cm. In caffè, nero, crema e grigio.",
+      "description": "Borsa sling Zoe in nylon leggero resistente all’acqua, da portare a tracolla o in vita, con più tasche e cinghia da 40 a 116 cm. Per viaggi e festival.",
       "seoTitle": "Borsa sling Zoe in nylon idrorepellente",
-      "seoDescription": "Borsa sling Zoe in nylon leggero e resistente all’acqua, con più tasche e tracolla regolabile da 40 a 116 cm. In caffè, nero, crema e grigio.",
-      "bodyHtml": "<p>Zoe è fatta per chi si muove. Leggera e morbida nella forma, si porta a tracolla e segue i tuoi passi mentre attraversi la città, dal caffè del mattino alla corsa per prendere il tram.</p><p>Il nylon resistente respinge l’acqua, e le tasche multiple ti aiutano a ritrovare chiavi, auricolari e rossetto senza rovistare. La tracolla si regola da 40 a 116 cm: corta e alta sul petto quando cammini tra la folla, lunga e morbida sul fianco quando vai con calma.</p><ul><li><strong>Leggera:</strong> pensata per stare addosso tutto il giorno senza farsi sentire.</li><li><strong>Resistente all’acqua:</strong> nylon durevole che respinge l’acqua nelle giornate incerte.</li><li><strong>Più tasche:</strong> per dividere telefono, chiavi e piccoli oggetti.</li><li><strong>Tracolla regolabile:</strong> da 40 a 116 cm, per portarla come preferisci.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: nylon resistente, idrorepellente</li><li>Misure: 33 cm (L) x 23 cm (A) x 11 cm (P)</li><li>Tracolla: regolabile da 40 a 116 cm</li><li>Tasche: più tasche per organizzare il contenuto</li></ul>",
+      "seoDescription": "Borsa sling Zoe in nylon leggero resistente all’acqua, da portare a tracolla o in vita, con più tasche e cinghia da 40 a 116 cm. Per viaggi e festival.",
+      "bodyHtml": "<p>Zoe è la borsa per i giorni in cui non vuoi pensare alla borsa. Leggera e morbida nella forma, è fatta per chi non si ferma mai: un festival, un volo, una giornata intera in giro per la città.</p><p>Il nylon resistente respinge l’acqua, e le tasche multiple ti aiutano a ritrovare chiavi e rossetto senza rovistare. La cinghia si regola da 40 a 116 cm: lunga la porti a tracolla, accorciata la indossi in vita come un marsupio, e le mani restano sempre libere.</p><ul><li><strong>Due modi di indossarla:</strong> a tracolla oppure in vita, regolando la cinghia.</li><li><strong>Resistente all’acqua:</strong> nylon durevole che respinge l’acqua nelle giornate incerte.</li><li><strong>Più tasche:</strong> per dividere telefono, chiavi e piccoli oggetti.</li><li><strong>Leggera:</strong> pensata per il movimento di tutti i giorni.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: nylon resistente, idrorepellente</li><li>Misure: 33 cm (L) x 23 cm (A) x 11 cm (P)</li><li>Cinghia: regolabile da 40 a 116 cm, per portarla a tracolla o in vita</li><li>Tasche: più tasche per organizzare il contenuto</li></ul>",
       "verified": true,
       "colorSources": {
         "Caffè": "Coffee",
@@ -3686,10 +3686,10 @@ window.CATALOG = {
       "productType": "Tracolle e marsupi",
       "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Cross Body Bags",
       "imageAlt": "Borsa da viaggio antifurto Irene",
-      "description": "Borsa da viaggio antifurto Irene, il modello originale in dodici colori, dai neutri ai toni fluo, per muoverti in città e in vacanza con più serenità.",
-      "seoTitle": "Borsa da viaggio antifurto Irene in 12 colori",
-      "seoDescription": "Borsa da viaggio antifurto Irene, il modello originale in dodici colori, dai neutri ai toni fluo, per muoverti in città e in vacanza con più serenità.",
-      "bodyHtml": "<p>Quando viaggi vuoi guardarti intorno, non controllare la borsa ogni cinque minuti. Irene è la borsa da viaggio antifurto pensata proprio per questo: per farti vivere la giornata con un pensiero in meno.</p><p>È il modello originale della linea, e lo trovi in dodici colori. Ci sono i neutri, come nero, grigio e bianco, i toni delicati come lilla, azzurro e rosa, e due fluo, arancione e verde, che si fanno notare. Puoi sceglierla discreta per la metropolitana di tutti i giorni o accesa per le foto delle vacanze: la funzione resta la stessa, cambia solo il tuo umore.</p><ul><li><strong>Pensata contro i furti:</strong> una borsa da viaggio nata con funzione antifurto.</li><li><strong>Il modello originale:</strong> la versione da cui è partita la linea.</li><li><strong>Dodici colori:</strong> neutri, pastello e fluo, per trovare quella che ti somiglia.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tipo: borsa da viaggio antifurto</li><li>Colori: nero, blu, verde militare, grigio, lilla, bianco, azzurro, viola, rosso, rosa, arancione fluo, verde fluo</li></ul>",
+      "description": "Borsa da viaggio antifurto Irene da portare sul davanti: cerniere nascoste, tre scomparti, vano telefono e tessuto resistente all’acqua. In 12 colori.",
+      "seoTitle": "Borsa da viaggio antifurto Irene da portare davanti",
+      "seoDescription": "Borsa da viaggio antifurto Irene da portare sul davanti: cerniere nascoste, tre scomparti, vano telefono e tessuto resistente all’acqua. In 12 colori.",
+      "bodyHtml": "<p>Si porta sul davanti, sottile al punto da sparire sotto una giacca o un maglione. Irene è la borsa da viaggio antifurto che tieni sempre sotto gli occhi: le cerniere si nascondono e solo tu sai come arrivare a quello che c’è dentro.</p><p>Dentro trovi tre scomparti spaziosi e una tasca nascosta, più un vano dedicato al telefono che lo tiene fermo e a portata di mano. Il tessuto resistente all’acqua non teme una pioggia improvvisa o un caffè rovesciato, e le cinghie regolabili si adattano a ogni corporatura. È leggera, comoda per le giornate in giro tra metropolitana e musei, in colori che vanno dai neutri ai fluo.</p><ul><li><strong>Sul davanti:</strong> la porti dove la vedi, facile da aprire per te e lontana dalle mani altrui.</li><li><strong>Cerniere nascoste:</strong> si ripiegano al sicuro, così l’accesso è solo tuo.</li><li><strong>Profilo sottile:</strong> resta discreta sotto la giacca o il maglione.</li><li><strong>Ordine pratico:</strong> tre scomparti, una tasca nascosta e un vano per il telefono.</li><li><strong>Per ogni corporatura:</strong> cinghie regolabili per una vestibilità comoda.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tessuto: resistente all’acqua e agli schizzi</li><li>Come si porta: sul davanti, con cinghie regolabili</li><li>Interno: tre scomparti, tasca nascosta, vano telefono</li><li>Chiusure: cerniere di qualità a scomparsa</li><li>Peso: leggera</li><li>Colori: 12 tonalità, dal nero e dal bianco al lilla, fino ad arancione e verde fluo</li></ul>",
       "verified": true,
       "colorSources": {
         "Nero": "Black",
@@ -3868,12 +3868,12 @@ window.CATALOG = {
       "title": "Borsa Ottavia",
       "vendor": "ORIONA",
       "productType": "Borse a spalla",
-      "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Shoulder Bags",
+      "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Satchel Bags",
       "imageAlt": "Borsa Ottavia",
-      "description": "Borsa Ottavia in sei tinte piene e decise: marrone, rosso, blu navy, verde scuro, nero e blu, da abbinare ogni giorno, dall’ufficio alla sera.",
+      "description": "Borsa a mano Ottavia in similpelle morbida, con manici strutturati e forma compatta (28 x 17 cm) ma capiente. Dal giorno alla sera, in sei colori.",
       "seoTitle": "Borsa Ottavia in sei colori profondi",
-      "seoDescription": "Borsa Ottavia in sei tinte piene e decise: marrone, rosso, blu navy, verde scuro, nero e blu, da abbinare ogni giorno, dall’ufficio alla sera.",
-      "bodyHtml": "<p>Sei colori, e ognuno racconta una donna diversa. Ottavia nasce attorno a una palette profonda e decisa: marrone, rosso, blu navy, verde scuro, nero e blu, tinte piene che danno forza anche al look più essenziale.</p><p>Il nero e il blu navy sono la scelta di chi vuole una borsa da usare ogni giorno, dalla riunione alla cena, senza pensarci due volte. Il marrone scalda i toni del cammello e del denim. Il verde scuro e il rosso, invece, sono per chi ama che la borsa sia il dettaglio che si nota: provali con un cappotto grigio, oppure con camicia bianca e jeans. Il blu, più luminoso, sta benissimo con il bianco e il beige.</p><ul><li><strong>Palette profonda:</strong> sei tinte piene, dai neutri scuri ai colori più accesi.</li><li><strong>Facile da abbinare:</strong> nero, blu navy e marrone dialogano con tutto il guardaroba.</li><li><strong>Un tocco di colore:</strong> rosso, verde scuro e blu ravvivano capi neutri e basici.</li></ul><p><strong>Dettagli</strong></p><ul><li>Colori disponibili: marrone, rosso, blu navy, verde scuro, nero, blu</li></ul>",
+      "seoDescription": "Borsa a mano Ottavia in similpelle morbida, con manici strutturati e forma compatta (28 x 17 cm) ma capiente. Dal giorno alla sera, in sei colori.",
+      "bodyHtml": "<p>Manici strutturati che stanno al punto giusto sull’avambraccio e una forma compatta, 28 per 17 cm: Ottavia è la borsa a mano da tenere sempre vicina, dal mattino alla sera.</p><p>Leggera ma capiente, porta con sé gli essenziali senza perdere la sua linea elegante, e le cerniere scorrono morbide quando cerchi le chiavi in fretta. Poi c’è il colore: nero e blu navy per ogni giorno, marrone per scaldare i toni del cammello, verde scuro, rosso e blu per chi vuole che la borsa sia il dettaglio che si nota, magari con un cappotto grigio o una camicia bianca.</p><ul><li><strong>Manici strutturati:</strong> alti 17 cm, comodi da portare a mano o al braccio.</li><li><strong>Formato compatto:</strong> 28 x 17 x 12,5 cm, con un interno spazioso per gli essenziali.</li><li><strong>Cerniere scorrevoli:</strong> aprire e chiudere è un gesto rapido.</li><li><strong>Sei colori profondi:</strong> marrone, rosso, blu navy, verde scuro, nero e blu.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: similpelle (PU) morbida</li><li>Misure: 28 x 17 x 12,5 cm (L x A x P)</li><li>Altezza manici: 17 cm</li><li>Peso: 0,72 kg</li><li>Cerniere: scorrevoli</li></ul>",
       "verified": true,
       "colorSources": {
         "Marrone": "Brown",
@@ -3982,10 +3982,10 @@ window.CATALOG = {
       "productType": "Borse a spalla",
       "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Shoulder Bags",
       "imageAlt": "Borsa a doppio manico Beatrice",
-      "description": "Borsa Beatrice in pelle vegana morbida, idrorepellente e antigraffio, con doppio manico e nodi regolabili. Dal giorno alla sera, in 31 varianti.",
+      "description": "Borsa Beatrice in pelle vegana idrorepellente e antigraffio, con doppio manico a nodi e tracolla removibile: da portare a mano, a spalla o a tracolla.",
       "seoTitle": "Borsa a doppio manico Beatrice in pelle vegana",
-      "seoDescription": "Borsa Beatrice in pelle vegana morbida, idrorepellente e antigraffio, con doppio manico e nodi regolabili. Dal giorno alla sera, in 31 varianti.",
-      "bodyHtml": "<p>I manici di Beatrice finiscono in nodi regolabili che puoi sistemare come preferisci, ed è proprio quel nodo a renderla subito tua. Il sistema a doppio manico ti lascia portarla in più modi, e cambiarlo durante la giornata.</p><p>Dal mattino alla sera passa senza fatica: dalla scrivania all’aperitivo basta un rossetto in più. La pelle vegana è liscia e morbida sotto le dita, ma anche resistente: respinge l’acqua e resiste ai graffi, così non devi trattarla con i guanti.</p><ul><li><strong>Doppio manico:</strong> un sistema di manici pensato per portarla in più modi.</li><li><strong>Nodi regolabili:</strong> un dettaglio personale da sistemare secondo il tuo gusto.</li><li><strong>Idrorepellente e antigraffio:</strong> la superficie resiste all’acqua e ai graffi di tutti i giorni.</li><li><strong>Materiali e colori:</strong> trentuno varianti tra pelle vegana liscia, effetto scamosciato, sherpa e nappa vegana.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana morbida e resistente, idrorepellente e antigraffio; alcune varianti in effetto scamosciato, sherpa o nappa vegana, come indicato nel nome del colore</li><li>Manici: doppio manico con nodi regolabili</li></ul>",
+      "seoDescription": "Borsa Beatrice in pelle vegana idrorepellente e antigraffio, con doppio manico a nodi e tracolla removibile: da portare a mano, a spalla o a tracolla.",
+      "bodyHtml": "<p>I manici di Beatrice finiscono in nodi regolabili che sistemi come preferisci, ed è quel nodo a renderla subito tua. Con il doppio manico e la tracolla regolabile e removibile la porti a mano come una pochette, a spalla o a tracolla.</p><p>Piccola e leggera, 24 x 13,5 cm per 400 grammi, passa dal mattino alla sera senza fatica: dalla scrivania all’aperitivo basta un rossetto in più. La pelle vegana è liscia e morbida sotto le dita, ma resistente: respinge l’acqua e non teme i graffi.</p><ul><li><strong>Tre modi di portarla:</strong> a mano, a spalla o a tracolla, regolando o togliendo la tracolla.</li><li><strong>Nodi regolabili:</strong> un dettaglio personale da sistemare secondo il tuo gusto.</li><li><strong>Idrorepellente e antigraffio:</strong> la superficie resiste all’acqua e ai graffi di tutti i giorni.</li><li><strong>Chiusura a zip:</strong> scomparto principale con cerniera e una tasca interna per le cose più preziose.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana (PU) idrorepellente e antigraffio; alcune varianti in scamosciato vegano idrorepellente, sherpa o nappa vegana, come indicato nel nome del colore</li><li>Misure: 24 x 13,5 x 10 cm; peso 400 g</li><li>Chiusura: cerniera; 1 tasca interna</li><li>Manici: doppio manico con nodi regolabili; tracolla regolabile e removibile</li><li>Cura: passa un panno morbido appena umido</li></ul>",
       "verified": true,
       "colorSources": {
         "Rosso ciliegia": "Cherry red",
@@ -4394,10 +4394,10 @@ window.CATALOG = {
       "productType": "Borse tote e shopper",
       "taxonomy": "Luggage & Bags > Tote Bags",
       "imageAlt": "Borsa tote Rebecca",
-      "description": "Borsa tote Rebecca da portare ogni giorno, dall’ufficio al weekend. Cinque tinte facili da abbinare: nero, cioccolato, marrone, bianco e bordeaux.",
+      "description": "Borsa tote Rebecca in pelle vegana con zip, tasca imbottita per laptop da 15\" e porta-borraccia. Manici comodi sulla spalla, in cinque colori.",
       "seoTitle": "Borsa tote Rebecca in cinque colori",
-      "seoDescription": "Borsa tote Rebecca da portare ogni giorno, dall’ufficio al weekend. Cinque tinte facili da abbinare: nero, cioccolato, marrone, bianco e bordeaux.",
-      "bodyHtml": "<p>Bianco, nero o bordeaux? Con Rebecca la decisione più difficile è proprio questa. È una borsa tote da portare ogni giorno, in cinque tinte pensate per stare bene con quasi tutto il tuo armadio: nero, cioccolato, marrone, bianco e bordeaux.</p><p>Il nero è il jolly per l’ufficio e per le serate. Cioccolato e marrone hanno il calore giusto per l’autunno, accanto a un trench o a un maglione color crema. Il bianco illumina i look estivi e il denim, mentre il bordeaux dà profondità a un outfit tutto grigio o tutto nero, e regge benissimo anche un cappotto cammello.</p><ul><li><strong>Formato tote:</strong> la borsa da tutti i giorni, da portare dal mattino alla sera.</li><li><strong>Cinque colori:</strong> nero, cioccolato e marrone per la routine, bianco e bordeaux per uscire dagli schemi.</li><li><strong>Versatile negli abbinamenti:</strong> passa dal tailleur al jeans senza stonare.</li></ul><p><strong>Dettagli</strong></p><ul><li>Formato: borsa tote</li><li>Colori: nero, cioccolato, marrone, bianco, bordeaux</li></ul>",
+      "seoDescription": "Borsa tote Rebecca in pelle vegana con zip, tasca imbottita per laptop da 15\" e porta-borraccia. Manici comodi sulla spalla, in cinque colori.",
+      "bodyHtml": "<p>Bianco, nero o bordeaux? Con Rebecca la decisione più difficile è proprio questa, perché a tutto il resto ha già pensato lei. È una tote in pelle vegana con chiusura a zip e una tasca imbottita per il laptop fino a 15 pollici, fatta per le giornate piene.</p><p>Dentro entrano anche il tablet, libri e agenda, la pochette dei trucchi, le cuffie e la borraccia, che ha il suo porta-bottiglia dedicato. L’attacco dei manici è imbottito, così non ti segna la spalla. Il nero è il jolly per l’ufficio, cioccolato e marrone hanno il calore dell’autunno, bianco e bordeaux escono dagli schemi.</p><ul><li><strong>Tasca imbottita per il laptop:</strong> protegge un portatile da 15\".</li><li><strong>Chiusura a cerniera:</strong> tutto resta al sicuro, dal treno all’ufficio.</li><li><strong>Interno organizzato:</strong> una tasca con zip, due taschine aperte e un porta-borraccia.</li><li><strong>Comoda sulla spalla:</strong> l’attacco imbottito dei manici non affonda nella spalla.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana resistente agli schizzi, facile da pulire</li><li>Misure: 38 x 30 x 15 cm (L x A x P); altezza manici 22 cm</li><li>Chiusura: cerniera</li><li>Tasche: tasca imbottita per laptop fino a 15\", 1 interna con zip, 2 interne aperte, 1 porta-borraccia</li><li>Cura: panno umido che non lasci pelucchi; evita il sole diretto prolungato e riponila in verticale in un luogo fresco e asciutto</li></ul>",
       "verified": true,
       "colorSources": {
         "Nero": "Black",
@@ -5810,13 +5810,13 @@ window.CATALOG = {
       "imageKey": "the-marseille",
       "title": "Borsa a tracolla Tecla",
       "vendor": "ORIONA",
-      "productType": "Tracolle e marsupi",
-      "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Cross Body Bags",
+      "productType": "Borse a spalla",
+      "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Shoulder Bags",
       "imageAlt": "Borsa a tracolla Tecla",
-      "description": "Borsa a tracolla Tecla in pelle vegana a grana morbida con inserti intrecciati, finiture in ottone anticato, zip superiore e tracolla removibile.",
+      "description": "Borsa Tecla in pelle vegana con inserti intrecciati e ottone anticato: porta un laptop da 14\", con zip superiore, tasca frontale e tracolla removibile.",
       "seoTitle": "Borsa a tracolla Tecla in pelle vegana",
-      "seoDescription": "Borsa a tracolla Tecla in pelle vegana a grana morbida con inserti intrecciati, finiture in ottone anticato, zip superiore e tracolla removibile.",
-      "bodyHtml": "<p>Niente loghi, niente rumore: Tecla parla attraverso i dettagli. La pelle vegana a grana morbida è attraversata da inserti intrecciati, e la minuteria in ottone anticato le regala un calore un po’ vintage, che sta bene sul cappotto di lana come sulla camicia di lino.</p><p>Con i suoi 38 x 29 cm accompagna una giornata intera, e dentro ogni cosa ha il suo posto: la fodera morbida è divisa in scomparti per telefono, chiavi e piccoli extra. La cerniera in alto tiene tutto chiuso, la tasca esterna sul davanti è perfetta per il biglietto del treno. La tracolla si regola e si stacca quando non ti serve.</p><ul><li><strong>Pelle vegana a grana morbida:</strong> con inserti intrecciati che la rendono riconoscibile.</li><li><strong>Ottone anticato:</strong> minuteria dal tono caldo, scelta per durare.</li><li><strong>Interno organizzato:</strong> scomparti per telefono, chiavi ed extra.</li><li><strong>Tracolla versatile:</strong> regolabile e removibile.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana a grana morbida con inserti intrecciati; fodera interna morbida</li><li>Misure: 38 cm (L) x 29 cm (A) x 13 cm (P)</li><li>Chiusura: cerniera superiore</li><li>Tasche: tasca esterna frontale; scomparti interni per telefono, chiavi ed extra</li><li>Tracolla: regolabile e removibile</li><li>Finiture: ottone anticato</li></ul>",
+      "seoDescription": "Borsa Tecla in pelle vegana con inserti intrecciati e ottone anticato: porta un laptop da 14\", con zip superiore, tasca frontale e tracolla removibile.",
+      "bodyHtml": "<p>Niente loghi, niente rumore: Tecla parla attraverso i dettagli. La pelle vegana a grana morbida è attraversata da inserti intrecciati, e la minuteria in ottone anticato le regala un calore un po’ vintage.</p><p>È abbastanza strutturata per le lezioni o l’ufficio, e abbastanza curata per la cena che viene dopo. Dentro entrano un laptop da 14 pollici, il tablet, libri e agenda, la pochette dei trucchi, la borraccia e le cuffie, mentre la fodera morbida ha scomparti per telefono e chiavi. La cerniera in alto tiene tutto chiuso, la tasca frontale è perfetta per il biglietto del treno.</p><ul><li><strong>Spazio per il laptop:</strong> accoglie un portatile da 14\" e il resto della giornata.</li><li><strong>Interno organizzato:</strong> fodera morbida con scomparti per telefono, chiavi ed extra.</li><li><strong>Ottone anticato:</strong> minuteria dal tono caldo, scelta per durare.</li><li><strong>Tracolla versatile:</strong> regolabile e removibile.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana a grana morbida con inserti intrecciati; fodera interna morbida</li><li>Misure: 38 cm (L) x 29 cm (A) x 13 cm (P)</li><li>Chiusura: cerniera superiore</li><li>Tasche: tasca esterna frontale; scomparti interni per telefono, chiavi ed extra</li><li>Tracolla: regolabile e removibile</li><li>Finiture: ottone anticato</li><li>Cura: facile da mantenere</li></ul>",
       "verified": true,
       "colorSources": {},
       "options": [
@@ -5845,7 +5845,7 @@ window.CATALOG = {
         "assets/products/generated-bag-brown.png"
       ],
       "image": "assets/products/generated-bag-brown.png",
-      "tags": "Borse, Tracolle e marsupi, Novità",
+      "tags": "Borse, Borse a spalla, Novità",
       "priceToReview": false
     },
     {
@@ -6046,10 +6046,10 @@ window.CATALOG = {
       "productType": "Tracolle e marsupi",
       "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Cross Body Bags",
       "imageAlt": "Tracolla Cristina",
-      "description": "Tracolla Cristina per avere le mani libere ogni giorno, in città o in viaggio. Cinque tinte facili: nero, cioccolato, marrone, tortora e bordeaux.",
+      "description": "Tracolla Cristina in pelle vegana con fibbia vintage e cinghia regolabile, da portare a spalla o a tracolla. Porta un laptop da 13\", in cinque tinte.",
       "seoTitle": "Tracolla Cristina in cinque tinte neutre",
-      "seoDescription": "Tracolla Cristina per avere le mani libere ogni giorno, in città o in viaggio. Cinque tinte facili: nero, cioccolato, marrone, tortora e bordeaux.",
-      "bodyHtml": "<p>Le mani libere sono un piccolo lusso quotidiano, e Cristina te lo concede. È una borsa da portare a tracolla, addosso e sempre sotto controllo, mentre tu pensi a tutto il resto.</p><p>Pensala per le giornate in cui ti muovi tanto, dal mercato del sabato a una passeggiata in centro. Le cinque tinte sono profonde e facili: il nero per ogni occasione, il tortora come neutro più morbido accanto al bianco e al beige, il bordeaux per dare profondità ai look scuri, cioccolato e marrone per il calore dell’autunno.</p><ul><li><strong>Mani libere:</strong> la porti a tracolla e hai sempre tutto con te.</li><li><strong>Cinque tinte:</strong> nero, cioccolato, marrone, tortora e bordeaux.</li><li><strong>Facile da abbinare:</strong> toni neutri e profondi che accompagnano jeans, abiti e cappotti.</li></ul><p><strong>Dettagli</strong></p><ul><li>Formato: borsa a tracolla</li><li>Colori: nero, cioccolato, marrone, tortora, bordeaux</li></ul>",
+      "seoDescription": "Tracolla Cristina in pelle vegana con fibbia vintage e cinghia regolabile, da portare a spalla o a tracolla. Porta un laptop da 13\", in cinque tinte.",
+      "bodyHtml": "<p>Una fibbia decisa sul davanti e una forma d’ispirazione vintage: Cristina si riconosce al primo sguardo. La cinghia regolabile la trasforma in un attimo, più corta per portarla a spalla, più lunga per indossarla a tracolla e avere le mani libere.</p><p>È più capiente di quanto sembri: accoglie un laptop da 13 pollici, un quaderno, il tablet, la pochette dei trucchi, la borraccia e le cuffie, senza perdere la sua linea. La pelle vegana tiene la forma e si pulisce con un panno. Le cinque tinte sono profonde e facili, dal nero al tortora, dal cioccolato al bordeaux.</p><ul><li><strong>Fibbia protagonista:</strong> il dettaglio vintage che dà carattere alla borsa.</li><li><strong>A spalla o a tracolla:</strong> altezza della cinghia regolabile da 26 a 48 cm.</li><li><strong>Spazio per il laptop:</strong> fino a 13\", insieme agli essenziali di tutti i giorni.</li><li><strong>Pelle vegana che tiene la forma:</strong> resistente e facile da curare.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pelle vegana resistente agli schizzi</li><li>Misure: 30 x 25 x 12 cm (L x A x P)</li><li>Cinghia: regolabile, altezza da 26 a 48 cm</li><li>Capienza: laptop da 13\", tablet, quaderno, pochette, borraccia, cuffie</li><li>Cura: panno umido che non lasci pelucchi; evita il sole diretto prolungato e riponila in verticale in un luogo fresco e asciutto</li></ul>",
       "verified": true,
       "colorSources": {
         "Nero": "Black",
@@ -6270,10 +6270,10 @@ window.CATALOG = {
       "productType": "Borse a spalla",
       "taxonomy": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags > Shoulder Bags",
       "imageAlt": "Borsa morbida Allegra Mini",
-      "description": "Borsa morbida Allegra Mini: la versione piccola di Allegra, gonfia e leggera, per portare con te l’essenziale. Quarantasei colori e fantasie.",
+      "description": "Borsa morbida Allegra Mini in nylon idrorepellente, gonfia e leggera (265 g), con chiusura magnetica, due tasche interne e tracolla regolabile.",
       "seoTitle": "Borsa morbida Allegra Mini, gonfia e leggera",
-      "seoDescription": "Borsa morbida Allegra Mini: la versione piccola di Allegra, gonfia e leggera, per portare con te l’essenziale. Quarantasei colori e fantasie.",
-      "bodyHtml": "<p>Tutto quello che ami della borsa Allegra, in formato piccolo. Allegra Mini è gonfia e leggera, quasi un cuscino da portare con te, e tiene a portata di mano solo l’essenziale, le poche cose che contano davvero.</p><p>È quella da prendere quando la borsa grande sarebbe troppo, per l’aperitivo dopo il lavoro o un concerto in piedi sotto il palco. E se ti piace giocare con i colori, la tracolla si presta: affiancale una tracolla extra in un’altra tinta e crea il tuo abbinamento.</p><ul><li><strong>Forma gonfia:</strong> volume morbido che le dà carattere anche in piccolo.</li><li><strong>Leggera:</strong> quasi non la senti addosso, nemmeno a fine giornata.</li><li><strong>Tracolla da mixare:</strong> abbinala a una tracolla extra colorata per un look sempre diverso.</li><li><strong>Quarantasei varianti:</strong> tinte unite, vichy, pois, quadri, righe in cotone, leopardato e stampe.</li></ul><p><strong>Dettagli</strong></p><ul><li>Formato: versione piccola della Borsa morbida Allegra</li><li>Pensata per: gli essenziali di tutti i giorni</li><li>Tracolla: abbinabile a una tracolla extra di altro colore</li><li>Varianti: alcune in ripstop o cotone, come indicato nel nome del colore</li></ul>",
+      "seoDescription": "Borsa morbida Allegra Mini in nylon idrorepellente, gonfia e leggera (265 g), con chiusura magnetica, due tasche interne e tracolla regolabile.",
+      "bodyHtml": "<p>Tutto quello che ami della borsa Allegra, in formato piccolo. Allegra Mini è gonfia e leggera, appena 265 grammi, e tiene a portata di mano l’essenziale, le poche cose che contano davvero.</p><p>La porti a mano per i suoi manici imbottiti, oppure a spalla e a tracolla con la cinghia morbida e regolabile. È quella da prendere quando la borsa grande sarebbe troppo, per l’aperitivo dopo il lavoro o un concerto in piedi sotto il palco. E se ti piace giocare con i colori, puoi affiancarle una tracolla in un’altra tinta.</p><ul><li><strong>Chiusura magnetica:</strong> rapida e facile, per prendere il telefono al volo.</li><li><strong>Interno ordinato:</strong> due tasche interne, una con cerniera per le cose più preziose.</li><li><strong>Due modi di portarla:</strong> a mano con i manici gonfi, oppure a spalla e a tracolla.</li><li><strong>Idrorepellente:</strong> il nylon leggero protegge dall’acqua quello che porti con te.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: nylon leggero, imbottito e idrorepellente; alcune varianti in cotone o denim di cotone, come indicato nel nome del colore</li><li>Misure: 33 x 19 x 11 cm; peso 265 g</li><li>Chiusura: magnetica</li><li>Tasche: 2 interne, di cui una con cerniera</li><li>Tracolla: imbottita e regolabile, lunga 100 cm</li><li>Cura: spazzola morbida, acqua tiepida e sapone</li></ul>",
       "verified": true,
       "colorSources": {
         "Ripstop nero": "Ripstop Black",
@@ -7873,10 +7873,10 @@ window.CATALOG = {
       "productType": "Intimo e modellanti",
       "taxonomy": "Apparel & Accessories > Clothing > Lingerie > Shapewear",
       "imageAlt": "Slip modellante Paola",
-      "description": "Slip modellante Paola per una linea più levigata sotto gli abiti. In sei colori, dai neutri nero e beige al rosa fucsia, con taglie dalla XS alla 5XL.",
+      "description": "Slip modellante con fascia incrociata a 360°, grip in silicone anti-arrotolamento e bordi senza cuciture. In poliammide ed elastan, dalla XS alla 5XL.",
       "seoTitle": "Slip modellante Paola, taglie dalla XS alla 5XL",
-      "seoDescription": "Slip modellante Paola per una linea più levigata sotto gli abiti. In sei colori, dai neutri nero e beige al rosa fucsia, con taglie dalla XS alla 5XL.",
-      "bodyHtml": "<p>Ci sono giorni in cui vuoi solo che il vestito cada come deve, senza pensarci troppo. Lo slip modellante Paola lavora in silenzio sotto i tuoi capi: un effetto modellante discreto che regala una linea più levigata sotto gonne, pantaloni e abiti.</p><p>Sceglilo in base a cosa indossi sopra. Nero e beige sono i più facili da abbinare, il primo sotto i capi scuri e il secondo sotto quelli chiari. Lilla, viola, blu navy e rosa fucsia sono per quando l’intimo ti piace sentirlo tuo anche nel colore. Le taglie vanno dalla XS alla 5XL, così ogni corpo trova la sua misura.</p><ul><li><strong>Effetto modellante:</strong> accompagna le forme e lascia la linea più uniforme sotto i vestiti.</li><li><strong>Sei colori:</strong> due neutri per tutti i giorni e quattro tinte più vivaci, dal lilla al rosa fucsia.</li><li><strong>Taglie inclusive:</strong> nove taglie, dalla XS fino alla 5XL.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tipo: slip modellante</li><li>Colori: nero, beige, blu navy, lilla, viola, rosa fucsia</li><li>Taglie: XS, S, M, L, XL, 2XL, 3XL, 4XL, 5XL</li></ul>",
+      "seoDescription": "Slip modellante con fascia incrociata a 360°, grip in silicone anti-arrotolamento e bordi senza cuciture. In poliammide ed elastan, dalla XS alla 5XL.",
+      "bodyHtml": "<p>Una fascia incrociata avvolge il punto vita a 360 gradi, davanti, sui fianchi e dietro, e distribuisce la tenuta in modo uniforme. Lo slip modellante Paola è in un tessuto sottile, elastico in quattro direzioni, che modella con decisione senza risultare costrittivo.</p><p>I bordi sono termosaldati anziché cuciti e le gambe sono rifinite senza elastici che segnano, così sotto un abito aderente o un jeans non si vede nulla. Puoi indossarlo da solo, come un normale slip, oppure sopra uno slip sottile.</p><ul><li><strong>Fascia incrociata a 360°:</strong> linea più levigata sotto gli abiti, senza pressione su un solo punto.</li><li><strong>Resta dove l’hai messo:</strong> grip in silicone e costina anti-arrotolamento in vita, anche quando ti siedi.</li><li><strong>Morbido e traspirante:</strong> pannelli in rete e tassello foderato in cotone; niente lattice, stecche rigide o bordi in plastica.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: 83% poliammide, 17% elastan, con pannelli in rete e tassello in cotone</li><li>Vestibilità: aderente per scelta; scegli in base al giro vita, non alla tua taglia abituale, e se sei tra due taglie prendi la più grande</li><li>Come misurarti: metro orizzontale attorno al punto più stretto del busto, qualche centimetro sopra l’ombelico</li><li>Uso: pensato per il giorno</li></ul>",
       "verified": true,
       "colorSources": {
         "Nero": "Black",
@@ -9180,10 +9180,10 @@ window.CATALOG = {
       "productType": "Intimo e modellanti",
       "taxonomy": "Apparel & Accessories > Clothing > Lingerie > Shapewear",
       "imageAlt": "Shorts modellanti Silvia",
-      "description": "Shorts modellanti pensati per non arrotolarsi, per una linea più levigata sotto abiti, gonne e pantaloni. Nei colori nude e nero, taglie dalla S alla XL.",
+      "description": "Shorts modellanti senza cuciture in elastan e poliammide, con grip antiscivolo e fascia in vita di 10 cm che non si arrotola. Nude o nero, dalla S alla XL.",
       "seoTitle": "Shorts modellanti Silvia anti-arrotolamento",
-      "seoDescription": "Shorts modellanti pensati per non arrotolarsi, per una linea più levigata sotto abiti, gonne e pantaloni. Nei colori nude e nero, taglie dalla S alla XL.",
-      "bodyHtml": "<p>Il difetto classico dei pantaloncini modellanti lo conosci bene: dopo un’ora iniziano ad arrotolarsi in vita e passi la giornata a tirarli su. Gli shorts modellanti Silvia nascono proprio per evitarlo, così puoi pensare a tutto il resto.</p><p>Li indossi sotto un abito aderente, una gonna a tubino o un pantalone leggero e la linea resta più levigata, con un effetto modellante che accompagna le forme. Il nude scompare sotto i capi chiari, il nero è la scelta naturale per i look scuri e per le sere fuori. Una base semplice da tenere nel cassetto per quando l’outfit chiede un po’ di attenzione in più.</p><ul><li><strong>Anti-arrotolamento:</strong> progettati per restare al loro posto senza arrotolarsi.</li><li><strong>Effetto modellante:</strong> linea più uniforme sotto gli abiti, dalla vita alle gambe.</li><li><strong>Forma a pantaloncino:</strong> coprono anche la parte alta delle gambe, comodi sotto vestiti e gonne.</li><li><strong>Due colori essenziali:</strong> nude e nero, facili da abbinare a quasi tutto.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tipo: shorts modellanti anti-arrotolamento</li><li>Colori: nude, nero</li><li>Taglie: S, M, L, XL</li></ul>",
+      "seoDescription": "Shorts modellanti senza cuciture in elastan e poliammide, con grip antiscivolo e fascia in vita di 10 cm che non si arrotola. Nude o nero, dalla S alla XL.",
+      "bodyHtml": "<p>Dieci centimetri di fascia in vita che restano su, gambe che restano giù. Gli shorts modellanti Silvia hanno un grip antiscivolo e pannelli studiati con precisione che li tengono al loro posto, senza arrotolarsi né salire sulle cosce: niente da tirare o sistemare durante la giornata.</p><p>Il tessuto, morbido e traspirante, veste come una seconda pelle. Modella pancia, fianchi e cosce, sostiene i glutei per una forma più rotonda e resta invisibile sotto tutto, dalla t-shirt all’abito aderente della cerimonia. Il nude scompare sotto i capi chiari, il nero accompagna i look scuri.</p><ul><li><strong>Anti-arrotolamento:</strong> grip antiscivolo e fascia alta circa 10 cm che restano ferme in vita.</li><li><strong>Effetto modellante:</strong> linea più levigata su pancia, fianchi e cosce.</li><li><strong>Effetto lifting:</strong> glutei sostenuti per una silhouette più rotonda.</li><li><strong>Senza cuciture:</strong> invisibili sotto t-shirt e abiti aderenti.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: 75% elastan, 25% poliammide</li><li>Vita: fascia morbida alta circa 10 cm</li><li>Vestibilità: se sei tra due taglie, scegli la più piccola per un effetto più modellante o la più grande per più comfort</li><li>Cura: lavaggio in lavatrice a freddo, meglio in un sacchetto per il bucato; niente candeggina, asciugatura all’aria, non stirare, niente lavaggio a secco</li><li>Colori: nude, nero</li></ul>",
       "verified": true,
       "colorSources": {
         "Nude": "Nude",
@@ -9321,10 +9321,10 @@ window.CATALOG = {
       "productType": "Leggings e collant",
       "taxonomy": "Apparel & Accessories > Clothing > Lingerie > Hosiery",
       "imageAlt": "Collant felpati effetto velato Lia",
-      "description": "Collant felpati effetto velato: da fuori sembrano sottili e color pelle, dentro sono foderati in pile. In quattro tonalità, taglie dalla XXS alla 5XL.",
+      "description": "Collant felpati dall’effetto velato ma coprenti, con pile spesso antipilling, fascia contenitiva in vita e quattro tonalità pelle. Dalla XXS alla 5XL.",
       "seoTitle": "Collant felpati effetto velato Lia, foderati in pile",
-      "seoDescription": "Collant felpati effetto velato: da fuori sembrano sottili e color pelle, dentro sono foderati in pile. In quattro tonalità, taglie dalla XXS alla 5XL.",
-      "bodyHtml": "<p>Da fuori sembrano velati, come un collant sottile color pelle. Dentro, invece, hanno una fodera in pile. È questo il piccolo trucco dei collant felpati effetto velato Lia: ti permettono di portare gonne e abiti anche quando l’aria si fa fredda.</p><p>Sono per le giornate d’inverno in cui non vuoi rinunciare all’effetto gamba nuda, dall’ufficio a una cena fuori. Le quattro tonalità seguono carnagioni diverse: vaniglia per le pelli chiare, latte per quelle ambrate, caramello per i toni bronzo ed espresso per le carnagioni scure. Scegli quella più vicina alla tua per un risultato naturale.</p><ul><li><strong>Effetto velato:</strong> l’aspetto leggero di un collant trasparente.</li><li><strong>Interno felpato:</strong> la fodera in pile ti tiene compagnia nelle giornate fredde.</li><li><strong>Quattro tonalità pelle:</strong> dalla più chiara alla più scura, per un colore che si confonde con il tuo.</li><li><strong>Taglie ampie:</strong> sei taglie, dalla XXS/XS alla 4XL/5XL.</li></ul><p><strong>Dettagli</strong></p><ul><li>Interno: foderato in pile</li><li>Colori: vaniglia (chiaro), latte (ambrato), caramello (bronzo), espresso (scuro)</li><li>Taglie: XXS/XS (00-1), XS/S (2-6), M/L (7-11), L/XL (12-16), 2XL/3XL (18-24), 4XL/5XL (26-32)</li></ul>",
+      "seoDescription": "Collant felpati dall’effetto velato ma coprenti, con pile spesso antipilling, fascia contenitiva in vita e quattro tonalità pelle. Dalla XXS alla 5XL.",
+      "bodyHtml": "<p>Da fuori sembrano velati, come un collant sottile color pelle. In realtà sono del tutto coprenti, con un pile spesso, morbidissimo e antipilling all’interno: ti chini, ti siedi a gambe incrociate e non si vede nulla.</p><p>I collant felpati effetto velato Lia sono fatti per l’inverno sotto gonne e abiti, e il pile è abbastanza sottile da stare anche sotto i jeans. La costruzione con una sola cucitura disegna una linea pulita e il tessuto, elastico in quattro direzioni, aderisce fino alle dita dei piedi.</p><ul><li><strong>Quattro tonalità pelle:</strong> vaniglia per carnagioni da molto chiare a chiare, latte da chiare a medie, caramello da medie a scure, espresso per le più scure.</li><li><strong>Pile traspirante:</strong> caldo all’aperto, senza farti accaldare al chiuso.</li><li><strong>Fascia contenitiva in vita:</strong> sostiene e leviga senza volume.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: 46,2% poliestere, 38,9% nylon, 14,9% elastan</li><li>Vestibilità: regolare e molto elastica (interno gamba da 61 a 102 cm); tra due taglie, la più piccola contiene di più, la più grande è più morbida</li><li>Guida taglie (vita / fianchi): XXS/XS 56-61 / 69-86 cm; XS/S 64-74 / 86-99 cm; M/L 76-89 / 97-117 cm; L/XL 91-102 / 112-122 cm; 2XL/3XL 104-114 / 124-147 cm; 4XL/5XL 117-132 / 150-173 cm</li><li>Cura: a freddo e al rovescio, a mano o ciclo delicato; asciugatura all’aria o a bassa temperatura, senza candeggina né ammorbidente</li></ul>",
       "verified": true,
       "colorSources": {
         "Vaniglia (chiaro)": "Vanilla (Light)",
@@ -9808,10 +9808,10 @@ window.CATALOG = {
       "productType": "Intimo e modellanti",
       "taxonomy": "Apparel & Accessories > Clothing > Lingerie > Bras",
       "imageAlt": "Reggiseno senza ferretto Cecilia",
-      "description": "Reggiseno senza ferretto e senza cuciture con effetto lifting: tessuto morbido ed elastico che veste come una seconda pelle, invisibile sotto i vestiti.",
+      "description": "Reggiseno senza ferretto con sostegno in gel, coppe in schiuma e bordi senza cuciture: effetto lifting e spalline antiscivolo. Dalla XS alla 3XL.",
       "seoTitle": "Reggiseno senza ferretto Cecilia, senza cuciture",
-      "seoDescription": "Reggiseno senza ferretto e senza cuciture con effetto lifting: tessuto morbido ed elastico che veste come una seconda pelle, invisibile sotto i vestiti.",
-      "bodyHtml": "<p>Lo indossi e sembra una seconda pelle: niente ferretto, niente cuciture, solo un tessuto morbido ed elastico che si adatta al tuo corpo. Il reggiseno Cecilia sostiene con un effetto lifting e sotto i vestiti semplicemente sparisce.</p><p>È il reggiseno per le giornate lunghe, dalla scrivania all’aperitivo, quando vuoi sentirti sostenuta senza pensarci. I colori sono sei: nude e caramello si confondono sotto le camicie leggere, il bianco e il grigio chiaro sono puliti e luminosi, il nero e il rosa tenue danno un tocco più personale. Le taglie vanno dalla XS alla 3XL.</p><ul><li><strong>Senza ferretto:</strong> un sostegno morbido, più libero di un modello con armatura.</li><li><strong>Effetto lifting:</strong> accompagna il seno verso l’alto per una linea armoniosa.</li><li><strong>Senza cuciture:</strong> vestibilità a seconda pelle, invisibile sotto i vestiti.</li><li><strong>Tessuto elastico:</strong> morbido al tatto, segue le tue forme invece di costringerle.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: tessuto morbido ed elastico, senza cuciture</li><li>Struttura: senza ferretto, con effetto lifting</li><li>Colori: nero, bianco, nude, caramello, grigio chiaro, rosa tenue</li><li>Taglie: XS, S, M, L, XL, 2XL, 3XL</li></ul>",
+      "seoDescription": "Reggiseno senza ferretto con sostegno in gel, coppe in schiuma e bordi senza cuciture: effetto lifting e spalline antiscivolo. Dalla XS alla 3XL.",
+      "bodyHtml": "<p>Lo indossi e sembra una seconda pelle. Il reggiseno Cecilia non ha ferretto: al suo posto c’è un sostegno in gel, senza parti in metallo, che solleva e dà forma come un modello con armatura, mentre le coppe in schiuma si adattano alla tua forma naturale.</p><p>Il tessuto è morbidissimo, leggero e traspirante, e si muove con te dalla scrivania all’aperitivo. I bordi senza cuciture e la fascia levigante sotto il seno non lasciano segni, nemmeno sotto i top più aderenti. Le spalline sono regolabili, non scivolano e si possono portare in più modi.</p><ul><li><strong>Sostegno in gel senza ferretto:</strong> effetto lifting senza metallo che preme o segna.</li><li><strong>Coppe in schiuma:</strong> si modellano sulla tua forma naturale.</li><li><strong>Invisibile:</strong> bordi senza cuciture e fascia levigante per una finitura pulita sotto i vestiti.</li><li><strong>Spalline versatili:</strong> regolabili, antiscivolo e trasformabili.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: tessuto morbido, leggero, elastico e traspirante, senza cuciture</li><li>Struttura: senza ferretto, sostegno in gel, coppe in schiuma</li><li>Chiusura: gancetti flessibili</li><li>Vestibilità: se sei tra due taglie, scegli la più grande per il comfort o la più piccola per una tenuta più salda</li><li>Colori: nero, bianco, nude, caramello, grigio chiaro, rosa tenue</li></ul>",
       "verified": true,
       "colorSources": {
         "Nero": "Black",
@@ -22381,10 +22381,10 @@ window.CATALOG = {
       "productType": "Abiti",
       "taxonomy": "Apparel & Accessories > Clothing > Dresses",
       "imageAlt": "Abito sottoveste in raso Dalia",
-      "description": "Abito sottoveste lungo in raso lucido e fluido, taglio in sbieco anni ’90, scollo arrotondato, spalline sottili regolabili e gonna a colonna.",
+      "description": "Abito sottoveste lungo in raso lucido di poliestere ed elastan, taglio in sbieco anni ’90, scollo arrotondato e spalline sottili regolabili. Carruba.",
       "seoTitle": "Abito sottoveste in raso Dalia color carruba",
-      "seoDescription": "Abito sottoveste lungo in raso lucido e fluido, taglio in sbieco anni ’90, scollo arrotondato, spalline sottili regolabili e gonna a colonna.",
-      "bodyHtml": "<p>Il raso scivola sulla pelle e cattura la luce a ogni passo: lucido, fluido, di peso medio, abbastanza corposo da cadere bene. Il taglio in sbieco lo accompagna lungo il corpo e la gonna scende dritta, a colonna, fino in fondo.</p><p>Dalia è la sottoveste lunga dal sapore anni ’90, in un caldo color carruba. Pensala per una cena importante o per un matrimonio in città: il corpo ha un taglio morbido, non fasciante, e ti lascia muovere senza pensieri per tutta la sera.</p><ul><li><strong>Taglio in sbieco:</strong> il tessuto segue le linee del corpo con naturalezza e si muove con te.</li><li><strong>Scollo arrotondato:</strong> una curva delicata che valorizza décolleté e clavicole.</li><li><strong>Spalline sottili regolabili:</strong> trovi in un attimo la lunghezza giusta per la tua figura.</li><li><strong>Gonna a colonna:</strong> una linea lunga e pulita che slancia la silhouette.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: raso lucido e fluido di peso medio</li><li>Colore: carruba</li><li>Lunghezza: maxi, con gonna a colonna</li><li>Spalline: sottili, regolabili</li><li>Vestibilità: taglio in sbieco, corpo morbido e rilassato</li><li>Prova e cura: il raso è delicato, togli gioielli e anelli quando lo provi per evitare fili tirati</li></ul>",
+      "seoDescription": "Abito sottoveste lungo in raso lucido di poliestere ed elastan, taglio in sbieco anni ’90, scollo arrotondato e spalline sottili regolabili. Carruba.",
+      "bodyHtml": "<p>Il raso scivola sulla pelle e cattura la luce a ogni passo: lucido, fluido, di peso medio, abbastanza corposo da cadere bene. Il taglio in sbieco lo accompagna lungo il corpo e la gonna scende dritta, a colonna, fino in fondo.</p><p>Dalia è la sottoveste lunga dal sapore anni ’90, in un caldo color carruba. Pensala per una cena importante o per un matrimonio in città: il corpo ha un taglio morbido, non fasciante, e ti lascia muovere senza pensieri per tutta la sera.</p><ul><li><strong>Taglio in sbieco:</strong> il tessuto segue le linee del corpo con naturalezza e si muove con te.</li><li><strong>Scollo arrotondato:</strong> una curva delicata che valorizza décolleté e clavicole.</li><li><strong>Spalline sottili regolabili:</strong> trovi in un attimo la lunghezza giusta per la tua figura.</li><li><strong>Gonna a colonna:</strong> una linea lunga e pulita che slancia la silhouette.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: raso lucido di peso medio, 97% poliestere e 3% elastan</li><li>Colore: carruba</li><li>Lunghezza: maxi, con gonna a colonna</li><li>Vestibilità: taglio in sbieco, corpo morbido e rilassato; la modella è alta 176 cm e indossa la XS</li><li>Cura: lavaggio a secco o a mano in acqua fresca; non candeggiare; stirare a bassa temperatura sul rovescio; asciugare in piano</li><li>Prova: il raso è delicato, togli gioielli e anelli quando lo provi per evitare fili tirati</li></ul>",
       "verified": true,
       "colorSources": {},
       "options": [
@@ -23230,11 +23230,11 @@ window.CATALOG = {
         {
           "name": "Taglia",
           "values": [
-            "UK S",
-            "UK M",
-            "UK L",
-            "UK XL",
-            "UK XXL"
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
           ]
         }
       ],
@@ -23243,7 +23243,7 @@ window.CATALOG = {
           "id": 680001,
           "options": [
             "Crema",
-            "UK S"
+            "S"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23254,7 +23254,7 @@ window.CATALOG = {
           "id": 680002,
           "options": [
             "Crema",
-            "UK M"
+            "M"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23265,7 +23265,7 @@ window.CATALOG = {
           "id": 680003,
           "options": [
             "Crema",
-            "UK L"
+            "L"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23276,7 +23276,7 @@ window.CATALOG = {
           "id": 680004,
           "options": [
             "Crema",
-            "UK XL"
+            "XL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23287,7 +23287,7 @@ window.CATALOG = {
           "id": 680005,
           "options": [
             "Crema",
-            "UK XXL"
+            "XXL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23298,7 +23298,7 @@ window.CATALOG = {
           "id": 680006,
           "options": [
             "Rosa",
-            "UK S"
+            "S"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23309,7 +23309,7 @@ window.CATALOG = {
           "id": 680007,
           "options": [
             "Rosa",
-            "UK M"
+            "M"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23320,7 +23320,7 @@ window.CATALOG = {
           "id": 680008,
           "options": [
             "Rosa",
-            "UK L"
+            "L"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23331,7 +23331,7 @@ window.CATALOG = {
           "id": 680009,
           "options": [
             "Rosa",
-            "UK XL"
+            "XL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23342,7 +23342,7 @@ window.CATALOG = {
           "id": 680010,
           "options": [
             "Rosa",
-            "UK XXL"
+            "XXL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23353,7 +23353,7 @@ window.CATALOG = {
           "id": 680011,
           "options": [
             "Verde",
-            "UK S"
+            "S"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23364,7 +23364,7 @@ window.CATALOG = {
           "id": 680012,
           "options": [
             "Verde",
-            "UK M"
+            "M"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23375,7 +23375,7 @@ window.CATALOG = {
           "id": 680013,
           "options": [
             "Verde",
-            "UK L"
+            "L"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23386,7 +23386,7 @@ window.CATALOG = {
           "id": 680014,
           "options": [
             "Verde",
-            "UK XL"
+            "XL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23397,7 +23397,7 @@ window.CATALOG = {
           "id": 680015,
           "options": [
             "Verde",
-            "UK XXL"
+            "XXL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23408,7 +23408,7 @@ window.CATALOG = {
           "id": 680016,
           "options": [
             "Nero",
-            "UK S"
+            "S"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23419,7 +23419,7 @@ window.CATALOG = {
           "id": 680017,
           "options": [
             "Nero",
-            "UK M"
+            "M"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23430,7 +23430,7 @@ window.CATALOG = {
           "id": 680018,
           "options": [
             "Nero",
-            "UK L"
+            "L"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23441,7 +23441,7 @@ window.CATALOG = {
           "id": 680019,
           "options": [
             "Nero",
-            "UK XL"
+            "XL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -23452,7 +23452,7 @@ window.CATALOG = {
           "id": 680020,
           "options": [
             "Nero",
-            "UK XXL"
+            "XXL"
           ],
           "price": 3200,
           "compare_at_price": 0,
@@ -26212,10 +26212,10 @@ window.CATALOG = {
       "productType": "Intimo e modellanti",
       "taxonomy": "Apparel & Accessories > Clothing > Lingerie > Bras",
       "imageAlt": "Reggiseno balconcino senza cuciture Pia",
-      "description": "Reggiseno a balconcino senza cuciture e non imbottito: solleva e sostiene il seno in modo naturale, invisibile sotto i vestiti. Coppe dalla B alla F.",
+      "description": "Reggiseno a balconcino con ferretto, senza cuciture e non imbottito, in tessuto elastico traspirante. Spalline distanziate, invisibile sotto gli scolli.",
       "seoTitle": "Reggiseno balconcino senza cuciture Pia",
-      "seoDescription": "Reggiseno a balconcino senza cuciture e non imbottito: solleva e sostiene il seno in modo naturale, invisibile sotto i vestiti. Coppe dalla B alla F.",
-      "bodyHtml": "<p>Sostegno vero, senza imbottiture e senza spessori. Pia è un reggiseno a balconcino senza cuciture e non imbottito: solleva e modella il seno in modo naturale, e dopo pochi minuti quasi ti dimentichi di averlo addosso.</p><p>Le sue linee pulite spariscono sotto una t-shirt aderente come sotto la camicia che porti in ufficio, così puoi indossarlo con tutto, dal mattino alla sera. Lo senti come una seconda pelle e ti sostiene per tutta la giornata, senza aggiungere volume.</p><ul><li><strong>Senza cuciture:</strong> nessun segno sotto i vestiti, anche i più aderenti.</li><li><strong>Taglio a balconcino:</strong> sostiene e solleva, disegnando una forma naturale.</li><li><strong>Non imbottito:</strong> leggero e sottile, senza effetto ingombrante.</li><li><strong>Comodo tutto il giorno:</strong> sostegno costante, ora dopo ora.</li><li><strong>Cinque colori:</strong> nude, bianco e nero per ogni giorno, marrone e rosso quando vuoi osare.</li></ul><p><strong>Dettagli</strong></p><ul><li>Modello: balconcino senza cuciture, non imbottito</li><li>Giro sotto seno: 34, 36, 38, 40, 42</li><li>Coppa: B, C, D, DD/E, F</li><li>Colori: marrone, bianco, nero, nude, rosso</li></ul>",
+      "seoDescription": "Reggiseno a balconcino con ferretto, senza cuciture e non imbottito, in tessuto elastico traspirante. Spalline distanziate, invisibile sotto gli scolli.",
+      "bodyHtml": "<p>Sostegno vero, senza imbottiture e senza spessori. Pia è un reggiseno a balconcino con ferretto, senza cuciture e non imbottito: solleva e incornicia il seno dandogli una forma naturale e arrotondata, poi sparisce sotto qualsiasi cosa indossi.</p><p>Il ferretto è avvolto dal tessuto, così sostiene senza segnare e senza punti di pressione. Le spalline sono distanziate, posizionate più verso l’esterno delle spalle: sotto uno scollo quadrato o profondo restano nascoste. Il tessuto, elastico in quattro direzioni, è leggero e traspirante e lo senti come una seconda pelle fino a sera.</p><ul><li><strong>Senza cuciture:</strong> nessun segno sotto i vestiti, anche i più aderenti.</li><li><strong>Ferretto che non preme:</strong> canalini pensati per sostenere senza punti di pressione.</li><li><strong>Spalline regolabili antiscivolo:</strong> restano al loro posto e si adattano alla tua figura.</li><li><strong>Elastico in quattro direzioni:</strong> si muove con te e lascia respirare la pelle.</li><li><strong>Cinque colori:</strong> nude, bianco e nero per ogni giorno, marrone e rosso quando vuoi osare.</li></ul><p><strong>Dettagli</strong></p><ul><li>Modello: balconcino senza cuciture, con ferretto, non imbottito</li><li>Tessuto: elasticizzato in quattro direzioni, leggero e traspirante</li><li>Spalline: regolabili, antiscivolo, distanziate per scolli ampi e quadrati</li><li>Giro sotto seno: 34, 36, 38, 40, 42</li><li>Coppa: B, C, D, DD/E, F</li><li>Colori: marrone, bianco, nero, nude, rosso</li></ul>",
       "verified": true,
       "colorSources": {
         "Marrone": "Brown",
@@ -31520,7 +31520,7 @@ window.CATALOG = {
       "description": "Sneaker barefoot dal profilo basso: punta anatomica larga, pianta zero drop e suola in gomma flessibile. Da portare anche senza calze, ogni giorno.",
       "seoTitle": "Sneaker barefoot Lisa zero drop con punta larga",
       "seoDescription": "Sneaker barefoot dal profilo basso: punta anatomica larga, pianta zero drop e suola in gomma flessibile. Da portare anche senza calze, ogni giorno.",
-      "bodyHtml": "<p>Bassa, essenziale, quasi invisibile sotto l'orlo del jeans: la Lisa è la sneaker barefoot da tutti i giorni per chi non sopporta le scarpe ingombranti. La suola in gomma è flessibile, si piega e si torce insieme al piede, così il passo resta naturale sul cemento come sul parquet.</p><p>La punta larga, dalla forma anatomica, lascia le dita libere, e la pianta è completamente piatta. Dentro c'è una fodera morbida che si porta volentieri anche senza calze. La metti per portare fuori il cane, per le commissioni del sabato o in un ufficio dal dress code rilassato, con chino, jeans o shorts.</p><ul><li><strong>Zero drop:</strong> tallone e avampiede allo stesso livello, per un appoggio naturale.</li><li><strong>Punta anatomica ampia:</strong> spazio vero per le dita, senza costrizioni.</li><li><strong>Suola flessibile in gomma:</strong> segue ogni movimento del piede.</li><li><strong>Con o senza calze:</strong> la fodera interna è morbida a contatto con la pelle.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiali: leggeri, con fodera interna morbida</li><li>Suola: gomma flessibile, profilo basso</li><li>Drop: zero, pianta completamente piatta</li><li>Vestibilità: punta larga anatomica, taglie indicate per donna e uomo</li><li>Colori: azzurro costa, verde terra, legno di rosa, nero ebano</li></ul>",
+      "bodyHtml": "<p>Bassa, essenziale, quasi invisibile sotto l'orlo del jeans: la Lisa è la sneaker barefoot da tutti i giorni per chi non sopporta le scarpe ingombranti. La suola in gomma è flessibile, si piega e si torce insieme al piede, così il passo resta naturale sul cemento come sul parquet.</p><p>La punta larga, dalla forma anatomica, lascia le dita libere, e la pianta è completamente piatta. Dentro c'è una fodera morbida che si porta volentieri anche senza calze. La metti per portare fuori il cane, per le commissioni del sabato o in un ufficio dal dress code rilassato, con chino, jeans o shorts.</p><ul><li><strong>Zero drop:</strong> tallone e avampiede allo stesso livello, per un appoggio naturale.</li><li><strong>Punta anatomica ampia:</strong> spazio vero per le dita, senza costrizioni.</li><li><strong>Suola flessibile in gomma:</strong> segue ogni movimento del piede.</li><li><strong>Con o senza calze:</strong> la fodera interna è morbida a contatto con la pelle.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiali: leggeri, con fodera interna morbida</li><li>Suola: gomma flessibile, profilo basso</li><li>Drop: zero, pianta completamente piatta</li><li>Vestibilità: punta larga anatomica; per questo modello si consiglia una taglia in più rispetto alla tua abituale</li><li>Taglie: US, con indicazione per donna e uomo</li><li>Colori: azzurro costa, verde terra, legno di rosa, nero ebano</li></ul>",
       "verified": true,
       "colorSources": {
         "Azzurro costa": "Azure Coast",
@@ -31541,18 +31541,18 @@ window.CATALOG = {
         {
           "name": "Taglia",
           "values": [
-            "Donna 4 / Uomo 3",
-            "Donna 5 / Uomo 4",
-            "Donna 6 / Uomo 5",
-            "Donna 7 / Uomo 6",
-            "Donna 8 / Uomo 7",
-            "Donna 9 / Uomo 8",
-            "Donna 10 / Uomo 9",
-            "Donna 11 / Uomo 10",
-            "Donna 12 / Uomo 11",
-            "Donna 13 / Uomo 12",
-            "Donna 14 / Uomo 13",
-            "Donna 15 / Uomo 14"
+            "US Donna 4 / Uomo 3",
+            "US Donna 5 / Uomo 4",
+            "US Donna 6 / Uomo 5",
+            "US Donna 7 / Uomo 6",
+            "US Donna 8 / Uomo 7",
+            "US Donna 9 / Uomo 8",
+            "US Donna 10 / Uomo 9",
+            "US Donna 11 / Uomo 10",
+            "US Donna 12 / Uomo 11",
+            "US Donna 13 / Uomo 12",
+            "US Donna 14 / Uomo 13",
+            "US Donna 15 / Uomo 14"
           ]
         }
       ],
@@ -31561,7 +31561,7 @@ window.CATALOG = {
           "id": 830001,
           "options": [
             "Azzurro costa",
-            "Donna 4 / Uomo 3"
+            "US Donna 4 / Uomo 3"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31572,7 +31572,7 @@ window.CATALOG = {
           "id": 830002,
           "options": [
             "Azzurro costa",
-            "Donna 5 / Uomo 4"
+            "US Donna 5 / Uomo 4"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31583,7 +31583,7 @@ window.CATALOG = {
           "id": 830003,
           "options": [
             "Azzurro costa",
-            "Donna 6 / Uomo 5"
+            "US Donna 6 / Uomo 5"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31594,7 +31594,7 @@ window.CATALOG = {
           "id": 830004,
           "options": [
             "Azzurro costa",
-            "Donna 7 / Uomo 6"
+            "US Donna 7 / Uomo 6"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31605,7 +31605,7 @@ window.CATALOG = {
           "id": 830005,
           "options": [
             "Azzurro costa",
-            "Donna 8 / Uomo 7"
+            "US Donna 8 / Uomo 7"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31616,7 +31616,7 @@ window.CATALOG = {
           "id": 830006,
           "options": [
             "Azzurro costa",
-            "Donna 9 / Uomo 8"
+            "US Donna 9 / Uomo 8"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31627,7 +31627,7 @@ window.CATALOG = {
           "id": 830007,
           "options": [
             "Azzurro costa",
-            "Donna 10 / Uomo 9"
+            "US Donna 10 / Uomo 9"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31638,7 +31638,7 @@ window.CATALOG = {
           "id": 830008,
           "options": [
             "Azzurro costa",
-            "Donna 11 / Uomo 10"
+            "US Donna 11 / Uomo 10"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31649,7 +31649,7 @@ window.CATALOG = {
           "id": 830009,
           "options": [
             "Azzurro costa",
-            "Donna 12 / Uomo 11"
+            "US Donna 12 / Uomo 11"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31660,7 +31660,7 @@ window.CATALOG = {
           "id": 830010,
           "options": [
             "Azzurro costa",
-            "Donna 13 / Uomo 12"
+            "US Donna 13 / Uomo 12"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31671,7 +31671,7 @@ window.CATALOG = {
           "id": 830011,
           "options": [
             "Azzurro costa",
-            "Donna 14 / Uomo 13"
+            "US Donna 14 / Uomo 13"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31682,7 +31682,7 @@ window.CATALOG = {
           "id": 830012,
           "options": [
             "Azzurro costa",
-            "Donna 15 / Uomo 14"
+            "US Donna 15 / Uomo 14"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31693,7 +31693,7 @@ window.CATALOG = {
           "id": 830013,
           "options": [
             "Verde terra",
-            "Donna 4 / Uomo 3"
+            "US Donna 4 / Uomo 3"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31704,7 +31704,7 @@ window.CATALOG = {
           "id": 830014,
           "options": [
             "Verde terra",
-            "Donna 5 / Uomo 4"
+            "US Donna 5 / Uomo 4"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31715,7 +31715,7 @@ window.CATALOG = {
           "id": 830015,
           "options": [
             "Verde terra",
-            "Donna 6 / Uomo 5"
+            "US Donna 6 / Uomo 5"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31726,7 +31726,7 @@ window.CATALOG = {
           "id": 830016,
           "options": [
             "Verde terra",
-            "Donna 7 / Uomo 6"
+            "US Donna 7 / Uomo 6"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31737,7 +31737,7 @@ window.CATALOG = {
           "id": 830017,
           "options": [
             "Verde terra",
-            "Donna 8 / Uomo 7"
+            "US Donna 8 / Uomo 7"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31748,7 +31748,7 @@ window.CATALOG = {
           "id": 830018,
           "options": [
             "Verde terra",
-            "Donna 9 / Uomo 8"
+            "US Donna 9 / Uomo 8"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31759,7 +31759,7 @@ window.CATALOG = {
           "id": 830019,
           "options": [
             "Verde terra",
-            "Donna 10 / Uomo 9"
+            "US Donna 10 / Uomo 9"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31770,7 +31770,7 @@ window.CATALOG = {
           "id": 830020,
           "options": [
             "Verde terra",
-            "Donna 11 / Uomo 10"
+            "US Donna 11 / Uomo 10"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31781,7 +31781,7 @@ window.CATALOG = {
           "id": 830021,
           "options": [
             "Verde terra",
-            "Donna 12 / Uomo 11"
+            "US Donna 12 / Uomo 11"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31792,7 +31792,7 @@ window.CATALOG = {
           "id": 830022,
           "options": [
             "Verde terra",
-            "Donna 13 / Uomo 12"
+            "US Donna 13 / Uomo 12"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31803,7 +31803,7 @@ window.CATALOG = {
           "id": 830023,
           "options": [
             "Verde terra",
-            "Donna 14 / Uomo 13"
+            "US Donna 14 / Uomo 13"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31814,7 +31814,7 @@ window.CATALOG = {
           "id": 830024,
           "options": [
             "Verde terra",
-            "Donna 15 / Uomo 14"
+            "US Donna 15 / Uomo 14"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31825,7 +31825,7 @@ window.CATALOG = {
           "id": 830025,
           "options": [
             "Legno di rosa",
-            "Donna 4 / Uomo 3"
+            "US Donna 4 / Uomo 3"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31836,7 +31836,7 @@ window.CATALOG = {
           "id": 830026,
           "options": [
             "Legno di rosa",
-            "Donna 5 / Uomo 4"
+            "US Donna 5 / Uomo 4"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31847,7 +31847,7 @@ window.CATALOG = {
           "id": 830027,
           "options": [
             "Legno di rosa",
-            "Donna 6 / Uomo 5"
+            "US Donna 6 / Uomo 5"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31858,7 +31858,7 @@ window.CATALOG = {
           "id": 830028,
           "options": [
             "Legno di rosa",
-            "Donna 7 / Uomo 6"
+            "US Donna 7 / Uomo 6"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31869,7 +31869,7 @@ window.CATALOG = {
           "id": 830029,
           "options": [
             "Legno di rosa",
-            "Donna 8 / Uomo 7"
+            "US Donna 8 / Uomo 7"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31880,7 +31880,7 @@ window.CATALOG = {
           "id": 830030,
           "options": [
             "Legno di rosa",
-            "Donna 9 / Uomo 8"
+            "US Donna 9 / Uomo 8"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31891,7 +31891,7 @@ window.CATALOG = {
           "id": 830031,
           "options": [
             "Legno di rosa",
-            "Donna 10 / Uomo 9"
+            "US Donna 10 / Uomo 9"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31902,7 +31902,7 @@ window.CATALOG = {
           "id": 830032,
           "options": [
             "Legno di rosa",
-            "Donna 11 / Uomo 10"
+            "US Donna 11 / Uomo 10"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31913,7 +31913,7 @@ window.CATALOG = {
           "id": 830033,
           "options": [
             "Legno di rosa",
-            "Donna 12 / Uomo 11"
+            "US Donna 12 / Uomo 11"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31924,7 +31924,7 @@ window.CATALOG = {
           "id": 830034,
           "options": [
             "Legno di rosa",
-            "Donna 13 / Uomo 12"
+            "US Donna 13 / Uomo 12"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31935,7 +31935,7 @@ window.CATALOG = {
           "id": 830035,
           "options": [
             "Legno di rosa",
-            "Donna 14 / Uomo 13"
+            "US Donna 14 / Uomo 13"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31946,7 +31946,7 @@ window.CATALOG = {
           "id": 830036,
           "options": [
             "Legno di rosa",
-            "Donna 15 / Uomo 14"
+            "US Donna 15 / Uomo 14"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31957,7 +31957,7 @@ window.CATALOG = {
           "id": 830037,
           "options": [
             "Nero ebano",
-            "Donna 4 / Uomo 3"
+            "US Donna 4 / Uomo 3"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31968,7 +31968,7 @@ window.CATALOG = {
           "id": 830038,
           "options": [
             "Nero ebano",
-            "Donna 5 / Uomo 4"
+            "US Donna 5 / Uomo 4"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31979,7 +31979,7 @@ window.CATALOG = {
           "id": 830039,
           "options": [
             "Nero ebano",
-            "Donna 6 / Uomo 5"
+            "US Donna 6 / Uomo 5"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -31990,7 +31990,7 @@ window.CATALOG = {
           "id": 830040,
           "options": [
             "Nero ebano",
-            "Donna 7 / Uomo 6"
+            "US Donna 7 / Uomo 6"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -32001,7 +32001,7 @@ window.CATALOG = {
           "id": 830041,
           "options": [
             "Nero ebano",
-            "Donna 8 / Uomo 7"
+            "US Donna 8 / Uomo 7"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -32012,7 +32012,7 @@ window.CATALOG = {
           "id": 830042,
           "options": [
             "Nero ebano",
-            "Donna 9 / Uomo 8"
+            "US Donna 9 / Uomo 8"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -32023,7 +32023,7 @@ window.CATALOG = {
           "id": 830043,
           "options": [
             "Nero ebano",
-            "Donna 10 / Uomo 9"
+            "US Donna 10 / Uomo 9"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -32034,7 +32034,7 @@ window.CATALOG = {
           "id": 830044,
           "options": [
             "Nero ebano",
-            "Donna 11 / Uomo 10"
+            "US Donna 11 / Uomo 10"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -32045,7 +32045,7 @@ window.CATALOG = {
           "id": 830045,
           "options": [
             "Nero ebano",
-            "Donna 12 / Uomo 11"
+            "US Donna 12 / Uomo 11"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -32056,7 +32056,7 @@ window.CATALOG = {
           "id": 830046,
           "options": [
             "Nero ebano",
-            "Donna 13 / Uomo 12"
+            "US Donna 13 / Uomo 12"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -32067,7 +32067,7 @@ window.CATALOG = {
           "id": 830047,
           "options": [
             "Nero ebano",
-            "Donna 14 / Uomo 13"
+            "US Donna 14 / Uomo 13"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -32078,7 +32078,7 @@ window.CATALOG = {
           "id": 830048,
           "options": [
             "Nero ebano",
-            "Donna 15 / Uomo 14"
+            "US Donna 15 / Uomo 14"
           ],
           "price": 7899,
           "compare_at_price": 17499,
@@ -32110,10 +32110,10 @@ window.CATALOG = {
       "productType": "Sneakers e scarpe comode",
       "taxonomy": "Apparel & Accessories > Shoes",
       "imageAlt": "Scarpa elasticizzata Olga",
-      "description": "Scarpa comoda elasticizzata che asseconda il piede, disponibile in versione donna e uomo con taglie UK dalla 3 alla 11 e in sei colori diversi.",
+      "description": "Scarpa elasticizzata con soletta imbottita, fodera traspirante e suola flessibile, lavabile in lavatrice. Versione donna e uomo, taglie UK dalla 3 alla 11.",
       "seoTitle": "Scarpa elasticizzata Olga, comoda tutto il giorno",
-      "seoDescription": "Scarpa comoda elasticizzata che asseconda il piede, disponibile in versione donna e uomo con taglie UK dalla 3 alla 11 e in sei colori diversi.",
-      "bodyHtml": "<p>Certe giornate chiedono soltanto una scarpa che non si faccia sentire. La Olga è una scarpa elasticizzata nata per la comodità: cede dove serve e asseconda il piede invece di costringerlo, così pensi a tutto tranne che a cosa hai ai piedi.</p><p>Esiste in versione donna e in versione uomo, entrambe con taglie UK: un dettaglio comodo se vuoi prenderne un paio anche per lui. I colori sono sei, dal nero intenso al viola, passando per il verde, il blu e un bianco pulito.</p><ul><li><strong>Elasticizzata:</strong> segue la forma del piede e i suoi movimenti.</li><li><strong>Pensata per il comfort:</strong> la scelta giusta per le giornate in cui sei sempre in movimento.</li><li><strong>Donna e uomo:</strong> scegli prima il modello, poi la tua taglia UK.</li><li><strong>Sei colori:</strong> due neri, uno più profondo dell'altro, e quattro tinte piene.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tipo: scarpa comoda elasticizzata</li><li>Modelli: donna e uomo</li><li>Taglie: UK dalla 3 alla 11, numeri interi</li><li>Colori: nero, blu, viola, bianco, verde, nero intenso</li></ul>",
+      "seoDescription": "Scarpa elasticizzata con soletta imbottita, fodera traspirante e suola flessibile, lavabile in lavatrice. Versione donna e uomo, taglie UK dalla 3 alla 11.",
+      "bodyHtml": "<p>Certe giornate chiedono soltanto una scarpa che non si faccia sentire. La Olga è elasticizzata e asseconda il piede invece di costringerlo, con una soletta imbottita che resta morbida anche dopo molte ore in piedi e una suola flessibile che si piega insieme al passo.</p><p>La fodera traspirante tiene il piede fresco e asciutto, la struttura regge bene le giornate di lavoro più piene e, quando serve, va dritta in lavatrice. Ha un'aria casual e pulita, ed esiste in versione donna e uomo, entrambe con taglie UK: comodo se vuoi prenderne un paio anche per lui.</p><ul><li><strong>Elasticizzata:</strong> segue la forma del piede e i suoi movimenti.</li><li><strong>Soletta imbottita:</strong> una sensazione morbida e sostenuta, passo dopo passo.</li><li><strong>Fodera traspirante:</strong> piede fresco e asciutto per tutto il giorno.</li><li><strong>Per ogni terreno:</strong> dai marciapiedi di città alle passeggiate fuori porta.</li></ul><p><strong>Dettagli</strong></p><ul><li>Calzata: elasticizzata</li><li>Interno: soletta imbottita, fodera traspirante</li><li>Suola: flessibile</li><li>Modelli: donna e uomo, taglie UK dalla 3 alla 11</li><li>Cura: lavabile in lavatrice</li></ul>",
       "verified": true,
       "colorSources": {
         "Nero": "Black",
@@ -36292,10 +36292,10 @@ window.CATALOG = {
       "productType": "Pantofole",
       "taxonomy": "Apparel & Accessories > Shoes > Slippers",
       "imageAlt": "Pantofola Nella",
-      "description": "Pantofola da casa in undici colori, dalle tinte unite alle versioni a quadri rosso e verde, con taglie US per donna e uomo a intervalli.",
+      "description": "Pantofola in pile extra morbido con suola spessa, antiscivolo e resistente all'acqua. Lavabile in lavatrice, in undici colori e due fantasie a quadri.",
       "seoTitle": "Pantofola Nella in tinta unita o a quadri",
-      "seoDescription": "Pantofola da casa in undici colori, dalle tinte unite alle versioni a quadri rosso e verde, con taglie US per donna e uomo a intervalli.",
-      "bodyHtml": "<p>Ci sono oggetti che fanno casa più di altri, e un buon paio di pantofole è uno di questi. La Nella è quella che infili appena rientri, quando le scarpe restano all'ingresso e la serata comincia davvero.</p><p>La scegli in undici colori: tinte piene come verde, viola, arancione e rosa, oppure le due versioni a quadri, rossa e verde, che fanno subito pensare alle domeniche lente sul divano e ai pomeriggi di dicembre.</p><ul><li><strong>Undici colori:</strong> dai neutri come nero, grigio e marrone alle tinte più allegre.</li><li><strong>Due fantasie a quadri:</strong> rosso e verde, un'idea anche da regalare.</li><li><strong>Taglie a intervalli:</strong> ogni misura copre più numeri, così trovare la tua è semplice.</li><li><strong>Donna e uomo:</strong> ogni taglia riporta la corrispondenza US per entrambi.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tipo: pantofola da casa</li><li>Taglie: US con doppia indicazione, da Donna 3-4 / Uomo 2-3 a Donna 13.5-14.5 / Uomo 12.5-13.5</li><li>Colori: verde, blu, marrone, grigio, viola, rosso, nero, rosa, arancione, quadri rosso, quadri verde</li></ul>",
+      "seoDescription": "Pantofola in pile extra morbido con suola spessa, antiscivolo e resistente all'acqua. Lavabile in lavatrice, in undici colori e due fantasie a quadri.",
+      "bodyHtml": "<p>Il pile è morbidissimo, la suola spessa e imbottita: la Nella è la pantofola che infili appena rientri e che non devi togliere per scendere a ritirare un pacco. La suola antiscivolo e resistente all'acqua è pronta anche per due passi fuori dalla porta.</p><p>È fatta per durare, con cuciture rinforzate e tessuti che mantengono forma e morbidezza nel tempo. Undici colori, dalle tinte piene alle due versioni a quadri, rossa e verde, che sanno di domeniche lente sul divano. E quando ha bisogno di una rinfrescata, va in lavatrice.</p><ul><li><strong>Pile extra morbido:</strong> soffice e accogliente a contatto con il piede.</li><li><strong>Suola spessa imbottita:</strong> ammortizza il passo, in casa e fuori.</li><li><strong>Battistrada antiscivolo:</strong> passo stabile sui pavimenti lisci.</li><li><strong>Lavabile in lavatrice:</strong> ciclo delicato in acqua fredda.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: pile extra morbido, cuciture rinforzate</li><li>Suola: spessa, imbottita, antiscivolo e resistente all'acqua</li><li>Vestibilità: taglie US standard, modello unisex; all'inizio può risultare aderente, poi il materiale si adatta al piede. Per più agio si consiglia una taglia in più</li><li>Taglie: da US Donna 3-4 / Uomo 2-3 (EU 34-35) a US Donna 13.5-14.5 / Uomo 12.5-13.5 (EU 48-49)</li><li>Cura: lavatrice a ciclo delicato in acqua fredda, asciugatura all'aria, niente asciugatrice</li></ul>",
       "verified": true,
       "colorSources": {
         "Verde": "Green",
@@ -40847,10 +40847,10 @@ window.CATALOG = {
       "productType": "Zoccoli e sabot",
       "taxonomy": "Apparel & Accessories > Shoes",
       "imageAlt": "Zoccolo in camoscio Fosca",
-      "description": "Zoccolo in vera pelle scamosciata dalla linea attuale, in nove colori dal tortora al verde militare. Taglie EU dalla 35 alla 47 con corrispondenza US.",
+      "description": "Zoccolo in vera pelle scamosciata bovina con plantare in sughero, fodera vegana morbida e fibbia in metallo regolabile. Taglie EU dalla 35 alla 47.",
       "seoTitle": "Zoccolo in camoscio Fosca in vera pelle scamosciata",
-      "seoDescription": "Zoccolo in vera pelle scamosciata dalla linea attuale, in nove colori dal tortora al verde militare. Taglie EU dalla 35 alla 47 con corrispondenza US.",
-      "bodyHtml": "<p>Il camoscio vero ha un modo tutto suo di prendere la luce, morbido e opaco, e su uno zoccolo rende curato anche il look più semplice. La Fosca è esattamente questo: la forma piena e attuale dello zoccolo, realizzata in vera pelle scamosciata.</p><p>Sta bene con un jeans dritto e un maglione oversize, con i calzini a vista nelle mezze stagioni o con un pantalone ampio in ufficio. Nove colori, dal tortora al verde militare fino al rosa.</p><ul><li><strong>Vera pelle scamosciata:</strong> superficie vellutata, piacevole al tatto e alla vista.</li><li><strong>Silhouette a zoccolo:</strong> di tendenza, rilassata, facile da portare.</li><li><strong>Nove colori:</strong> neutri caldi come moka, caffè e tortora, più blu navy, grigio, nero e rosa.</li><li><strong>Taglie EU con corrispondenza US:</strong> la tua misura per donna e uomo, dalla 35 alla 47.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: vera pelle scamosciata</li><li>Modello: zoccolo</li><li>Taglie: EU dalla 35 alla 47, con corrispondenza US donna e uomo</li><li>Colori: tortora, nero, blu navy, verde militare, moka, marrone, caffè, grigio, rosa</li></ul>",
+      "seoDescription": "Zoccolo in vera pelle scamosciata bovina con plantare in sughero, fodera vegana morbida e fibbia in metallo regolabile. Taglie EU dalla 35 alla 47.",
+      "bodyHtml": "<p>Il camoscio vero ha un modo tutto suo di prendere la luce, morbido e opaco. La Fosca lo porta sulla forma piena dello zoccolo: tomaia in pelle scamosciata bovina, fibbia in metallo regolabile e un plantare in sughero rivestito di camoscio che con l'uso si ammorbidisce e prende la forma del tuo piede.</p><p>Dentro, una fodera vegana morbidissima accoglie il piede. È uno zoccolo da tutto l'anno: con i calzini a vista e un jeans dritto in autunno, a piede nudo con un pantalone ampio quando torna il caldo. Nove colori, dal tortora al verde militare fino al rosa.</p><ul><li><strong>Vera pelle scamosciata:</strong> camoscio bovino dalla superficie vellutata, piacevole al tatto.</li><li><strong>Plantare in sughero:</strong> rivestito di camoscio, si modella sul piede giorno dopo giorno.</li><li><strong>Fibbia in metallo regolabile:</strong> stringi o allarghi la calzata come preferisci.</li><li><strong>Materiali traspiranti:</strong> il piede respira invece di scaldarsi.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tomaia: 100% pelle scamosciata bovina</li><li>Interno: fodera vegana morbida</li><li>Plantare: sughero rivestito di camoscio, senza schiume sintetiche né rivestimenti chimici</li><li>Chiusura: fibbia in metallo regolabile</li><li>Vestibilità: modello unisex; se sei tra due numeri, scegli il più grande</li><li>Cura: le piccole macchie si eliminano con un po' d'acqua</li></ul>",
       "verified": true,
       "colorSources": {
         "Tortora": "Taupe",
@@ -46327,10 +46327,10 @@ window.CATALOG = {
       "productType": "Pantofole",
       "taxonomy": "Apparel & Accessories > Shoes > Slippers",
       "imageAlt": "Pantofola effetto pelliccia Bettina",
-      "description": "Pantofola da casa effetto pelliccia, soffice e accogliente, in sei colori pieni dal rosa al blu. Da infilare la sera per stare comoda sul divano.",
+      "description": "Pantofola bassa effetto pelliccia con fodera in peluche, suola spessa che isola dal pavimento freddo e calzata avvolgente. Leggera, in sei colori.",
       "seoTitle": "Pantofola effetto pelliccia Bettina",
-      "seoDescription": "Pantofola da casa effetto pelliccia, soffice e accogliente, in sei colori pieni dal rosa al blu. Da infilare la sera per stare comoda sul divano.",
-      "bodyHtml": "<p>Il primo contatto è con il pelo soffice: la Bettina è una pantofola tutta comodità, da infilare la sera quando torni a casa e desideri soltanto una tisana calda e il tuo angolo di divano.</p><p>I colori sono sei, pieni e allegri: rosa, verde, marrone, arancione, grigio e blu. Ognuno ha quell'aria morbida che mette di buon umore appena la guardi, e proprio per questo è anche un regalo facile per un'amica, una sorella o per te.</p><ul><li><strong>Effetto pelliccia:</strong> soffice al tatto e accogliente al primo sguardo.</li><li><strong>Sei tinte piene:</strong> dal rosa al blu, passando per arancione e verde.</li><li><strong>Taglie a intervalli:</strong> quasi tutte le misure coprono più numeri, così trovi la tua più facilmente.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tipo: pantofola da casa effetto pelliccia</li><li>Taglie: da 2.5-3.5 a 10-10.5</li><li>Colori: rosa, verde, marrone, arancione, grigio, blu</li></ul>",
+      "seoDescription": "Pantofola bassa effetto pelliccia con fodera in peluche, suola spessa che isola dal pavimento freddo e calzata avvolgente. Leggera, in sei colori.",
+      "bodyHtml": "<p>Il primo contatto è con il peluche soffice della fodera: la Bettina è una pantofola spessa e calda, da infilare la sera quando torni a casa e desideri soltanto una tisana e il tuo angolo di divano.</p><p>La suola è spessa e resistente, e ti tiene lontana dal pavimento freddo delle mattine d'inverno. Calza come un calzino, avvolgente, con una punta ampia che lascia libere le dita. È leggera, si cura senza fatica e va bene sia per lei sia per lui. Sei colori pieni, dal rosa al blu.</p><ul><li><strong>Fodera in peluche:</strong> soffice, calda e traspirante.</li><li><strong>Suola spessa:</strong> isola dal freddo del pavimento ed è fatta per durare.</li><li><strong>Calzata a calzino:</strong> avvolge il piede, con punta ampia.</li><li><strong>Leggera e facile da curare:</strong> pratica tutti i giorni.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tipo: pantofola bassa effetto pelliccia, per donna e uomo</li><li>Interno: fodera in peluche morbida e traspirante</li><li>Suola: spessa e resistente</li><li>Vestibilità: avvolgente come un calzino, punta ampia</li><li>Taglie: da 2.5-3.5 a 10-10.5</li><li>Colori: rosa, verde, marrone, arancione, grigio, blu</li></ul>",
       "verified": true,
       "colorSources": {
         "Rosa": "Pink",
@@ -48257,7 +48257,7 @@ window.CATALOG = {
       "description": "Stivaletto barefoot invernale con tomaia isolata e resistente alle intemperie, zero drop, punta extra larga e suola a tasselli per neve e ghiaccio.",
       "seoTitle": "Stivaletto barefoot invernale Patrizia isolato",
       "seoDescription": "Stivaletto barefoot invernale con tomaia isolata e resistente alle intemperie, zero drop, punta extra larga e suola a tasselli per neve e ghiaccio.",
-      "bodyHtml": "<p>Il freddo non è una buona ragione per tornare alle scarpe rigide. La Patrizia è uno stivaletto barefoot pensato per l'inverno: tomaia isolata e resistente alle intemperie, che tiene fuori vento, neve e fanghiglia, eppure resta flessibile come una scarpa minimalista.</p><p>La punta extra larga lascia spazio anche ai calzettoni di lana spessi, senza stringere le dita. Sotto, una suola in gomma invernale con tasselli profondi fa presa su neve, ghiaccio e neve sciolta. Va bene per un sentiero innevato in montagna come per il tragitto verso l'ufficio quando nevica.</p><ul><li><strong>Tomaia isolata:</strong> piedi caldi e asciutti anche con vento e neve.</li><li><strong>Zero drop:</strong> pianta piatta e baricentro basso sulle superfici ghiacciate.</li><li><strong>Punta extra larga:</strong> spazio per le calze pesanti, senza pressioni.</li><li><strong>Suola a tasselli profondi:</strong> mescola invernale che fa presa dove scivola.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tomaia: isolata, resistente alle intemperie, flessibile</li><li>Suola: gomma invernale con tasselli profondi</li><li>Drop: zero</li><li>Vestibilità: punta extra larga, comoda con calze spesse</li><li>Taglie: indicate per donna e uomo</li></ul>",
+      "bodyHtml": "<p>Il freddo non è una buona ragione per tornare alle scarpe rigide. La Patrizia è uno stivaletto barefoot pensato per l'inverno: tomaia isolata e resistente alle intemperie, che tiene fuori vento, neve e fanghiglia, eppure resta flessibile come una scarpa minimalista.</p><p>La punta extra larga lascia spazio anche ai calzettoni di lana spessi, senza stringere le dita. Sotto, una suola in gomma invernale con tasselli profondi fa presa su neve, ghiaccio e neve sciolta. Va bene per un sentiero innevato in montagna come per il tragitto verso l'ufficio quando nevica.</p><ul><li><strong>Tomaia isolata:</strong> piedi caldi e asciutti anche con vento e neve.</li><li><strong>Zero drop:</strong> pianta piatta e baricentro basso sulle superfici ghiacciate.</li><li><strong>Punta extra larga:</strong> spazio per le calze pesanti, senza pressioni.</li><li><strong>Suola a tasselli profondi:</strong> mescola invernale che fa presa dove scivola.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tomaia: isolata, resistente alle intemperie, flessibile</li><li>Suola: gomma invernale con tasselli profondi</li><li>Drop: zero</li><li>Vestibilità: punta extra larga, comoda con calze spesse</li><li>Taglie: US, con indicazione per donna e uomo; scegli la tua taglia abituale; se sei tra due taglie, prendi la più piccola</li></ul>",
       "verified": true,
       "colorSources": {
         "Macchiato al caramello": "Caramel Macchiato",
@@ -48278,17 +48278,17 @@ window.CATALOG = {
         {
           "name": "Taglia",
           "values": [
-            "Donna 4 / Uomo 3",
-            "Donna 5 / Uomo 4",
-            "Donna 6 / Uomo 5",
-            "Donna 7 / Uomo 6",
-            "Donna 8 / Uomo 7",
-            "Donna 9 / Uomo 8",
-            "Donna 10 / Uomo 9",
-            "Donna 11 / Uomo 10",
-            "Donna 12 / Uomo 11",
-            "Donna 13 / Uomo 12",
-            "Donna 14 / Uomo 13"
+            "US Donna 4 / Uomo 3",
+            "US Donna 5 / Uomo 4",
+            "US Donna 6 / Uomo 5",
+            "US Donna 7 / Uomo 6",
+            "US Donna 8 / Uomo 7",
+            "US Donna 9 / Uomo 8",
+            "US Donna 10 / Uomo 9",
+            "US Donna 11 / Uomo 10",
+            "US Donna 12 / Uomo 11",
+            "US Donna 13 / Uomo 12",
+            "US Donna 14 / Uomo 13"
           ]
         }
       ],
@@ -48297,7 +48297,7 @@ window.CATALOG = {
           "id": 970001,
           "options": [
             "Macchiato al caramello",
-            "Donna 4 / Uomo 3"
+            "US Donna 4 / Uomo 3"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48308,7 +48308,7 @@ window.CATALOG = {
           "id": 970002,
           "options": [
             "Macchiato al caramello",
-            "Donna 5 / Uomo 4"
+            "US Donna 5 / Uomo 4"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48319,7 +48319,7 @@ window.CATALOG = {
           "id": 970003,
           "options": [
             "Macchiato al caramello",
-            "Donna 6 / Uomo 5"
+            "US Donna 6 / Uomo 5"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48330,7 +48330,7 @@ window.CATALOG = {
           "id": 970004,
           "options": [
             "Macchiato al caramello",
-            "Donna 7 / Uomo 6"
+            "US Donna 7 / Uomo 6"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48341,7 +48341,7 @@ window.CATALOG = {
           "id": 970005,
           "options": [
             "Macchiato al caramello",
-            "Donna 8 / Uomo 7"
+            "US Donna 8 / Uomo 7"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48352,7 +48352,7 @@ window.CATALOG = {
           "id": 970006,
           "options": [
             "Macchiato al caramello",
-            "Donna 9 / Uomo 8"
+            "US Donna 9 / Uomo 8"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48363,7 +48363,7 @@ window.CATALOG = {
           "id": 970007,
           "options": [
             "Macchiato al caramello",
-            "Donna 10 / Uomo 9"
+            "US Donna 10 / Uomo 9"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48374,7 +48374,7 @@ window.CATALOG = {
           "id": 970008,
           "options": [
             "Macchiato al caramello",
-            "Donna 11 / Uomo 10"
+            "US Donna 11 / Uomo 10"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48385,7 +48385,7 @@ window.CATALOG = {
           "id": 970009,
           "options": [
             "Macchiato al caramello",
-            "Donna 12 / Uomo 11"
+            "US Donna 12 / Uomo 11"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48396,7 +48396,7 @@ window.CATALOG = {
           "id": 970010,
           "options": [
             "Macchiato al caramello",
-            "Donna 13 / Uomo 12"
+            "US Donna 13 / Uomo 12"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48407,7 +48407,7 @@ window.CATALOG = {
           "id": 970011,
           "options": [
             "Macchiato al caramello",
-            "Donna 14 / Uomo 13"
+            "US Donna 14 / Uomo 13"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48418,7 +48418,7 @@ window.CATALOG = {
           "id": 970012,
           "options": [
             "Cioccolata calda",
-            "Donna 4 / Uomo 3"
+            "US Donna 4 / Uomo 3"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48429,7 +48429,7 @@ window.CATALOG = {
           "id": 970013,
           "options": [
             "Cioccolata calda",
-            "Donna 5 / Uomo 4"
+            "US Donna 5 / Uomo 4"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48440,7 +48440,7 @@ window.CATALOG = {
           "id": 970014,
           "options": [
             "Cioccolata calda",
-            "Donna 6 / Uomo 5"
+            "US Donna 6 / Uomo 5"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48451,7 +48451,7 @@ window.CATALOG = {
           "id": 970015,
           "options": [
             "Cioccolata calda",
-            "Donna 7 / Uomo 6"
+            "US Donna 7 / Uomo 6"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48462,7 +48462,7 @@ window.CATALOG = {
           "id": 970016,
           "options": [
             "Cioccolata calda",
-            "Donna 8 / Uomo 7"
+            "US Donna 8 / Uomo 7"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48473,7 +48473,7 @@ window.CATALOG = {
           "id": 970017,
           "options": [
             "Cioccolata calda",
-            "Donna 9 / Uomo 8"
+            "US Donna 9 / Uomo 8"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48484,7 +48484,7 @@ window.CATALOG = {
           "id": 970018,
           "options": [
             "Cioccolata calda",
-            "Donna 10 / Uomo 9"
+            "US Donna 10 / Uomo 9"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48495,7 +48495,7 @@ window.CATALOG = {
           "id": 970019,
           "options": [
             "Cioccolata calda",
-            "Donna 11 / Uomo 10"
+            "US Donna 11 / Uomo 10"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48506,7 +48506,7 @@ window.CATALOG = {
           "id": 970020,
           "options": [
             "Cioccolata calda",
-            "Donna 12 / Uomo 11"
+            "US Donna 12 / Uomo 11"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48517,7 +48517,7 @@ window.CATALOG = {
           "id": 970021,
           "options": [
             "Cioccolata calda",
-            "Donna 13 / Uomo 12"
+            "US Donna 13 / Uomo 12"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48528,7 +48528,7 @@ window.CATALOG = {
           "id": 970022,
           "options": [
             "Cioccolata calda",
-            "Donna 14 / Uomo 13"
+            "US Donna 14 / Uomo 13"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48539,7 +48539,7 @@ window.CATALOG = {
           "id": 970023,
           "options": [
             "Tè matcha",
-            "Donna 4 / Uomo 3"
+            "US Donna 4 / Uomo 3"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48550,7 +48550,7 @@ window.CATALOG = {
           "id": 970024,
           "options": [
             "Tè matcha",
-            "Donna 5 / Uomo 4"
+            "US Donna 5 / Uomo 4"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48561,7 +48561,7 @@ window.CATALOG = {
           "id": 970025,
           "options": [
             "Tè matcha",
-            "Donna 6 / Uomo 5"
+            "US Donna 6 / Uomo 5"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48572,7 +48572,7 @@ window.CATALOG = {
           "id": 970026,
           "options": [
             "Tè matcha",
-            "Donna 7 / Uomo 6"
+            "US Donna 7 / Uomo 6"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48583,7 +48583,7 @@ window.CATALOG = {
           "id": 970027,
           "options": [
             "Tè matcha",
-            "Donna 8 / Uomo 7"
+            "US Donna 8 / Uomo 7"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48594,7 +48594,7 @@ window.CATALOG = {
           "id": 970028,
           "options": [
             "Tè matcha",
-            "Donna 9 / Uomo 8"
+            "US Donna 9 / Uomo 8"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48605,7 +48605,7 @@ window.CATALOG = {
           "id": 970029,
           "options": [
             "Tè matcha",
-            "Donna 10 / Uomo 9"
+            "US Donna 10 / Uomo 9"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48616,7 +48616,7 @@ window.CATALOG = {
           "id": 970030,
           "options": [
             "Tè matcha",
-            "Donna 11 / Uomo 10"
+            "US Donna 11 / Uomo 10"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48627,7 +48627,7 @@ window.CATALOG = {
           "id": 970031,
           "options": [
             "Tè matcha",
-            "Donna 12 / Uomo 11"
+            "US Donna 12 / Uomo 11"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48638,7 +48638,7 @@ window.CATALOG = {
           "id": 970032,
           "options": [
             "Tè matcha",
-            "Donna 13 / Uomo 12"
+            "US Donna 13 / Uomo 12"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48649,7 +48649,7 @@ window.CATALOG = {
           "id": 970033,
           "options": [
             "Tè matcha",
-            "Donna 14 / Uomo 13"
+            "US Donna 14 / Uomo 13"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48660,7 +48660,7 @@ window.CATALOG = {
           "id": 970034,
           "options": [
             "Caffè nero",
-            "Donna 4 / Uomo 3"
+            "US Donna 4 / Uomo 3"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48671,7 +48671,7 @@ window.CATALOG = {
           "id": 970035,
           "options": [
             "Caffè nero",
-            "Donna 5 / Uomo 4"
+            "US Donna 5 / Uomo 4"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48682,7 +48682,7 @@ window.CATALOG = {
           "id": 970036,
           "options": [
             "Caffè nero",
-            "Donna 6 / Uomo 5"
+            "US Donna 6 / Uomo 5"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48693,7 +48693,7 @@ window.CATALOG = {
           "id": 970037,
           "options": [
             "Caffè nero",
-            "Donna 7 / Uomo 6"
+            "US Donna 7 / Uomo 6"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48704,7 +48704,7 @@ window.CATALOG = {
           "id": 970038,
           "options": [
             "Caffè nero",
-            "Donna 8 / Uomo 7"
+            "US Donna 8 / Uomo 7"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48715,7 +48715,7 @@ window.CATALOG = {
           "id": 970039,
           "options": [
             "Caffè nero",
-            "Donna 9 / Uomo 8"
+            "US Donna 9 / Uomo 8"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48726,7 +48726,7 @@ window.CATALOG = {
           "id": 970040,
           "options": [
             "Caffè nero",
-            "Donna 10 / Uomo 9"
+            "US Donna 10 / Uomo 9"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48737,7 +48737,7 @@ window.CATALOG = {
           "id": 970041,
           "options": [
             "Caffè nero",
-            "Donna 11 / Uomo 10"
+            "US Donna 11 / Uomo 10"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48748,7 +48748,7 @@ window.CATALOG = {
           "id": 970042,
           "options": [
             "Caffè nero",
-            "Donna 12 / Uomo 11"
+            "US Donna 12 / Uomo 11"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48759,7 +48759,7 @@ window.CATALOG = {
           "id": 970043,
           "options": [
             "Caffè nero",
-            "Donna 13 / Uomo 12"
+            "US Donna 13 / Uomo 12"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -48770,7 +48770,7 @@ window.CATALOG = {
           "id": 970044,
           "options": [
             "Caffè nero",
-            "Donna 14 / Uomo 13"
+            "US Donna 14 / Uomo 13"
           ],
           "price": 7699,
           "compare_at_price": 16999,
@@ -49697,10 +49697,10 @@ window.CATALOG = {
       "productType": "Zoccoli e sabot",
       "taxonomy": "Apparel & Accessories > Shoes",
       "imageAlt": "Zoccolo scamosciato vegano Simona",
-      "description": "Zoccolo in scamosciato 100% vegano dalla linea di tendenza, in nocciola, moka e nero. Taglie EU dalla 35 alla 47 con corrispondenza US donna e uomo.",
+      "description": "Zoccolo 100% vegano in microfibra effetto camoscio, con fodera in memory foam, sostegno all'arco e fibbia in metallo regolabile. In nocciola, moka e nero.",
       "seoTitle": "Zoccolo scamosciato vegano Simona",
-      "seoDescription": "Zoccolo in scamosciato 100% vegano dalla linea di tendenza, in nocciola, moka e nero. Taglie EU dalla 35 alla 47 con corrispondenza US donna e uomo.",
-      "bodyHtml": "<p>Tre colori, una forma che quest'anno vedi ovunque e un materiale scelto con un pensiero in più: la Simona è lo zoccolo in scamosciato 100% vegano, con la superficie vellutata che ami e nessun materiale di origine animale.</p><p>Il nocciola è caldo e facile, il moka si sposa con i toni del cammello, il nero va con tutto. Abbinalo a un pantalone ampio e a una maglia a coste per un look da weekend che sembra studiato anche quando non lo è.</p><ul><li><strong>Scamosciato 100% vegano:</strong> aspetto vellutato, senza materiali di origine animale.</li><li><strong>Linea a zoccolo:</strong> di tendenza e semplice da abbinare.</li><li><strong>Tre colori essenziali:</strong> nocciola, moka e nero.</li><li><strong>Taglie EU dalla 35 alla 47:</strong> con corrispondenza US per donna e uomo.</li></ul><p><strong>Dettagli</strong></p><ul><li>Materiale: scamosciato vegano al 100%</li><li>Modello: zoccolo</li><li>Taglie: EU dalla 35 alla 47, con corrispondenza US donna e uomo</li><li>Colori: nocciola, moka, nero</li></ul>",
+      "seoDescription": "Zoccolo 100% vegano in microfibra effetto camoscio, con fodera in memory foam, sostegno all'arco e fibbia in metallo regolabile. In nocciola, moka e nero.",
+      "bodyHtml": "<p>Tre colori, una forma che quest'anno vedi ovunque e nessun materiale di origine animale: la Simona è lo zoccolo 100% vegano, con tomaia in microfibra effetto camoscio, morbida al tatto e senza cuciture a vista.</p><p>Il plantare sostiene l'arco, il tallone profondo accoglie il piede e la fodera in memory foam lo rende comodo da subito, senza rodaggio. La fibbia in metallo si regola davvero, così lo zoccolo si adatta al piede largo come a quello sottile. Con un pantalone sartoriale in ufficio o con jeans e maglia a coste nel weekend, si porta in ogni stagione.</p><ul><li><strong>Microfibra effetto camoscio:</strong> superficie vellutata e pulita, senza cuciture visibili.</li><li><strong>Comodo da subito:</strong> fodera in memory foam e sostegno all'arco, senza giorni di rodaggio.</li><li><strong>Tallone profondo:</strong> il piede resta stabile e ben accolto.</li><li><strong>Fibbia regolabile:</strong> calzata su misura, anche per piedi larghi o sottili.</li></ul><p><strong>Dettagli</strong></p><ul><li>Tomaia: microfibra effetto camoscio, 100% vegana</li><li>Plantare: con sostegno all'arco e fodera in memory foam</li><li>Suola: robusta e flessibile</li><li>Chiusura: fibbia in metallo regolabile</li><li>Vestibilità: modello unisex, fedele alla taglia; scegli il tuo numero abituale e, se sei tra due numeri, il più grande</li><li>Cura: si pulisce con un panno umido</li></ul>",
       "verified": true,
       "colorSources": {
         "Nocciola": "Tan",
