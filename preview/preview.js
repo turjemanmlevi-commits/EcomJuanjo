@@ -197,7 +197,7 @@
     <button type="button" class="site-nav__link site-nav__link--icon medium-up--hide" data-drawer-open aria-controls="NavDrawer" aria-expanded="false" aria-label="Menu">${icon.menu}</button>
     <a href="search.html" class="site-nav__link site-nav__link--icon small--hide" data-search-open aria-label="Cerca">${icon.search}</a></div></div>
   <div class="header-item header-item--logo-split">
-    <div class="header-item header-item--logo"><div class="h1 site-header__logo"><a href="index.html"><img src="../theme/assets/logo.png" alt="Oriona" width="1171" height="213"></a></div></div>
+    <div class="header-item header-item--logo"><div class="h1 site-header__logo"><a href="index.html"><img src="../theme/assets/logo.png" alt="Oriona" width="1014" height="196"></a></div></div>
   </div>
   <div class="header-item header-item--icons"><div class="site-nav site-nav--icons-right">
     <a href="page.html?h=account" class="site-nav__link site-nav__link--icon small--hide" aria-label="Account">${icon.user}</a>

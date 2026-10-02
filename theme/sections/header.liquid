@@ -27,7 +27,7 @@
               {%- if section.settings.logo != blank -%}
                 {{ section.settings.logo | image_url: width: 600 | image_tag: alt: shop.name, loading: 'eager' }}
               {%- else -%}
-                <img src="{{ 'logo.png' | asset_url }}" alt="{{ shop.name | escape }}" width="1171" height="213" loading="eager">
+                <img src="{{ 'logo.png' | asset_url }}" alt="{{ shop.name | escape }}" width="1014" height="196" loading="eager">
               {%- endif -%}
             </a>
           {%- if request.page_type == 'index' -%}</h1>{%- else -%}</div>{%- endif -%}
