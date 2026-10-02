@@ -159,7 +159,24 @@
     ? products.filter((p) => p.collection === currentProduct.collection && p.id !== currentProduct.id).concat(products.filter((p) => p.collection !== currentProduct.collection)).slice(0, 5)
     : products.slice(0, 5);
 
-  const testimonial = (i) => `<div class="testimonials__slide"><div class="testimonials__media"><img src="img/review-${i}.webp" alt="" loading="lazy"></div><div class="testimonials__content"><div class="testimonials__stars" role="img" aria-label="5 / 5">${[1, 2, 3, 4, 5].map(() => `<span class="product-rating__star">${starSvg}</span>`).join('')}</div><blockquote class="testimonials__text"><p>Anteprima: qui va un estratto breve di una recensione reale, massimo tre righe.</p></blockquote><div class="testimonials__author"><strong>Nome</strong> Città, data</div></div></div>`;
+  // Sample reviews to preview the design only. In Shopify, use real customer reviews.
+  const sampleReviews = [
+    ['Tessuto morbidissimo e vestibilità perfetta. Mi hanno fatto i complimenti tutto il giorno.', 'Giulia', 'Milano'],
+    ['Arrivato in tre giorni, impacchettato con cura. La taglia corrisponde alla guida.', 'Francesca', 'Torino'],
+    ['Avevo dubbi sul colore e invece dal vivo è ancora più bello. Lo rifarei subito.', 'Elena', 'Bologna'],
+    ['Qualità ottima per il prezzo. Si lava bene e non ha perso forma.', 'Chiara', 'Roma'],
+    ['Comodo anche dopo una giornata intera. Ne ho preso un secondo in un altro colore.', 'Sara', 'Firenze'],
+    ['Ho dovuto cambiare taglia e il reso è stato semplicissimo.', 'Martina', 'Napoli'],
+    ['Elegante ma senza esagerare: perfetto per il lavoro e per la sera.', 'Valentina', 'Verona'],
+    ['Le cuciture sono curate e il tessuto non è trasparente. Molto soddisfatta.', 'Alessia', 'Genova'],
+    ['Mi sta benissimo, cade morbido. Ottimo rapporto qualità-prezzo.', 'Federica', 'Padova'],
+    ['Regalo per mia madre: le è piaciuto tantissimo.', 'Silvia', 'Bari'],
+    ['Esattamente come in foto. Spedizione veloce e tracciata.', 'Laura', 'Palermo'],
+    ['Il colore è caldo e luminoso, si abbina con tutto.', 'Roberta', 'Bergamo'],
+    ['Taglia giusta al primo colpo grazie alle misure indicate.', 'Paola', 'Trieste'],
+    ['Il mio capo preferito di questa stagione. Grazie!', 'Anna', 'Cagliari'],
+  ];
+  const testimonial = (i) => `<div class="testimonials__slide"><div class="testimonials__media"><img src="img/review-${i}.webp" alt="" loading="lazy"></div><div class="testimonials__content"><div class="testimonials__stars" role="img" aria-label="5 / 5">${[1, 2, 3, 4, 5].map(() => `<span class="product-rating__star">${starSvg}</span>`).join('')}</div><blockquote class="testimonials__text"><p>${sampleReviews[i - 1][0]}</p></blockquote><div class="testimonials__author"><strong>${sampleReviews[i - 1][1]}</strong> ${sampleReviews[i - 1][2]}</div></div></div>`;
 
   const faq = ['Perché acquistare da noi?', 'Quanto tempo richiede la spedizione?', 'Dov’è il mio ordine?', 'Come funzionano i resi?', 'Quali metodi di pagamento accettate?']
     .map((q, i) => `<div class="faq__item"><button type="button" class="collapsible-trigger collapsible-trigger--inline" aria-controls="FAQ-${i}" aria-expanded="false"><span class="collapsible-trigger__icon collapsible-trigger__icon--circle">${icon.down}</span><span>${q}</span></button><div id="FAQ-${i}" class="collapsible-content"><div><div class="collapsible-content__inner--faq rte"><p>Anteprima della risposta: due o tre frasi chiare e concrete.</p></div></div></div></div>`)
@@ -200,7 +217,7 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
 
     'featured-collection': `<div class="index-section"><div class="page-width"><div class="section-header"><h2 class="section-header__title">${document.body.classList.contains('template-product') ? 'Completa il tuo look' : 'I nostri più venduti'}</h2></div></div><div class="page-width"><div class="grid" style="--columns:5">${featured.map(card).join('')}</div></div></div>`,
 
-    testimonials: `<div class="testimonials" data-testimonials><div class="testimonials__inner"><div class="testimonials__header"><h2 class="testimonials__heading">Cosa dicono le nostre clienti</h2><div class="testimonials__nav"><button type="button" data-prev aria-label="Precedente">${icon.left}</button><button type="button" data-next aria-label="Successivo">${icon.right}</button></div></div><div class="testimonials__slider">${Array.from({ length: 14 }, (_, i) => i + 1).map(testimonial).join('')}</div></div></div>`,
+    testimonials: `<div class="testimonials" data-testimonials><div class="testimonials__inner"><div class="testimonials__header"><h2 class="testimonials__heading">Cosa dicono le nostre clienti</h2><div class="testimonials__subheading">Recensioni di esempio · anteprima del design</div><div class="testimonials__nav"><button type="button" data-prev aria-label="Precedente">${icon.left}</button><button type="button" data-next aria-label="Successivo">${icon.right}</button></div></div><div class="testimonials__slider">${Array.from({ length: 14 }, (_, i) => i + 1).map(testimonial).join('')}</div></div></div>`,
 
     faq: `<div class="index-section"><div class="page-width page-width--narrow"><header class="section-header"><h2 class="section-header__title">Domande frequenti</h2></header><div class="faq__list">${faq}</div></div></div>`,
 
