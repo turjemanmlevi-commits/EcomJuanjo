@@ -29,9 +29,19 @@
           {%- continue -%}
         {%- endif -%}
         {%- assign tile_image = block.settings.image | default: item.featured_image -%}
+        {%- assign category_asset = '' -%}
+        {%- if block.settings.image == blank -%}
+          {%- case item.handle -%}
+            {%- when 'abbigliamento' -%}{%- assign category_asset = 'category-clothing.webp' -%}
+            {%- when 'borse' -%}{%- assign category_asset = 'category-bags.webp' -%}
+            {%- when 'scarpe' -%}{%- assign category_asset = 'category-shoes.webp' -%}
+          {%- endcase -%}
+        {%- endif -%}
         <a href="{{ item.url }}" class="collection-tile" {{ block.shopify_attributes }}>
           <div class="collection-tile__image">
-            {%- if tile_image != blank -%}
+            {%- if block.settings.image == blank and category_asset != blank -%}
+              <img src="{{ category_asset | asset_url }}" loading="lazy" width="1122" height="1402" alt="{{ block.settings.title | default: item.title | escape }}">
+            {%- elsif tile_image != blank -%}
               {{ tile_image | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(min-width: 769px) 25vw, 60vw', widths: '300, 450, 600, 900', alt: '' }}
             {%- else -%}
               {{ 'collection-1' | placeholder_svg_tag }}

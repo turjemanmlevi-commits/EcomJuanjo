@@ -236,7 +236,7 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
 
     "qty-product": qtyInput("quantity", 1, 1, 0, "Quantità"),
 
-    "collection-list": `<div class="index-section collection-list"><div class="page-width"><div class="section-header"><h2 class="section-header__title">Acquista per categoria</h2></div><div class="collection-list__grid" style="--columns: 3">${["abbigliamento", "borse", "scarpe"].map((h) => collections.find((c) => c.handle === h)).map((c) => `<a href="${collectionUrl(c.handle)}" class="collection-tile"><div class="collection-tile__image">${ph(c.title)}</div><span class="collection-tile__title">${c.title}</span></a>`).join("")}</div></div></div>`,
+    "collection-list": `<div class="index-section collection-list"><div class="page-width"><div class="section-header"><h2 class="section-header__title">Acquista per categoria</h2></div><div class="collection-list__grid" style="--columns: 3">${[["abbigliamento", "category-clothing.webp"], ["borse", "category-bags.webp"], ["scarpe", "category-shoes.webp"]].map(([handle, image]) => { const c = collections.find((col) => col.handle === handle); return `<a href="${collectionUrl(c.handle)}" class="collection-tile"><div class="collection-tile__image"><img src="../theme/assets/${image}" alt="${c.title}" width="1122" height="1402" loading="lazy"></div><span class="collection-tile__title">${c.title}</span></a>`; }).join("")}</div></div></div>`,
 
     marquee: `<div class="marquee" data-countdown="${end}"><div class="marquee__track">${inner}<div aria-hidden="true" style="display:contents">${inner}</div></div></div>`,
 
