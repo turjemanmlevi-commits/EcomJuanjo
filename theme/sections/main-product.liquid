@@ -90,14 +90,12 @@
                 </div>
 
               {%- when 'sale_box' -%}
-                {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
-                {%- if buy_buttons_block.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+                {%- if block.settings.text != blank -%}
                   <div class="product-block" {{ block.shopify_attributes }}>
-                    <ul class="payment-icons" aria-label="{{ 'general.payment_methods' | t }}">
-                      {%- for type in shop.enabled_payment_types -%}
-                        <li>{{ type | payment_type_svg_tag }}</li>
-                      {%- endfor -%}
-                    </ul>
+                    <div class="sale-box">
+                      {% render 'icon', name: 'tag' %}
+                      <span>{{ block.settings.text | escape }}</span>
+                    </div>
                   </div>
                 {%- endif -%}
 
@@ -230,17 +228,14 @@
                   {%- if block.settings.note != blank -%}
                     <p class="buy-note">{{ block.settings.note | escape }}</p>
                   {%- endif -%}
+                  {%- if block.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+                    <ul class="payment-icons payment-icons--product" aria-label="{{ 'general.payment_methods' | t }}">
+                      {%- for type in shop.enabled_payment_types -%}
+                        <li>{{ type | payment_type_svg_tag }}</li>
+                      {%- endfor -%}
+                    </ul>
+                  {%- endif -%}
                 </div>
-
-                {%- assign sale_box_block = section.blocks | where: 'type', 'sale_box' | first -%}
-                {%- if sale_box_block != blank and sale_box_block.settings.text != blank -%}
-                  <div class="product-block">
-                    <div class="sale-box">
-                      {% render 'icon', name: 'tag' %}
-                      <span>{{ sale_box_block.settings.text | escape }}</span>
-                    </div>
-                  </div>
-                {%- endif -%}
 
                 {%- if settings.trustpilot_product -%}
                   {% render 'trustpilot', class: 'trustpilot--product' %}

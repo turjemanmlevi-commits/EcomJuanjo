@@ -60,7 +60,14 @@
                 </div>
 
                 <div class="product-block">
-                  <ul class="payment-icons payment-icons--preview" aria-label="Metodi di pagamento accettati">
+                  <form class="product-single__form" data-product-form action="/cart/add" method="post">
+                    <input type="hidden" name="id" value="11">
+                    <div class="product-form__row">
+                      <button type="submit" class="btn btn--full btn--buy" data-add-to-cart data-text-add="Aggiungi al carrello" data-text-sold-out="Esaurito" data-text-unavailable="Non disponibile"><span data-add-to-cart-text>Aggiungi al carrello</span></button>
+                    </div>
+                    <p class="product-form__error" data-product-error role="alert" hidden></p>
+                  </form>
+                  <ul class="payment-icons payment-icons--preview payment-icons--product" aria-label="Metodi di pagamento accettati">
                     <li aria-label="Visa"><img src="../theme/assets/payments/visa.svg" alt="Visa"></li>
                     <li aria-label="Mastercard"><img src="../theme/assets/payments/mastercard.svg" alt="Mastercard"></li>
                     <li aria-label="American Express"><img src="../theme/assets/payments/american-express.svg" alt="American Express"></li>
@@ -69,6 +76,10 @@
                     <li aria-label="Google Pay"><img src="../theme/assets/payments/google-pay.svg" alt="Google Pay"></li>
                     <li aria-label="Klarna"><img src="../theme/assets/payments/klarna.svg" alt="Klarna"></li>
                   </ul>
+                </div>
+
+                <div class="sticky-atc" data-sticky-atc aria-hidden="true">
+                  <button type="button" class="btn btn--buy sticky-atc__btn" data-sticky-buy tabindex="-1">Aggiungi al carrello</button>
                 </div>
 
                 <div class="product-block"><hr></div>
@@ -116,20 +127,6 @@
                     <button type="button" class="modal__close" data-modal-close><span data-icon="close"></span></button>
                     <div class="rte"><table><tr><th>Taglia</th><th>Petto</th><th>Fianchi</th></tr><tr><td>S</td><td>84–88</td><td>90–94</td></tr><tr><td>M</td><td>89–94</td><td>95–100</td></tr></table></div>
                   </dialog>
-                </div>
-
-                <div class="product-block">
-                  <form class="product-single__form" data-product-form action="/cart/add" method="post">
-                    <input type="hidden" name="id" value="11">
-                    <div class="product-form__row">
-                      <button type="submit" class="btn btn--full btn--buy" data-add-to-cart data-text-add="Aggiungi al carrello" data-text-sold-out="Esaurito" data-text-unavailable="Non disponibile"><span data-add-to-cart-text>Aggiungi al carrello</span></button>
-                    </div>
-                    <p class="product-form__error" data-product-error role="alert" hidden></p>
-                  </form>
-                </div>
-
-                <div class="sticky-atc" data-sticky-atc aria-hidden="true">
-                  <button type="button" class="btn btn--buy sticky-atc__btn" data-sticky-buy tabindex="-1">Aggiungi al carrello</button>
                 </div>
 
                 <div class="product-block">
