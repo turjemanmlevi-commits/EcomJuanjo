@@ -4,6 +4,10 @@ const { applyItalianCopy } = require('./catalog-it');
 
 const root = path.resolve(__dirname, '..');
 const csv = fs.readFileSync(path.join(root, 'winners_combinado_100.csv'), 'utf8').replace(/^\uFEFF/, '').trim();
+const sourceImageMapPath = path.join(root, 'data', 'source-images.json');
+const sourceImageMap = fs.existsSync(sourceImageMapPath)
+  ? JSON.parse(fs.readFileSync(sourceImageMapPath, 'utf8').replace(/^\uFEFF/, ''))
+  : {};
 const lines = csv.split(/\r?\n/);
 const headers = lines.shift().split(';');
 const parsedRows = lines.filter(Boolean).map(line => {
@@ -194,7 +198,10 @@ const products = rows.map((row, i) => {
   const optionConfig = optionsFor(row, v);
   const override = sourceOverrides[slug(row.Producto)] || {};
   const colorSets = productColorImageSets[slug(row.Producto)] || null;
-  const baseImages = productImageSets[slug(row.Producto)] || [categoryAssets[row.Categoria] || categoryAssets.Ropa];
+  const sourceImages = sourceImageMap[row.Link]?.images || [];
+  const baseImages = sourceImages.length
+    ? sourceImages
+    : (productImageSets[slug(row.Producto)] || [categoryAssets[row.Categoria] || categoryAssets.Ropa]);
   const product = {
     id: i + 1,
     handle: slug(row.Producto),
@@ -203,8 +210,8 @@ const products = rows.map((row, i) => {
     category: row.Categoria,
     vendor: override.vendor || row.Tienda,
     sourceUrl: row.Link,
-    image: colorSets ? Object.values(colorSets)[0][0] : baseImages[0],
-    images: colorSets ? Object.values(colorSets).flat() : baseImages,
+    image: sourceImages.length ? sourceImages[0] : (colorSets ? Object.values(colorSets)[0][0] : baseImages[0]),
+    images: sourceImages.length ? sourceImages : (colorSets ? Object.values(colorSets).flat() : baseImages),
     imageAlt: `${row.Producto} · immagine catalogo`,
     description: override.description || description(row, meta),
     price: override.price || money(row.Precio),

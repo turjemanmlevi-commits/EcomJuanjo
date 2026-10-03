@@ -23,12 +23,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/premium-leather-shoulder-bag/02-product.png",
+      "asset": "assets/products/source/premium-leather-shoulder-bag/01-source.png",
       "assets": [
-        "assets/products/premium-leather-shoulder-bag/02-product.png",
-        "assets/products/premium-leather-shoulder-bag/01-in-use.png",
-        "assets/products/premium-leather-shoulder-bag/03-detail.png",
-        "assets/products/premium-leather-shoulder-bag/04-lifestyle.png"
+        "assets/products/source/premium-leather-shoulder-bag/01-source.png",
+        "assets/products/source/premium-leather-shoulder-bag/02-source.png",
+        "assets/products/source/premium-leather-shoulder-bag/03-source.png",
+        "assets/products/source/premium-leather-shoulder-bag/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -233,12 +233,11 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/the-brooklyn-bag/01-hero.png",
+      "asset": "assets/products/source/the-brooklyn-bag/01-source.png",
       "assets": [
-        "assets/products/the-brooklyn-bag/01-hero.png",
-        "assets/products/the-brooklyn-bag/02-milan.png",
-        "assets/products/the-brooklyn-bag/03-detail.png",
-        "assets/products/the-brooklyn-bag/04-cafe.png"
+        "assets/products/source/the-brooklyn-bag/01-source.png",
+        "assets/products/source/the-brooklyn-bag/02-source.png",
+        "assets/products/source/the-brooklyn-bag/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -384,14 +383,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/ciara-vintage/01-hero.png",
+      "asset": "assets/products/source/ciara-vintage/01-source.jpg",
       "assets": [
-        "assets/products/ciara-vintage/01-hero.png",
-        "assets/products/ciara-vintage/02-milan.png",
-        "assets/products/ciara-vintage/03-detail.png",
-        "assets/products/ciara-vintage/04-cafe.png",
-        "assets/products/ciara-vintage/05-street.png",
-        "assets/products/ciara-vintage/06-capacity.png"
+        "assets/products/source/ciara-vintage/01-source.jpg",
+        "assets/products/source/ciara-vintage/02-source.jpg",
+        "assets/products/source/ciara-vintage/03-source.jpg",
+        "assets/products/source/ciara-vintage/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -470,9 +467,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/travel-sling-bag-2-0/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/travel-sling-bag-2-0/01-source.jpg",
+        "assets/products/source/travel-sling-bag-2-0/02-source.jpg",
+        "assets/products/source/travel-sling-bag-2-0/03-source.jpg",
+        "assets/products/source/travel-sling-bag-2-0/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -623,32 +623,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/01-hero.png",
+      "asset": "assets/products/source/luxury-leather-hobo-anti-theft-handbag-pouch/01-source.png",
       "assets": [
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/01-hero.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/02-milan.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/03-detail.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Brown/04-cafe.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Black/01-hero.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Black/02-milan.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Black/03-detail.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Black/04-cafe.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Blue/01-hero.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Blue/02-milan.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Blue/03-detail.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Blue/04-cafe.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Grey/01-hero.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Grey/02-milan.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Grey/03-detail.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Grey/04-cafe.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Burgundy/01-hero.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Burgundy/02-milan.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Burgundy/03-detail.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Burgundy/04-cafe.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/01-hero.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/02-milan.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/03-detail.png",
-        "assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/04-cafe.png"
+        "assets/products/source/luxury-leather-hobo-anti-theft-handbag-pouch/01-source.png",
+        "assets/products/source/luxury-leather-hobo-anti-theft-handbag-pouch/02-source.png",
+        "assets/products/source/luxury-leather-hobo-anti-theft-handbag-pouch/03-source.png",
+        "assets/products/source/luxury-leather-hobo-anti-theft-handbag-pouch/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -852,20 +832,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/01-hero.png",
+      "asset": "assets/products/source/luxury-leather-hobo-anti-theft-handbag-2-0/01-source.png",
       "assets": [
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/01-hero.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/02-beige.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/03-milan.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Black/04-cafe.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Brown/01-hero.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Brown/02-beige.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Brown/03-milan.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Brown/04-cafe.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Beige/01-hero.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Beige/02-beige.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Beige/03-milan.png",
-        "assets/products/luxury-leather-hobo-anti-theft-handbag-2-0/Beige/04-cafe.png"
+        "assets/products/source/luxury-leather-hobo-anti-theft-handbag-2-0/01-source.png",
+        "assets/products/source/luxury-leather-hobo-anti-theft-handbag-2-0/02-source.png",
+        "assets/products/source/luxury-leather-hobo-anti-theft-handbag-2-0/03-source.png",
+        "assets/products/source/luxury-leather-hobo-anti-theft-handbag-2-0/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -983,9 +955,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/overpackbag-mochila-compresion/01-source.png",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/overpackbag-mochila-compresion/01-source.png",
+        "assets/products/source/overpackbag-mochila-compresion/02-source.png",
+        "assets/products/source/overpackbag-mochila-compresion/03-source.png",
+        "assets/products/source/overpackbag-mochila-compresion/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -1134,9 +1109,11 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ona-soft-bag/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ona-soft-bag/01-source.jpg",
+        "assets/products/source/ona-soft-bag/02-source.png",
+        "assets/products/source/ona-soft-bag/03-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -3248,36 +3225,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/the-maya-tote/Black/01-hero.png",
+      "asset": "assets/products/source/the-maya-tote/01-source.png",
       "assets": [
-        "assets/products/the-maya-tote/Black/01-hero.png",
-        "assets/products/the-maya-tote/Black/02-beige.png",
-        "assets/products/the-maya-tote/Black/03-milan.png",
-        "assets/products/the-maya-tote/Black/04-cafe.png",
-        "assets/products/the-maya-tote/Chocolate/01-hero.png",
-        "assets/products/the-maya-tote/Chocolate/02-beige.png",
-        "assets/products/the-maya-tote/Chocolate/03-milan.png",
-        "assets/products/the-maya-tote/Chocolate/04-cafe.png",
-        "assets/products/the-maya-tote/Brown/01-hero.png",
-        "assets/products/the-maya-tote/Brown/02-beige.png",
-        "assets/products/the-maya-tote/Brown/03-milan.png",
-        "assets/products/the-maya-tote/Brown/04-cafe.png",
-        "assets/products/the-maya-tote/Burgundy/01-hero.png",
-        "assets/products/the-maya-tote/Burgundy/02-beige.png",
-        "assets/products/the-maya-tote/Burgundy/03-milan.png",
-        "assets/products/the-maya-tote/Burgundy/04-cafe.png",
-        "assets/products/the-maya-tote/Stone/01-hero.png",
-        "assets/products/the-maya-tote/Stone/02-beige.png",
-        "assets/products/the-maya-tote/Stone/03-milan.png",
-        "assets/products/the-maya-tote/Stone/04-cafe.png",
-        "assets/products/the-maya-tote/Pink/01-hero.png",
-        "assets/products/the-maya-tote/Pink/02-beige.png",
-        "assets/products/the-maya-tote/Pink/03-milan.png",
-        "assets/products/the-maya-tote/Pink/04-cafe.png",
-        "assets/products/the-maya-tote/Sky/01-hero.png",
-        "assets/products/the-maya-tote/Sky/02-beige.png",
-        "assets/products/the-maya-tote/Sky/03-milan.png",
-        "assets/products/the-maya-tote/Sky/04-cafe.png"
+        "assets/products/source/the-maya-tote/01-source.png",
+        "assets/products/source/the-maya-tote/02-source.png",
+        "assets/products/source/the-maya-tote/03-source.png",
+        "assets/products/source/the-maya-tote/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -3510,9 +3463,11 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/nova-sling/01-source.png",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/nova-sling/01-source.png",
+        "assets/products/source/nova-sling/02-source.png",
+        "assets/products/source/nova-sling/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -3674,9 +3629,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/florvane-leather-handbag/01-source.png",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/florvane-leather-handbag/01-source.png",
+        "assets/products/source/florvane-leather-handbag/02-source.jpg",
+        "assets/products/source/florvane-leather-handbag/03-source.png",
+        "assets/products/source/florvane-leather-handbag/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -4197,9 +4155,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/wander-anti-theft-travel-bag/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/wander-anti-theft-travel-bag/01-source.jpg",
+        "assets/products/source/wander-anti-theft-travel-bag/02-source.jpg",
+        "assets/products/source/wander-anti-theft-travel-bag/03-source.jpg",
+        "assets/products/source/wander-anti-theft-travel-bag/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -4574,32 +4535,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/aryna-bag/Brown/01-hero.png",
+      "asset": "assets/products/source/aryna-bag/01-source.png",
       "assets": [
-        "assets/products/aryna-bag/Brown/01-hero.png",
-        "assets/products/aryna-bag/Brown/02-beige.png",
-        "assets/products/aryna-bag/Brown/03-milan.png",
-        "assets/products/aryna-bag/Brown/04-cafe.png",
-        "assets/products/aryna-bag/Red/01-hero.png",
-        "assets/products/aryna-bag/Red/02-beige.png",
-        "assets/products/aryna-bag/Red/03-milan.png",
-        "assets/products/aryna-bag/Red/04-cafe.png",
-        "assets/products/aryna-bag/Navy Blue/01-hero.png",
-        "assets/products/aryna-bag/Navy Blue/02-beige.png",
-        "assets/products/aryna-bag/Navy Blue/03-milan.png",
-        "assets/products/aryna-bag/Navy Blue/04-cafe.png",
-        "assets/products/aryna-bag/Dark Green/01-hero.png",
-        "assets/products/aryna-bag/Dark Green/02-beige.png",
-        "assets/products/aryna-bag/Dark Green/03-milan.png",
-        "assets/products/aryna-bag/Dark Green/04-cafe.png",
-        "assets/products/aryna-bag/Black/01-hero.png",
-        "assets/products/aryna-bag/Black/02-beige.png",
-        "assets/products/aryna-bag/Black/03-milan.png",
-        "assets/products/aryna-bag/Black/04-cafe.png",
-        "assets/products/aryna-bag/Blue/01-hero.png",
-        "assets/products/aryna-bag/Blue/02-beige.png",
-        "assets/products/aryna-bag/Blue/03-milan.png",
-        "assets/products/aryna-bag/Blue/04-cafe.png"
+        "assets/products/source/aryna-bag/01-source.png",
+        "assets/products/source/aryna-bag/02-source.png",
+        "assets/products/source/aryna-bag/03-source.png",
+        "assets/products/source/aryna-bag/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -4831,9 +4772,11 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/dumpling-bag/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/dumpling-bag/01-source.jpg",
+        "assets/products/source/dumpling-bag/02-source.png",
+        "assets/products/source/dumpling-bag/03-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -5739,9 +5682,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/the-blair-tote/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/the-blair-tote/01-source.jpg",
+        "assets/products/source/the-blair-tote/02-source.jpg",
+        "assets/products/source/the-blair-tote/03-source.jpg",
+        "assets/products/source/the-blair-tote/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -5920,9 +5866,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/lucia-woven-bag/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/lucia-woven-bag/01-source.jpg",
+        "assets/products/source/lucia-woven-bag/02-source.jpg",
+        "assets/products/source/lucia-woven-bag/03-source.jpg",
+        "assets/products/source/lucia-woven-bag/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -6184,9 +6133,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/gofree-the-roomiest-bum-bag/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/gofree-the-roomiest-bum-bag/01-source.jpg",
+        "assets/products/source/gofree-the-roomiest-bum-bag/02-source.jpg",
+        "assets/products/source/gofree-the-roomiest-bum-bag/03-source.jpg",
+        "assets/products/source/gofree-the-roomiest-bum-bag/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -7928,9 +7880,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/siv-sling-bag/01-source.png",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/siv-sling-bag/01-source.png",
+        "assets/products/source/siv-sling-bag/02-source.png",
+        "assets/products/source/siv-sling-bag/03-source.png",
+        "assets/products/source/siv-sling-bag/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -8006,9 +7961,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-essential/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-essential/01-source.jpg",
+        "assets/products/source/ciara-essential/02-source.jpg",
+        "assets/products/source/ciara-essential/03-source.jpg",
+        "assets/products/source/ciara-essential/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -8084,9 +8042,11 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/the-marseille/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/the-marseille/01-source.jpg",
+        "assets/products/source/the-marseille/02-source.jpg",
+        "assets/products/source/the-marseille/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -8165,9 +8125,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/vintage-bag/01-source.png",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/vintage-bag/01-source.png",
+        "assets/products/source/vintage-bag/02-source.png",
+        "assets/products/source/vintage-bag/03-source.png",
+        "assets/products/source/vintage-bag/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -8314,9 +8277,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/crossbody-bag-2-0/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/crossbody-bag-2-0/01-source.jpg",
+        "assets/products/source/crossbody-bag-2-0/02-source.jpg",
+        "assets/products/source/crossbody-bag-2-0/03-source.jpg",
+        "assets/products/source/crossbody-bag-2-0/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -8410,9 +8376,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/the-julie-crossbody/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/the-julie-crossbody/01-source.jpg",
+        "assets/products/source/the-julie-crossbody/02-source.jpg",
+        "assets/products/source/the-julie-crossbody/03-source.jpg",
+        "assets/products/source/the-julie-crossbody/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -8592,9 +8561,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/gerda-shopper-bag/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/gerda-shopper-bag/01-source.jpg",
+        "assets/products/source/gerda-shopper-bag/02-source.jpg",
+        "assets/products/source/gerda-shopper-bag/03-source.jpg",
+        "assets/products/source/gerda-shopper-bag/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -8869,9 +8841,11 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/miniona-soft-bag/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/miniona-soft-bag/01-source.jpg",
+        "assets/products/source/miniona-soft-bag/02-source.png",
+        "assets/products/source/miniona-soft-bag/03-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10193,9 +10167,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-suede/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-suede/01-source.jpg",
+        "assets/products/source/ciara-suede/02-source.jpg",
+        "assets/products/source/ciara-suede/03-source.jpg",
+        "assets/products/source/ciara-suede/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10271,9 +10248,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/woven-oversized/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/woven-oversized/01-source.jpg",
+        "assets/products/source/woven-oversized/02-source.jpg",
+        "assets/products/source/woven-oversized/03-source.jpg",
+        "assets/products/source/woven-oversized/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10349,9 +10329,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-vintage-limited-edition/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-vintage-limited-edition/01-source.jpg",
+        "assets/products/source/ciara-vintage-limited-edition/02-source.jpg",
+        "assets/products/source/ciara-vintage-limited-edition/03-source.jpg",
+        "assets/products/source/ciara-vintage-limited-edition/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10427,9 +10410,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-genuine-leather/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-genuine-leather/01-source.jpg",
+        "assets/products/source/ciara-genuine-leather/02-source.jpg",
+        "assets/products/source/ciara-genuine-leather/03-source.jpg",
+        "assets/products/source/ciara-genuine-leather/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10505,9 +10491,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-mini/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-mini/01-source.jpg",
+        "assets/products/source/ciara-mini/02-source.jpg",
+        "assets/products/source/ciara-mini/03-source.jpg",
+        "assets/products/source/ciara-mini/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10583,9 +10572,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-nova/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-nova/01-source.jpg",
+        "assets/products/source/ciara-nova/02-source.jpg",
+        "assets/products/source/ciara-nova/03-source.jpg",
+        "assets/products/source/ciara-nova/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10661,9 +10653,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/vintage-tote/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/vintage-tote/01-source.jpg",
+        "assets/products/source/vintage-tote/02-source.jpg",
+        "assets/products/source/vintage-tote/03-source.jpg",
+        "assets/products/source/vintage-tote/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10739,9 +10734,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/hailey-woven/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/hailey-woven/01-source.jpg",
+        "assets/products/source/hailey-woven/02-source.jpg",
+        "assets/products/source/hailey-woven/03-source.jpg",
+        "assets/products/source/hailey-woven/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10817,9 +10815,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/lara-suede/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/lara-suede/01-source.jpg",
+        "assets/products/source/lara-suede/02-source.jpg",
+        "assets/products/source/lara-suede/03-source.jpg",
+        "assets/products/source/lara-suede/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10895,9 +10896,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/rhea-oversized/01-source.png",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/rhea-oversized/01-source.png",
+        "assets/products/source/rhea-oversized/02-source.png",
+        "assets/products/source/rhea-oversized/03-source.png",
+        "assets/products/source/rhea-oversized/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -10973,9 +10977,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/baggy-vegan-leather/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/baggy-vegan-leather/01-source.jpg",
+        "assets/products/source/baggy-vegan-leather/02-source.jpg",
+        "assets/products/source/baggy-vegan-leather/03-source.jpg",
+        "assets/products/source/baggy-vegan-leather/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11051,9 +11058,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/valentina-tote/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/valentina-tote/01-source.jpg",
+        "assets/products/source/valentina-tote/02-source.jpg",
+        "assets/products/source/valentina-tote/03-source.jpg",
+        "assets/products/source/valentina-tote/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11129,9 +11139,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/moire-suede/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/moire-suede/01-source.jpg",
+        "assets/products/source/moire-suede/02-source.jpg",
+        "assets/products/source/moire-suede/03-source.jpg",
+        "assets/products/source/moire-suede/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11207,9 +11220,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/vintage-work/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/vintage-work/01-source.jpg",
+        "assets/products/source/vintage-work/02-source.jpg",
+        "assets/products/source/vintage-work/03-source.jpg",
+        "assets/products/source/vintage-work/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11285,9 +11301,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-beauty-bag/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-beauty-bag/01-source.jpg",
+        "assets/products/source/ciara-beauty-bag/02-source.jpg",
+        "assets/products/source/ciara-beauty-bag/03-source.jpg",
+        "assets/products/source/ciara-beauty-bag/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11363,9 +11382,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/wallet-vintage/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/wallet-vintage/01-source.jpg",
+        "assets/products/source/wallet-vintage/02-source.jpg",
+        "assets/products/source/wallet-vintage/03-source.jpg",
+        "assets/products/source/wallet-vintage/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11441,9 +11463,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-vintage-pouch/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-vintage-pouch/01-source.jpg",
+        "assets/products/source/ciara-vintage-pouch/02-source.jpg",
+        "assets/products/source/ciara-vintage-pouch/03-source.jpg",
+        "assets/products/source/ciara-vintage-pouch/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11519,9 +11544,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/wallet-suede/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/wallet-suede/01-source.jpg",
+        "assets/products/source/wallet-suede/02-source.jpg",
+        "assets/products/source/wallet-suede/03-source.jpg",
+        "assets/products/source/wallet-suede/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11597,9 +11625,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-suede-pouch/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-suede-pouch/01-source.jpg",
+        "assets/products/source/ciara-suede-pouch/02-source.jpg",
+        "assets/products/source/ciara-suede-pouch/03-source.jpg",
+        "assets/products/source/ciara-suede-pouch/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11675,9 +11706,12 @@
         "bolso llevado por una modelo italiana en un look elegante de ciudad",
         "bolso en uso por una modelo italiana durante un plan cotidiano chic"
       ],
-      "asset": "assets/products/generated-bag-brown.png",
+      "asset": "assets/products/source/ciara-wallet/01-source.jpg",
       "assets": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/source/ciara-wallet/01-source.jpg",
+        "assets/products/source/ciara-wallet/02-source.jpg",
+        "assets/products/source/ciara-wallet/03-source.jpg",
+        "assets/products/source/ciara-wallet/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11758,9 +11792,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/sculpt-brief-braguita-moldeadora/01-source.png",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/sculpt-brief-braguita-moldeadora/01-source.png",
+        "assets/products/source/sculpt-brief-braguita-moldeadora/02-source.png",
+        "assets/products/source/sculpt-brief-braguita-moldeadora/03-source.png",
+        "assets/products/source/sculpt-brief-braguita-moldeadora/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -11986,9 +12023,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/stm-tex-short-oversized-rain-jacket/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/stm-tex-short-oversized-rain-jacket/01-source.jpg",
+        "assets/products/source/stm-tex-short-oversized-rain-jacket/02-source.jpg",
+        "assets/products/source/stm-tex-short-oversized-rain-jacket/03-source.jpg",
+        "assets/products/source/stm-tex-short-oversized-rain-jacket/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -12723,9 +12763,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/anti-roll-shaper-shorts/01-source.png",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/anti-roll-shaper-shorts/01-source.png",
+        "assets/products/source/anti-roll-shaper-shorts/02-source.png",
+        "assets/products/source/anti-roll-shaper-shorts/03-source.png",
+        "assets/products/source/anti-roll-shaper-shorts/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -12818,9 +12861,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/sheer-illusion-fleece-lined-tights/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/sheer-illusion-fleece-lined-tights/01-source.jpg",
+        "assets/products/source/sheer-illusion-fleece-lined-tights/02-source.jpg",
+        "assets/products/source/sheer-illusion-fleece-lined-tights/03-source.jpg",
+        "assets/products/source/sheer-illusion-fleece-lined-tights/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -12967,9 +13013,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/tuck-n-lift-seamless-slip-short/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/tuck-n-lift-seamless-slip-short/01-source.jpg",
+        "assets/products/source/tuck-n-lift-seamless-slip-short/02-source.png",
+        "assets/products/source/tuck-n-lift-seamless-slip-short/03-source.jpg",
+        "assets/products/source/tuck-n-lift-seamless-slip-short/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -13064,9 +13113,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/wireless-lifting-jelly-bra/01-source.png",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/wireless-lifting-jelly-bra/01-source.png",
+        "assets/products/source/wireless-lifting-jelly-bra/02-source.png",
+        "assets/products/source/wireless-lifting-jelly-bra/03-source.jpg",
+        "assets/products/source/wireless-lifting-jelly-bra/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -13287,9 +13339,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/stm-tex-classic-relaxed-fit-rain-hoodie/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/stm-tex-classic-relaxed-fit-rain-hoodie/01-source.jpg",
+        "assets/products/source/stm-tex-classic-relaxed-fit-rain-hoodie/02-source.jpg",
+        "assets/products/source/stm-tex-classic-relaxed-fit-rain-hoodie/03-source.jpg",
+        "assets/products/source/stm-tex-classic-relaxed-fit-rain-hoodie/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -13883,9 +13938,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/elevate-sculpting-flare-leggings/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/elevate-sculpting-flare-leggings/01-source.jpg",
+        "assets/products/source/elevate-sculpting-flare-leggings/02-source.png",
+        "assets/products/source/elevate-sculpting-flare-leggings/03-source.jpg",
+        "assets/products/source/elevate-sculpting-flare-leggings/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -13962,9 +14020,11 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/women-s-relaxed-fit-denim-coverall-jumpsuit/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/women-s-relaxed-fit-denim-coverall-jumpsuit/01-source.jpg",
+        "assets/products/source/women-s-relaxed-fit-denim-coverall-jumpsuit/02-source.jpg",
+        "assets/products/source/women-s-relaxed-fit-denim-coverall-jumpsuit/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -14054,9 +14114,11 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/women-s-plaid-wide-leg-overalls/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/women-s-plaid-wide-leg-overalls/01-source.jpg",
+        "assets/products/source/women-s-plaid-wide-leg-overalls/02-source.jpg",
+        "assets/products/source/women-s-plaid-wide-leg-overalls/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -14142,9 +14204,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/stm-tex-fleece-lined-short-oversized-rain-jacket/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/stm-tex-fleece-lined-short-oversized-rain-jacket/01-source.jpg",
+        "assets/products/source/stm-tex-fleece-lined-short-oversized-rain-jacket/02-source.jpg",
+        "assets/products/source/stm-tex-fleece-lined-short-oversized-rain-jacket/03-source.jpg",
+        "assets/products/source/stm-tex-fleece-lined-short-oversized-rain-jacket/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -14496,9 +14561,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/warmcore-faux-fur-lined-hooded-short-puffer/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/warmcore-faux-fur-lined-hooded-short-puffer/01-source.jpg",
+        "assets/products/source/warmcore-faux-fur-lined-hooded-short-puffer/02-source.jpg",
+        "assets/products/source/warmcore-faux-fur-lined-hooded-short-puffer/03-source.jpg",
+        "assets/products/source/warmcore-faux-fur-lined-hooded-short-puffer/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -14861,9 +14929,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/warmcore-classic-short-detachable-hooded-puffer/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/warmcore-classic-short-detachable-hooded-puffer/01-source.jpg",
+        "assets/products/source/warmcore-classic-short-detachable-hooded-puffer/02-source.jpg",
+        "assets/products/source/warmcore-classic-short-detachable-hooded-puffer/03-source.jpg",
+        "assets/products/source/warmcore-classic-short-detachable-hooded-puffer/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -15520,9 +15591,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/stm-tex-fleece-lined-relaxed-fit-rain-hoodie/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/stm-tex-fleece-lined-relaxed-fit-rain-hoodie/01-source.jpg",
+        "assets/products/source/stm-tex-fleece-lined-relaxed-fit-rain-hoodie/02-source.jpg",
+        "assets/products/source/stm-tex-fleece-lined-relaxed-fit-rain-hoodie/03-source.jpg",
+        "assets/products/source/stm-tex-fleece-lined-relaxed-fit-rain-hoodie/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -15786,9 +15860,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/feathra-ultralight-down-jacket/01-source.png",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/feathra-ultralight-down-jacket/01-source.png",
+        "assets/products/source/feathra-ultralight-down-jacket/02-source.png",
+        "assets/products/source/feathra-ultralight-down-jacket/03-source.png",
+        "assets/products/source/feathra-ultralight-down-jacket/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -16018,9 +16095,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/satin-scoop-neck-camisole-maxi-dress/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/satin-scoop-neck-camisole-maxi-dress/01-source.jpg",
+        "assets/products/source/satin-scoop-neck-camisole-maxi-dress/02-source.jpg",
+        "assets/products/source/satin-scoop-neck-camisole-maxi-dress/03-source.jpg",
+        "assets/products/source/satin-scoop-neck-camisole-maxi-dress/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -16105,9 +16185,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/serena-heritage-coat/01-source.png",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/serena-heritage-coat/01-source.png",
+        "assets/products/source/serena-heritage-coat/02-source.png",
+        "assets/products/source/serena-heritage-coat/03-source.png",
+        "assets/products/source/serena-heritage-coat/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -16424,9 +16507,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/amelie-overcoat/01-source.png",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/amelie-overcoat/01-source.png",
+        "assets/products/source/amelie-overcoat/02-source.png",
+        "assets/products/source/amelie-overcoat/03-source.png",
+        "assets/products/source/amelie-overcoat/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -16581,9 +16667,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/lottie-cosy-oversized-sweater/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/lottie-cosy-oversized-sweater/01-source.jpg",
+        "assets/products/source/lottie-cosy-oversized-sweater/02-source.png",
+        "assets/products/source/lottie-cosy-oversized-sweater/03-source.jpg",
+        "assets/products/source/lottie-cosy-oversized-sweater/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -16901,9 +16990,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/cynthia-artful-hooded-cardigan/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/cynthia-artful-hooded-cardigan/01-source.jpg",
+        "assets/products/source/cynthia-artful-hooded-cardigan/02-source.png",
+        "assets/products/source/cynthia-artful-hooded-cardigan/03-source.jpg",
+        "assets/products/source/cynthia-artful-hooded-cardigan/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -17077,9 +17169,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/rachel-heritage-herringbone-jacket/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/rachel-heritage-herringbone-jacket/01-source.jpg",
+        "assets/products/source/rachel-heritage-herringbone-jacket/02-source.png",
+        "assets/products/source/rachel-heritage-herringbone-jacket/03-source.jpg",
+        "assets/products/source/rachel-heritage-herringbone-jacket/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -17165,9 +17260,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/vivienne-cowl-neck-knit-jumper/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/vivienne-cowl-neck-knit-jumper/01-source.jpg",
+        "assets/products/source/vivienne-cowl-neck-knit-jumper/02-source.png",
+        "assets/products/source/vivienne-cowl-neck-knit-jumper/03-source.jpg",
+        "assets/products/source/vivienne-cowl-neck-knit-jumper/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -17509,9 +17607,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/lorena-floral-sleeveless-midi-dress/01-source.png",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/lorena-floral-sleeveless-midi-dress/01-source.png",
+        "assets/products/source/lorena-floral-sleeveless-midi-dress/02-source.png",
+        "assets/products/source/lorena-floral-sleeveless-midi-dress/03-source.png",
+        "assets/products/source/lorena-floral-sleeveless-midi-dress/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -17589,9 +17690,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/francesca-geometric-sleeveless-maxi-dress/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/francesca-geometric-sleeveless-maxi-dress/01-source.jpg",
+        "assets/products/source/francesca-geometric-sleeveless-maxi-dress/02-source.png",
+        "assets/products/source/francesca-geometric-sleeveless-maxi-dress/03-source.jpg",
+        "assets/products/source/francesca-geometric-sleeveless-maxi-dress/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -17713,9 +17817,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/seamless-balconette-bra/01-source.png",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/seamless-balconette-bra/01-source.png",
+        "assets/products/source/seamless-balconette-bra/02-source.png",
+        "assets/products/source/seamless-balconette-bra/03-source.jpg",
+        "assets/products/source/seamless-balconette-bra/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -17892,9 +17999,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/deep-v-wireless-push-up-bra/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/deep-v-wireless-push-up-bra/01-source.jpg",
+        "assets/products/source/deep-v-wireless-push-up-bra/02-source.png",
+        "assets/products/source/deep-v-wireless-push-up-bra/03-source.jpg",
+        "assets/products/source/deep-v-wireless-push-up-bra/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -18046,9 +18156,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/thermal-zip-up-jumpsuit/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/thermal-zip-up-jumpsuit/01-source.jpg",
+        "assets/products/source/thermal-zip-up-jumpsuit/02-source.jpg",
+        "assets/products/source/thermal-zip-up-jumpsuit/03-source.jpg",
+        "assets/products/source/thermal-zip-up-jumpsuit/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -18282,9 +18395,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/rosalia-elegant-jacket-with-stand-collar/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/rosalia-elegant-jacket-with-stand-collar/01-source.jpg",
+        "assets/products/source/rosalia-elegant-jacket-with-stand-collar/02-source.jpg",
+        "assets/products/source/rosalia-elegant-jacket-with-stand-collar/03-source.jpg",
+        "assets/products/source/rosalia-elegant-jacket-with-stand-collar/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -18460,9 +18576,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/carla-asymmetrical-leather-jacket/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/carla-asymmetrical-leather-jacket/01-source.jpg",
+        "assets/products/source/carla-asymmetrical-leather-jacket/02-source.jpg",
+        "assets/products/source/carla-asymmetrical-leather-jacket/03-source.jpg",
+        "assets/products/source/carla-asymmetrical-leather-jacket/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -18580,9 +18699,12 @@
         "look completo con modelo italiana en un entorno italiano",
         "prenda en movimiento con una modelo italiana bajo luz natural"
       ],
-      "asset": "assets/products/generated-clothing-camel.png",
+      "asset": "assets/products/source/lucie-faux-fur-maxi-coat/01-source.jpg",
       "assets": [
-        "assets/products/generated-clothing-camel.png"
+        "assets/products/source/lucie-faux-fur-maxi-coat/01-source.jpg",
+        "assets/products/source/lucie-faux-fur-maxi-coat/02-source.jpg",
+        "assets/products/source/lucie-faux-fur-maxi-coat/03-source.jpg",
+        "assets/products/source/lucie-faux-fur-maxi-coat/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -18666,9 +18788,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/all-day-ultra-comfortable-walker/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/all-day-ultra-comfortable-walker/01-source.jpg",
+        "assets/products/source/all-day-ultra-comfortable-walker/02-source.jpg",
+        "assets/products/source/all-day-ultra-comfortable-walker/03-source.jpg",
+        "assets/products/source/all-day-ultra-comfortable-walker/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -18959,9 +19084,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/tressa-orthopedic-mule-flats/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/tressa-orthopedic-mule-flats/01-source.jpg",
+        "assets/products/source/tressa-orthopedic-mule-flats/02-source.jpg",
+        "assets/products/source/tressa-orthopedic-mule-flats/03-source.png",
+        "assets/products/source/tressa-orthopedic-mule-flats/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -19166,9 +19294,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/groovers-barefoot/01-source.png",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/groovers-barefoot/01-source.png",
+        "assets/products/source/groovers-barefoot/02-source.png",
+        "assets/products/source/groovers-barefoot/03-source.jpg",
+        "assets/products/source/groovers-barefoot/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -19319,9 +19450,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/ortho-stretch-comfort-shoes/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/ortho-stretch-comfort-shoes/01-source.jpg",
+        "assets/products/source/ortho-stretch-comfort-shoes/02-source.jpg",
+        "assets/products/source/ortho-stretch-comfort-shoes/03-source.jpg",
+        "assets/products/source/ortho-stretch-comfort-shoes/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -19541,9 +19675,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/solyn-barefoot-bogo/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/solyn-barefoot-bogo/01-source.jpg",
+        "assets/products/source/solyn-barefoot-bogo/02-source.jpg",
+        "assets/products/source/solyn-barefoot-bogo/03-source.jpg",
+        "assets/products/source/solyn-barefoot-bogo/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -20119,9 +20256,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/pluffi-slippers/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/pluffi-slippers/01-source.jpg",
+        "assets/products/source/pluffi-slippers/02-source.jpg",
+        "assets/products/source/pluffi-slippers/03-source.jpg",
+        "assets/products/source/pluffi-slippers/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -20831,9 +20971,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/genuine-suede-clogs/01-source.png",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/genuine-suede-clogs/01-source.png",
+        "assets/products/source/genuine-suede-clogs/02-source.png",
+        "assets/products/source/genuine-suede-clogs/03-source.png",
+        "assets/products/source/genuine-suede-clogs/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -21128,9 +21271,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/mia-orthopedic-sneakers/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/mia-orthopedic-sneakers/01-source.jpg",
+        "assets/products/source/mia-orthopedic-sneakers/02-source.jpg",
+        "assets/products/source/mia-orthopedic-sneakers/03-source.jpg",
+        "assets/products/source/mia-orthopedic-sneakers/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -21931,9 +22077,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/fur-cozy-slippers/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/fur-cozy-slippers/01-source.jpg",
+        "assets/products/source/fur-cozy-slippers/02-source.jpg",
+        "assets/products/source/fur-cozy-slippers/03-source.jpg",
+        "assets/products/source/fur-cozy-slippers/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -22136,9 +22285,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/montra-orthopedic-shoes/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/montra-orthopedic-shoes/01-source.jpg",
+        "assets/products/source/montra-orthopedic-shoes/02-source.jpg",
+        "assets/products/source/montra-orthopedic-shoes/03-source.png",
+        "assets/products/source/montra-orthopedic-shoes/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -22232,9 +22384,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/calvona-orthopedic-slip-ons/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/calvona-orthopedic-slip-ons/01-source.jpg",
+        "assets/products/source/calvona-orthopedic-slip-ons/02-source.jpg",
+        "assets/products/source/calvona-orthopedic-slip-ons/03-source.png",
+        "assets/products/source/calvona-orthopedic-slip-ons/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -22411,9 +22566,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/sledders-barefoot-invierno/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/sledders-barefoot-invierno/01-source.jpg",
+        "assets/products/source/sledders-barefoot-invierno/02-source.jpg",
+        "assets/products/source/sledders-barefoot-invierno/03-source.jpg",
+        "assets/products/source/sledders-barefoot-invierno/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -22563,9 +22721,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/piper-western-pull-on-ankle-boots/01-source.png",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/piper-western-pull-on-ankle-boots/01-source.png",
+        "assets/products/source/piper-western-pull-on-ankle-boots/02-source.png",
+        "assets/products/source/piper-western-pull-on-ankle-boots/03-source.png",
+        "assets/products/source/piper-western-pull-on-ankle-boots/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -22741,9 +22902,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/100-vegan-suede-clogs/01-source.png",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/100-vegan-suede-clogs/01-source.png",
+        "assets/products/source/100-vegan-suede-clogs/02-source.png",
+        "assets/products/source/100-vegan-suede-clogs/03-source.png",
+        "assets/products/source/100-vegan-suede-clogs/04-source.png"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",
@@ -22865,9 +23029,12 @@
         "calzado llevado por una modelo italiana en movimiento",
         "look femenino completo con modelo italiana en un entorno urbano"
       ],
-      "asset": "assets/products/generated-shoe-beige.png",
+      "asset": "assets/products/source/paloma-vintage-western-ankle-boots/01-source.jpg",
       "assets": [
-        "assets/products/generated-shoe-beige.png"
+        "assets/products/source/paloma-vintage-western-ankle-boots/01-source.jpg",
+        "assets/products/source/paloma-vintage-western-ankle-boots/02-source.jpg",
+        "assets/products/source/paloma-vintage-western-ankle-boots/03-source.jpg",
+        "assets/products/source/paloma-vintage-western-ankle-boots/04-source.jpg"
       ],
       "models": [
         "modella italiana mediterranea, capelli castani mossi",

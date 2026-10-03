@@ -163,6 +163,21 @@
     return p.image ? [`../theme/${p.image}`] : [];
   };
 
+  const swatchColor = (value) => {
+    const v = String(value).toLowerCase();
+    if (/nero|black|ebano/.test(v)) return '#252321';
+    if (/blanco|white|latte|crema|beige|caramello/.test(v)) return '#f2eee7';
+    if (/gris|grey|grigio/.test(v)) return '#aaa7a2';
+    if (/rojo|rosso|red|burdeos|bordeaux/.test(v)) return '#a9363f';
+    if (/rosa|pink|magenta/.test(v)) return '#dc8b9c';
+    if (/violeta|viola|purple/.test(v)) return '#76618b';
+    if (/verde|green/.test(v)) return '#58715c';
+    if (/azul|blu|blue|denim/.test(v)) return '#4a6287';
+    if (/amarillo|giallo|yellow/.test(v)) return '#ddb84c';
+    if (/marr[oó]n|brown|cammello|camel/.test(v)) return '#a67956';
+    return '#d8d1c8';
+  };
+
   // Mirrors snippets/product-card.liquid.
   const card = (p) => {
     const onSale = p.compare_at_price > p.price;
@@ -450,7 +465,7 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
         const idx = p.options.indexOf(o);
         const isColour = o.name === 'Colore';
         return `<div class="variant-wrapper"><span class="variant__label">${o.name}${isColour ? `: <span data-option-current>${variant.options[idx]}</span>` : ''}</span><fieldset class="variant-input-wrap" data-option-index="${idx}">${o.values
-          .map((v, j) => `<div class="variant-input"><input type="radio" id="o-${idx}-${j}" name="o-${idx}" value="${esc(v)}"${v === variant.options[idx] ? ' checked' : ''}><label for="o-${idx}-${j}" class="variant__button-label${isColour ? ' has-swatch' : ''}"${isColour ? ` data-ph="${esc(v)}"` : ''}>${isColour ? '' : esc(v)}</label></div>`)
+          .map((v, j) => `<div class="variant-input"><input type="radio" id="o-${idx}-${j}" name="o-${idx}" value="${esc(v)}"${v === variant.options[idx] ? ' checked' : ''}><label for="o-${idx}-${j}" class="variant__button-label${isColour ? ' has-swatch' : ''}"${isColour ? ` style="--swatch-color:${swatchColor(v)}"` : ''}>${isColour ? `<span class="variant__swatch" aria-hidden="true"></span><span class="variant__value">${esc(v)}</span>` : esc(v)}</label></div>`)
           .join('')}</fieldset></div>`;
       })
       .join('');

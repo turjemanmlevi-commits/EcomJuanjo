@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:39:13.236Z",
+  "generatedAt": "2026-10-03T18:39:52.577Z",
   "products": 95,
   "variants": 3251,
   "collections": [
@@ -24,7 +24,7 @@
   ],
   "imagePlan": {
     "planned": 2706,
-    "uniqueSetsReady": 7,
-    "generatedImagesReady": 190
+    "uniqueSetsReady": 90,
+    "generatedImagesReady": 357
   }
 }
