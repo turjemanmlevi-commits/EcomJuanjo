@@ -112,6 +112,12 @@ const productColorImageSets = {
       'assets/products/luxury-hobo-anti-theft-handbag-pouch/Red/04-cafe.png',
     ],
   },
+  'aryna-bag': Object.fromEntries(['Brown', 'Red', 'Navy Blue', 'Dark Green', 'Black', 'Blue'].map(color => [color, [
+    `assets/products/aryna-bag/${color}/01-hero.png`,
+    `assets/products/aryna-bag/${color}/02-beige.png`,
+    `assets/products/aryna-bag/${color}/03-milan.png`,
+    `assets/products/aryna-bag/${color}/04-cafe.png`,
+  ]])),
 };
 
 const sourceOverrides = {
@@ -143,6 +149,13 @@ const sourceOverrides = {
     price: 8700,
     compare_at_price: 13000,
   },
+  'aryna-bag': {
+    title: 'Aryna Bag',
+    vendor: 'Maison Ginza',
+    description: 'Una borsa raffinata e versatile, pensata per accompagnarti con naturalezza dal lavoro all’aperitivo. Aryna Bag unisce una silhouette pulita, una capienza pratica e una tracolla comoda: scegli il tuo colore e aggiungi un tocco elegante a ogni look.',
+    price: 5999,
+    compare_at_price: 9499,
+  },
 };
 
 const slug = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -169,6 +182,7 @@ function optionsFor(row, fallback) {
   if (/luxury leather hobo anti-theft handbag 2\.0/i.test(row.Producto)) return [{ name: 'Colore', values: ['Black', 'Brown', 'Beige'] }];
   if (/luxury leather hobo anti-theft handbag \+ pouch/i.test(row.Producto)) return [{ name: 'Colore', values: ['Brown', 'Black', 'Blue', 'Grey', 'Burgundy', 'Red'] }];
   if (/ciara vintage$/i.test(row.Producto)) return [{ name: 'Colore', values: ['Coffee'] }];
+  if (/aryna bag/i.test(row.Producto)) return [{ name: 'Colore', values: ['Brown', 'Red', 'Navy Blue', 'Dark Green', 'Black', 'Blue'] }];
   return [{ name: 'Colore', values: fallback.colors }, { name: 'Talla', values: fallback.sizes }];
 }
 

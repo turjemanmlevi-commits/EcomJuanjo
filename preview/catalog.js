@@ -3254,14 +3254,37 @@ window.CATALOG = {
       "category": "Bolsos",
       "vendor": "ORIONA",
       "sourceUrl": "https://maisonginza.com/products/aryna-bag",
-      "image": "assets/products/generated-bag-brown.png",
+      "image": "assets/products/aryna-bag/Brown/01-hero.png",
       "images": [
-        "assets/products/generated-bag-brown.png"
+        "assets/products/aryna-bag/Brown/01-hero.png",
+        "assets/products/aryna-bag/Brown/02-beige.png",
+        "assets/products/aryna-bag/Brown/03-milan.png",
+        "assets/products/aryna-bag/Brown/04-cafe.png",
+        "assets/products/aryna-bag/Red/01-hero.png",
+        "assets/products/aryna-bag/Red/02-beige.png",
+        "assets/products/aryna-bag/Red/03-milan.png",
+        "assets/products/aryna-bag/Red/04-cafe.png",
+        "assets/products/aryna-bag/Navy Blue/01-hero.png",
+        "assets/products/aryna-bag/Navy Blue/02-beige.png",
+        "assets/products/aryna-bag/Navy Blue/03-milan.png",
+        "assets/products/aryna-bag/Navy Blue/04-cafe.png",
+        "assets/products/aryna-bag/Dark Green/01-hero.png",
+        "assets/products/aryna-bag/Dark Green/02-beige.png",
+        "assets/products/aryna-bag/Dark Green/03-milan.png",
+        "assets/products/aryna-bag/Dark Green/04-cafe.png",
+        "assets/products/aryna-bag/Black/01-hero.png",
+        "assets/products/aryna-bag/Black/02-beige.png",
+        "assets/products/aryna-bag/Black/03-milan.png",
+        "assets/products/aryna-bag/Black/04-cafe.png",
+        "assets/products/aryna-bag/Blue/01-hero.png",
+        "assets/products/aryna-bag/Blue/02-beige.png",
+        "assets/products/aryna-bag/Blue/03-milan.png",
+        "assets/products/aryna-bag/Blue/04-cafe.png"
       ],
       "imageAlt": "Borsa a mano effetto martellato con tracolla",
       "description": "Borsa a mano compatta in similpelle effetto martellato, con tracolla regolabile e staccabile, chiusura con zip, due scomparti e quattro tasche.",
-      "price": 3499,
-      "compare_at_price": 5999,
+      "price": 5999,
+      "compare_at_price": 9499,
       "tags": "Borse, Novità, Selezione Juanjo",
       "options": [
         {
@@ -3282,60 +3305,60 @@ window.CATALOG = {
           "options": [
             "Marrone"
           ],
-          "price": 3499,
-          "compare_at_price": 5999,
+          "price": 5999,
+          "compare_at_price": 9499,
           "available": true,
-          "image": "assets/products/generated-bag-brown.png"
+          "image": "assets/products/aryna-bag/Brown/01-hero.png"
         },
         {
           "id": 130002,
           "options": [
             "Rosso"
           ],
-          "price": 3499,
-          "compare_at_price": 5999,
+          "price": 5999,
+          "compare_at_price": 9499,
           "available": true,
-          "image": "assets/products/generated-bag-brown.png"
+          "image": "assets/products/aryna-bag/Red/01-hero.png"
         },
         {
           "id": 130003,
           "options": [
             "Blu navy"
           ],
-          "price": 3499,
-          "compare_at_price": 5999,
+          "price": 5999,
+          "compare_at_price": 9499,
           "available": true,
-          "image": "assets/products/generated-bag-brown.png"
+          "image": "assets/products/aryna-bag/Navy Blue/01-hero.png"
         },
         {
           "id": 130004,
           "options": [
             "Verde scuro"
           ],
-          "price": 3499,
-          "compare_at_price": 5999,
+          "price": 5999,
+          "compare_at_price": 9499,
           "available": true,
-          "image": "assets/products/generated-bag-brown.png"
+          "image": "assets/products/aryna-bag/Dark Green/01-hero.png"
         },
         {
           "id": 130005,
           "options": [
             "Nero"
           ],
-          "price": 3499,
-          "compare_at_price": 5999,
+          "price": 5999,
+          "compare_at_price": 9499,
           "available": true,
-          "image": "assets/products/generated-bag-brown.png"
+          "image": "assets/products/aryna-bag/Black/01-hero.png"
         },
         {
           "id": 130006,
           "options": [
             "Blu"
           ],
-          "price": 3499,
-          "compare_at_price": 5999,
+          "price": 5999,
+          "compare_at_price": 9499,
           "available": true,
-          "image": "assets/products/generated-bag-brown.png"
+          "image": "assets/products/aryna-bag/Blue/01-hero.png"
         }
       ],
       "rating": 4.6,
