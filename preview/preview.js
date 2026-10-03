@@ -274,8 +274,6 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
     'back-to-top': `<div class="index-section"><div class="page-width"><div class="btt-row"><div class="btt-wrapper"><button type="button" class="btt-btn" data-back-to-top>Torna su ${icon.up}</button></div></div></div></div>`,
 
     footer: `<footer class="site-footer"><div class="page-width"><div class="grid">
-  <div class="grid__item"><div class="footer__item-padding"><p class="h4 footer__title">Il nostro negozio</p><div class="footer__text rte"><p>Spedizione <strong>tracciata</strong> e <strong>resi entro 30 giorni</strong> su tutti gli ordini.</p></div></div></div>
-  <div class="grid__item"><div class="footer__item-padding"><p class="h4 footer__title">Contatti</p><div class="footer__text rte"><p><strong>Orari del servizio clienti:</strong></p><p>Dal lunedì al venerdì, 9:00-17:00</p><p><strong>Hai una domanda?</strong></p><p>Scrivici: trovi la nostra email qui sotto.</p></div></div></div>
   <div class="grid__item"><div class="footer__collapsibles">${footerDropdowns.map(([t, h, text, label]) => `<div class="footer__collapsible"><button type="button" class="collapsible-trigger footer__collapsible-trigger" aria-controls="FooterDropdown-${h}" aria-expanded="false"><span class="footer__collapsible-label">${t}<span class="collapsible-trigger__icon"><span data-icon="down"></span></span></span></button><div id="FooterDropdown-${h}" class="collapsible-content"><div><div class="collapsible-content__inner rte"><p>${text}</p><p><a href="page.html?h=${h}">${label}</a></p></div></div></div></div>`).join('')}</div></div>
 </div>
 
