@@ -115,7 +115,8 @@ async function main() {
     },
   ];
   const catalog = readCatalog();
-  const existing = catalog.products.filter(product => product.collection !== 'scarpe');
+  const importedCollections = new Set(['scarpe', 'giacche', 'vestiti']);
+  const existing = catalog.products.filter(product => !importedCollections.has(product.collection));
   const products = [...existing];
   let id = Math.max(0, ...products.map(product => product.id)) + 1;
   let index = 0;
