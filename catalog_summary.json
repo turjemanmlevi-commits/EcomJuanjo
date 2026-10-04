@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T18:39:52.577Z",
-  "products": 95,
-  "variants": 3251,
+  "generatedAt": "2026-10-04T11:55:04.796Z",
+  "products": 236,
+  "variants": 3011,
   "collections": [
     {
       "handle": "borse",
@@ -10,21 +10,42 @@
       "description": "Modelli pratici e raffinati per completare ogni look, ogni giorno."
     },
     {
-      "handle": "scarpe",
-      "group": "Calzature",
-      "title": "Scarpe",
-      "description": "Comfort e stile per accompagnarti con sicurezza in ogni occasione."
-    },
-    {
       "handle": "abbigliamento",
       "group": "Abbigliamento",
       "title": "Abbigliamento",
       "description": "Capi facili da indossare, abbinare e vivere per tutta la stagione."
+    },
+    {
+      "handle": "scarpe",
+      "group": "Calzature",
+      "title": "Scarpe",
+      "description": "Scarpe eleganti e versatili per completare ogni look."
+    },
+    {
+      "handle": "giacche",
+      "group": "Abbigliamento",
+      "title": "Giacche e cappotti",
+      "description": "Giacche e cappotti femminili per la stagione."
+    },
+    {
+      "handle": "vestiti",
+      "group": "Abbigliamento",
+      "title": "Vestiti",
+      "description": "Vestiti femminili per ogni occasione."
     }
   ],
-  "imagePlan": {
-    "planned": 2706,
-    "uniqueSetsReady": 90,
-    "generatedImagesReady": 357
-  }
+  "sources": [
+    {
+      "url": "https://almondmuse.com/collections/shoes-1/products.json?limit=250",
+      "collection": "scarpe"
+    },
+    {
+      "url": "https://hazelthelabel.com/collections/coats-jackets/products.json?limit=250",
+      "collection": "giacche"
+    },
+    {
+      "url": "https://almondmuse.com/collections/trending-dresses/products.json?limit=250",
+      "collection": "vestiti"
+    }
+  ]
 }

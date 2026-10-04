@@ -32,7 +32,13 @@
   const productUrl = (p) => `product.html?p=${p.handle}`;
 
   // Category photos (theme/assets/category-*.webp), same mapping as the Liquid sections.
-  const categoryImages = { abbigliamento: 'category-clothing.webp', borse: 'category-bags.webp', scarpe: 'category-shoes.webp' };
+  const categoryImages = {
+    abbigliamento: 'category-clothing.webp',
+    borse: 'category-bags.webp',
+    scarpe: 'category-shoes.webp',
+    giacche: 'category-clothing.webp',
+    vestiti: 'category-clothing.webp',
+  };
   const categoryImg = (c) => `<img src="../theme/assets/${categoryImages[c.handle]}" alt="${c.title}" width="1122" height="1402" loading="lazy">`;
 
   // Menu items: [title, href] or [title, href, [children]] for a dropdown; children are collections.
