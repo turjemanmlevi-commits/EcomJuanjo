@@ -870,6 +870,8 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.5); }
 .product-video-carousel__track::-webkit-scrollbar { display: none; }
 .product-video-card { position: relative; display: flex; aspect-ratio: 9 / 14; min-height: 145px; align-items: center; justify-content: center; overflow: hidden; scroll-snap-align: start; border-radius: 10px; background: linear-gradient(150deg, #faf4f6, #f3e8ec); color: #8a7379; }
 .product-video-card--empty { border: 1px dashed #d6bdc4; }
+.product-video-card--empty { flex-direction: column; gap: 6px; padding: 14px; text-align: center; font-size: 15px; font-weight: 600; letter-spacing: .04em; }
+.product-video-card--empty small { font-size: 11px; font-weight: 400; letter-spacing: .02em; opacity: .75; }
 
 .social-proof { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 3px 6px; font-size: 12px; }
 .social-proof p { margin: 0; }

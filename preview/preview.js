@@ -429,6 +429,13 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
     }
     section.querySelectorAll('.product-image-main').forEach((el, i) => { el.dataset.ph = `${p.title} · Immagine ${i + 1}`; });
     const localImages = productImage(p);
+    if (p.handle === 'borsa-a-mano-in-vera-pelle-con-lucchetto') {
+      section.dataset.variantImageMode = 'florvane';
+      localImages.splice(0, localImages.length,
+        'img/product-florvane/front.png',
+        'img/product-florvane/side.png',
+        'img/product-florvane/back.png');
+    }
     if (localImages.length) {
       section.querySelectorAll('.product-main-slide').forEach((slide, i) => {
         const file = localImages[i] || localImages[0];

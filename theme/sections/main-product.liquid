@@ -298,7 +298,7 @@
                 <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
                   <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
                     <button type="button" class="collapsible-trigger collapsible-trigger-btn" aria-controls="ProductDescription-{{ section.id }}" aria-expanded="false">
-                      {{ block.settings.title | default: 'Description' | escape }}
+                      {{ block.settings.title | default: 'Descrizione' | escape }}
                       <span class="collapsible-trigger__icon">{% render 'icon', name: 'chevron-down' %}</span>
                     </button>
                     <div id="ProductDescription-{{ section.id }}" class="collapsible-content">
@@ -485,14 +485,14 @@
       "name": "Prueba social",
       "limit": 1,
       "settings": [
-        { "type": "text", "id": "title", "label": "Texto", "default": "Join our community of 75,000+ happy customers" }
+        { "type": "text", "id": "title", "label": "Texto", "default": "Unisciti alla nostra community di oltre 75.000 clienti felici" }
       ]
     },
     {
       "type": "accordion",
       "name": "Acordeón de producto",
       "settings": [
-        { "type": "text", "id": "title", "label": "Título", "default": "Fabric & Fit" },
+        { "type": "text", "id": "title", "label": "Título", "default": "Tessuto e vestibilità" },
         { "type": "richtext", "id": "content", "label": "Contenido", "default": "<p></p>" }
       ]
     },
