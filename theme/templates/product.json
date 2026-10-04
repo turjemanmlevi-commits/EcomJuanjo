@@ -66,7 +66,7 @@
         "video-carousel": {
           "type": "video_carousel",
           "settings": {
-            "title": "Customer videos"
+            "title": "Videos"
           }
         },
         "notice": {
@@ -87,21 +87,21 @@
           "type": "accordion",
           "settings": {
             "title": "Fabric & Fit",
-            "content": "<p>Añade aquí la composición, el ajuste y las indicaciones de cuidado de este producto.</p>"
+            "content": "<p></p>"
           }
         },
         "shipping": {
           "type": "accordion",
           "settings": {
             "title": "Shipping Info",
-            "content": "<p>Incluye aquí los plazos de entrega, el seguimiento y cualquier condición de envío.</p>"
+            "content": "<p></p>"
           }
         },
         "returns": {
           "type": "accordion",
           "settings": {
             "title": "30 Day Easy Returns",
-            "content": "<p>Incluye aquí la política de devoluciones y las instrucciones para solicitar un cambio o devolución.</p>"
+            "content": "<p></p>"
           }
         },
         "tab-1": {

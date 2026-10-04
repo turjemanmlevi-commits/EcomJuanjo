@@ -865,9 +865,6 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.5); }
 .product-video-carousel__track::-webkit-scrollbar { display: none; }
 .product-video-card { position: relative; display: flex; aspect-ratio: 9 / 14; min-height: 145px; align-items: center; justify-content: center; overflow: hidden; scroll-snap-align: start; border-radius: 10px; background: linear-gradient(150deg, #faf4f6, #f3e8ec); color: #8a7379; }
 .product-video-card--empty { border: 1px dashed #d6bdc4; }
-.product-video-card__play { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid currentColor; border-radius: 50%; }
-.product-video-card__play svg { width: 13px; height: 13px; margin-left: 2px; }
-.product-video-card__label { position: absolute; bottom: 12px; left: 8px; right: 8px; font-size: 10px; line-height: 1.2; text-align: center; text-transform: uppercase; letter-spacing: .08em; }
 
 .social-proof { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 3px 6px; font-size: 12px; }
 .social-proof p { margin: 0; }
