@@ -248,6 +248,27 @@
                   </button>
                 </div>
 
+              {%- when 'video_carousel' -%}
+                <div class="product-block product-video-block" {{ block.shopify_attributes }}>
+                  <div class="product-video-carousel" data-video-carousel>
+                    <div class="product-video-carousel__header">
+                      <h2 class="product-video-carousel__title">{{ block.settings.title | default: 'Customer videos' | escape }}</h2>
+                      <div class="product-video-carousel__controls">
+                        <button type="button" class="product-video-carousel__button product-video-carousel__button--prev" data-video-prev aria-label="Previous video" disabled>{% render 'icon', name: 'chevron-down' %}</button>
+                        <button type="button" class="product-video-carousel__button product-video-carousel__button--next" data-video-next aria-label="Next video" disabled>{% render 'icon', name: 'chevron-down' %}</button>
+                      </div>
+                    </div>
+                    <div class="product-video-carousel__track" data-video-track tabindex="0" aria-label="Customer video carousel">
+                      {%- for i in (1..3) -%}
+                        <div class="product-video-card product-video-card--empty">
+                          <span class="product-video-card__play" aria-hidden="true">{% render 'icon', name: 'play' %}</span>
+                          <span class="product-video-card__label">Video coming soon</span>
+                        </div>
+                      {%- endfor -%}
+                    </div>
+                  </div>
+                </div>
+
               {%- when 'notice' -%}
                 {%- if block.settings.text != blank -%}
                 <div class="product-block" {{ block.shopify_attributes }}>
@@ -264,11 +285,30 @@
                 {%- endif -%}
 
               {%- when 'description' -%}
-                {%- if product.description != blank -%}
-                  <div class="product-block" {{ block.shopify_attributes }}>
-                    <div class="rte">{{ product.description }}</div>
+                <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
+                  <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
+                    <button type="button" class="collapsible-trigger collapsible-trigger-btn" aria-controls="ProductDescription-{{ section.id }}" aria-expanded="false">
+                      {{ block.settings.title | default: 'Description' | escape }}
+                      <span class="collapsible-trigger__icon">{% render 'icon', name: 'chevron-down' %}</span>
+                    </button>
+                    <div id="ProductDescription-{{ section.id }}" class="collapsible-content">
+                      <div><div class="collapsible-content__inner rte">{{ product.description }}</div></div>
+                    </div>
                   </div>
-                {%- endif -%}
+                </div>
+
+              {%- when 'accordion' -%}
+                <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
+                  <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
+                    <button type="button" class="collapsible-trigger collapsible-trigger-btn" aria-controls="ProductAccordion-{{ block.id }}" aria-expanded="false">
+                      {{ block.settings.title | escape }}
+                      <span class="collapsible-trigger__icon">{% render 'icon', name: 'chevron-down' %}</span>
+                    </button>
+                    <div id="ProductAccordion-{{ block.id }}" class="collapsible-content">
+                      <div><div class="collapsible-content__inner rte">{{ block.settings.content }}</div></div>
+                    </div>
+                  </div>
+                </div>
 
               {%- when 'tab' -%}
                 {%- assign tab_content = block.settings.content -%}
@@ -427,7 +467,25 @@
         { "type": "color", "id": "color_accent", "label": "Color del título", "default": "#1c1b1a" }
       ]
     },
-    { "type": "description", "name": "Descripción", "limit": 1 },
+    { "type": "description", "name": "Descripción desplegable", "limit": 1, "settings": [
+      { "type": "text", "id": "title", "label": "Título", "default": "Descripción" }
+    ] },
+    {
+      "type": "video_carousel",
+      "name": "Carrusel de vídeos",
+      "limit": 1,
+      "settings": [
+        { "type": "text", "id": "title", "label": "Título", "default": "Customer videos" }
+      ]
+    },
+    {
+      "type": "accordion",
+      "name": "Acordeón de producto",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Título", "default": "Fabric & Fit" },
+        { "type": "richtext", "id": "content", "label": "Contenido", "default": "<p>Añade aquí los detalles del tejido, el ajuste y los cuidados de la prenda.</p>" }
+      ]
+    },
     {
       "type": "tab",
       "name": "Pestaña desplegable",

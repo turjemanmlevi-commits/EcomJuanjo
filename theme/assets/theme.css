@@ -700,7 +700,9 @@ input[type="text"], input[type="email"], input[type="search"], input[type="numbe
 .payment-icons--preview { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 8px; margin-top: 14px; }
 .payment-icons--preview li { display: flex; align-items: center; justify-content: center; min-width: 58px; height: 34px; margin: 0; padding: 5px 8px; border: 1px solid #e4e0da; background: #fff; border-radius: 3px; line-height: 1; }
 .payment-icons--preview img { display: block; width: auto; max-width: 72px; height: 22px; object-fit: contain; }
-.payment-icons--product svg { width: 30px; height: 19px; }
+.payment-icons--product { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 12px; }
+.payment-icons--product li { display: flex; align-items: center; justify-content: center; width: 58px; height: 36px; margin: 0; padding: 5px 7px; border: 1px solid #e5e1dc; border-radius: 6px; background: #fff; }
+.payment-icons--product svg { width: 100%; height: 22px; }
 .payment-icons--preview.payment-icons--product { gap: 5px; margin-top: 10px; }
 .payment-icons--preview.payment-icons--product li { min-width: 48px; height: 28px; padding: 3px 6px; }
 .payment-icons--preview.payment-icons--product img { max-width: 58px; height: 18px; }
@@ -849,6 +851,24 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.5); }
 .collapsible-trigger-btn .collapsible-trigger__icon svg { width: 12px; height: 12px; }
 .product-block--tab .collapsible-content__inner { padding: 0 20px 20px; font-size: 0.92em; }
 
+.product-video-block { margin-top: 10px; }
+.product-video-carousel { padding: 20px 0 4px; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); }
+.product-video-carousel__header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 13px; }
+.product-video-carousel__title { margin: 0; font-size: 16px; letter-spacing: 0.02em; text-transform: none; }
+.product-video-carousel__controls { display: flex; gap: 6px; }
+.product-video-carousel__button { display: grid; place-items: center; width: 30px; height: 30px; border: 1px solid var(--color-border); border-radius: 50%; }
+.product-video-carousel__button svg { width: 12px; height: 12px; }
+.product-video-carousel__button--prev svg { transform: rotate(90deg); }
+.product-video-carousel__button--next svg { transform: rotate(-90deg); }
+.product-video-carousel__button:disabled { opacity: .35; cursor: default; }
+.product-video-carousel__track { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(105px, 31%); gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding-bottom: 3px; }
+.product-video-carousel__track::-webkit-scrollbar { display: none; }
+.product-video-card { position: relative; display: flex; aspect-ratio: 9 / 14; min-height: 145px; align-items: center; justify-content: center; overflow: hidden; scroll-snap-align: start; border-radius: 10px; background: linear-gradient(150deg, #faf4f6, #f3e8ec); color: #8a7379; }
+.product-video-card--empty { border: 1px dashed #d6bdc4; }
+.product-video-card__play { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid currentColor; border-radius: 50%; }
+.product-video-card__play svg { width: 13px; height: 13px; margin-left: 2px; }
+.product-video-card__label { position: absolute; bottom: 12px; left: 8px; right: 8px; font-size: 10px; line-height: 1.2; text-align: center; text-transform: uppercase; letter-spacing: .08em; }
+
 .social-proof { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 3px 6px; font-size: 12px; }
 .social-proof p { margin: 0; }
 
@@ -962,6 +982,8 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.5); }
   .product__thumbs { order: 0; flex: none; margin: 10px 0 0; display: flex; gap: 10px; overflow-x: auto; }
   .product__thumb-item { flex: 0 0 70px; margin: 0; }
   .product-single__meta { padding-left: 0; }
+  .product-video-carousel { margin-top: 3px; }
+  .product-video-carousel__track { grid-auto-columns: 30%; }
 
 }
 

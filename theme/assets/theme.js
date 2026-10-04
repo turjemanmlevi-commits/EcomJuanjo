@@ -690,6 +690,28 @@
     });
   }
 
+  function initProductVideoCarousels(root) {
+    $$('[data-video-carousel]', root).forEach((carousel) => {
+      if (carousel.dataset.bound) return;
+      carousel.dataset.bound = 'true';
+      const track = $('[data-video-track]', carousel);
+      const prev = $('[data-video-prev]', carousel);
+      const next = $('[data-video-next]', carousel);
+      if (!track || !prev || !next) return;
+      const update = () => {
+        const max = track.scrollWidth - track.clientWidth - 2;
+        prev.disabled = track.scrollLeft <= 2;
+        next.disabled = track.scrollLeft >= max;
+      };
+      const step = () => Math.max(track.clientWidth * 0.72, 150);
+      prev.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: 'smooth' }));
+      next.addEventListener('click', () => track.scrollBy({ left: step(), behavior: 'smooth' }));
+      track.addEventListener('scroll', update, { passive: true });
+      new ResizeObserver(update).observe(track);
+      update();
+    });
+  }
+
   function initBackToTop(root) {
     $$('[data-back-to-top]', root).forEach((b) => b.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })));
   }
@@ -886,6 +908,7 @@
     initHero(root);
     initTestimonials(root);
     initCollapsibles(root);
+    initProductVideoCarousels(root);
     initBackToTop(root);
     initModals(root);
     initProduct(root);

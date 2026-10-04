@@ -63,6 +63,12 @@
             "show_payment_icons": true
           }
         },
+        "video-carousel": {
+          "type": "video_carousel",
+          "settings": {
+            "title": "Customer videos"
+          }
+        },
         "notice": {
           "type": "notice",
           "settings": {
@@ -76,6 +82,27 @@
         "description": {
           "type": "description",
           "settings": {}
+        },
+        "fabric": {
+          "type": "accordion",
+          "settings": {
+            "title": "Fabric & Fit",
+            "content": "<p>Añade aquí la composición, el ajuste y las indicaciones de cuidado de este producto.</p>"
+          }
+        },
+        "shipping": {
+          "type": "accordion",
+          "settings": {
+            "title": "Shipping Info",
+            "content": "<p>Incluye aquí los plazos de entrega, el seguimiento y cualquier condición de envío.</p>"
+          }
+        },
+        "returns": {
+          "type": "accordion",
+          "settings": {
+            "title": "30 Day Easy Returns",
+            "content": "<p>Incluye aquí la política de devoluciones y las instrucciones para solicitar un cambio o devolución.</p>"
+          }
         },
         "tab-1": {
           "type": "tab",
@@ -114,6 +141,7 @@
         "price",
         "sale-box",
         "buy",
+        "video-carousel",
         "separator",
         "variants",
         "benefits",
@@ -121,6 +149,9 @@
         "size-chart",
         "notice",
         "description",
+        "fabric",
+        "shipping",
+        "returns",
         "tab-1",
         "tab-2",
         "tab-3",
