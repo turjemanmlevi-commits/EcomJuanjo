@@ -730,6 +730,12 @@ input[type="text"], input[type="email"], input[type="search"], input[type="numbe
 .product-main-slide.is-active { display: block; }
 .product-image-main { aspect-ratio: var(--gallery-ratio, 3 / 4); background: #fff; }
 .product-image-main img, .product-image-main svg { width: 100%; height: 100%; object-fit: cover; }
+.product-section[data-variant-image-mode="florvane"] .product-image-main,
+.product-section[data-variant-image-mode="florvane"] .product__thumb { background: #ead7c3; }
+.product-section[data-variant-image-mode="florvane"] .product-image-main img,
+.product-section[data-variant-image-mode="florvane"] .product__thumb img { object-fit: contain; box-sizing: border-box; }
+.product-section[data-variant-image-mode="florvane"] .product-image-main img { padding: 4%; }
+.product-section[data-variant-image-mode="florvane"] .product__thumb img { padding: 3%; }
 .product-image-main svg { background: #f2f2f2; fill: #c9c9c9; }
 .product__thumbs { order: -1; flex: 0 0 80px; margin-right: 15px; max-height: 100%; }
 .product__thumb-item { margin-bottom: 15px; padding: 2px; }

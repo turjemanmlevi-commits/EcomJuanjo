@@ -411,7 +411,8 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
     if (!section) return;
     const col = collections.find((c) => c.handle === p.collection);
     document.title = p.title + ' · Anteprima';
-    const variant = p.variants.find((v) => v.available) || p.variants[0];
+    const requestedVariantId = Number(params.get('variant'));
+    const variant = p.variants.find((v) => v.id === requestedVariantId && v.available) || p.variants.find((v) => v.available) || p.variants[0];
 
     section.querySelector('.product-single__title').textContent = p.title;
     section.querySelector('.product-block--header').insertAdjacentHTML('beforebegin', `<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><a href="${collectionUrl(col.handle)}">${col.title}</a></nav>`);
@@ -431,13 +432,22 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
     const localImages = productImage(p);
     if (p.handle === 'borsa-a-mano-in-vera-pelle-con-lucchetto') {
       section.dataset.variantImageMode = 'florvane';
-      localImages.splice(0, localImages.length,
-        'img/product-florvane/front.png',
-        'img/product-florvane/side.png',
-        'img/product-florvane/back.png');
+      section.style.setProperty('--gallery-ratio', '1 / 1');
+      const generatedColorSlugs = { 'Nero': 'nero', 'Bianco latte': 'bianco-latte' };
+      const colorSlug = generatedColorSlugs[variant.options[0]];
+      const finishSlug = variant.options[2] === 'Argentate' ? 'argentate' : 'dorate';
+      if (colorSlug) localImages.splice(0, localImages.length,
+        `img/product-florvane/${colorSlug}/${finishSlug}/front.png`,
+        `img/product-florvane/${colorSlug}/${finishSlug}/side.png`,
+        `img/product-florvane/${colorSlug}/${finishSlug}/back.png`);
     }
     if (localImages.length) {
       section.querySelectorAll('.product-main-slide').forEach((slide, i) => {
+        if (section.dataset.variantImageMode === 'florvane' && i >= localImages.length) {
+          slide.hidden = true;
+          slide.style.display = 'none';
+          return;
+        }
         const file = localImages[i] || localImages[0];
         if (file) {
           const image = slide.querySelector('.product-image-main');
@@ -446,6 +456,13 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
         }
       });
       section.querySelectorAll('.product__thumb').forEach((thumb, i) => {
+        if (section.dataset.variantImageMode === 'florvane' && i >= localImages.length) {
+          thumb.hidden = true;
+          thumb.style.display = 'none';
+          const item = thumb.closest('.product__thumb-item');
+          if (item) item.style.display = 'none';
+          return;
+        }
         const file = localImages[i] || localImages[0];
         if (file) {
           thumb.removeAttribute('data-ph');

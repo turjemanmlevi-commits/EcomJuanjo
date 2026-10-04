@@ -787,31 +787,20 @@
       const buttonText = $('[data-add-to-cart-text]', section);
       const groups = $$('[data-option-index]', section);
 
-      const tintByColor = (value) => {
-        const v = String(value || '').toLowerCase();
-        if (/bianco|white/.test(v)) return 'brightness(1.45) saturate(.45)';
-        if (/caramello|brown|marr/.test(v)) return 'brightness(.78) sepia(.8) hue-rotate(345deg) saturate(2.2)';
-        if (/grigio|grey|gray/.test(v)) return 'brightness(.9) grayscale(.55)';
-        if (/bordeaux|rosso|red/.test(v)) return 'brightness(.72) sepia(.9) hue-rotate(300deg) saturate(3.2)';
-        if (/viola|purple/.test(v)) return 'brightness(.72) sepia(.8) hue-rotate(235deg) saturate(2.5)';
-        if (/verde|green/.test(v)) return 'brightness(.62) sepia(.8) hue-rotate(70deg) saturate(2.2)';
-        if (/blu|blue|denim/.test(v)) return 'brightness(.72) sepia(.55) hue-rotate(175deg) saturate(2.4)';
-        if (/magenta|rosa|pink/.test(v)) return 'brightness(.82) sepia(.65) hue-rotate(285deg) saturate(2.4)';
-        if (/arancione|orange|giallo|yellow/.test(v)) return 'brightness(.82) sepia(1) hue-rotate(355deg) saturate(3)';
-        return 'brightness(.42)';
-      };
       const updateVariantGallery = (selected) => {
         if (section.dataset.variantImageMode !== 'florvane') return;
-        const color = selected[0];
-        const finish = String(selected[2] || '').toLowerCase();
-        const tint = tintByColor(color);
-        slides.forEach((slide) => {
+        const colorSlugs = { 'Nero': 'nero', 'Bianco latte': 'bianco-latte' };
+        const colorSlug = colorSlugs[selected[0]];
+        if (!colorSlug) return;
+        const finishSlug = selected[2] === 'Argentate' ? 'argentate' : 'dorate';
+        const files = ['front.png', 'side.png', 'back.png'];
+        slides.forEach((slide, index) => {
           const image = $('img', slide);
-          if (!image) return;
-          image.style.filter = tint;
-          image.dataset.variantColor = color || '';
-          image.dataset.variantFinish = finish;
-          image.style.setProperty('--hardware-finish', finish.includes('argent') ? 'silver' : 'gold');
+          if (image && files[index]) image.src = `img/product-florvane/${colorSlug}/${finishSlug}/${files[index]}`;
+        });
+        thumbs.forEach((thumb, index) => {
+          const image = $('img', thumb);
+          if (image && files[index]) image.src = `img/product-florvane/${colorSlug}/${finishSlug}/${files[index]}`;
         });
       };
 
