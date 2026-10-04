@@ -140,14 +140,14 @@
         "rating",
         "price",
         "sale-box",
-        "buy",
         "separator",
         "variants",
+        "buy",
+        "community-proof",
         "benefits",
         "stock",
         "size-chart",
         "notice",
-        "community-proof",
         "description",
         "fabric",
         "shipping",
@@ -309,10 +309,6 @@
         "text": "<p>Lascia la tua email per ricevere le ultime novità e partecipare all'estrazione.</p>"
       }
     },
-    "business-accordion": {
-      "type": "business-accordion",
-      "settings": {}
-    },
     "back-to-top": {
       "type": "back-to-top",
       "settings": {}
@@ -334,7 +330,6 @@
     "faq",
     "features",
     "newsletter",
-    "business-accordion",
     "back-to-top"
   ]
 }

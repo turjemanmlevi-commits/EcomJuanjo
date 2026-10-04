@@ -469,7 +469,7 @@ ${document.body.classList.contains("template-cart") ? "" : sectionHtml["cart-dra
       .map((o) => {
         const idx = p.options.indexOf(o);
         const isColour = o.name === 'Colore';
-        return `<div class="variant-wrapper"><span class="variant__label">${o.name}${isColour ? `: <span data-option-current>${variant.options[idx]}</span>` : ''}</span><fieldset class="variant-input-wrap" data-option-index="${idx}">${o.values
+        return `<div class="variant-wrapper"><span class="variant__label">${o.name}${isColour ? `: <span data-option-current>${variant.options[idx]}</span>` : ''}</span><fieldset class="variant-input-wrap${isColour ? ' variant-input-wrap--swatches' : ''}" data-option-index="${idx}">${o.values
           .map((v, j) => `<div class="variant-input"><input type="radio" id="o-${idx}-${j}" name="o-${idx}" value="${esc(v)}"${v === variant.options[idx] ? ' checked' : ''}><label for="o-${idx}-${j}" class="variant__button-label${isColour ? ' has-swatch' : ''}"${isColour ? ` style="--swatch-color:${swatchColor(v)}"` : ''}>${isColour ? `<span class="variant__swatch" aria-hidden="true"></span><span class="variant__value">${esc(v)}</span>` : esc(v)}</label></div>`)
           .join('')}</fieldset></div>`;
       })

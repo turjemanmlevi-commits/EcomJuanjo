@@ -59,25 +59,6 @@
                   </div>
                 </div>
 
-                <div class="product-block">
-                  <form class="product-single__form" data-product-form action="/cart/add" method="post">
-                    <input type="hidden" name="id" value="11">
-                    <div class="product-form__row">
-                      <button type="submit" class="btn btn--full btn--buy" data-add-to-cart data-text-add="Aggiungi al carrello" data-text-sold-out="Esaurito" data-text-unavailable="Non disponibile"><span data-add-to-cart-text>Aggiungi al carrello</span></button>
-                    </div>
-                    <p class="product-form__error" data-product-error role="alert" hidden></p>
-                  </form>
-                  <ul class="payment-icons payment-icons--preview payment-icons--product" aria-label="Metodi di pagamento accettati">
-                    <li aria-label="Visa"><img src="../theme/assets/payments/visa.svg" alt="Visa"></li>
-                    <li aria-label="Mastercard"><img src="../theme/assets/payments/mastercard.svg" alt="Mastercard"></li>
-                    <li aria-label="American Express"><img src="../theme/assets/payments/american-express.svg" alt="American Express"></li>
-                    <li aria-label="PayPal"><img src="../theme/assets/payments/paypal.svg" alt="PayPal"></li>
-                    <li aria-label="Apple Pay"><img src="../theme/assets/payments/apple-pay.svg" alt="Apple Pay"></li>
-                    <li aria-label="Google Pay"><img src="../theme/assets/payments/google-pay.svg" alt="Google Pay"></li>
-                    <li aria-label="Klarna"><img src="../theme/assets/payments/klarna.svg" alt="Klarna"></li>
-                  </ul>
-                </div>
-
                 <div class="sticky-atc" data-sticky-atc aria-hidden="true">
                   <button type="button" class="btn btn--buy sticky-atc__btn" data-sticky-buy tabindex="-1">Aggiungi al carrello</button>
                 </div>
@@ -104,6 +85,29 @@
                       <div class="variant-input"><input type="radio" id="o-1-4" name="o-1" value="2XL"><label for="o-1-4" class="variant__button-label">2XL</label></div>
                     </fieldset>
                   </div>
+                </div>
+
+                <div class="product-block">
+                  <form class="product-single__form" data-product-form action="/cart/add" method="post">
+                    <input type="hidden" name="id" value="11">
+                    <div class="product-form__row">
+                      <button type="submit" class="btn btn--full btn--buy" data-add-to-cart data-text-add="Aggiungi al carrello" data-text-sold-out="Esaurito" data-text-unavailable="Non disponibile"><span data-add-to-cart-text>Aggiungi al carrello</span></button>
+                    </div>
+                    <p class="product-form__error" data-product-error role="alert" hidden></p>
+                  </form>
+                  <ul class="payment-icons payment-icons--preview payment-icons--product" aria-label="Metodi de pagamento accettati">
+                    <li aria-label="Visa"><img src="../theme/assets/payments/visa.svg" alt="Visa"></li>
+                    <li aria-label="Mastercard"><img src="../theme/assets/payments/mastercard.svg" alt="Mastercard"></li>
+                    <li aria-label="American Express"><img src="../theme/assets/payments/american-express.svg" alt="American Express"></li>
+                    <li aria-label="PayPal"><img src="../theme/assets/payments/paypal.svg" alt="PayPal"></li>
+                    <li aria-label="Apple Pay"><img src="../theme/assets/payments/apple-pay.svg" alt="Apple Pay"></li>
+                    <li aria-label="Google Pay"><img src="../theme/assets/payments/google-pay.svg" alt="Google Pay"></li>
+                    <li aria-label="Klarna"><img src="../theme/assets/payments/klarna.svg" alt="Klarna"></li>
+                  </ul>
+                </div>
+
+                <div class="product-block product-community-proof">
+                  <h2 class="product-community-proof__title">Join our community of 75,000+ happy customers</h2>
                 </div>
 
                 <div class="product-block">
@@ -143,10 +147,6 @@
                   </div>
                 </div>
 
-                <div class="product-block product-community-proof">
-                  <h2 class="product-community-proof__title">Join our community of 75,000+ happy customers</h2>
-                </div>
-
                 <div class="product-block product-block--tab">
                   <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
                     <button type="button" class="collapsible-trigger collapsible-trigger-btn" aria-controls="ProductDescription" aria-expanded="false">Descripción<span class="collapsible-trigger__icon"><span data-icon="down"></span></span></button>
@@ -184,7 +184,6 @@
       <div data-include="features"></div>
 
       <div data-include="newsletter"></div>
-      <div data-include="business-accordion"></div>
       <div data-include="back-to-top"></div>
     </main>
 
