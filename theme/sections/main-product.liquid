@@ -133,7 +133,7 @@
                           {{ option.name }}
                           {%- if is_swatch %} — <span data-option-current>{{ option.selected_value }}</span>{% endif -%}
                         </span>
-                        <fieldset class="variant-input-wrap" data-option-index="{{ option_index }}">
+                        <fieldset class="variant-input-wrap{% if is_swatch %} variant-input-wrap--swatches{% endif %}" data-option-index="{{ option_index }}">
                           <legend class="visually-hidden">{{ option.name }}</legend>
                           {%- for value in option.values -%}
                             {%- capture value_name -%}{{ value }}{%- endcapture -%}
@@ -146,6 +146,16 @@
                                 {%- endif -%}
                               {%- endfor -%}
                             {%- endif -%}
+                            {%- assign swatch_color = '#d8d1c8' -%}
+                            {%- assign swatch_value = value_name | downcase | strip -%}
+                            {%- if swatch_value contains 'verde' or swatch_value contains 'green' -%}{%- assign swatch_color = '#283b35' -%}
+                            {%- elsif swatch_value contains 'rosso' or swatch_value contains 'rojo' or swatch_value contains 'red' or swatch_value contains 'bordeaux' -%}{%- assign swatch_color = '#96343d' -%}
+                            {%- elsif swatch_value contains 'giallo' or swatch_value contains 'amarillo' or swatch_value contains 'yellow' -%}{%- assign swatch_color = '#f6e5b4' -%}
+                            {%- elsif swatch_value contains 'rosa' or swatch_value contains 'pink' -%}{%- assign swatch_color = '#eadcdf' -%}
+                            {%- elsif swatch_value contains 'blu' or swatch_value contains 'azul' or swatch_value contains 'blue' -%}{%- assign swatch_color = '#c5d8f2' -%}
+                            {%- elsif swatch_value contains 'bianco' or swatch_value contains 'blanco' or swatch_value contains 'white' or swatch_value contains 'crema' or swatch_value contains 'beige' -%}{%- assign swatch_color = '#fafbf9' -%}
+                            {%- elsif swatch_value contains 'nero' or swatch_value contains 'negro' or swatch_value contains 'black' -%}{%- assign swatch_color = '#050505' -%}
+                            {%- endif -%}
                             <div class="variant-input">
                               <input
                                 type="radio"
@@ -154,9 +164,10 @@
                                 value="{{ value_name | escape }}"
                                 {% if option.selected_value == value_name %}checked{% endif %}
                               >
-                              <label for="Option-{{ section.id }}-{{ option_index }}-{{ forloop.index0 }}" class="variant__button-label{% if swatch_image %} has-swatch{% endif %}">
-                                {%- if swatch_image -%}
-                                  {{ swatch_image | image_url: width: 200 | image_tag: loading: 'lazy', alt: value_name }}
+                              <label for="Option-{{ section.id }}-{{ option_index }}-{{ forloop.index0 }}" class="variant__button-label{% if is_swatch %} has-swatch{% endif %}"{% if is_swatch %} style="--swatch-color: {{ swatch_color }}"{% endif %}>
+                                {%- if is_swatch -%}
+                                  <span class="variant__swatch" aria-hidden="true"></span>
+                                  <span class="variant__value">{{ value_name }}</span>
                                 {%- else -%}
                                   {{ value_name }}
                                 {%- endif -%}

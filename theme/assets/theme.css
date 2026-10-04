@@ -778,6 +778,7 @@ input[type="text"], input[type="email"], input[type="search"], input[type="numbe
 .variant__label { display: block; margin-bottom: 12px; font-size: 0.78em; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
 .variant__label [data-option-current] { color: #6d6964; font-weight: 400; letter-spacing: 0.08em; }
 .variant-input-wrap { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 10px; max-width: 540px; margin-bottom: 0; }
+.variant-input-wrap--swatches { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; max-width: none; }
 .variant-input { min-width: 0; }
 .variant-input input { position: absolute; opacity: 0; width: 1px; height: 1px; }
 .variant__button-label {
@@ -790,19 +791,20 @@ input[type="text"], input[type="email"], input[type="search"], input[type="numbe
   transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 .variant__button-label:hover { border-color: var(--color-text); background: #f8f6f3; transform: translateY(-1px); }
-.variant__button-label.has-swatch { min-height: 74px; flex-direction: column; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 12px; text-align: left; }
-.variant__button-label.has-swatch::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, rgb(255 255 255 / 0.46), transparent 52%); pointer-events: none; }
-.variant__button-label.has-swatch .variant__swatch { width: 15px; height: 15px; flex: none; border: 1px solid rgb(28 27 26 / 0.18); border-radius: 50%; background: var(--swatch-color, #d8d1c8); box-shadow: inset 0 1px 2px rgb(255 255 255 / 0.55); }
-.variant__button-label.has-swatch .variant__value { position: relative; font-size: 12px; font-weight: 500; line-height: 1.15; }
-.variant__button-label.has-swatch img { width: 100%; height: 42px; object-fit: cover; }
+.variant__button-label.has-swatch { width: 28px; height: 28px; min-height: 28px; padding: 0; border: 0; border-radius: 50%; background: transparent; }
+.variant__button-label.has-swatch::before { display: none; }
+.variant__button-label.has-swatch .variant__swatch { width: 28px; height: 28px; flex: none; border: 1px solid rgb(28 27 26 / 0.14); border-radius: 50%; background: var(--swatch-color, #d8d1c8); box-shadow: inset 0 1px 2px rgb(255 255 255 / 0.55); }
+.variant__button-label.has-swatch .variant__value { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .variant-input input:checked + .variant__button-label { border-color: var(--color-text); background: var(--color-text); color: #fff; box-shadow: 0 0 0 2px var(--color-text), 0 7px 16px rgb(28 27 26 / 0.14); }
-.variant-input input:checked + .variant__button-label .variant__swatch { border-color: rgb(255 255 255 / 0.72); box-shadow: 0 0 0 3px rgb(255 255 255 / 0.16); }
+.variant-input input:checked + .variant__button-label.has-swatch { background: transparent; box-shadow: 0 0 0 2px var(--color-body), 0 0 0 4px var(--color-text); }
+.variant-input input:checked + .variant__button-label.has-swatch .variant__swatch { border-color: rgb(255 255 255 / 0.72); }
 .variant-input input:focus-visible + .variant__button-label { outline: 2px solid var(--color-accent); outline-offset: 3px; }
 .variant-input input.is-unavailable + .variant__button-label { color: #8a8782; text-decoration: line-through; }
 
 @media (max-width: 600px) {
   .variant-input-wrap { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-  .variant__button-label.has-swatch { min-height: 68px; }
+  .variant__button-label.has-swatch { width: 26px; height: 26px; min-height: 26px; }
+  .variant__button-label.has-swatch .variant__swatch { width: 26px; height: 26px; }
 }
 
 .benefits { display: flex; flex-direction: column; gap: 8px; padding: 8px 0; }

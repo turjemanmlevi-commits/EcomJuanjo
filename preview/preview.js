@@ -172,15 +172,15 @@
 
   const swatchColor = (value) => {
     const v = String(value).toLowerCase();
-    if (/nero|black|ebano/.test(v)) return '#252321';
-    if (/blanco|white|latte|crema|beige|caramello/.test(v)) return '#f2eee7';
+    if (/nero|black|ebano/.test(v)) return '#050505';
+    if (/blanco|white|latte|crema|beige|caramello/.test(v)) return '#fafbf9';
     if (/gris|grey|grigio/.test(v)) return '#aaa7a2';
-    if (/rojo|rosso|red|burdeos|bordeaux/.test(v)) return '#a9363f';
-    if (/rosa|pink|magenta/.test(v)) return '#dc8b9c';
+    if (/rojo|rosso|red|burdeos|bordeaux/.test(v)) return '#96343d';
+    if (/rosa|pink|magenta/.test(v)) return '#eadcdf';
     if (/violeta|viola|purple/.test(v)) return '#76618b';
-    if (/verde|green/.test(v)) return '#58715c';
-    if (/azul|blu|blue|denim/.test(v)) return '#4a6287';
-    if (/amarillo|giallo|yellow/.test(v)) return '#ddb84c';
+    if (/verde|green/.test(v)) return '#283b35';
+    if (/azul|blu|blue|denim/.test(v)) return '#c5d8f2';
+    if (/amarillo|giallo|yellow/.test(v)) return '#f6e5b4';
     if (/marr[oó]n|brown|cammello|camel/.test(v)) return '#a67956';
     return '#d8d1c8';
   };
