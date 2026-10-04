@@ -162,11 +162,12 @@
   const localImageSets = {
     'premium-leather-shoulder-bag': ['01-in-use.png', '02-product.png', '03-detail.png', '04-lifestyle.png'],
   };
+  const imagePath = (path) => String(path || '').startsWith('img/') ? path : `../theme/${path}`;
   const productImage = (p) => {
-    if (p.images && p.images.length) return p.images.map((path) => `../theme/${path}`);
+    if (p.images && p.images.length) return p.images.map(imagePath);
     const images = localImageSets[p.handle];
     if (images) return images.map((name) => `../theme/assets/products/${p.handle}/${name}`);
-    return p.image ? [`../theme/${p.image}`] : [];
+    return p.image ? [imagePath(p.image)] : [];
   };
 
   const swatchColor = (value) => {
