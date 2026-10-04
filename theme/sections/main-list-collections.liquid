@@ -7,9 +7,11 @@
       {%- for collection in collections -%}
         {%- assign category_asset = '' -%}
         {%- case collection.handle -%}
-          {%- when 'abbigliamento' -%}{%- assign category_asset = 'category-clothing.webp' -%}
-          {%- when 'borse' -%}{%- assign category_asset = 'category-bags.webp' -%}
-          {%- when 'scarpe' -%}{%- assign category_asset = 'category-shoes.webp' -%}
+          {%- when 'abbigliamento' -%}{%- assign category_asset = 'category-clothing-v2.png' -%}
+          {%- when 'borse' -%}{%- assign category_asset = 'category-bags-v2.png' -%}
+          {%- when 'scarpe' -%}{%- assign category_asset = 'category-shoes-v2.png' -%}
+          {%- when 'giacche' -%}{%- assign category_asset = 'category-jackets-v2.png' -%}
+          {%- when 'vestiti' -%}{%- assign category_asset = 'category-dresses-v2.png' -%}
         {%- endcase -%}
         <a href="{{ collection.url }}">
           <div class="grid__image-ratio">
