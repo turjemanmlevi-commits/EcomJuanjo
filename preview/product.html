@@ -129,6 +129,23 @@
                   </dialog>
                 </div>
 
+                <div class="product-block product-video-block">
+                  <div class="product-video-carousel" data-video-carousel>
+                    <div class="product-video-carousel__header">
+                      <h2 class="product-video-carousel__title">Videos</h2>
+                      <div class="product-video-carousel__controls">
+                        <button type="button" class="product-video-carousel__button product-video-carousel__button--prev" data-video-prev aria-label="Vídeo anterior" disabled><span data-icon="down"></span></button>
+                        <button type="button" class="product-video-carousel__button product-video-carousel__button--next" data-video-next aria-label="Vídeo siguiente" disabled><span data-icon="down"></span></button>
+                      </div>
+                    </div>
+                    <div class="product-video-carousel__track" data-video-track tabindex="0" aria-label="Carrusel de vídeos">
+                      <div class="product-video-card product-video-card--empty" aria-hidden="true"></div>
+                      <div class="product-video-card product-video-card--empty" aria-hidden="true"></div>
+                      <div class="product-video-card product-video-card--empty" aria-hidden="true"></div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="product-block">
                   <div class="sale-box">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 3h8l10 10-8 8L3 11z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
@@ -143,11 +160,14 @@
                   </div>
                 </div>
 
-                <div class="product-block">
-                  <div class="rte">
+                <div class="product-block product-block--tab">
+                  <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
+                    <button type="button" class="collapsible-trigger collapsible-trigger-btn" aria-controls="ProductDescription" aria-expanded="false">Descripción<span class="collapsible-trigger__icon"><span data-icon="down"></span></span></button>
+                    <div id="ProductDescription" class="collapsible-content"><div><div class="collapsible-content__inner rte" data-product-description>
                     <p>La borsa che segue il tuo ritmo senza rinunciare allo stile. Una silhouette versatile e tutto lo spazio che serve per i tuoi indispensabili, dal lavoro al weekend.</p>
                     <p><strong>Perché sceglierla</strong></p>
                     <ul><li>Spazio per i tuoi indispensabili</li><li>Design versatile da giorno e da sera</li><li>Pensata per accompagnarti ogni giorno</li></ul>
+                    </div></div></div>
                   </div>
                 </div>
 
